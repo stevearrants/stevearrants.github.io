@@ -50,39 +50,15 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "sarrants@gmail.com"
-  
+  email: "sarrants@gmail.com" 
 # facebook: deanattali
-  github: daattali
-# twitter: daattali
-# patreon: DeanAttali
-# youtube: "@daattali"
-# whatsapp: 15551212
-  medium: "@sarrants"
-#  reddit: yourname
+  github: stevearrants
+  medium: sarrants
   linkedin: stevearrants
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-   telephone: +18027352189
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
+  telephone: +18027352189
   mastodon: hachyderm.io/@vttechwriter
   bluesky: stevearrants.me
-  ORCID: 0000-0003-1831-596X
-#  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
-#  kaggle: yourname
-#  hackerrank: yourname
-#  gitlab: yourname
-#  itchio: yourname
-#  untappd: yourname
-
+ 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
