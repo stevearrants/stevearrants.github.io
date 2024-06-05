@@ -1,0 +1,75 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="Using the BioStack|Nth Plate to perform special process" MadCap:PathToHelpSystem="../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>About the Nth Plate Step</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h1><span class="mc-variable System.Title variable">About the Nth Plate Step</span>
+            </h1>
+            <p class="Body1">When using the BioStack, the Nth Plate feature lets you perform 
+ a special function, like AutoClean, after a certain number of plates have been processed 
+ or to specify special processing for certain plates in the stack. The LHC 
+ identifies the special plate or plates (that we call Nth plate) by counting 
+ the number of plates that have been processed before it. </p>
+            <p class="Body1">You can limit 
+ the action, when the Nth Plate is reached, to perform only the "Nth Plate 
+ steps." In this case, the Nth Plate steps can be performed with or 
+ without an actual plate. Another option is to perform all the steps in 
+ the protocol, both regular and Nth Plate steps, when the Nth Plate is reached. 
+ </p>
+            <p class="Body1">The Nth Plate step is actually a step container, similar 
+ to the Loop and Use BioStack step containers. First, you add the Nth Plate 
+ step to the protocol and then put the action steps inside its start and 
+ end tags. We call this grouping an Nth Plate block.</p>
+            <p class="Body1" style="float: left;padding-right: 10px;">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/Nth_block.png" style="border: none;width: 324px;height: 108px;float: none;border-style: none;border-style: none;" width="324" height="108" border="0" />
+            </p>
+            <p class="Body1">For the designated plates, LHC lets you choose between performing 
+ only the Nth Plate steps or performing both the Nth Plate steps and the 
+ protocol steps that follow the Nth Plate block and precede the next Nth 
+ Plate block. This means you must consider the placement of the Nth Plate 
+ block in relation to the regular protocol steps when designing a complex 
+ protocol. For simple actions, like performing a maintenance step after 
+ a certain number of plates have been processed, make the Nth Plate Block 
+ the last step in the BioStack step container. All the plates will be processed 
+ the same way and then the instrument will perform the maintenance action.</p>
+            <p class="Body1">For more complex processing, remember the LHC performs the 
+ steps in ordered sequence beginning with the first step in the BioStack 
+ block. When the first step is an Nth Plate block, the LHC can evaluate 
+ it to determine which plates will be handled in a special way. For each 
+ Nth Plate block you can choose to perform the steps in the block and the 
+ steps that follow the block and precede the next Nth Plate block or BioStack 
+ end tag. Any steps that precede an Nth Plate block will be performed on 
+ all plates, including the Nth designated plates. </p>
+            <p class="Body1">Multiple Nth Plate blocks can be defined in a protocol to 
+ sequentially perform a series of varying actions on a specified grouping 
+ of plates. <span>See </span><a href="../Defining_a_Protocol/Using_the_BioStack/Advanced_Plate_Sequencing_with_the_BioStack.htm">Advanced Plate Sequencing with the BioStack</a><span>.</span>&#160;</p>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

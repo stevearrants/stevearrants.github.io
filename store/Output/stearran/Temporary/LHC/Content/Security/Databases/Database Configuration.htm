@@ -1,0 +1,74 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="LHC Secure" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Database Configuration</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/MadCap.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapEffects.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapEffectsMenu.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h2 class="Heading2">Database Configuration</h2>
+            <p class="Navigation">System&gt;Database Configuration</p>
+            <h5 class="Heading5">Database Location</h5>
+            <div>
+                <p class="Body1">When installing LHC Secure, you must decide whether to keep the LHC database on the <b>local</b> computer or move it to a shared <b>network</b> computer. Your choice depends on your lab's workflow:</p>
+                <ul>
+                    <li class="ListBullet2"><b>Local</b> — If one computer is used  to control <span class="mc-variable MyVariables.CompanyNickName variable">Agilent</span> liquid handler(s), keep the database on this computer.</li>
+                    <li class="ListBullet2"><b>Network</b> — If multiple computers are used  to control <span class="mc-variable MyVariables.CompanyNickName variable">Agilent</span> liquid handler(s), put the database on a network that all LHC users can access.  </li>
+                </ul>
+                <p class="Body1" style="margin-top: 6px;">By default during installation, the LHC stores the database on each computer (i.e., local), in the Windows <a href="../../Essential_Concepts/Common Application Data Folder.htm" class="MCXref_0">Common Application Data Folder </a>.</p>
+                <p class="Body1" style="margin-top: 6px;">Learn more <a href="About_Databases.htm" class="MCXref_ParaTextOnly_0">About the LHC Secure Databases</a>.</p>
+            </div>
+            <p class="Body1"><b>Backups</b>: A regular backup routine to safeguard the database records is recommended. This "Change Location" tool may also be necessary if you need to restore a database.</p>
+            <h5 class="Heading5">Database Optimization</h5>
+            <p class="Body1">The <span class="Button">Optimize</span> feature is part of the <a href="Clean Up the Database.htm">database clean up procedure</a>. It executes the LHC's corruption-repair and size-compacting functions (when records have been marked for deletion during <a href="../../LHC Secure/Audit Trail/Archiving Audit Trail Records.htm">audit trail archiving</a>) to reduce the database size.  </p>
+            <p class="Body1">Before 
+ "optimizing" the database, make sure all users are logged off the system.</p>
+            <h5 class="Heading5">Troubleshooting</h5>
+            <p class="Body1" style="margin-top: 5pt;">When launched, the LHC attempts to 
+ connect to the database. If errors occur:</p>
+            <ul>
+                <li class="ListBullet">Make sure you are properly connected to your network, if applicable: cables are installed and the network server is live. </li>
+                <li class="ListBullet">Quit the LHC and use Windows Explorer to verify the location of the database. A copy of the <b>LHC_DB_ACC.mdb</b> must reside in the specified location. Restore a backup version of the database, if necessary, or <a href="Copy_Database_to_Network.htm">recopy the original database</a> file to the expected location. Unfortunately, in these scenarios, any audit trail records logged, or users and settings defined since the file was saved are lost.</li>
+                <li class="ListBullet"><a href="../../Getting_Started/Contact_Info/contacting_tech support.htm" target="_top" class="Popup">Contact Technical Support</a> for further assistance.</li>
+            </ul>
+            <p class="Body1">
+                <object classid="clsid:ADB880A6-D8FF-11CF-9377-00AA003B7A11" type="application/x-oleobject" id="mc3">
+                    <param name="Command" value="Related Topics,MENU" />
+                    <param name="Item1" value="About LHC Databases;About_Databases.htm" />
+                    <param name="Item2" value="Configure PCs to use a shared database;Configure_PCs_to_use_the_Database.htm" />
+                    <param name="Item3" value="Database Maintenance;Database_Maintenance.htm" />
+                </object><a class="MCRelatedTopics_0" href="javascript:mc3.Click()"><img src="ms-its:Liquid_Handling_Control.chm::/SkinSupport/RelatedTopics.gif" style="border: none;margin-right: 5px;" alt="Related Topics Link Icon" />Related Topics</a>
+            </p>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

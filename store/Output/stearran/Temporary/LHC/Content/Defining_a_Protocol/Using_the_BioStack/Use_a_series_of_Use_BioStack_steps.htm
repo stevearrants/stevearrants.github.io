@@ -1,0 +1,269 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="Using the BioStack" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Use a series of Use BioStack steps</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/TableStyles/Rows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <script src="../../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h4 style="margin-top: 5pt;"><span class="mc-variable System.Title variable">Use a series of Use BioStack steps</span>
+            </h4>
+            <p class="Body1">When using the BioStack you can treat plates in a non-uniform 
+ manner by defining a series Use BioStack steps. You can, for example, 
+ determine the optimal number of wash cycles required for an assay. </p>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/BioStack_wash.png" style="border: none;width: 276px;height: 407px;border-style: none;border-style: none;padding: 5px;float: right;" width="276" height="407" border="0" />
+            </p>
+            <p class="Body1" style="margin-top: 5pt;margin-bottom: 9.5pt;">Remember 
+ to define the "Number of plates to process" for all the BioStack 
+ loops in the protocol. Enter the number of plates in the top, central 
+ section of the main screen.</p>
+            <p class="Body1">In this example we create groups of like-processed plates. 
+ The stack will contain in this sequence:5 plates with 5 cycles, 5 plates 
+ with 4 cycles, 5 plates with 3 cycles, and 5 plates with 2 cycles. The 
+ plates in the BioStack's output stack will be sorted this way:</p>
+            <table style="border-spacing: 0px;border-spacing: 0px;margin-left: 22pt;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/Rows.css');" cellspacing="0" width="50%" class="TableStyle_Rows">
+                <col style="width: 20%;" />
+                <col style="width: 30%;" />
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-top-style: Solid;border-top-color: #000000;border-top-width: 1px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>Plates</p>
+                    </td>
+                    <td style="border-top-style: Solid;border-top-color: #000000;border-top-width: 1px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p># Wash Cycles</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>1</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>5</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>2</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>5</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>3</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>5</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>4</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>5</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>5</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>5</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>6</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>4</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>7</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>4</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>8</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>4</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>9</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>4</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>10</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>4</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>11</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>3</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>12</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>3</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>13</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>3</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>14</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>3</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>15</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>3</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>16</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>2</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>17</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>2</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>18</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>2</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>19</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>2</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>20</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>2</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>21</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>22</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>23</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>24</p>
+                    </td>
+                    <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>1</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-left-style: Solid;border-left-color: #000000;border-left-width: 1px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>25</p>
+                    </td>
+                    <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>1</p>
+                    </td>
+                </tr>
+            </table>
+            <p class="Body1" style="margin-top: 9pt;">Alternatively, <a href="Use_a_series_of_Nth_Plate_steps.htm">Use Nth 
+ Plate steps</a> to create mixed groups of plates, where each group contains 
+ a plate with 5 wash cycles, a plate with 4 wash cycles, a plate with 3 
+ wash cycles, and so on. </p>
+            <p>&#160;</p>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,924 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+	<param name="SiteType" value="index">
+	<param name="Window Styles" value="0x0">
+	<param name="ExWindow Styles" value="0x0">
+	</object>
+<ul>
+	<li><object type="text/sitemap">
+		<param name="Name" value="405 Washer">
+		<param name="Name" value="Installed Instruments">
+		<param name="Local" value="Getting_Started/Installed_Instruments.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Add a Note">
+		<param name="Name" value="Add a Note to the Protocol">
+		<param name="Local" value="Protocol_Steps/Add_a_Note_to_the_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Add a Step">
+		<param name="Name" value="About the Protocol Steps">
+		<param name="Local" value="Defining_a_Protocol/About_the_Protocol_Steps.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Agilent BioTek">
+		<param name="Name" value="Contacting Technical Support">
+		<param name="Local" value="Getting_Started/Contact_Info/contacting_tech support.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Contacting">
+			<param name="Name" value="Contacting Technical Support">
+			<param name="Local" value="Getting_Started/Contact_Info/contacting_tech support.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Alert">
+		<param name="Name" value="Add a Note to the Protocol">
+		<param name="Local" value="Protocol_Steps/Add_a_Note_to_the_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Autoclean">
+		<param name="Name" value="Protocol Steps">
+		<param name="Local" value="Protocol_Steps/Protocol_Steps.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Best Practices">
+		<param name="Name" value="Best Practices">
+		<param name="Local" value="Essential_Concepts/Best_Practices.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="BioStack">
+		<param name="Name" value="BioStack Utilities">
+		<param name="Local" value="Tools/BioStack_Utilities.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Alignment Utility">
+			<param name="Name" value="BioStack Utilities">
+			<param name="Local" value="Tools/BioStack_Utilities.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Controlling">
+			<param name="Name" value="How to use the BioStack">
+			<param name="Local" value="Basic_Tasks/How_to_use_the_BioStack.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Plate stacked height">
+			<param name="Name" value="Plate Stacked Height">
+			<param name="Local" value="BioStack/Plate Stacked Height.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Using">
+			<param name="Name" value="Using the BioStack">
+			<param name="Local" value="BioStack/Using_the_BioStack.htm">
+			<param name="Name" value="Use the BioStack">
+			<param name="Local" value="Protocol_Steps/Use_the_BioStack.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Bio-Stack">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Using">
+			<param name="Name" value="Define a Protocol">
+			<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+			<param name="Name" value="Define a Protocol">
+			<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Blank Protocol">
+		<param name="Name" value="New Protocol">
+		<param name="Local" value="Tools/New_Protocol.htm">
+		<param name="Name" value="Startup Options">
+		<param name="Local" value="Tools/Startup_Options.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="COM Port">
+		<param name="Name" value="Ports">
+		<param name="Local" value="Tools/Ports.htm">
+		<param name="Name" value="About Com Ports">
+		<param name="Local" value="Tools/about_com_ports.htm">
+		<param name="Name" value="Installed Instruments">
+		<param name="Local" value="Getting_Started/Installed_Instruments.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="enter">
+			<param name="Name" value="How to change/select an instrument">
+			<param name="Local" value="Basic_Tasks/How_to_change_select_an_instrument.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Copy">
+		<param name="Name" value="Copy and paste">
+		<param name="Local" value="Basic_Tasks/Copy_and_paste.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Ctrl+C">
+		<param name="Name" value="Copy and paste">
+		<param name="Local" value="Basic_Tasks/Copy_and_paste.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Ctrl+V">
+		<param name="Name" value="Copy and paste">
+		<param name="Local" value="Basic_Tasks/Copy_and_paste.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Cycles">
+		<param name="Name" value="How to modify a protocol">
+		<param name="Local" value="Basic_Tasks/How_to_modify_a_protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Define">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Protocol">
+			<param name="Name" value="Define a Protocol">
+			<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+			<param name="Name" value="Define a Protocol">
+			<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Washer/Dispenser">
+			<param name="Name" value="Installed Instruments">
+			<param name="Local" value="Getting_Started/Installed_Instruments.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Delay">
+		<param name="Name" value="Sounds">
+		<param name="Local" value="Tools/Sounds.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Protocol">
+			<param name="Name" value="Delay the Protocol">
+			<param name="Local" value="Protocol_Steps/Delay_the_Protocol.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Timer Activated Delay">
+			<param name="Name" value="Timer Activated Delay">
+			<param name="Local" value="Protocol_Steps/Timer_Activated_Delay.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Disable Editing">
+		<param name="Name" value="Introducing the LHC Workspace">
+		<param name="Local" value="Essential_Concepts/Introducing_the_LHC_Workspace.htm">
+		<param name="Name" value="How to modify a protocol">
+		<param name="Local" value="Basic_Tasks/How_to_modify_a_protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Download basecode">
+		<param name="Name" value="BioStack Utilities">
+		<param name="Local" value="Tools/BioStack_Utilities.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Download-Upload">
+		<param name="Name" value="Understanding the LHC Software">
+		<param name="Local" value="Essential_Concepts/Understanding_the_LHC_Software.htm">
+		<param name="Name" value="Transfer Protocols">
+		<param name="Local" value="Tools/Transfer_Protocols.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="EL406">
+		<param name="Name" value="Installed Instruments">
+		<param name="Local" value="Getting_Started/Installed_Instruments.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="ELx405">
+		<param name="Name" value="Installed Instruments">
+		<param name="Local" value="Getting_Started/Installed_Instruments.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Email Alerts">
+		<param name="Name" value="Email Alerts">
+		<param name="Local" value="LHC Secure/Email Alerts.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Email Support">
+		<param name="Name" value="Contacting Technical Support">
+		<param name="Local" value="Getting_Started/Contact_Info/contacting_tech support.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Error codes">
+		<param name="Name" value="Software Error Codes">
+		<param name="Local" value="Troubleshooting/Software_Error_Codes.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="File Location">
+		<param name="Name" value="File Locations">
+		<param name="Local" value="Tools/File_Locations.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="From File">
+		<param name="Name" value="Import Protocol Steps ">
+		<param name="Local" value="Protocol_Steps/Import_Protocol_Steps_.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Getting Started">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="Getting_Started/Getting_Started.htm">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="Getting_Started/Getting_Started.htm">
+		<param name="Name" value="Liquid Handling Control">
+		<param name="Local" value="Liquid_Handling_Control.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Import Protocol Steps">
+		<param name="Name" value="Import Protocol Steps ">
+		<param name="Local" value="Protocol_Steps/Import_Protocol_Steps_.htm">
+		<param name="Name" value="Copy and paste">
+		<param name="Local" value="Basic_Tasks/Copy_and_paste.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Incubate">
+		<param name="Name" value="Timer Activated Delay">
+		<param name="Local" value="Protocol_Steps/Timer_Activated_Delay.htm">
+		<param name="Name" value="Delay the Protocol">
+		<param name="Local" value="Protocol_Steps/Delay_the_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Installing the software">
+		<param name="Name" value="Install the BioStack">
+		<param name="Local" value="Installation/Install_the_BioStack.htm">
+		<param name="Name" value="Installing Software">
+		<param name="Local" value="Installation/installing_software.htm">
+		<param name="Name" value="Install the BioStack">
+		<param name="Local" value="BioStack/Install_the_BioStack.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Installing the washer/dispenser">
+		<param name="Name" value="Install the BioStack">
+		<param name="Local" value="Installation/Install_the_liquid-handler.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Instrument">
+		<param name="Name" value="How to change/select an instrument">
+		<param name="Local" value="Basic_Tasks/How_to_change_select_an_instrument.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Change">
+			<param name="Name" value="How to change/select an instrument">
+			<param name="Local" value="Basic_Tasks/How_to_change_select_an_instrument.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Select">
+			<param name="Name" value="Installed Instruments">
+			<param name="Local" value="Getting_Started/Installed_Instruments.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Labware">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="LHC Software">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="Getting_Started/Getting_Started.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Understanding">
+			<param name="Name" value="Understanding the LHC Software">
+			<param name="Local" value="Essential_Concepts/Understanding_the_LHC_Software.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="LHC structure">
+		<param name="Name" value="LHC structure">
+		<param name="Local" value="Essential_Concepts/LHC_structure.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="LHC Workspace">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="Getting_Started/Getting_Started.htm">
+		<param name="Name" value="Liquid Handling Control">
+		<param name="Local" value="Liquid_Handling_Control.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Introducing">
+			<param name="Name" value="Introducing the LHC Workspace">
+			<param name="Local" value="Essential_Concepts/Introducing_the_LHC_Workspace.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Liquid Handling Control">
+		<param name="Name" value="Liquid Handling Control">
+		<param name="Local" value="Liquid_Handling_Control.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Lock keypad">
+		<param name="Name" value="System Administrator&#39;s Checklist">
+		<param name="Local" value="LHC Secure/System Administrator&#39;s Checklist.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Login">
+		<param name="Name" value="Login: Default Values">
+		<param name="Local" value="LHC Secure/Login Default Values.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Settings">
+			<param name="Name" value="Login: Default Values">
+			<param name="Local" value="LHC Secure/Login Default Values.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Loop">
+		<param name="Name" value="Repeat steps in a Loop">
+		<param name="Local" value="Protocol_Steps/Repeat_steps_in_a_Loop.htm">
+		<param name="Name" value="How to modify a protocol">
+		<param name="Local" value="Basic_Tasks/How_to_modify_a_protocol.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Add">
+			<param name="Name" value="Repeat steps in a Loop">
+			<param name="Local" value="Protocol_Steps/Repeat_steps_in_a_Loop.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Change">
+			<param name="Name" value="How to modify a protocol">
+			<param name="Local" value="Basic_Tasks/How_to_modify_a_protocol.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="MicroFlo">
+		<param name="Name" value="Installed Instruments">
+		<param name="Local" value="Getting_Started/Installed_Instruments.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Modify">
+		<param name="Name" value="How to modify a protocol">
+		<param name="Local" value="Basic_Tasks/How_to_modify_a_protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Most Recent Protocol">
+		<param name="Name" value="Startup Options">
+		<param name="Local" value="Tools/Startup_Options.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="MultiFlo">
+		<param name="Name" value="Installed Instruments">
+		<param name="Local" value="Getting_Started/Installed_Instruments.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Multiple instruments">
+		<param name="Name" value="Ports">
+		<param name="Local" value="Tools/Ports.htm">
+		<param name="Name" value="How to run two instruments simultaneously">
+		<param name="Local" value="Basic_Tasks/How_to_run_two_instruments_simultaneously.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="New Protocols">
+		<param name="Name" value="New Protocol">
+		<param name="Local" value="Tools/New_Protocol.htm">
+		<param name="Name" value="Startup Options">
+		<param name="Local" value="Tools/Startup_Options.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Nth Plate">
+		<param name="Name" value="Advanced Plate Sequencing with the BioStack">
+		<param name="Local" value="Defining_a_Protocol/Using_the_BioStack/Advanced_Plate_Sequencing_with_the_BioStack.htm">
+		<param name="Name" value="Protocol Steps">
+		<param name="Local" value="Protocol_Steps/Protocol_Steps.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Onboard Controls">
+		<param name="Name" value="Understanding the LHC Software">
+		<param name="Local" value="Essential_Concepts/Understanding_the_LHC_Software.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Page/Printer Setup">
+		<param name="Name" value="How to print a Protocol">
+		<param name="Local" value="Basic_Tasks/How_to_print_a_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Password">
+		<param name="Name" value="Change your password">
+		<param name="Local" value="LHC Secure/Basic Tasks/How to change your password.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="changing">
+			<param name="Name" value="Change your password">
+			<param name="Local" value="LHC Secure/Basic Tasks/How to change your password.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="temporary">
+			<param name="Name" value="Troubleshooting/Error Recovery">
+			<param name="Local" value="Troubleshooting/Troubleshooting_Error_Recovery.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Paste">
+		<param name="Name" value="Copy and paste">
+		<param name="Local" value="Basic_Tasks/Copy_and_paste.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Pause the procedure">
+		<param name="Name" value="Timer Activated Delay">
+		<param name="Local" value="Protocol_Steps/Timer_Activated_Delay.htm">
+		<param name="Name" value="Delay the Protocol">
+		<param name="Local" value="Protocol_Steps/Delay_the_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Perform">
+		<param name="Name" value="Nth Plate to perform special process ">
+		<param name="Local" value="Protocol_Steps/Nth_Plate_to_perform_special_process.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="BioStack&#39;s Nth Plate">
+			<param name="Name" value="Nth Plate to perform special process ">
+			<param name="Local" value="Protocol_Steps/Nth_Plate_to_perform_special_process.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Perform special process">
+		<param name="Name" value="Nth Plate to perform special process ">
+		<param name="Local" value="Protocol_Steps/Nth_Plate_to_perform_special_process.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Plate Type">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Port">
+		<param name="Name" value="Ports">
+		<param name="Local" value="Tools/Ports.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="About COM">
+			<param name="Name" value="About Com Ports">
+			<param name="Local" value="Tools/about_com_ports.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Preferences">
+			<param name="Name" value="Ports">
+			<param name="Local" value="Tools/Ports.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Print a Protocol">
+		<param name="Name" value="How to print a Protocol">
+		<param name="Local" value="Basic_Tasks/How_to_print_a_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Prompt">
+		<param name="Name" value="Delay the Protocol">
+		<param name="Local" value="Protocol_Steps/Delay_the_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Protocol">
+		<param name="Name" value="Import Protocol Steps ">
+		<param name="Local" value="Protocol_Steps/Import_Protocol_Steps_.htm">
+		<param name="Name" value="How to print a Protocol">
+		<param name="Local" value="Basic_Tasks/How_to_print_a_Protocol.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+		<param name="Name" value="Add a Note to the Protocol">
+		<param name="Local" value="Protocol_Steps/Add_a_Note_to_the_Protocol.htm">
+		<param name="Name" value="Protocol Steps">
+		<param name="Local" value="Protocol_Steps/Protocol_Steps.htm">
+		<param name="Name" value="How to modify a protocol">
+		<param name="Local" value="Basic_Tasks/How_to_modify_a_protocol.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Define">
+			<param name="Name" value="Getting Started">
+			<param name="Local" value="Getting_Started/Getting_Started.htm">
+			<param name="Name" value="Define a Protocol">
+			<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+			<param name="Name" value="Define a Protocol">
+			<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Modify">
+			<param name="Name" value="How to modify a protocol">
+			<param name="Local" value="Basic_Tasks/How_to_modify_a_protocol.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Print">
+			<param name="Name" value="How to print a Protocol">
+			<param name="Local" value="Basic_Tasks/How_to_print_a_Protocol.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="shortcut">
+			<param name="Name" value="Import Protocol Steps ">
+			<param name="Local" value="Protocol_Steps/Import_Protocol_Steps_.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Protocol Comments">
+		<param name="Name" value="Copy and paste">
+		<param name="Local" value="Basic_Tasks/Copy_and_paste.htm">
+		<param name="Name" value="Add a Note to the Protocol">
+		<param name="Local" value="Protocol_Steps/Add_a_Note_to_the_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Protocol Name">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Protocol Version">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Remark">
+		<param name="Name" value="Add a Note to the Protocol">
+		<param name="Local" value="Protocol_Steps/Add_a_Note_to_the_Protocol.htm">
+		<param name="Name" value="Protocol Steps">
+		<param name="Local" value="Protocol_Steps/Protocol_Steps.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Reminder">
+		<param name="Name" value="Reminder Settings">
+		<param name="Local" value="Tools/Reminder_Settings.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Reminder Settings">
+			<param name="Name" value="Reminder Settings">
+			<param name="Local" value="Tools/Reminder_Settings.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Reminders List">
+			<param name="Name" value="Reminders">
+			<param name="Local" value="Tools/Reminders.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Sound">
+			<param name="Name" value="Sounds">
+			<param name="Local" value="Tools/Sounds.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Repeat steps">
+		<param name="Name" value="Repeat steps in a Loop">
+		<param name="Local" value="Protocol_Steps/Repeat_steps_in_a_Loop.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Resize the screen">
+		<param name="Name" value="Resize the screen">
+		<param name="Local" value="Basic_Tasks/Resize_the_screen.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Restack">
+		<param name="Name" value="Re-stack plates in the BioStack">
+		<param name="Local" value="Protocol_Steps/Re-stack_plates_in_the_BioStack.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Re-stack plates">
+		<param name="Name" value="Re-stack plates in the BioStack">
+		<param name="Local" value="Protocol_Steps/Re-stack_plates_in_the_BioStack.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Reuse protocol steps">
+		<param name="Name" value="Import Protocol Steps ">
+		<param name="Local" value="Protocol_Steps/Import_Protocol_Steps_.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Revision numbers displayed">
+		<param name="Name" value="Contacting Technical Support">
+		<param name="Local" value="Getting_Started/Contact_Info/contacting_tech support.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Run the washer/dispenser">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="Getting_Started/Getting_Started.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Save">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Screen">
+		<param name="Name" value="Resize the screen">
+		<param name="Local" value="Basic_Tasks/Resize_the_screen.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Serial Number">
+		<param name="Name" value="Contacting Technical Support">
+		<param name="Local" value="Getting_Started/Contact_Info/contacting_tech support.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Software version">
+		<param name="Name" value="Contacting Technical Support">
+		<param name="Local" value="Getting_Started/Contact_Info/contacting_tech support.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Sounds">
+		<param name="Name" value="Sounds">
+		<param name="Local" value="Tools/Sounds.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Startup Options">
+		<param name="Name" value="Startup Options">
+		<param name="Local" value="Tools/Startup_Options.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Startup preferences">
+		<param name="Name" value="Define Your Startup Preferences">
+		<param name="Local" value="Installation/Define Your Startup Preferences.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Step Details">
+		<param name="Name" value="Resize the screen">
+		<param name="Local" value="Basic_Tasks/Resize_the_screen.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Stop">
+		<param name="Name" value="5. Instrument Control">
+		<param name="Local" value="Essential_Concepts/5._Instrument_Control.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="Control start-stop">
+			<param name="Name" value="Repeat steps in a Loop">
+			<param name="Local" value="Protocol_Steps/Repeat_steps_in_a_Loop.htm">
+			<param name="Name" value="Timer Activated Delay">
+			<param name="Local" value="Protocol_Steps/Timer_Activated_Delay.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="System requirements">
+		<param name="Name" value="System Requirements">
+		<param name="Local" value="Installation/system_requirements.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="TAC">
+		<param name="Name" value="Contacting Technical Support">
+		<param name="Local" value="Getting_Started/Contact_Info/contacting_tech support.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Template">
+		<param name="Name" value="Define Your Startup Preferences">
+		<param name="Local" value="Installation/Define Your Startup Preferences.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Temporary password">
+		<param name="Name" value="Troubleshooting/Error Recovery">
+		<param name="Local" value="Troubleshooting/Troubleshooting_Error_Recovery.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Test Communication">
+		<param name="Name" value="Test Communication">
+		<param name="Local" value="Getting_Started/Test_Communication.htm">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="Getting_Started/Getting_Started.htm">
+		<param name="Name" value="How to change/select an instrument">
+		<param name="Local" value="Basic_Tasks/How_to_change_select_an_instrument.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Timer">
+		<param name="Name" value="Timer Activated Delay">
+		<param name="Local" value="Protocol_Steps/Timer_Activated_Delay.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Transfer Protocols">
+		<param name="Name" value="Transfer Protocols">
+		<param name="Local" value="Tools/Transfer_Protocols.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Troubleshooting">
+		<param name="Name" value="BioStack Utilities">
+		<param name="Local" value="Tools/BioStack_Utilities.htm">
+			</object>
+	<ul>
+		<li><object type="text/sitemap">
+			<param name="Name" value="BioStack">
+			<param name="Name" value="BioStack Utilities">
+			<param name="Local" value="Tools/BioStack_Utilities.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="BioStack plate height">
+			<param name="Name" value="Plate Stacked Height">
+			<param name="Local" value="BioStack/Plate Stacked Height.htm">
+					</object>
+		</li>
+		<li><object type="text/sitemap">
+			<param name="Name" value="LHC Error Codes">
+			<param name="Name" value="Software Error Codes">
+			<param name="Local" value="Troubleshooting/Software_Error_Codes.htm">
+					</object>
+		</li>
+			</ul>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="unencrypt">
+		<param name="Name" value="User Groups">
+		<param name="Local" value="LHC Secure/User Groups.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Use BioStack">
+		<param name="Name" value="Use the BioStack">
+		<param name="Local" value="Protocol_Steps/Use_the_BioStack.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Use Bio-Stack">
+		<param name="Name" value="How to modify a protocol">
+		<param name="Local" value="Basic_Tasks/How_to_modify_a_protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Validate">
+		<param name="Name" value="Introducing the LHC Workspace">
+		<param name="Local" value="Essential_Concepts/Introducing_the_LHC_Workspace.htm">
+		<param name="Name" value="Protocol Steps">
+		<param name="Local" value="Protocol_Steps/Protocol_Steps.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Warning">
+		<param name="Name" value="Add a Note to the Protocol">
+		<param name="Local" value="Protocol_Steps/Add_a_Note_to_the_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Washer/dispenser">
+		<param name="Name" value="Introducing the LHC Workspace">
+		<param name="Local" value="Essential_Concepts/Introducing_the_LHC_Workspace.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Create_a_Protocol.htm">
+		<param name="Name" value="Define a Protocol">
+		<param name="Local" value="Defining_a_Protocol/Define_a_Protocol.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Windows&#194;&#174; Vista&#226;„&#162;">
+		<param name="Name" value="Understanding the LHC Software">
+		<param name="Local" value="Essential_Concepts/Understanding_the_LHC_Software.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Windows&#194;&#174; XP">
+		<param name="Name" value="Understanding the LHC Software">
+		<param name="Local" value="Essential_Concepts/Understanding_the_LHC_Software.htm">
+			</object>
+	</li>
+	<li><object type="text/sitemap">
+		<param name="Name" value="Word">
+		<param name="Name" value="Copy and paste">
+		<param name="Local" value="Basic_Tasks/Copy_and_paste.htm">
+			</object>
+	</li>
+	</ul>
+</html>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalImportedFilesCache
+  SavedSource="file:///C:/Flarework/533-lhc/Output/stearran/Temporary/GlobalImportedFilesSet v.1.xml">
+  <ImportedMap>
+    <Map
+      Local="Content/ADMONITIONS.htm"
+      Remote="../flare-work/Content/ADMONITIONS.htm" />
+    <Map
+      Local="Content/In-This-Book.htm"
+      Remote="../flare-work/Content/In-This-Book.htm" />
+    <Map
+      Local="Content/Resources/PageLayouts/In-This-Book-Letter.flpgl"
+      Remote="../flare-work/Content/Resources/PageLayouts/In-This-Book-Letter.flpgl" />
+    <Map
+      Local="Content/Resources/PageLayouts/In-This-Book.flpgl"
+      Remote="../flare-work/Content/Resources/PageLayouts/In-This-Book.flpgl" />
+    <Map
+      Local="Content/Resources/TableStyles/Small-invisible-table.css"
+      Remote="../flare-work/Content/Resources/TableStyles/Small-invisible-table.css" />
+    <Map
+      Local="Content/Resources/TableStyles/Three-col-ruled-procedure.css"
+      Remote="../flare-work/Content/Resources/TableStyles/Three-col-ruled-procedure.css" />
+    <Map
+      Local="Content/Resources/TableStyles/Three-col-ruled-table.css"
+      Remote="../flare-work/Content/Resources/TableStyles/Three-col-ruled-table.css" />
+    <Map
+      Local="Content/Resources/TableStyles/Two-col-ruled-table.css"
+      Remote="../flare-work/Content/Resources/TableStyles/Two-col-ruled-table.css" />
+  </ImportedMap>
+  <SourceUrls>
+    <Url
+      Source="Project/Imports/FlareWork.flimpfl" />
+  </SourceUrls>
+</CatapultGlobalImportedFilesCache>

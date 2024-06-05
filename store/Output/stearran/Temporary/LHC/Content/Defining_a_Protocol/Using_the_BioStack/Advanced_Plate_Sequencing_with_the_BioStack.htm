@@ -1,0 +1,224 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="Using the BioStack" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Advanced Plate Sequencing with the BioStack</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/MadCap.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/TableStyles/Rows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <script src="../../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapEffects.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapEffectsMenu.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h2 class="Heading2"><span class="mc-variable System.Title variable">Advanced Plate Sequencing with the BioStack</span>
+            </h2>
+            <p class="Body1">Read <span class="MCPopup"><a href="javascript:void(0);" MadCap:src="../../Protocol_Steps/About_the_Nth_Plate_Step.htm" onclick="FMCPopup( event, this ); return false;" class="MCPopupSpot" name="kanchor18">About the Nth Plate step</a></span>, 
+ if you haven't already done so.</p>
+            <p class="NoteBlue">To precisely time the events in a BioStack 
+ run, consider using the Delay option, <a href="../../Protocol_Steps/Timer_Activated_Delay.htm">Timer 
+ Activated Delay</a>.
+            </p>
+            <p class="Body1">The LHC makes the BioStack even more powerful by giving 
+ you the ability to perform varied or special processes to certain plates 
+ or at certain times within the same run.</p>
+            <p class="Body1">Numerous scenarios can be served using the LHC's special 
+ features, here are a few examples:</p>
+            <ul>
+                <li class="ListBullet"><a href="Use_an_Nth_Plate_step_to_perform_maintenance.htm" title="See an example using the Nth Plate to perform maintenance" id="a1" style="font-weight: bold;">Use an Nth Plate step to flush the tubing</a> 
+ or perform a maintenance task after a certain number of plates have been 
+ processed.
+            </li>
+                <li class="ListBullet">Use a series of Nth Plate 
+ or <a title="See an example of multiple Bio-Stack loops in a protocol" href="Use_a_series_of_Use_BioStack_steps.htm" id="a2" style="font-weight: bold;">Use 
+ BioStack steps</a> to test the number of wash cycles required for optimal 
+ assay performance.
+            </li>
+                <li class="ListBullet"><a title="See an example of multiple Nth Plate steps in a protocol" href="Use_a_series_of_Nth_Plate_steps.htm" id="a3" style="font-weight: bold;">Use 
+ a series of Nth Plate</a> or multiple Use BioStack steps to perform a 
+ serial dilution on recurrent groups of plates: dispense 200 µL to the 
+ first plate, 150 µL to the second, and 100 µL to the third.
+            </li>
+            </ul>
+            <p class="Body1" style="margin-top: 9pt;">The Nth Plate lets you create a mixed group of plates that 
+ have been processed with different parameters. The Use BioStack step creates 
+ groups of like-processed plates. For example, using three Nth Plate steps 
+ you can process a stack of plates to stagger the dilutions, as shown in 
+ the table below. Similarly, three Use BioStack steps can result in a stack 
+ of plates sorted into dilution groups.<span></span><span style="font-weight: bold;"><a href="Serial_Dilutions_Examples.htm">Learn 
+ more...</a></span></p>
+            <p class="Body1">Using a series of Nth Plate or Use BioStack blocks we can 
+ dispense 100 µL to plates in the first pass, 200 µL to plates in the second 
+ pass, 300 µL in the third pass. Choose the method that matches your preference 
+ for sorting the plates in the stack:</p>
+            <table style="border-spacing: 0px;border-spacing: 0px;mc-table-style: url('../../Resources/TableStyles/Rows.css');margin-left: 0;margin-right: auto;" cellspacing="0" width="100%" class="TableStyle_Rows">
+                <col style="width: 103px;" />
+                <col style="width: 105px;" />
+                <col style="width: 140px;" />
+                <col style="width: 158px;" />
+                <thead>
+                    <tr>
+                        <th class="TableStyle_Rows_Head_0_0_RowSep_ColSep">
+                            <p style="font-weight: bold;">Group</p>
+                        </th>
+                        <th class="TableStyle_Rows_Head_0_0_RowSep_ColSep">
+                            <p style="font-weight: bold;">Plate</p>
+                        </th>
+                        <th class="TableStyle_Rows_Head_0_0_RowSep_ColSep">
+                            <p style="font-weight: bold;">Nth Plate</p>
+                        </th>
+                        <th class="TableStyle_Rows_Head_0_0_RowSep_ColEnd">
+                            <p style="font-weight: bold;">Use BioStack</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tr valign="top">
+                    <td colspan="1" rowspan="3" bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>A</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>1</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>100 µL</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>100 µL</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>2</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>200 µL</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>100 µL</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>3</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>300 µL</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>100 µL</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="1" rowspan="3" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>B</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>4</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>100 µL</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>200 µL</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>5</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>200 µL</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>200 µL</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>6</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>300 µL</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>200 µL</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="1" rowspan="3" bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>C</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>7</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>100 µL</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>300 µL</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>8</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>200 µL</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>300 µL</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>9</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>300 µL</p>
+                    </td>
+                    <td bgcolor="#E2EDF7" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>300 µL</p>
+                    </td>
+                </tr>
+            </table>
+            <h5>Review Examples:</h5>
+            <ul>
+                <li class="ListBullet2"><a href="Use_an_Nth_Plate_step_to_perform_maintenance.htm" id="a4">Use an Nth 
+ Plate step to perform maintenance</a>
+                </li>
+                <li class="ListBullet2"><a href="Use_a_series_of_Nth_Plate_steps.htm" id="a5">Use a series of Nth Plate 
+ steps</a>
+                </li>
+                <li class="ListBullet2"><a href="Use_a_series_of_Use_BioStack_steps.htm" id="a6">Use a series of Use 
+ BioStack steps</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

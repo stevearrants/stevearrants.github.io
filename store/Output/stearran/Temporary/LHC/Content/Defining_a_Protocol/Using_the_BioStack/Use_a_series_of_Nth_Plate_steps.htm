@@ -1,0 +1,197 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="Using the BioStack" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Use a series of Nth Plate steps</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/TableStyles/Rows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <script src="../../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h4 style="margin-top: 5pt;"><span class="mc-variable System.Title variable">Use a series of Nth Plate steps</span>
+            </h4>
+            <p class="Body1" style="background-color: Transparent;">When using the BioStack 
+ you can treat plates in a non-uniform manner by defining a series of Nth 
+ Plate steps. Here's an example to demonstrate its usefulness:</p>
+            <p class="Body1" style="background-color: Transparent;">We'll generate three 
+ mixed groups of dilutions in the stack of plates:</p>
+            <p class="Body1" style="background-color: Transparent;">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/Nth_serial3_313x232.png" style="border: none;border-style: none;border-style: none;padding: 5px;float: right;width: 313;height: 232;" border="0" />
+            </p>
+            <p class="Body1">To create this protocol:</p>
+            <ol>
+                <li class="ListNumber" value="1">Click <span class="Button">Use 
+ BioStack</span>,
+            </li>
+                <li class="ListNumber" value="2">Click <span class="Button">Nth 
+ Plate</span> and set it for every 3 plates starting with plate 1: 
+            </li>
+                <ul value="3">
+                    <li class="ListBullet">
+                        <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/checkbox_fill.png" style="border: none;width: 15px;height: 15px;border-style: none;border-style: none;" width="15" height="15" border="0" /> <span style="font-weight: bold;">Run only 
+ Nth Plate steps</span> is checked.
+                </li>
+                    <li class="ListBullet">
+                        <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/checkbox-empty.png" style="border: none;width: 17px;height: 17px;border-style: none;border-style: none;" width="17" height="17" border="0" /> <span style="font-weight: bold;">Remove plate 
+ before running steps</span> is unchecked.
+                </li>
+                </ul>
+                <li class="ListNumber" value="4">Click <span class="Button">Dispense</span> 
+ and set the parameters to dispense 100 µL.
+            </li>
+                <li class="ListNumber" value="5">Click <span class="Button">Nth 
+ Plate</span> and set it for every 3 plates starting with plate 2 and apply 
+ the same conditions as above.
+            </li>
+                <li class="ListNumber" value="6">Click <span class="Button">Dispense</span> 
+ and set the parameters to dispense 200 µL.
+            </li>
+                <li class="ListNumber" value="7">Click <span class="Button">Nth 
+ Plate</span> and set it for every 3 plates starting with plate 3 and apply 
+ the same conditions as above.
+            </li>
+                <li class="ListNumber" value="8">Click <span class="Button">Dispense</span> 
+ and set the parameters to dispense 300 µL.
+            </li>
+            </ol>
+            <p class="Body1">The plates in the BioStack's output stack will be sorted 
+ this way:</p>
+            <table style="width: 15.198%;border-spacing: 0px;border-spacing: 0px;margin-left: 22pt;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/Rows.css');" cellspacing="0" width="15.198%" class="TableStyle_Rows">
+                <col style="width: 45.04%;" />
+                <col style="width: 54.96%;" />
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-top-style: Solid;border-top-color: #000000;border-top-width: 1px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p style="font-weight: bold;">Plate</p>
+                    </td>
+                    <td style="width: 54.96%;border-top-style: Solid;border-top-color: #000000;border-top-width: 1px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p style="font-weight: bold;">Dilution </p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>1</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>100</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>2</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>200</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>3</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>300</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>4</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>100</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>5</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>200</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>6</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>300</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>7</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>100</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>8</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>200</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>9</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>300</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>10</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>100</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width: 45.04%;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="45.04%" class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p>11</p>
+                    </td>
+                    <td style="width: 54.96%;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;" width="54.96%" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>200</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="1" rowspan="1" style="width: 45.04%;padding-right: 10px;padding-left: 10px;border-left-style: Solid;border-left-color: #000000;border-left-width: 1px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;" width="45.04%" class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p>12</p>
+                    </td>
+                    <td colspan="1" rowspan="1" style="width: 54.96%;padding-right: 10px;padding-left: 10px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;" width="54.96%" class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p>300</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="2" rowspan="1" style="width: 100%;padding-right: 10px;padding-left: 10px;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;" width="100%" class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p>and so on...</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

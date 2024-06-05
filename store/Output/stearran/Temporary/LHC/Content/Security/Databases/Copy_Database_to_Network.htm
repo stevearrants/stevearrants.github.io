@@ -1,0 +1,64 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="LHC Secure|Database Configuration" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Move/Copy Database to Network</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/MadCap.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapEffects.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapEffectsMenu.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h2 class="Heading2">Copy Database to Network</h2>
+            <p class="NoteBlue">For <b>LHC Secure</b> only.</p>
+            <p class="Navigation">System&gt; Database 
+ Configuration&#160;
+        </p>
+            <p class="Body1" style="margin-top: 5pt;">In a multiple-user environment, 
+ the best practice may be to put the database on a shared network drive for user authentication 
+and to maintain one system audit trail for all LHC users. </p>
+            <ol>
+                <li class="ListNumber" value="1">Use <b>Windows Explorer</b> to locate the LHC database installed on your computer in the "<span class="MCPopup"><a href="javascript:void(0);" MadCap:src="../../Essential_Concepts/Common Application Data Folder.htm" onclick="FMCPopup( event, this ); return false;" MadCap:width="auto" MadCap:height="auto" class="MCPopupSpot">Common Data Application Folder</a></span>."
+            </li>
+                <li class="ListNumber" value="2">Copy the file (to preserve an original database file for potential future use) or, if you prefer, move it to the designated shared network location.    
+            </li>
+                <li class="ListNumber" value="3">In the LHC main view, select <span class="Input">System&gt;Database Configuration</span>.
+            </li>
+                <li class="ListNumber" value="4">Click the <span class="Button">Change Location</span> button and browse to the folder/directory where you stored the database, and click <span class="Button">Open</span>.
+            </li>
+                <li class="ListNumber" value="5">Restart 
+ the LHC to make the change take effect.
+            </li>
+            </ol>
+            <h6 class="Heading6">Copy Protocols to the Network</h6>
+            <p class="Body1"><span class="mc-variable MyVariables.CompanyNickName variable">Agilent</span> also recommends copying the LHC Protocols folder to a shared network directory and encouraging your users to shared the same protocol files, when possible.</p>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

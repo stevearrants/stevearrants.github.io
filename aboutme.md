@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Steve
+subtitle: More about me
+published: true
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Don't think of me as just a writer. I'm also an experienced editor and editorial manager. I'm extremely proud of the information I've created and the people I've helped to develop along the way -- and I'm thankful to them as well! I'm very good at taking complex concepts and making them useful and easy to understand. How? Just ask. Let's have a conversation.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+If you need something explained, something complex made simple, let&#8217;s talk about how I can create great documentation for your next project. Contact me through a link in the footer.
 
-What else do you need?
+This site showcases my writing experience and tells you more about me. You can view my resume, request  work samples, and get to know me a little. My specialties are online and print documentation.
 
-### My story
+I am a technical writer with over 30 years of experience in the computer software, hardware, and service industries. The simplest way to describe my many responsibilities as a technical writer is to build a bridge between people and technology. I help people and organizations meet their goals in the simplest, most effective ways possible.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.

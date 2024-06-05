@@ -1,0 +1,677 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: Small-invisible-table;
+	border-collapse: collapse;
+	max-id: 7;
+	margin-left: 1in;
+	margin-top: 10px;
+	page-break-before: auto;
+	widows: 3;
+	orphans: 3;
+	cell-padding-left: 5px;
+	cell-padding-right: 3px;
+	cell-padding-top: 3px;
+	cell-padding-bottom: 3px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 5;
+	name: Column1;
+	font-size: 9pt;
+	font-family: 'Roboto Light';
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	id: 7;
+	name: Header1;
+	font-size: 9pt;
+	font-family: 'Roboto Medium';
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 4;
+	name: Body1;
+	font-size: 9pt;
+	font-family: 'Roboto Light';
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 6;
+	name: Body2;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-Small-invisible-table
+{
+	border-collapse: collapse;
+	margin-left: 1in;
+	margin-top: 10px;
+	page-break-before: auto;
+	widows: 3;
+	orphans: 3;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Small-invisible-table-Column-Column1
+{
+	
+}
+
+.TableStyle-Small-invisible-table-Head-Header1
+{
+	
+}
+
+.TableStyle-Small-invisible-table-HeadI-Column1-Header1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadI-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadE-Column1-Header1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadE-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadF-Column1-Header1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadF-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadH-Column1-Header1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadH-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadD-Column1-Header1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadD-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadC-Column1-Header1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadC-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadB-Column1-Header1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadB-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadA-Column1-Header1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadA-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadG-Column1-Header1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-HeadG-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootI-Column1-
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootI-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootE-Column1-
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootE-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootF-Column1-
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootF-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootH-Column1-
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootH-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootD-Column1-
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootD-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootC-Column1-
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootC-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootB-Column1-
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootB-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootA-Column1-
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootA-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootG-Column1-
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-FootG-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-Body-Body1
+{
+	
+}
+
+.TableStyle-Small-invisible-table-BodyI-Column1-Body1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyI-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyE-Column1-Body1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyE-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyF-Column1-Body1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyF-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyH-Column1-Body1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyH-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyD-Column1-Body1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyD-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyC-Column1-Body1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyC-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyB-Column1-Body1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyB-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyA-Column1-Body1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyA-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyG-Column1-Body1
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyG-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-Body-Body2
+{
+	
+}
+
+.TableStyle-Small-invisible-table-BodyI-Column1-Body2
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyI-Column1-Body2 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyE-Column1-Body2
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyE-Column1-Body2 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyF-Column1-Body2
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyF-Column1-Body2 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyH-Column1-Body2
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyH-Column1-Body2 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyD-Column1-Body2
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyD-Column1-Body2 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyC-Column1-Body2
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyC-Column1-Body2 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyB-Column1-Body2
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyB-Column1-Body2 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyA-Column1-Body2
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyA-Column1-Body2 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyG-Column1-Body2
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #eaebed;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Small-invisible-table-BodyG-Column1-Body2 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+

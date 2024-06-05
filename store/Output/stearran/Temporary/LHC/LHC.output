@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTargetOutput
+  GeneratedTarget="/Output/stearran/LHC/Liquid_Handling_Control.chm"
+  BuildVersion="20.0.8886.22535"
+  AliasFile="/Output/stearran/Temporary/LHC/Content/Data/Alias.xml">
+  <Files>
+    <Url
+      Source="Output/stearran/LHC/Liquid_Handling_Control.chm" />
+  </Files>
+  <Skins>
+    <Url
+      Source="Output/stearran/Temporary/LHC/Content/Data/Skin$global_main/Skin.xml" />
+    <Url
+      Source="$global_context" />
+    <Url
+      Source="$global_main" />
+  </Skins>
+</CatapultTargetOutput>

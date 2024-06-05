@@ -1,0 +1,132 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="Tools" MadCap:PathToHelpSystem="../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Transfer Protocols</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/MadCap.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapEffects.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapEffectsMenu.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h2 class="Heading2"><a name="kanchor93"></a><span class="mc-variable System.Title variable">Transfer Protocols</span>
+            </h2>
+            <p class="Navigation"><a name="kanchor94"></a>Tools&gt; Transfer Protocols&#160;</p>
+            <p class="Body1">The LHC lets you upload and download programs to and from 
+ the washer/dispenser:</p>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/download_btn.png" style="border: none;width: 147px;height: 23px;float: none;border-style: none;border-style: none;" width="147" height="23" border="0" /> <span class="Button">Download</span> sends protocols 
+ from the computer to the instrument for stand-alone operation.</p>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/upload_btn.png" style="border: none;width: 146px;height: 23px;float: none;border-style: none;border-style: none;" width="146" height="23" border="0" /> <span class="Button">Upload</span> 
+ imports protocols from the instrument to the computer. &#160;</p>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/checkbox_fill.png" style="border: none;width: 15px;height: 15px;border-style: none;border-style: none;" width="15" height="15" border="0" /> <span class="FieldName" style="font-weight: bold;">Disable Editing</span><span class="FieldName"> of transferred protocols</span>: use this control in 
+ either transfer direction. When it is engaged, downloaded protocols will 
+ be locked onboard the instrument, i.e., users will not be able to edit 
+ the parameters. Uploaded protocols will open in the LHC with "Disable 
+ Editing" on (except this is not applicable to LHC Secure which limits editing based on <a href="../LHC Secure/User Groups.htm" target="" title="" alt="" class="MCXref_0">User Groups </a>). To modify an uploaded protocol users must first "<span class="MCTextPopup"><span class="MCTextPopupBody_popupBody_0" style="display: none; ">De-select the Disable Editing checkbox in the main LHC window.</span><a class="MCTextPopupSpot_popupHead_0" href="javascript:void(0);" onclick="FMCTextPopup( event, this ); return false;">enable 
+ editing</a></span>." Conversely, when this control is not selected, users 
+ are free to edit the protocol's parameters onboard the instrument. And, 
+ when uploaded protocols are opened in the LHC, they are instantly editable. 
+ &#160;</p>
+            <p class="Warning"><b>LHC Secure</b> does&#160;not support protocol revision control when using the keypad. The ability to lock the keypad is provided specifically for compliance with 21 CFR Part 11. Administrators and Power Users are advised to always control the instrument using the LHC or  to restrict protocol transfers to downloads, i.e. do not upload protocols from the instrument. </p>
+            <h5>Limitations and Requirements</h5>
+            <p class="Body1">Some limitations or requirements on transferring protocols 
+ from the computer to the instrument are imposed by the instrument's basecode. These limitations apply to most instruments, <b>except the 405™ TS</b>:</p>
+            <ul>
+                <li class="ListBullet"><span style="font-weight: bold;">Action 
+ Steps Only</span>: Only protocols with action 
+ steps, like wash and dispense, can be downloaded to an instrument. The 
+ LHC-provided supporting steps, like Delay and Loop, cannot be downloaded. 
+ You must keep the instrument connected to the computer to run protocols with these LHC steps.
+            </li>
+            </ul>
+            <table style="width: 100%;">
+                <col style="width: 266px;" />
+                <col />
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/protocol name.gif" alt="Protocol Name image" />
+                        </td>
+                        <td>
+                            <p class="TableBodySmall">You must define a <span class="FieldName">Protocol</span> or on-board <span class="FieldName">Name</span> to download the protocol to the instrument.
+                    </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul>
+                <li class="ListBullet"><span style="font-weight: bold;">On-board 
+ Name</span>: Most liquid handlers limit the protocol or "on-board" 
+ name to 16 alpha-numeric characters. Some instruments allow inclusion of 
+ these symbols: <span style="background-color: #ffff00;">- / : _</span>, 
+ but two of them conflict with Microsoft 
+ Windows file-naming limitations, 
+ i.e., filenames cannot contain so-called offending characters: <span style="background-color: #ffff00;">\ /*: # ? ” &lt; &gt; |</span>. 
+ The LHC will require you to rename a protocol with an offending filename. 
+The Protocol Name or "on-board name" can only 
+ be defined or modified in the LHC's main view. Also, for 
+ some instruments the protocol name is case sensitive. The LHC assigns a filename to uploaded protocols, adding the .LHC filename extension to the on-board name.
+</li>
+                <li class="ListBullet"><b>Protocol Information</b>: Some information in the LHC protocol file is ignored by the instrument. The <span class="FieldName">User Protocol Version</span>, <span class="FieldName">Archive Revision</span>, <span class="FieldName">Protocol Comments</span>, and any BioStack commands are not saved when the protocol is downloaded to the instrument and erased or replaced by default information when uploaded to the computer. <b>LCH&#160;Secure</b>: <span class="FieldName">Archive Revision</span> is always set to zero when a protocol is uploaded from the instrument.  </li>
+                <li class="ListBullet"><span style="font-weight: bold;">ELx405 
+ Protocols</span>: The ELx405 only allows 
+ protocols with one step to be downloaded. Similarly, the ELx405's "Link" programs cannot be uploaded to the computer. To work around this limitation, you can download 
+ one-step protocols and then, manually link them on the washer.
+            </li>
+                <li class="ListBullet"><span style="font-weight: bold;">405 TS and ELx405 
+ Maintenance Protocols</span>: <span class="mc-variable MyVariables.CompanyNickName variable">Agilent</span>'s liquid handling instruments are 
+ shipped from the factory with one or more maintenance programs loaded 
+ on-board, e.g., Overnight_Loop. The 405 TS and ELx405 washers cannot upload these programs to the 
+ computer. Instead, <span class="mc-variable MyVariables.CompanyNickName variable">Agilent</span> ships pre-programmed LHC protocols that mimic 
+ the onboard maintenance routines. Find these predefined protocols 
+ in Windows' <a href="../Essential_Concepts/Common Application Data Folder.htm#top">Common 
+ Application Data Folder</a>. &#160;
+            </li>
+                <li class="Note">Only the onboard programs that are 
+ eligible for upload are displayed on the <span class="FieldName">Instrument</span> 
+ side of the Transfer Protocol screen. Contrarily, all the protocols in 
+ the selected Protocol Folder, regardless of their eligibility for download, 
+ are displayed on the <span class="FieldName">This computer</span> side 
+ of the screen.
+            </li>
+                <li class="ListBullet"><span style="font-weight: bold;">Instrument 
+ Selection</span>: The washer/dispenser and host computer must be communicating for 
+ the on-board protocols to be displayed on the <span class="FieldName">Instrument </span>side of the screen. 
+ When running more than one instrument, click the <span class="Link">Name</span> 
+ link to change the currently selected instrument.
+</li>
+                <li class="ListBullet"><span class="Link">Protocol Folder</span>: Click this link to make sure the <span class="FieldName">This computer</span> side of the screen is showing the desired protocol files.</li>
+            </ul>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

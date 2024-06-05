@@ -1,0 +1,370 @@
+[WINDOWS]
+$global_context="LHC","_Temp.hhc","_Temp.hhk","Liquid_Handling_Control.htm","Liquid_Handling_Control.htm","Liquid_Handling_Control.htm","","Liquid_Handling_Control.htm","",0x560,222,0x3002,[958,80,1425,756],0xcf0000,0x100,,1,2,0
+$global_main="LHC","_Temp.hhc","_Temp.hhk","Liquid_Handling_Control.htm","Liquid_Handling_Control.htm","Liquid_Handling_Control.htm","","Liquid_Handling_Control.htm","",0x20521,222,0x300e,[736,78,1426,755],0xcf0000,0x100,,0,2,0
+
+[OPTIONS]
+Compiled File=Liquid_Handling_Control.chm
+Title=LHC
+Default topic=Liquid_Handling_Control.htm
+Default window=$global_main
+Error log file=
+Display compile progress=yes
+Display compile notes=yes
+Full-text search=yes
+Binary TOC=no
+Binary Index=yes
+Flat=no
+Auto Index=no
+Enhanced decompilation=no
+Contents File=_Temp.hhc
+Index File=_Temp.hhk
+Language=0x0409 English (United States)
+
+[FILES]
+Basic_Tasks/How_to_Test_Communication_with_the_instrument.htm
+Essential_Concepts/LHC_Buttons_Guide.htm
+ADMONITIONS.htm
+Getting_Started/Installed_Instruments.htm
+LHC Secure/Login and Password Controls.htm
+Protocol_Steps/Use_the_BioStack.htm
+Security/Databases/Copy_Database_to_Network.htm
+Tools/Sounds.htm
+LHC Secure/Basic Tasks/How to build an audit trail report.htm
+BioStack/BioStack Alignment Utility.htm
+Protocol_Steps/Delay_Control.htm
+Essential_Concepts/7._LHC_Secure_Login.htm
+Protocol_Steps/Loop_example.htm
+LHC Secure/Basic Tasks/How to change your password.htm
+LHC Secure/Sign the Audit Trail.htm
+Defining_a_Protocol/Using_the_BioStack/Advanced_Plate_Sequencing_with_the_BioStack.htm
+LHC Secure/System Administrator's Password.htm
+BioStack/Plate Stacked Height.htm
+Basic_Tasks/How_to_run_maintenance_programs.htm
+Tools/File_Locations.htm
+Liquid_Handling_Control.htm
+Protocol_Steps/Re-stack_plates_in_the_BioStack.htm
+Essential_Concepts/Understanding_the_LHC_Software.htm
+Essential_Concepts/4._Protocol_Steps.htm
+LHC Secure/Audit Trail/Audit Trail Events.htm
+Basic_Tasks/How_to_modify_a_protocol.htm
+LHC Secure/Basic Tasks/How to create or change a user account.htm
+LHC Secure/Audit Trail/Archiving Audit Trail Records.htm
+LHC Secure/Basic Tasks/How to find an item in the Audit Trail.htm
+Basic_Tasks/How_to_use_the_BioStack.htm
+LHC Secure/Security Settings.htm
+Protocol_Steps/BioStack_checkbox.htm
+Installation/Install_the_BioStack.htm
+Tools/BioStack_Utilities.htm
+Protocol_Steps/Repeat_steps_in_a_Loop.htm
+LHC Secure/How to change your password.htm
+Defining_a_Protocol/Using_the_BioStack/Serial_Dilutions_Examples.htm
+Defining_a_Protocol/Using_the_BioStack/Use_a_series_of_Nth_Plate_steps.htm
+Security/Databases/About_Databases.htm
+Getting_Started/Connect_the_instrument_to_the_PC.htm
+BioStack/Lid_Measurements.htm
+Basic_Tasks/How_to_print_a_Protocol.htm
+Essential_Concepts/2._Name,_Plate_Type,_and_Comments.htm
+Essential_Concepts/6._Use_the_BioStack.htm
+Installation/Robotics Integrators - Software Developers.htm
+LHC Secure/Basic Tasks/Creating and Maintaining User Accounts.htm
+LHC Secure/Audit Trail/Audit Trail Report.htm
+Essential_Concepts/Best_Practices.htm
+Protocol_Steps/Timer_Activated_Delay.htm
+BioStack/Install_the_BioStack.htm
+Installation/Install_the_liquid-handler.htm
+Essential_Concepts/LHC_Workspace_Image.htm
+LHC Secure/User ID and Password.htm
+Essential_Concepts/1._Instrument_Selection.htm
+LHC Secure/Protocol History.htm
+LHC Secure/Login Default Values.htm
+Tools/BioStack_Preferences.htm
+Security/Databases/Database Errors.htm
+Tools/How_to_upload_or_download_protocols.htm
+Basic_Tasks/How_to_change_select_an_instrument.htm
+Security/Databases/Clean Up the Database.htm
+LHC Secure/Audit Trail/Audit Trail Viewer.htm
+Basic_Tasks/Resize_the_screen.htm
+Essential_Concepts/Introducing_the_LHC_Workspace.htm
+LHC Secure/System Administrator's Checklist.htm
+Tools/Ports.htm
+Tools/LHC Tools.htm
+LHC Secure/Creating and Maintaining User Accounts.htm
+Getting_Started/Contact_Info/Phone_Support.htm
+Essential_Concepts/Common Application Data Folder.htm
+Installation/installing_software.htm
+Protocol_Steps/Delay_the_Protocol.htm
+Installation/LHC Setup Getting Started.htm
+Tools/about_com_ports.htm
+LHC Secure/21_CFR_Part_11.htm
+BioStack/Lid_Measurements_Advanced2.htm
+Essential_Concepts/5._Instrument_Control.htm
+LHC Secure/User Groups.htm
+Defining_a_Protocol/Using_the_BioStack/Use_a_series_of_Use_BioStack_steps.htm
+Basic_Tasks/Basic Tasks.htm
+LHC Secure/Email Server Settings.htm
+Protocol_Steps/Import_Protocol_Steps_.htm
+Defining_a_Protocol/About_the_Protocol_Steps.htm
+Tools/Startup_Options.htm
+Tools/Reminders.htm
+Protocol_Steps/Nth_Plate_to_perform_special_process.htm
+Getting_Started/Getting_Started.htm
+Getting_Started/Define Startup Preferences.htm
+LHC Secure/Develop a File Management Strategy.htm
+Tools/New_Protocol.htm
+Troubleshooting/Troubleshooting_Error_Recovery.htm
+Installation/system_requirements.htm
+BioStack/BioStack Plate Lid Definition.htm
+BioStack/Lid_Measurements_Advanced1.htm
+Security/Databases/Database_Maintenance.htm
+Getting_Started/Contact_Info/contacting_tech support.htm
+Basic_Tasks/How_to_download_upload_protocols.htm
+Security/Databases/Database Configuration.htm
+Defining_a_Protocol/Using_the_BioStack/Use_an_Nth_Plate_step_to_perform_maintenance.htm
+Protocol_Steps/About_the_Nth_Plate_Step.htm
+Redirect.htm
+Installation/Installation Checklist.htm
+BioStack/Microplate Dimensions.htm
+Troubleshooting/Software_Error_Codes.htm
+LHC Secure/Basic Tasks/How to turn off email alerts.htm
+Protocol_Steps/Add_a_Note_to_the_Protocol.htm
+Installation/Minimum Basecode Requirements.htm
+LHC Secure/Audit Trail/Audit Trails Overview.htm
+Tools/Transfer_Protocols.htm
+LHC Secure/Basic Tasks/How to apply an electronic or digital signature.htm
+LHC Secure/LHC Secure.htm
+LHC Secure/Email Alerts.htm
+Defining_a_Protocol/Create_a_Protocol.htm
+Essential_Concepts/LHC_structure.htm
+Essential_Concepts/3._Add_Steps.htm
+LHC Secure/Login.htm
+LHC Secure/Audit Trail/Audit Trail Setting.htm
+Tools/Reminder_Settings.htm
+In-This-Book.htm
+LHC Secure/Basic Tasks/How to turn off audit trail prompts.htm
+BioStack/Using_the_BioStack.htm
+Protocol_Steps/Protocol_Steps.htm
+Getting_Started/Test_Communication.htm
+Defining_a_Protocol/Define_a_Protocol.htm
+Basic_Tasks/Copy_and_paste.htm
+BioStack/BioStack_Communications_Port.htm
+Basic_Tasks/How_to_run_two_instruments_simultaneously.htm
+Installation/Define Your Startup Preferences.htm
+Security/Databases/Configure_PCs_to_use_the_Database.htm
+Getting_Started/Contact_Info/email_support.htm
+Tools/Preferences.htm
+Resources/Images/Warning.PNG
+Resources/Images/Reminder_expired.png
+Resources/Images/print_24.png
+Resources/Images/Reminder_active.png
+Data/Skin$global_main/AddComment_selected.gif
+Data/Skin$global_main/IndexIcon.gif
+Data/Skin$global_main/AddSearchToFavorites.gif
+Resources/Images/2_Name.gif
+Resources/Images/Word Import/03000003.png
+Resources/Images/Delay_btn.png
+Resources/Images/BioStack align.gif
+Resources/Images/Word Import/03000001.png
+Resources/Images/Nth_serial3_313x232.png
+Resources/Images/BioStack control1.gif
+Data/Skin$global_main/ReplyComment.gif
+Resources/Images/upload_btn.png
+Resources/Images/login-default.gif
+Resources/Images/Nth_serial3.png
+Resources/Images/binoculars.gif
+Resources/Stylesheets/LHC - 2018.css
+Data/Skin$global_main/CommentReply.gif
+Data/Skin$global_main/BrowsesequencesIcon.gif
+Resources/Images/AlignmentUtility.png
+Data/Skin$global_main/BrowsesequencesAccordionBackground_over.jpg
+Resources/Images/LHCworkspace1.jpg
+Resources/Images/loop_exmpl.png
+Resources/Images/archiving audittrail.gif
+Data/Skin$global_main/FavoritesIcon.gif
+Resources/Images/download_btn.png
+Data/Skin$global_main/Delete_selected.gif
+Data/Skin$global_main/AddComment.gif
+Data/Skin$global_main/ToolbarBackground.jpg
+Resources/TableStyles/Three-col-ruled-table.css
+Resources/Images/plate-stacked2.png
+Resources/Images/LHCstructure.png
+Data/Skin$global_main/BookOpen.gif
+Resources/Images/lhc upgrade new folder.png
+SkinSupport/MadCapGlobal.js
+Resources/Images/report toolbar.gif
+Resources/Images/from_file_btn.png
+Resources/Images/modify_btn.png
+Resources/Images/audit trail viewer filter.gif
+Resources/Images/BioStack_wash.png
+Data/Skin$global_main/ReplyComment_selected.gif
+Resources/Images/archiving.gif
+Resources/Images/radio-btn.png
+Resources/Images/BioStackDeliver.png
+Resources/Images/print btn.gif
+SkinSupport/MadCapHighlighter.js
+Data/Skin$global_main/RefreshTopicComments_over.gif
+Data/Skin$global_main/NavigationBottomGradient.jpg
+Data/Skin$global_main/SearchIcon.gif
+Resources/Images/Nth_maintenance_316x156.png
+Data/Skin$global_main/Stylesheet.xml
+Resources/Images/LHC Screen.png
+Data/Skin$global_main/NavigationBottomGradient_selected.jpg
+Data/Skin$global_main/FavoritesAccordionBackground_over.jpg
+Resources/Images/UseBioStack Btn.png
+SkinSupport/DropDownClosed.gif
+Resources/Images/checkbox_fill.png
+Resources/Stylesheets/LHC.css
+Data/Skin$global_main/TocAccordionBackground.jpg
+Resources/Images/4_Control.png
+Resources/Images/UseBioStack_check.png
+Resources/Images/File Mgmt 2019.jpg
+Resources/Images/caliper-all.JPG
+Data/Skin$global_main/NavigationTopGradient.jpg
+Resources/Images/LHC_workspace_TN.jpg
+Resources/Images/biostack.gif
+Data/Skin$global_main/AccordionIconsBackground.jpg
+Resources/Images/check in checkbox.png
+Resources/Images/checkbox-empty.png
+Resources/Images/Nth_block.png
+Resources/Images/email alerts.gif
+SkinSupport/MadCapEffectsMenu.js
+Resources/Images/restack.png
+Data/Skin$global_main/IndexAccordionBackground.jpg
+Data/Skin$global_main/GlossaryAccordionBackground_over.jpg
+Resources/Images/BioStack_useBtn.png
+SkinSupport/jquery-1.12.4.js
+Data/Skin$global_main/SearchAccordionBackground_over.jpg
+Resources/Images/BioStack control_192x124.gif
+Resources/Images/resize_icon.gif
+Resources/Images/7312138.png
+Resources/Images/lhc upgrade new folder.jpg
+Data/Skin$global_main/CommunityAccordionBackground_over.jpg
+Resources/Images/Port.bmp
+Resources/Images/7312138 ISO VIEW.png
+Resources/Images/NthPlate_btn.png
+Resources/Images/SAFETY13.gif
+Resources/Images/new_protocol_24.png
+Resources/Images/Nth_maintenance.png
+Resources/Images/Restack_btn.png
+Resources/Images/2_Name.png
+Resources/Images/name.png
+Resources/Images/lhc-Secure-Splash-Screen-final.png
+Resources/Images/timer-activated-sample2.gif
+Resources/Images/Stop_btn.png
+Data/Skin$global_main/Topic.gif
+SkinSupport/MadCapEffects.js
+Resources/Images/lightbulb.gif
+Resources/Images/audit trail1.gif
+SkinSupport/MadCapMerging.js
+Resources/Images/biostack_189x127.gif
+Data/Skin$global_main/Book.gif
+SkinSupport/MadCapAliasFile.js
+Resources/TableStyles/Inner.css
+Data/Skin$global_main/BrowsesequencesAccordionBackground.jpg
+Resources/Images/Get Settings.jpg
+SkinSupport/Images/MCSlider_controls.png
+Resources/Images/NET framework.jpg
+Resources/Images/emailsetup.gif
+Resources/Images/remark_btn.png
+Resources/Images/BioStack control.gif
+Data/Skin$global_main/TocAccordionBackground_over.jpg
+Resources/Images/db size gauge.gif
+SkinSupport/MadCap.css
+Resources/TableStyles/Rows.css
+Resources/Images/5_control-status.png
+Resources/Images/Word Import/03000002.png
+Resources/Images/disable_editing.png
+SkinSupport/DropDownOpen.gif
+Data/HelpSystem.xml
+Resources/Images/plate-stacked.bmp
+Resources/Images/BioStack_Retrieve.png
+Resources/Images/protocol name.gif
+Data/Skin$global_main/GlossaryIcon.gif
+Resources/Images/1_Instrument_selection.png
+Data/Skin$global_main/FavoritesAccordionBackground.jpg
+Resources/Images/loop_btn.png
+SkinSupport/Slideshow.css
+SkinSupport/MadCapUtilities.js
+Resources/Images/desktop.png
+Data/Skin$global_main/ReplyComment_over.gif
+Resources/Images/idle time clock.gif
+SkinSupport/RelatedTopics.gif
+Resources/Images/square in checkbox.png
+Resources/Images/file mgmt.gif
+Resources/Images/BioStack_serial.png
+Resources/Images/save_24.png
+SkinSupport/MadCapBodyEnd.js
+Resources/Images/disable Email.gif
+Data/Skin$global_main/TocIcon.gif
+Resources/TableStyles/Two-col-ruled-table.css
+Resources/Images/add_btn.png
+SkinSupport/MadCapSlideshow.js
+Resources/Images/horiz_baby_thin.jpg
+Resources/Stylesheets/LHC - Copy.css
+Resources/Images/Nth_maintenance1.png
+Resources/Images/BioStack_align btns.png
+Data/Skin$global_main/Delete_over.gif
+Resources/Images/UseBioStack.png
+Resources/TableStyles/Three-col-ruled-procedure.css
+Resources/Images/Run_btn.png
+Resources/Images/open_folder_24.png
+Resources/Images/Loop-start.png
+Data/Skin$global_main/GlossaryAccordionBackground.jpg
+Data/Skin$global_main/IndexAccordionBackground_over.jpg
+Resources/Images/refresh button.png
+Liquid_Handling_Control.xml
+Resources/Images/caution.gif
+Resources/Images/horiz_baby_med.jpg
+Data/Skin$global_main/RefreshTopicComments_selected.gif
+Resources/Images/grab_corner.png
+Resources/Images/Reminder_inactive.png
+Resources/Images/turn windows features on or off.png
+Resources/Images/Capture.png
+Resources/Images/validate_btn.png
+Resources/Images/delay_spin.png
+Resources/Images/Loop-end.png
+Resources/Images/db size.gif
+Resources/TableStyles/Small-invisible-table.css
+Resources/Images/4a_Control_running.png
+Data/Skin$global_main/Comment.gif
+Resources/Stylesheets/5331013 Rev A.css
+Data/Skin$global_main/CommunityAccordionBackground.jpg
+Resources/Images/print_preview_24.png
+Resources/Images/plate-stacked1.png
+Resources/Images/find audit trail item.gif
+Data/Alias.xml
+Data/Skin$global_main/Skin.xml
+Resources/Images/get settings.gif
+Resources/Images/Continue_btn.png
+SkinSupport/Images/MCSlider_loader.gif
+Data/Skin$global_main/AddSearchToFavorites_selected.gif
+Resources/Images/BioStack_exmple.png
+Resources/Images/5_Use Bio-Stack.png
+Data/Skin$global_main/SearchAccordionBackground.jpg
+Resources/Images/2_Add Step.png
+SkinSupport/MadCapBody.js
+Data/Skin$global_main/Delete.gif
+Data/Skin$global_main/AddSearchToFavorites_over.gif
+Data/Skin$global_main/AddComment_over.gif
+Resources/Images/disable Email1.gif
+Resources/Images/enable email alerts.gif
+Data/Skin$global_main/RefreshTopicComments.gif
+Resources/Images/timer-activated-sample1.jpg
+Resources/Images/lhc secure upgrade new folder and files.jpg
+Data/Skin$global_main/CommunityIcon.gif
+
+[ALIAS]
+#include _Temp.ali
+
+[MAP]
+#include LHC.h
+
+
+[MERGE FILES]
+405TSLS.chm
+406FX.chm
+MultiFloFX.chm
+EL406.chm
+50TS.chm
+
+[TEXT POPUPS]
+

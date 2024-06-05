@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Software Error Codes"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Rows.css" />
+    <Link
+      Url="Project/VariableSets/MyVariables.flvar" />
+    <Link
+      Url="Project/ConditionTagSets/Primary.flcts" />
+    <Link
+      Url="Content/Troubleshooting/Communication_Errors.htm" />
+    <Link
+      Url="Content/Instrument_Utilities/communications_port.htm" />
+    <Link
+      Url="Content/Getting_Started/Contact_Info/contacting_tech support.htm" />
+    <Link
+      Url="Content/Peri-Pump/Change_the_cassette_type_setting.htm" />
+    <Link
+      Url="Content/Syringe/Syringe_Dispense_Step.htm" />
+    <Link
+      Url="Content/LHC Control/Target_Instrument_Settings.htm" />
+    <Link
+      Url="Content/LHC Control/How_to_define_a_Protocol.htm" />
+    <Link
+      Url="Content/LHC Control/How_to_define_the_Plate_Map.htm" />
+    <Link
+      Url="Content/Instrument_Utilities/Instrument_Utilities__General.htm" />
+    <Link
+      Url="Content/Washer/Troubleshooting/Verify Technology Level Sensor Troubleshooting.htm" />
+    <Link
+      Url="Content/Washer/Verify/About Verify Technology.htm" />
+    <Link
+      Url="Content/Washer/Troubleshooting/Fluid Delivery Troubleshooting.htm" />
+    <Link
+      Url="Content/Washer/Troubleshooting/Fluid Aspiration Troubleshooting.htm" />
+    <Link
+      Url="Content/Washer/Strip Washer/Strip Washer_Settings.htm" />
+    <Link
+      Url="Content/Syringe/Change_the_Syringe_Manifold.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Rows.css" />
+    <Link
+      Url="Project/VariableSets/MyVariables.flvar" />
+    <Link
+      Url="Project/ConditionTagSets/Primary.flcts" />
+    <Link
+      Url="Content/Troubleshooting/Communication_Errors.htm" />
+    <Link
+      Url="Content/Instrument_Utilities/communications_port.htm" />
+    <Link
+      Url="Content/Getting_Started/Contact_Info/contacting_tech support.htm" />
+    <Link
+      Url="Content/Peri-Pump/Change_the_cassette_type_setting.htm" />
+    <Link
+      Url="Content/Syringe/Syringe_Dispense_Step.htm" />
+    <Link
+      Url="Content/LHC Control/Target_Instrument_Settings.htm" />
+    <Link
+      Url="Content/LHC Control/How_to_define_a_Protocol.htm" />
+    <Link
+      Url="Content/LHC Control/How_to_define_the_Plate_Map.htm" />
+    <Link
+      Url="Content/Instrument_Utilities/Instrument_Utilities__General.htm" />
+    <Link
+      Url="Content/Washer/Troubleshooting/Verify Technology Level Sensor Troubleshooting.htm" />
+    <Link
+      Url="Content/Washer/Verify/About Verify Technology.htm" />
+    <Link
+      Url="Content/Washer/Troubleshooting/Fluid Delivery Troubleshooting.htm" />
+    <Link
+      Url="Content/Washer/Troubleshooting/Fluid Aspiration Troubleshooting.htm" />
+    <Link
+      Url="Content/Washer/Strip Washer/Strip Washer_Settings.htm" />
+    <Link
+      Url="Content/Syringe/Change_the_Syringe_Manifold.htm" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="406_IS_Error_Codes" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Troubleshooting:LHC Error Codes"
+      Conditions=""
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="Error codes"
+      Conditions=""
+      LocalConditions=""
+      Position="9" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="MyVariables.Instrument" />
+    <Variable
+      Name="MyVariables.CompanyNickName" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Primary.405 LS" />
+    <Condition
+      Tag="Primary.Touchpad Exclude" />
+    <Condition
+      Tag="Primary.LHC Only" />
+    <Condition
+      Tag="Primary.405 Exclude" />
+    <Condition
+      Tag="Primary.405LS Exclude" />
+    <Condition
+      Tag="Primary.MultiFX Exclude" />
+    <Condition
+      Tag="Primary.MultiFX Only" />
+    <Condition
+      Tag="Primary.MFExclude" />
+    <Condition
+      Tag="Primary.405 Only" />
+    <Condition
+      Tag="Primary.MultiFlo Only" />
+    <Condition
+      Tag="Primary.406 Exclude" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Rows.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

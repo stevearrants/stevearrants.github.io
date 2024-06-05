@@ -1,0 +1,126 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="Using the BioStack" MadCap:PathToHelpSystem="../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Nth Plate to perform special process </title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/MadCap.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapEffects.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapEffectsMenu.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h1><a name="kanchor91"></a><span class="mc-variable System.Title variable">Nth Plate to perform special process </span>
+            </h1>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/NthPlate_btn.png" style="border: none;width: 83px;height: 23px;float: none;border-style: none;border-style: none;" width="83" height="23" border="0" />
+            </p>
+            <p class="NoteBlue">The Nth Plate feature is only available 
+ when <a href="Use_the_BioStack.htm">using the BioStack</a>. And, the Nth 
+ Plate step must be put inside a      <span style="font-weight: bold;">Use 
+ BioStack</span> step container.
+            </p>
+            <p class="NoteBlue">To precisely time the events in a BioStack 
+ run, also consider the Delay option, <a href="Timer_Activated_Delay.htm">Timer 
+ Activated Delay</a>.
+            </p>
+            <h5>About the Nth Plate</h5>
+            <p class="Body1">Read <a href="About_the_Nth_Plate_Step.htm" id="a1">About 
+ the Nth Plate step</a>, if you haven't already done so.
+        See Also: <a href="../Defining_a_Protocol/Using_the_BioStack/Advanced_Plate_Sequencing_with_the_BioStack.htm">Advanced 
+ Plate Sequencing with the BioStack</a> for more details and to see examples.</p>
+            <h5>How to define the Nth Plate Steps</h5>
+            <ul>
+                <li class="Note">Remember 
+ to consider the placement of the Nth Plate block in relation to non-special 
+ steps. When you want a special function to occur after a certain number 
+ of plates have been processed, put the Nth Plate block after that 
+ step in the <span style="font-weight: bold;">Use BioStack</span> block. 
+ <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="t1"><img style="border: none;margin-right: 5px;" src="ms-its:Liquid_Handling_Control.chm::/SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" />More...</a> 
+ Otherwise, determine the optimal sequencing of the Nth Plate and regular 
+ steps.
+                <div MadCap:targetName="t1" style="display: none;"><p>The LHC will perform the regular Use BioStack steps on all plates until 
+ the specified Nth plate is reached, then, the LHC will perform the Nth Plate 
+ steps. </p><p>When you want to perform a special function on the Nth Plate or before 
+ the Nth Plate has been processed, put the Nth Plate block before the regular 
+ step.</p></div></li>
+            </ul>
+            <ol start="1">
+                <li class="ListNumber" value="1">Highlight 
+ the "Use BioStack end tag" or the step that the Nth Plate block 
+ will precede and click the <span class="Button">Nth Plate</span> button. 
+             </li>
+            </ol>
+            <p class="Body1">The LHC adds start and end steps, 
+ with the end step highlighted.</p>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/Nth_maintenance1.png" style="border: none;width: 313px;height: 58px;float: none;border-style: none;border-style: none;" width="313" height="58" border="0" />
+            </p>
+            <ol start="2">
+                <li class="ListNumber" value="2">Define 
+ the start plate and how often to repeat the special procedure.
+            </li>
+                <li class="ListNumber" value="3">Use 
+ the checkboxes to tell the LHC to:
+            </li>
+            </ol>
+            <ul>
+                <li class="ListBullet"><span class="FieldName">Run 
+ only the Nth Plate steps</span>: fill the 
+ checkbox to perform only the 
+ steps in the Nth Plate block (step container) at the designated plate. 
+ Leave the checkbox blank to perform all the protocol steps on the Nth 
+ plate, i.e. both the Nth Plate steps and the protocol steps that follow 
+ the Nth Plate block and precede the next Nth Plate block or Use BioStack 
+ end tag. 
+            </li>
+                <li class="ListBullet"><span class="FieldName">Remove 
+ plate before running steps</span>: to perform the Nth Plate steps without 
+ a plate. Alternatively, de-select the checkbox to perform the steps on 
+ the designated plates.
+            </li>
+            </ul>
+            <ol start="4">
+                <li class="ListNumber" value="4">Click 
+ an action button and define the parameters for the "Nth Plate" 
+ steps to be performed. Make sure the steps are within the Nth Plate start 
+ and end tags.
+            </li>
+                <li class="ListNumber" value="5">Click 
+ <span class="Button">Validate</span> to make sure the protocol syntax is 
+ correct. 
+            </li>
+            </ol>
+            <p class="Tip">Add 
+ a <span class="Button">Delay</span> step to the protocol/Nth Plate steps 
+ to allow time during processing to put a special plate, like a priming 
+ plate, on the instrument or to do another manual task.</p>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

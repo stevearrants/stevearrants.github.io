@@ -1,0 +1,65 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="LHC Secure|System Administrator's Checklist" MadCap:PathToHelpSystem="../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Develop a File Management Strategy</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/MadCap.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h2 class="Heading2">Develop a File Management Strategy</h2>
+            <p class="NoteBlue">For <b>LHC Secure</b> only.</p>
+            <p class="Body1">An important first step for a system administrator is to decide how to manage <b>protocols</b> (.LHC file extension) and the database, <b>LHC_DB_ACC.mdb</b>.</p>
+            <p class="Picture">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/File Mgmt 2019.jpg" />
+            </p>
+            <h3 class="Heading3">Database</h3>
+            <div>
+                <p class="Body1">When installing LHC Secure, you must decide whether to keep the LHC database on the <b>local</b> computer or move it to a shared <b>network</b> computer. Your choice depends on your lab's workflow:</p>
+                <ul>
+                    <li class="ListBullet2"><b>Local</b> — If one computer is used  to control <span class="mc-variable MyVariables.CompanyNickName variable">Agilent</span> liquid handler(s), keep the database on this computer.</li>
+                    <li class="ListBullet2"><b>Network</b> — If multiple computers are used  to control <span class="mc-variable MyVariables.CompanyNickName variable">Agilent</span> liquid handler(s), put the database on a network that all LHC users can access.  </li>
+                </ul>
+                <p class="Body1" style="margin-top: 6px;">By default during installation, the LHC stores the database on each computer (i.e., local), in the Windows <a href="../Essential_Concepts/Common Application Data Folder.htm" class="MCXref_0" xrefformat="{paratext} ">Common Application Data Folder </a>.</p>
+                <p class="Body1" style="margin-top: 6px;">Learn more <a href="../Security/Databases/About_Databases.htm" class="MCXref_ParaTextOnly_0" xrefformat="{paratext}">About the LHC Secure Databases</a>.</p>
+            </div>
+            <h3 class="Heading3">Protocol Files</h3>
+            <p class="Body1">When running LHC&#160;Secure using a shared network computer,&#160;consider also sharing protocol files among users. Reasons:</p>
+            <ul>
+                <li class="ListBullet2">Protocol files are not stored inside the shared database. Protocol files are stored individually on a local or shared computer.</li>
+                <li class="ListBullet2">Each protocol file contains its own embedded protocol audit trail. The best way to manage revision and change control is to require multiple LHC users to share the same set of protocol files. This ensures one protocol audit trail captures all changes made to the protocol.</li>
+                <li class="ListBullet2">When protocol files are not shared by users, the records in the system audit trail may become confusing or even misleading due to references to similarly- or same-named protocols residing on each individual user's computer. </li>
+            </ul>
+            <h3 class="Heading3">Archiving Files</h3>
+            <p class="Body1">Determine the best method and location for archiving protocols and the system audit trail. Also consider the<MadCap:conditionalText MadCap:conditions="Primary.ScreenOnly"> <a href="Protocol History.htm">Protocol History</a> </MadCap:conditionalText>folder that LHC&#160;creates in the protocol's source folder, if this feature is enabled. </p>
+            <p class="Body1"><a href="../Security/Databases/Database_Maintenance.htm" class="MCXref_See_Also_0" xrefformat="See also {b}{paratext}{/b}">See also <b>Database Maintenance</b></a>.</p>
+            <p class="Body1"><b>Backups</b>: Perform backups on a regular schedule to preserve data. Consult your organization's IT administrator to develop a plan. Network files are typically backed up automatically and frequently. For files stored locally, take advantage of the LHC's<MadCap:conditionalText MadCap:conditions="Primary.ScreenOnly"> <a href="../Tools/Reminders.htm">Reminders</a> </MadCap:conditionalText>tool to prompt users to copy LHC files to a portable media format.</p>
+            <p class="Tip" style="margin-top: 12pt;margin-bottom: 12pt;" MadCap:conditions="Primary.ScreenOnly">After you decide how to store, structure, and archive files, be sure to train users.           </p>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultAliasFile Version="1">
+    <Map Name="New_Protocol" Link="Tools/New_Protocol.htm" ResolvedId="1809" />
+    <Map Name="Perform_special_process_when_using_Bio_Stack" Link="Protocol_Steps/Nth_Plate_to_perform_special_process.htm" ResolvedId="1603" />
+    <Map Name="Reminder_Settings" Link="Tools/Reminder_Settings.htm" ResolvedId="1706" />
+    <Map Name="Repeat_steps_in_a_Loop" Link="Protocol_Steps/Repeat_steps_in_a_Loop.htm" ResolvedId="1509" />
+    <Map Name="Sounds" Link="Tools/Sounds.htm" ResolvedId="1806" />
+    <Map Name="BioStack_Communications_Port" Link="BioStack/BioStack_Communications_Port.htm" ResolvedId="1606" />
+    <Map Name="Transfer_Protocols" Link="Tools/Transfer_Protocols.htm" ResolvedId="1700" />
+    <Map Name="Add_a_Note_to_the_Protocol" Link="Protocol_Steps/Add_a_Note_to_the_Protocol.htm" ResolvedId="1506" />
+    <Map Name="Installed_Instruments" Link="Getting_Started/Installed_Instruments.htm" ResolvedId="1006" />
+    <Map Name="Use_the_BioStack" Link="Protocol_Steps/Use_the_BioStack.htm" ResolvedId="1600" />
+    <Map Name="Delay_Control" Link="Protocol_Steps/Delay_Control.htm" ResolvedId="1512" />
+    <Map Name="Delay_the_Protocol" Link="Protocol_Steps/Delay_the_Protocol.htm" ResolvedId="1500" />
+    <Map Name="BioStack_Utilities" Link="Tools/BioStack_Utilities.htm" ResolvedId="1812" />
+    <Map Name="Dummy_Unused" Link="Redirect.htm" ResolvedId="1000" />
+    <Map Name="Startup_Options" Link="Tools/Startup_Options.htm" ResolvedId="1800" />
+    <Map Name="Reminders" Link="Tools/Reminders.htm" ResolvedId="1703" />
+    <Map Name="File_Locations" Link="Tools/File_Locations.htm" ResolvedId="1803" />
+    <Map Name="User_ID_and_Password" Link="LHC Secure/User ID and Password.htm" ResolvedId="1842" />
+    <Map Name="Login_and_Password_Controls" Link="LHC Secure/Login and Password Controls.htm" ResolvedId="1851" />
+    <Map Name="Email_Server_Settings" Link="LHC Secure/Email Server Settings.htm" ResolvedId="1848" />
+    <Map Name="Email_Alerts" Link="LHC Secure/Email Alerts.htm" ResolvedId="1845" />
+    <Map Name="Login" Link="LHC Secure/Login.htm" ResolvedId="1854" />
+    <Map Name="Sign_the_Protocol" Link="LHC Secure/Sign the Audit Trail.htm" ResolvedId="1836" />
+    <Map Name="Audit_Trail_Report" Link="LHC Secure/Audit Trail/Audit Trail Report.htm" ResolvedId="1833" />
+    <Map Name="Audit_Trail_Viewer" Link="LHC Secure/Audit Trail/Audit Trail Viewer.htm" ResolvedId="1830" />
+    <Map Name="Database_Configuration" Link="Security/Databases/Database Configuration.htm" ResolvedId="1839" />
+    <Map Name="Audit_Trail_Settings" Link="LHC Secure/Audit Trail/Audit Trail Setting.htm" ResolvedId="1857" />
+    <Map Name="Audit_Trail_Setting" Link="LHC Secure/Audit Trail/Audit Trail Setting.htm" ResolvedId="1852" />
+    <Map Name="Protocol_History" Link="LHC Secure/Protocol History.htm" ResolvedId="1853" />
+    <Map Name="Ports" Link="Tools/Ports.htm" ResolvedId="1810" />
+    <Map Name="Plate_Stacked_Height" Link="BioStack/Plate Stacked Height.htm" ResolvedId="1607" />
+    <Map Name="BioStack_Alignment" Link="BioStack/BioStack Alignment Utility.htm" ResolvedId="1813" />
+    <Map Name="BioStack_Preferences" Link="Tools/BioStack_Preferences.htm" ResolvedId="1811" />
+    <Map Name="BioStack_Plate_Lid_Definition" Link="BioStack/BioStack Plate Lid Definition.htm" ResolvedId="1608" />
+</CatapultAliasFile>

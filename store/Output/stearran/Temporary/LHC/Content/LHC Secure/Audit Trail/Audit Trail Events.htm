@@ -1,0 +1,334 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Audit Trail Events</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/TableStyles/Rows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <script src="../../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h2 class="Heading2">Audit Trail Events</h2>
+            <table style="border-collapse: collapse;mc-table-style: url('../../Resources/TableStyles/Rows.css');border-left-style: solid;border-left-width: 2px;border-left-color: #696969;border-right-style: solid;border-right-width: 2px;border-right-color: #696969;border-top-style: solid;border-top-width: 2px;border-top-color: #696969;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: #696969;margin-left: 0;margin-right: auto;caption-side: top;" class="TableStyle_Rows" cellspacing="0">
+                <col />
+                <col />
+                <col style="width: 131px;" />
+                <col />
+                <thead>
+                    <tr>
+                        <th class="TableStyle_Rows_Head_0_0_RowSep_ColSep">Event</th>
+                        <th class="TableStyle_Rows_Head_0_0_RowSep_ColSep">Audit Trail</th>
+                        <th class="TableStyle_Rows_Head_0_0_RowSep_ColSep">Description</th>
+                        <th class="TableStyle_Rows_Head_0_0_RowSep_ColEnd">Recorded Data</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Run Start</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Start of run</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">Instrument serial number; Protocol file name and version.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Run End Success</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">End of successful run</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">Instrument serial number;</p>
+                        <p class="TableBody">Protocol file name and version; Run duration; BioStack plate number; Loop number.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Run End Error</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Error during run</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">Instrument serial number; Error details; Protocol file name</p>
+                        <p class="TableBody">and version.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Run End Stopped</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Run was stopped by user</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">Instrument serial number; Protocol file name and version; Run duration; BioStack plate number; Loop number.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Protocol Save</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System and Protocol</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Change to a protocol (save)</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">Protocol file name; Protocol change version.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">User Info Changed</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">User information changed</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">Last changed user account.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Email Info Changed</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Email settings changed</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">None</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Audit Trail Export</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Export system audit trail records to a file</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">Start date; End date; Event  type filter; User name filter; Rows deleted: True or False; Export file name; </p>
+                        <p class="TableBody">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Security Settings Changed</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Security setting change</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">None</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Sign Review Approval</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System &amp; Protocol</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Electronic signature </p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">None</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Sign Review Reject</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System &amp; Protocol</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Electronic signature </p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">None</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Sign Responsibility</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System &amp; Protocol</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Electronic signature </p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">None</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Sign Authorship</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System &amp; Protocol</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Electronic signature </p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">None</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Sign General Comment</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System &amp; Protocol</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Electronic signature </p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">None</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">User Login</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">User login event</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">None</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">User Logout</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">User logout event</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">None</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Instrument Setup</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">Instrument utilities screen opened</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">Instrument serial number.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">File Transfer to Instrument</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">File transfer from LHC to instrument</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">File name; Instrument serial number; File locked: True or False; Protocol change version.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">File Transfer from Instrument</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColSep">
+                        <p class="TableBody">File transfer from instrument to LHC</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_0_0_RowSep_ColEnd">
+                        <p class="TableBody">File name; Instrument serial number; File locked: True or False; Protocol change version.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">Stacker Plate Processed</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">System</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColSep">
+                        <p class="TableBody">BioStack with barcode scanner plate processing</p>
+                    </td>
+                    <td class="TableStyle_Rows_Body_1_0_RowSep_ColEnd">
+                        <p class="TableBody">Instrument serial number; Run duration; Plate number and barcode.  </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

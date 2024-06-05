@@ -1,0 +1,100 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:PathToHelpSystem="../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Timer Activated Delay</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h3><a name="kanchor103"></a>Timer Activated Delay</h3>
+            <p class="Body1">To gain precise control over your chemistry in complex protocols, 
+ consider using the <span style="font-weight: bold;">Timer Activated</span> 
+ delay option to specify when to launch a protocol step. You can make sure processing time is the same for
+ every plate, to ensure, for example, 
+ that reagent remains in every plate for a minimum or uniform time period. 
+ </p>
+            <p class="Body1">This is especially beneficial when designing a multi-step 
+ BioStack protocol that is run with varying numbers of plates in the 
+ stack. If the timer is not used in this scenario, assay performance could be
+ significantly different in a protocol run of 30 plates versus a 10-plate run. 
+ </p>
+            <ul>
+                <li class="Note"><span style="font-weight: bold;">Important</span>: 
+ if the timer activated interval elapses before the steps in the step container 
+ are completed, there will be no delay, i.e. all steps will be executed 
+ without timed control.
+</li>
+            </ul>
+            <p class="textboxL"> <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/lightbulb.gif" /> A Timer-Activated Delay puts start and end      steps in the protocol. To remove the delay from the protocol, you must delete both steps: hold the Ctrl key to select both  steps simultaneously.</p>
+            <h6 class="Heading6">Examples:</h6>
+            <p class="Body1" style="font-weight: bold;">Simple Delay</p>
+            <p class="Body1">To use the timer successfully, you must first determine 
+ the approximate duration of your protocol steps. Specify a sufficient 
+ time lapse to both complete the steps and to delay the process to suit 
+ your assay. </p>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/Delay_btn.png" style="border: none;width: 81px;height: 22px;float: none;border-style: none;" width="81" height="22" border="0" /> Define 
+ a <a href="Delay_the_Protocol.htm">Delay</a> step.</p>
+            <p class="Body1">When a 'timer activated' delay is defined, the LHC adds 
+ a start and end event to the protocol. </p>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/timer-activated-sample1.jpg" style="border: none;width: 345px;height: 136px;float: none;" width="345" height="136" border="0" />
+            </p>
+            <p class="Body1">The start and end events create a step container, similar 
+ to a Loop or BioStack run. </p>
+            <p class="Body1">The example above shows how to manage the start time of 
+ two sequential operations, or steps. In this example, the timer is started 
+ prior to the Peri-pump dispense operation and ended prior to the Syringe 
+ pump dispense operation. The specified 5-minute delay is much longer than 
+ the duration of the Peri-pump dispense operation..</p>
+            <p class="Body1" style="font-weight: bold;">Nested Delays</p>
+            <p class="Body1">The timer activated delay can be nested within another time 
+ controlled series of protocol steps. This may be necessary to specify 
+ multiple processing start times for a complex series of steps, including 
+ loops and BioStack steps.</p>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/timer-activated-sample2.gif" style="border: none;width: 348px;height: 267px;float: none;" width="348" height="267" border="0" />
+            </p>
+            <p class="Body1">This example uses a BioStack rack of plates. The process 
+ requires that each plate in the rack be filled with 250 µL from the Peri-pump 
+ and then, after 1 hour, the plate is washed. The protocol will fill each 
+ plate in the rack, restack the plates, and then wash each plate 1 hour 
+ after it was filled. The dispense and wash activities are each performed 
+ within a 1 minute processing window created by the timers. This timer 
+ configuration ensures that the timing of washing after dispensing is identical for every 
+ plate .</p>
+            <p class="Body1">Once again, make sure there is sufficient time to process 
+ all the steps within the step containers, and to incorporate any desired 
+ incubation or rest periods when defining the timer activated time period.</p>
+            <p class="Body1">&#160;</p>
+            <p class="Body1">&#160;</p>
+            <p class="Body1">&#160;</p>
+            <p class="Body1">&#160;</p>
+            <p class="Body1">&#160;</p>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

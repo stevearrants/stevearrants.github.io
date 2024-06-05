@@ -1,0 +1,363 @@
+/*<meta />*/
+
+p
+{
+	font-family: 'Book Antiqua';
+	font-size: 11pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ol
+{
+	font-family: 'Book Antiqua';
+	font-size: 11pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ul
+{
+	font-family: 'Book Antiqua';
+	font-size: 11pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+li
+{
+	font-family: 'Book Antiqua';
+	font-size: 11pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+td
+{
+	font-family: 'Book Antiqua';
+	font-size: 11pt;
+	vertical-align: top;
+}
+
+p.Header
+{
+	font-family: Verdana;
+	font-size: 9pt;
+}
+
+span.Input
+{
+	font-weight: bold;
+	letter-spacing: 0pt;
+	font-size: 10pt;
+}
+
+p.Footer
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #000000;
+	font-family: Verdana;
+	font-size: 9pt;
+}
+
+span.PageNumber
+{
+	font-size: 9pt;
+}
+
+p.BodyText
+{
+	font-size: 11pt;
+	margin-bottom: 6pt;
+	font-family: 'Book Antiqua';
+}
+
+p.TableBody
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	font-family: 'Book Antiqua';
+}
+
+p.BodyText_1
+{
+	font-size: 11pt;
+	font-family: 'Book Antiqua';
+	margin-bottom: 0pt;
+	text-align: center;
+}
+
+p.TableBody_1
+{
+	page-break-after: avoid;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: center;
+	color: #002060;
+	font-size: 48pt;
+	font-family: Webdings;
+}
+
+td.td_1
+{
+	background-color: #D9D9D9;
+	border-top-style: solid;
+	border-top-width: 2pt;
+	border-top-color: black;
+	border-left-style: solid;
+	border-left-width: 2pt;
+	border-left-color: black;
+	border-right-style: solid;
+	border-right-width: 2pt;
+	border-right-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 2pt;
+	border-bottom-color: black;
+}
+
+span.span_1
+{
+	font-family: Verdana;
+}
+
+span.span_2
+{
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+sup.sup_1
+{
+	font-family: Verdana;
+}
+
+span.span_3
+{
+	font-family: Verdana;
+	text-decoration: underline;
+}
+
+p.TableBody_2
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: 'Book Antiqua';
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	margin-left: 7pt;
+	margin-right: 7pt;
+}
+
+span.span_4
+{
+	font-family: Verdana;
+	font-weight: bold;
+	color: #002060;
+}
+
+span.span_5
+{
+	font-family: Verdana;
+	font-weight: bold;
+	color: #002060;
+	text-decoration: underline;
+}
+
+p.TableBody_3
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: 'Book Antiqua';
+	margin-top: 6pt;
+	margin-bottom: 8pt;
+	margin-left: 7pt;
+	margin-right: 7pt;
+}
+
+td.td_2
+{
+	background-color: #F2F2F2;
+	vertical-align: middle;
+	border-top-style: solid;
+	border-top-width: 2pt;
+	border-top-color: black;
+	border-right-style: solid;
+	border-right-width: 2pt;
+	border-right-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 2pt;
+	border-bottom-color: black;
+}
+
+table.table_1
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F2F2F2;
+	border-collapse: collapse;
+}
+
+p.TableBody_4
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: 'Book Antiqua';
+	margin-top: 0pt;
+	margin-bottom: 6pt;
+	margin-left: 7pt;
+	margin-right: 7pt;
+}
+
+p.TableBody_5
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: 'Book Antiqua';
+	margin-top: 0pt;
+	margin-bottom: 12pt;
+	margin-left: 7pt;
+	margin-right: 7pt;
+}
+
+img.img_1
+{
+	visibility: visible;
+}
+
+img.img_2
+{
+	visibility: visible;
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-left-style: solid;
+	border-left-width: 1pt;
+	border-right-style: solid;
+	border-right-width: 1pt;
+}
+
+p.TableBody_6
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: 'Book Antiqua';
+	margin-top: 0pt;
+	margin-bottom: 26pt;
+	margin-left: 7pt;
+	margin-right: 7pt;
+	text-align: center;
+}
+
+p.TableBody_7
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: 'Book Antiqua';
+	margin-top: 0pt;
+	margin-bottom: 15pt;
+	margin-left: 7pt;
+	margin-right: 7pt;
+}
+
+span.span_6
+{
+	font-family: Verdana;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p.TableBody_8
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: 'Book Antiqua';
+	margin-top: 1pt;
+	margin-bottom: 18pt;
+	margin-left: 7pt;
+	margin-right: 7pt;
+	text-align: center;
+}
+
+p.TableBody_9
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: 'Book Antiqua';
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 7pt;
+	margin-right: 7pt;
+}
+
+p.TableBody_10
+{
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: 'Book Antiqua';
+	margin-top: 12pt;
+	margin-bottom: 24pt;
+	margin-left: 7pt;
+	margin-right: 7pt;
+	text-align: center;
+}
+
+span.span_7
+{
+	font-family: Verdana;
+	font-style: italic;
+}
+
+span.span_8
+{
+	font-family: Wingdings;
+}
+
+span.span_9
+{
+	font-family: 'Wingdings 2';
+}
+
+span.Input_1
+{
+	font-weight: bold;
+	letter-spacing: 0pt;
+	font-style: italic;
+	color: #002060;
+	font-size: 11pt;
+}
+
+span.Input_2
+{
+	font-weight: bold;
+	letter-spacing: 0pt;
+	font-style: italic;
+	color: #002060;
+	font-size: 11pt;
+	text-decoration: underline;
+}
+
+p.Header_1
+{
+	font-family: Verdana;
+	font-size: 9pt;
+	margin-left: 5pt;
+	margin-right: 5pt;
+	margin-bottom: 18pt;
+	text-align: right;
+}
+
+p.Footer_1
+{
+	font-family: Verdana;
+	font-size: 9pt;
+	margin-left: 5pt;
+	margin-right: 5pt;
+	border-top-style: none;
+	border-top-width: 0pt;
+	border-top-color: black;
+}
+

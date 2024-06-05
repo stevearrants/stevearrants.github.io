@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin Version="4" Title="LHC" AutoSyncTOC="true" Tabs="TOC,Index,Search" Top="78px" Left="736px" Width="690px" Height="677px" DefaultTab="Search" ToolbarInTopic="false" EnableAboutBox="false" Bottom="295px" Right="254px">
+    <HtmlHelpOptions ShowMenuBar="false" TopmostWindowStyle="false" AutoShowNavigationPane="true" EnableButtonCaptions="true" AdvancedSearch="true" NavigationPaneWidth="222" Buttons="Hide,Back,Forward,Options,Print" HideNavigationOnStartup="false" />
+    <Toc LinesBetweenItems="true" LinesFromRoot="false" SingleClick="true" PlusMinusSquares="true" AlwaysShowSelection="true" FontFamily="MS Sans Serif" FontSize="8" UseFolderIcons="false" ImageListWidth="" Border="FixedSingle" />
+    <Stylesheet Link="Stylesheet.xml" />
+    <Index BinaryStorage="true" />
+</CatapultSkin>

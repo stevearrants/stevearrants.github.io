@@ -1,0 +1,735 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+@media print
+{
+	mcTableStyle
+	{
+		
+	}
+
+	mcTableColumnStyle
+	{
+		separator-style: none;
+		separator-width: 0px;
+		separator-color: #808080;
+	}
+
+	mcTableHeadStyle
+	{
+		
+	}
+
+	mcTableBodyStyle
+	{
+		font-weight: normal;
+		font-size: 8pt;
+		font-family: 'Roboto Light';
+	}
+}
+
+mcTableStyle
+{
+	name: Three-col-ruled-procedure;
+	border-spacing-y: 1;
+	border-spacing-x: 1;
+	border-collapse: collapse;
+	max-id: 3;
+	cell-padding-left: 3px;
+	cell-padding-right: 3px;
+	cell-padding-top: 3px;
+	cell-padding-bottom: 3px;
+	margin-left: 1in;
+	margin-top: 10px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	name: Column1;
+	id: 0;
+	font-size: 9pt;
+	font-family: 'Roboto Light';
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	id: 3;
+	name: Header1;
+	background-color: #e2eef5;
+	separator-style: solid;
+	separator-width: 1px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	size: 12pt;
+	separator-color: #808080;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	name: Body1;
+	id: 1;
+	font-size: 10pt;
+	font-family: 'Roboto Light';
+	type: Automatic;
+	size: 12pt;
+}
+
+
+/* Cell Styles: */
+ 
+@media print
+{
+	.TableStyle-Three-col-ruled-procedure
+	{
+		border-spacing: 0px 0px;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-HeadE-Column1-Header1
+	{
+		border-right-width: 0px;
+		border-right-color: #808080;
+		border-right-style: none;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-HeadH-Column1-Header1
+	{
+		border-right-width: 0px;
+		border-right-color: #808080;
+		border-right-style: none;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-HeadB-Column1-Header1
+	{
+		border-right-width: 0px;
+		border-right-color: #808080;
+		border-right-style: none;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-FootE-Column1-
+	{
+		border-right-width: 0px;
+		border-right-color: #808080;
+		border-right-style: none;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-FootH-Column1-
+	{
+		border-right-width: 0px;
+		border-right-color: #808080;
+		border-right-style: none;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-FootB-Column1-
+	{
+		border-right-width: 0px;
+		border-right-color: #808080;
+		border-right-style: none;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyI-Column1-Body1
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyI-Column1-Body1 p
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyE-Column1-Body1
+	{
+		font-weight: normal;
+		border-right-width: 0px;
+		border-right-color: #808080;
+		border-right-style: none;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyE-Column1-Body1 p
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyF-Column1-Body1
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyF-Column1-Body1 p
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyH-Column1-Body1
+	{
+		font-weight: normal;
+		border-right-width: 0px;
+		border-right-color: #808080;
+		border-right-style: none;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyH-Column1-Body1 p
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyD-Column1-Body1
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyD-Column1-Body1 p
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyC-Column1-Body1
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyC-Column1-Body1 p
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyB-Column1-Body1
+	{
+		font-weight: normal;
+		border-right-width: 0px;
+		border-right-color: #808080;
+		border-right-style: none;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyB-Column1-Body1 p
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyA-Column1-Body1
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyA-Column1-Body1 p
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyG-Column1-Body1
+	{
+		font-weight: normal;
+	}
+
+	.TableStyle-Three-col-ruled-procedure-BodyG-Column1-Body1 p
+	{
+		font-weight: normal;
+	}
+}
+
+.TableStyle-Three-col-ruled-procedure
+{
+	border-collapse: collapse;
+	margin-left: 1in;
+	margin-top: 10px;
+	border-spacing: 1px 1px;
+}
+
+.TableStyle-Three-col-ruled-procedure-Column-Column1
+{
+	
+}
+
+.TableStyle-Three-col-ruled-procedure-Head-Header1
+{
+	height: 12pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadI-Column1-Header1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	background-color: #e2eef5;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadI-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadE-Column1-Header1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	background-color: #e2eef5;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadE-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadF-Column1-Header1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	background-color: #e2eef5;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadF-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadH-Column1-Header1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	background-color: #e2eef5;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadH-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadD-Column1-Header1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	background-color: #e2eef5;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadD-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadC-Column1-Header1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	background-color: #e2eef5;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadC-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadB-Column1-Header1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	background-color: #e2eef5;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadB-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadA-Column1-Header1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	background-color: #e2eef5;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadA-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadG-Column1-Header1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	background-color: #e2eef5;
+}
+
+.TableStyle-Three-col-ruled-procedure-HeadG-Column1-Header1 p
+{
+	font-family: 'Roboto Medium';
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootI-Column1-
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootI-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootE-Column1-
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootE-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootF-Column1-
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootF-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootH-Column1-
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootH-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootD-Column1-
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootD-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootC-Column1-
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootC-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootB-Column1-
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootB-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootA-Column1-
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootA-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootG-Column1-
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-FootG-Column1- p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-Body-Body1
+{
+	height: 12pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyI-Column1-Body1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyI-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyE-Column1-Body1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyE-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyF-Column1-Body1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyF-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyH-Column1-Body1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyH-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyD-Column1-Body1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyD-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyC-Column1-Body1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyC-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyB-Column1-Body1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyB-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyA-Column1-Body1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyA-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyG-Column1-Body1
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+.TableStyle-Three-col-ruled-procedure-BodyG-Column1-Body1 p
+{
+	font-family: 'Roboto Light';
+	font-size: 9pt;
+}
+
+

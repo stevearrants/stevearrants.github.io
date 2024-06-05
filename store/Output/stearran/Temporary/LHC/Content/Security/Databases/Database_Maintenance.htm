@@ -1,0 +1,66 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="LHC Secure|Database Configuration" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Database Maintenance</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/SkinSupport/MadCap.css" rel="stylesheet" type="text/css" MadCap:generated="True" />
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapEffects.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapEffectsMenu.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h3 class="Heading3">Database Maintenance</h3>
+            <table style="margin-left: 0; margin-right: auto;">
+                <col style="width: 373px;" />
+                <col style="width: 164px;" />
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="TableBodySmall">
+                                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/db size gauge.gif" />
+                            </p>
+                        </td>
+                        <td>
+                            <p class="TableBodySmall">LHC shows the current file size.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="Body1">Minimal oversight is required to keep the LHC database performing as expected. Regular backups, as with all important data, are recommended. Occasional file clean up, once a year for most organizations, is the only other administrative task required.</p>
+            <ul>
+                <li class="ListBullet"><b>Backups</b>: in consultation with your IT&#160;administrator, develop a plan to backup the database regularly. If you store the database on your organization's network (e.g. LAN), backup is likely already managed by your IT group. If the database resides on a stand-alone host computer, make a plan to copy the file regularly to an external storage device, e.g., external hard drive.</li>
+                <li class="ListBullet"><b>File Clean Up</b>: in the <span class="MCTextPopup"><span class="MCTextPopupBody_0" style="display: none; ">Select System&gt;Audit Trail&gt;System Audit Trail</span><a class="MCTextPopupSpot_0" href="javascript:void(0);" onclick="FMCTextPopup( event, this ); return false;">Audit Trail Viewer</a></span>, use  the "<span class="Link">Archive to File</span>" and "<span class="FieldName">Permanently remove records after archiving</span>" controls to clean up, or more accurately, reduce the database file size. Keep an eye on the database file size, maximum 2 gigs, to determine when this is necessary. LHC&#160;provides a visual gauge of the file size at    <span class="Input">System&gt;Database Configuration</span>. When necessary, <a href="Clean Up the Database.htm">clean up the database</a>.</li>
+            </ul>
+            <p class="Body1" style="margin-top: 9pt;">For additional guidance, <a href="../../Getting_Started/Contact_Info/contacting_tech support.htm">contact Technical Support</a>. &#160;&#160;</p>
+            <p class="textboxL"> <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/lightbulb.gif" /> If it is not covered in your backup procedure for the database, also make a plan to backup your protocol files for safe keeping.  </p>
+            <p>&#160;</p>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

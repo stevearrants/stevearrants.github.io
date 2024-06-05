@@ -1,0 +1,85 @@
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="HtmlHelp" MadCap:tocPath="Protocol Steps" MadCap:PathToHelpSystem="../" MadCap:HelpSystemFileName="Liquid_Handling_Control.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" /><title>Delay the Protocol</title>
+        <link href="ms-its:Liquid_Handling_Control.chm::/Resources/Stylesheets/LHC.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery-1.12.4.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapGlobal.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapSlideshow.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapMerging.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAliasFile.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapUtilities.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div role="main" id="mc-main-content">
+            <h1><a name="kanchor105"></a><span class="mc-variable System.Title variable">Delay the Protocol</span>
+            </h1>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/Delay_btn.png" style="border: none;width: 81px;height: 22px;float: none;border-style: none;border-style: none;" width="81" height="22" border="0" /><a name="kanchor106"></a> Use this control to temporarily delay the procedure. It adds 
+ a delay step to your protocol. You can set:</p>
+            <ul>
+                <li class="ListBullet">
+                an 
+ indefinite delay, which must be manually ended during operation;
+            </li>
+                <li class="ListBullet">
+                a 
+ timed delay, which can be manually overridden when necessary;
+            </li>
+                <li class="ListBullet">
+                or, 
+ for more precise control of your chemistry, you can use a timer to launch 
+ a protocol step. This "timer activated" delay lets you apply 
+ a uniform processing time to each plate in a multi-plate run.
+            </li>
+            </ul>
+            <h5>Delay Type&#160;</h5>
+            <p class="Body1"><span class="Input">Indefinite</span>: 
+ To delay the procedure until the operator manually ends it. A message 
+ box will open with a <span class="Button">Continue</span> button. Any <span class="FieldName"><a name="kanchor107"></a>Prompt</span> text will be displayed on-screen, as well. 
+ The run will be paused until the operator clicks Continue.</p>
+            <p class="Body1"><span class="Input">Fixed-duration</span>: To pause the protocol 
+ for a certain length of time. Select this option and specify the delay 
+ duration in the time control. At the start of the delay, a message box 
+ will open with a <span class="Button">Continue</span> button and any <span class="FieldName">Prompt</span> text. The operator can override the delay 
+ at any time by clicking the Continue button. Otherwise, the protocol will 
+ not resume until the specified time has expired. </p>
+            <p class="Body1"><span class="Input">Timer-activated</span>: To control the start time of a protocol step. This option is most useful 
+ in complex protocols that use the BioStack or another robot to process 
+ multiple plates. You can make sure that each plate is processed at a precise 
+ time. <a href="Timer_Activated_Delay.htm">Learn more...</a> <![CDATA[  ]]></p>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/delay_spin.png" style="border: none;width: 76px;height: 22px;float: none;border-style: none;border-style: none;" width="76" height="22" border="0" /> Set a specific length of time for the delay using the spin control. 
+ The maximum length of a fixed delay is 23:59:59 (23 hours, 59 minutes, 
+ 59 seconds).</p>
+            <h5>Delay Behavior &#160;</h5>
+            <p class="Body1">
+                <img src="ms-its:Liquid_Handling_Control.chm::/Resources/Images/checkbox_fill.png" style="border: none;width: 15px;height: 15px;float: none;border-style: none;border-style: none;" width="15" height="15" border="0" /> <span class="FieldName">Sound alert at start of delay</span>: 
+ de-select this option to silently display the message box at the start 
+ of the delay. When activated, the sound is defined under <span style="font-weight: bold;">Tools&gt;Preferences&gt;Sounds</span>. 
+ It chimes one time only at the start of the delay concurrent with an opening 
+ message. </p>
+            <p class="Body1"><span class="FieldName">Prompt</span>: enter text, if desired, 
+ to display in a message box that opens during runtime at the start of 
+ the delay.</p>
+        </div>
+        <div>
+            <p class="Footer" style="margin-top: 18pt;font-size: 8pt;"><span style="font-size: 8pt;">Agilent Worldwide Sales and Support: <a href="https://www.agilent.com/en/contact-us/page">https://www.agilent.com/en/contact-us/page</a></span>
+            </p>
+        </div>
+        <script type="text/javascript">$("a[href^='http://']").attr("target","_blank");</script>
+        <script type="text/javascript">$("a[href^='https://']").attr("target","_blank");</script>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>
