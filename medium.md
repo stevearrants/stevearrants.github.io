@@ -7,7 +7,7 @@ I post on Medium.
 
 * [A Soft Reset](https://medium.com/@sarrants/a-soft-reset-52d0ff4ad8f5) -- When you get overwhelmed.
 
-* [Some Guidelines for Teams and Projects](https://medium.com/@sarrants/some-guidelines-for-teams-and-projects-f5f19ee7cad9)) -- Working together for success and sanity.
+* [Some Guidelines for Teams and Projects](https://medium.com/@sarrants/some-guidelines-for-teams-and-projects-f5f19ee7cad9) -- Working together for success and sanity.
   
 * [Your Documentation Project Plan](https://medium.com/@sarrants/your-documentation-project-plan-c0ae24ca47ee) -- Planning your project.
 
