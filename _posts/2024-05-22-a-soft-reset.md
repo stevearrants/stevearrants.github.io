@@ -2,7 +2,6 @@
 layout: post
 title: A Soft Reset
 cover-img: /assets/img/softreset.png
-thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/softreset.png
 tags: [work life balance]
 author: Steve Arrants
