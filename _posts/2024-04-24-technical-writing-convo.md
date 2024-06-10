@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Technical Writing is Part of the Conversation
+cover-img: /assets/img/twpartofconvo.png
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/twpartofconvo.png
 tags: [writing, management]
 author: Steve Arrants
 ---
@@ -14,3 +17,6 @@ With rapid development environments, it is possible to create and distribute sof
 When we talk to the user, we must do more than ask what she wants. We must observe and ask why. And the why — these thought processes — are important. Just as the UX work needs to be done for the product, use this data to help you create great documentation. This makes your product easier to support. It helps your product succeed in a crowded market. Having good, usable, accurate user documentation respects the end user. You don’t need printed and bound manuals. You can provide great documentation and support online. But you can’t do that without planning, effort, and writing to the user.
 
 What it comes down to is working towards a successful relationship. You’re having a conversation with the user. Make the documentation a part of the conversation, and make it a continuing conversation.
+
+---
+Photo from Pexels stock photos.

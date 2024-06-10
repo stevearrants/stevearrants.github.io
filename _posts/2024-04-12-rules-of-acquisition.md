@@ -26,3 +26,6 @@ Where do writers “sit” in the organization? Sometimes, it is with marketing,
 Get up to speed on what the company uses to produce documentation and how it fits into the product, but continue with your work. Offer to explain and assist. Ask your management what you need to do to help the transition succeed. Update your resume — you may decide that a larger organization isn’t where you can thrive.
 
 What’s been your experience with acquisitions? Do you have any advice to add?
+
+---
+Photo by [Kristina Flour](https://unsplash.com/@tinaflour?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/).
