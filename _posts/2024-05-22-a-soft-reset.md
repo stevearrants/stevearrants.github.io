@@ -20,5 +20,5 @@ Sometimes, work and the tasks in front of you can be overwhelming. You’ve got 
 Taking time away from what is blocking you often makes you feel better. Clearing your head makes space for solutions. There’s something to be said for woolgathering.
 
 ---
-Photo by [Genessa Panainte}(https://unsplash.com/@genessapana?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/).
+Photo by [Genessa Panainte](https://unsplash.com/@genessapana?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/).
 
