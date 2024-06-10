@@ -2,7 +2,7 @@
 layout: post
 title: Rules of Acquisition
 subtitle: What to do when you've been bought
-cover-img: /assets/img/fisher.jpg
+cover-img: /assets/img/fisher.ppg
 tags: [aquisition]
 author: Steve Arrants
 ---
