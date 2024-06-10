@@ -2,7 +2,6 @@
 layout: post
 title: Technical Writing is Part of the Conversation
 cover-img: /assets/img/twpartofconvo.png
-thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/twpartofconvo.png
 tags: [writing, management]
 author: Steve Arrants
