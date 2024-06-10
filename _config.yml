@@ -21,10 +21,12 @@ author: Steve Arrants
 
 navbar-links:
    Faq for Hiring: "rfaq"
+   Blog: "blog/index.html"
    Portfolio: "portfolio"
    Resume: "resume"
    Medium: "medium"
 
+paginate_path: "/blog/page:num/"
 
 ################
 # --- Logo --- #
