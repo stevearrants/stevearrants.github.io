@@ -3,7 +3,6 @@ layout: post
 title: Hold That Thought!
 subtitle: What not to say to a technical writer
 cover-img: /assets/img/dontsay.png
-thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/dontsay.png
 tags: [tech writing]
 author: Steve Arrants
