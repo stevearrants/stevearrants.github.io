@@ -3,7 +3,6 @@ layout: post
 title: Some Guidelines for Teams and Projects
 subtitle: Working together for success and sanity
 cover-img: /assets/img/projects.png
-thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/projects.png
 tags: [project management]
 author: Steve Arrants
