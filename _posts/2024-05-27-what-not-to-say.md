@@ -21,4 +21,4 @@ Put the gel pen down! It’s the 21st century. We use Acrobat shared reviews so 
 But I do need to hear from you. Your input is important. All of us want to produce a useful and correct document. Your statement isn’t just disrespectful to me. It also disrespects the customer. If you need more time, ask. If you want help with the review, ask. Please don’t blow us off.
 
 ---
-Photo by [Kristina Flour](https://unsplash.com/@tinaflour?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/).
+Photo by [Kristina Flour](https://unsplash.com/@tinaflour) on [Unsplash](https://unsplash.com/).
