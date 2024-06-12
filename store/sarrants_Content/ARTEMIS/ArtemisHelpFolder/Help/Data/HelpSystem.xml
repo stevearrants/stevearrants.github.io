@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebHelpSystem DefaultUrl="Content/Start.htm" Toc="Data/Toc.js" Index="Data/Index.js" Concepts="Data/Concepts.js" BrowseSequence="Data/BrowseSequence.js" Glossary="Data/Glossary.js" SearchDatabase="Data/Search.js" Alias="Data/Alias.xml" Synonyms="Data/Synonyms.xml" SkinName="ORIGArtemisSkin" Skins="Artemis_NewFont,HTML5 - Top Navigation,ORIGArtemisSkin" BuildTime="10/19/2015 12:39:42 PM" BuildVersion="11.1.0.17275" TargetType="WebHelp2" SkinTemplateFolder="Skin/" InPreviewMode="false" MoveOutputContentToRoot="false" MakeFileLowerCase="false" UseCustomTopicFileExtension="false" PreventExternalUrls="false" EnableResponsiveOutput="false" IncludeGlossarySearchResults="true" ResultsPerPage="20">
+    <!-- saved from url=(0016)http://localhost -->
+    <CatapultSkin Version="2" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="954px" Height="660px" Top="137px" Left="86px" Bottom="197px" Right="240px" Tabs="TOC,Index,Glossary" DefaultTab="TOC" UseBrowserDefaultSize="false" UseDefaultBrowserSetup="true" EnableResponsiveOutput="false" CommentsInTopic="false" DisplayCommunitySearchResults="false" DisplayNotificationOptions="false" Title="DJS Artemis™" RemoveImagesOnSave="true" AutoSyncTOC="true" Name="Artemis_NewFont">
+        <Toolbar EnableCustomLayout="true" Buttons="Print|ExpandAll|RemoveHighlight|Separator|PreviousTopic|CurrentTopicIndex|NextTopic">
+            <Script>&lt;script type="text/javascript"&gt;
+  WebFontConfig = {
+    google: { families: [ 'Arial::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); &lt;/script&gt;</Script>
+        </Toolbar>
+    </CatapultSkin>
+    <CatapultSkin Version="2" SkinType="WebHelp2" ComponentType="MasterPage" TemplateName="Fluid" Comment="HTML5 Fluid Layout" EnableResponsiveOutput="true" RemoveImagesOnSave="true" CommentsInTopic="false" DisplayCommunitySearchResults="false" Name="HTML5 - Top Navigation">
+        <WebHelpOptions NavigationPanePosition="Right" />
+    </CatapultSkin>
+    <CatapultSkin Version="2" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="954px" Height="660px" Top="137px" Left="86px" Bottom="197px" Right="240px" Tabs="TOC,Index,Glossary" DefaultTab="TOC" UseBrowserDefaultSize="false" UseDefaultBrowserSetup="true" EnableResponsiveOutput="false" CommentsInTopic="false" DisplayCommunitySearchResults="false" DisplayNotificationOptions="false" Title="DJS Artemis™" RemoveImagesOnSave="true" AutoSyncTOC="true" Name="ORIGArtemisSkin">
+        <Toolbar EnableCustomLayout="true" Buttons="Print|ExpandAll|RemoveHighlight|Separator|PreviousTopic|CurrentTopicIndex|NextTopic" />
+    </CatapultSkin>
+</WebHelpSystem>

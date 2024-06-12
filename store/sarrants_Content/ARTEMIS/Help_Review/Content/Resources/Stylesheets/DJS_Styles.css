@@ -1,0 +1,2144 @@
+/*<meta />*/
+
+/* 'Open Sans', sans-serif; is the default font. Arial and Arial, sans-serif are fallbacks. */
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans|Inconsolata?family=Open+Sans|Inconsolata');
+
+BODY
+{
+	/* margin-left: 15px; */
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffffff;
+}
+
+H1
+{
+	margin-left: 0pt;
+	letter-spacing: 0.1pt;
+	background-color: #ffffff;
+	font-weight: normal;
+	font-style: normal;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	line-height: Normal;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20pt;
+	color: #103a5e;
+}
+
+LI
+{
+	mc-disable-glossary-terms: true;
+}
+
+LI.H1
+{
+	letter-spacing: 0.1pt;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: Normal;
+	font-size: 28pt;
+	text-decoration: none;
+	color: #228b22;
+}
+
+H2
+{
+	font-weight: normal;
+	font-style: normal;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	font-family: 'Open Sans', sans-serif;
+	color: #103a5e;
+	font-size: 16pt;
+}
+
+LI.H2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18pt;
+	color: #228b22;
+}
+
+H3
+{
+	background-color: Transparent;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	font-weight: bold;
+	font-style: normal;
+	x-next-class: ;
+	x-next-type: P;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	color: #103a5e;
+}
+
+LI.H3
+{
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+
+H4
+{
+	font-weight: bold;
+	color: #000000;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0.5em;
+	margin-top: 1.12em;
+}
+
+LI.H4
+{
+	font-weight: bold;
+	color: #000000;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+H5
+{
+	font-weight: bold;
+	font-size: 13.0pt;
+	margin-top: 6pt;
+	margin-bottom: 0;
+	line-height: normal;
+	font-family: 'Open Sans', sans-serif;
+	color: #197519;
+}
+
+LI.H5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 150%;
+	color: #848484;
+}
+
+H6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0.5pt;
+	margin-top: 6pt;
+	line-height: 150%;
+	color: #787878;
+}
+
+LI.H6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+	font-family: 'Open Sans', sans-serif;
+	color: #848484;
+	line-height: 150%;
+}
+
+P
+{
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-size: 11pt;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+	line-height: normal;
+}
+
+LI.P
+{
+	line-height: 150%;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 11pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+A.expandspot
+{
+	cursor: hand;
+	font-style: italic;
+	font-size: 11pt;
+	color: #ff8e00;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+SPAN.expandtext
+{
+	font-style: italic;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+A.dropspot
+{
+	cursor: hand;
+	font-style: italic;
+	font-size: 11pt;
+	color: #ff8e00;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+A.glossterm
+{
+	cursor: hand;
+	font-style: italic;
+	font-size: 11pt;
+	color: #ca7d4f;
+	text-decoration: none underline;
+	font-family: 'Open Sans', sans-serif;
+}
+
+SPAN.glosstext
+{
+	font-style: italic;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #848484;
+	font-family: 'Open Sans', sans-serif;
+}
+
+OL,
+UL
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 11pt;
+	color: #323232;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 150%;
+}
+
+P.Note
+{
+	font-style: normal;
+	color: #ffffff;
+	margin-top: 7.5pt;
+	line-height: Normal;
+	border-top-color: #828282;
+	border-bottom-color: #828282;
+	x-next-class: NoteText;
+	x-next-type: P;
+	font-family: 'Open Sans', sans-serif;
+	mc-disable-glossary-terms: true;
+	background-color: #828282;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	text-indent: 6px;
+	font-weight: bold;
+}
+
+LI.P-Note
+{
+	font-weight: bold;
+	font-style: normal;
+	line-height: Normal;
+	color: #000000;
+	background-color: #87cefa;
+}
+
+P.NoteText
+{
+	margin-top: 0pt;
+	margin-bottom: 7.5pt;
+	line-height: 150%;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #c0c0c0;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	letter-spacing: 1px;
+	padding: 6px;
+	padding-left: 30px;
+	mc-disable-glossary-terms: true;
+}
+
+LI.P-NoteText
+{
+	line-height: 150%;
+}
+
+P.footertext
+{
+	font-size: 8pt;
+	text-align: Center;
+	border-top-style: Solid;
+	border-top-width: 4px;
+	border-top-color: #93b7e2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-footertext
+{
+	font-size: 8pt;
+	text-align: Center;
+}
+
+p.ListBullet1
+{
+	margin-top: 4.5pt;
+	margin-bottom: 4.5pt;
+	font-style: normal;
+	font-weight: normal;
+	list-style: rh-list;
+	x-list-class: rl-P-ListBullet1;
+	x-list-level: 1;
+	text-indent: -24px;
+	margin-left: 24px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-ListBullet1
+{
+	line-height: 150%;
+	list-style-image: url('../Images/bullet1.png');
+}
+
+P.ListBullet2
+{
+	list-style: rh-list;
+	x-list-class: rl-P-ListBullet2;
+	x-list-level: 1;
+	margin-top: 4.5pt;
+	text-indent: -;
+	margin-left: 12pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-ListBullet2
+{
+	list-style: disc;
+	text-indent: -24in;
+	margin-left: 24.26in;
+}
+
+P.Hyperlinkintopic
+{
+	color: #ff8e00;
+	text-align: Right;
+	margin-top: 4.5pt;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-Hyperlinkintopic
+{
+	color: #ff8e00;
+	text-align: Right;
+	text-decoration: none;
+}
+
+A.popupspot
+{
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	color: #5b9beb;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.ContactInfo
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-ContactInfo
+{
+	
+}
+
+LI.P-InsideChapter
+{
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+LI.P-InsideChapterCont
+{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+LI.P-InsideChapterLast
+{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+P.FigureCaption
+{
+	text-align: Center;
+	font-size: 8pt;
+	x-next-class: ;
+	x-next-type: P;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-FIgureCaption
+{
+	text-align: Center;
+	font-size: 8pt;
+}
+
+P.picture
+{
+	text-align: Center;
+	margin-top: 9pt;
+	margin-bottom: 9pt;
+	x-next-class: FIgureCaption;
+	x-next-type: P;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-picture
+{
+	text-align: Center;
+}
+
+P.TableText
+{
+	font-size: 8pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-TableText
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+P.Title
+{
+	font-size: 11pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #3491c7;
+	margin-bottom: 4.5pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-Title
+{
+	font-size: 11pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #3491c7;
+}
+
+p.code
+{
+	background-color: #eeeeee;
+	font-size: 15px;
+	margin-top: 4.5pt;
+	margin-bottom: 4.5pt;
+	line-height: 150%;
+	margin-left: 40px;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-code
+{
+	font-family: 'Inconsolata';
+}
+
+P.ListBullet3
+{
+	list-style: circle;
+	margin-left: 36pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-ListBullet3
+{
+	list-style: circle;
+}
+
+P.Strong
+{
+	font-weight: bold;
+	font-style: normal;
+	color: #848484;
+	margin-top: 4.5pt;
+	margin-bottom: 4.5pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-Strong
+{
+	font-weight: bold;
+	font-style: normal;
+	color: #848484;
+}
+
+P.footnote
+{
+	font-size: 6pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-footnote
+{
+	font-size: 6pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.PartTitle
+{
+	font-size: 14pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #848484;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+LI.P-PartTitle
+{
+	font-size: 14pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #848484;
+	text-transform: uppercase;
+}
+
+P.PDThelp
+{
+	font-size: 24;
+	color: #00709e;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.NUMBERS
+{
+	margin-top: 0pt;
+	line-height: Normal;
+	list-style: rh-list;
+	x-list-class: rl-P-NUMBERS;
+	x-list-level: 1;
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Numbers2
+{
+	list-style: rh-list;
+	x-list-class: rl-P-NUmbers2;
+	x-list-level: 1;
+	margin-left: 6pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Numbers3
+{
+	list-style: lower-roman;
+	margin-left: 18pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Example heads and text */
+
+p.Example
+{
+	border-bottom: solid 1px #c0c0c0;
+	padding: 6px;
+	margin-top: 0pt;
+	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	padding-left: 30px;
+	background-color: #ddedfe;
+}
+
+p.Example2
+{
+	border-bottom: solid 1px #c0c0c0;
+	border-top: solid 1px #c0c0c0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	letter-spacing: 1px;
+	margin-top: 0pt;
+	padding: 6px;
+	padding-left: 30px;
+	background-color: #ddedfe;
+}
+
+p.Example3
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	letter-spacing: 1px;
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+	padding: 6px;
+	padding-left: 30px;
+	background-color: #ddedfe;
+}
+
+p.Example4
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	letter-spacing: 1px;
+	margin-bottom: 0pt;
+	border-top: solid 1px #c0c0c0;
+	padding: 6px;
+	padding-left: 30px;
+	background-color: #ddedfe;
+}
+
+p.ExampleCode
+{
+	border-bottom: solid 1px #c0c0c0;
+	border-top: solid 1px #c0c0c0;
+	font-family: 'Inconsolata';
+	font-size: 12px;
+	padding: 8px;
+	background-color: #ddedfe;
+}
+
+p.ExampleCode2
+{
+	background-color: #ddedfe;
+	border-bottom: solid 1px #c0c0c0;
+	font-family: 'Inconsolata';
+	font-size: 12px;
+	padding: 8px;
+	margin-top: 0pt;
+}
+
+p.ExampleCode3
+{
+	background-color: #ddedfe;
+	font-family: 'Inconsolata';
+	border-top: solid 1px #c0c0c0;
+	padding: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 0pt;
+	font-size: 9pt;
+}
+
+p.ExampleHead
+{
+	border-top: solid 1px #c0c0c0;
+	padding: 6px;
+	margin-bottom: 0pt;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ddedfe;
+	mc-heading-level: 0;
+	margin-top: 6pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-transform: none;
+	color: #002b00;
+	text-align: left;
+	font-variant: normal;
+	font-size: 10pt;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+p.ExampleHead2
+{
+	background-color: #ddedfe;
+	border-top: solid 1px #c0c0c0;
+	border-bottom: solid 1px #c0c0c0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+	padding: 6px;
+	mc-heading-level: 0;
+	margin-top: 6pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	color: #002b00;
+	font-weight: bold;
+	text-align: left;
+}
+
+p.ExampleHeadPageBreakBefore
+{
+	font-variant: small-caps;
+	border-top: solid 1px #c0c0c0;
+	padding: 6px;
+	margin-bottom: 0pt;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 5px;
+	background-color: #ddedfe;
+	mc-heading-level: 0;
+	margin-top: 6pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-transform: none;
+	color: #002b00;
+	font-weight: bold;
+	text-align: left;
+	font-size: 10pt;
+}
+
+p.ExampleHead2PageBreakBefore
+{
+	background-color: #ddedfe;
+	border-top: solid 1px #c0c0c0;
+	border-bottom: solid 1px #c0c0c0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+	padding: 6px;
+	mc-heading-level: 0;
+	margin-top: 6pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	color: #002b00;
+	font-weight: bold;
+	text-align: left;
+}
+
+p.ExampleIndented
+{
+	background-color: #ddedfe;
+	border-bottom: solid 1px #c0c0c0;
+	border-top: solid 0px #c0c0c0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	letter-spacing: 1px;
+	margin-top: 0pt;
+	padding: 6px;
+	padding-left: 44px;
+}
+
+p.Example3Indented
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 8pt;
+	letter-spacing: 1px;
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+	padding: 6px;
+	padding-left: 44px;
+	background-color: #ddedfe;
+}
+
+/* END of Example heads and text */
+
+p.nogloss
+{
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	line-height: 150%;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+	mc-disable-glossary-terms: true;
+}
+
+p.copyright
+{
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+	line-height: normal;
+	font-size: 10pt;
+	mc-disable-glossary-terms: true;
+}
+
+p.masterpagefooter
+{
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-size: 8pt;
+	color: #808080;
+	font-family: 'Open Sans', sans-serif;
+	mc-disable-glossary-terms: true;
+}
+
+rh-list.rl-P-ListBullet1
+{
+	x-level-count: 1;
+	x-lvl-1-format: "<x>";
+	x-lvl-1-type: square;
+	font-family: 'Open Sans', sans-serif;
+}
+
+rh-list.rl-P-ListBullet2
+{
+	x-level-count: 1;
+	x-lvl-1-format: "<x>";
+	x-lvl-1-type: disc;
+	font-family: 'Open Sans', sans-serif;
+}
+
+rh-list.rl-P-NUMBERS
+{
+	x-level-count: 1;
+	x-lvl-1-format: "<x>.";
+	x-lvl-1-type: decimal;
+	font-family: 'Open Sans', sans-serif;
+}
+
+rh-list.rl-P-NUmbers2
+{
+	x-level-count: 1;
+	x-lvl-1-format: "<x>.";
+	x-lvl-1-type: lower-alpha;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-1-multilevel_bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-2-multilevel_bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+rh-list.TraditionalOutline
+{
+	x-lvl-1-type: upper-roman;
+	x-lvl-1-p-tag: P;
+	x-lvl-2-type: upper-alpha;
+	x-lvl-2-margin: 20px;
+	x-lvl-2-p-tag: P;
+	x-lvl-3-type: decimal;
+	x-lvl-4-type: lower-alpha;
+	x-lvl-4-margin: 60px;
+	x-lvl-4-p-tag: P;
+	x-lvl-3-margin: 40px;
+	x-lvl-3-p-tag: P;
+	x-lvl-5-type: lower-roman;
+	x-lvl-5-margin: 80px;
+	x-lvl-5-p-tag: P;
+	x-lvl-6-type: upper-alpha;
+	x-lvl-6-format: "<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-6-p-tag: P;
+	x-lvl-7-format: "<x>&c";
+	x-lvl-7-margin: 120px;
+	x-lvl-7-p-tag: P;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-format: "<x>&c";
+	x-lvl-8-margin: 140px;
+	x-lvl-8-p-tag: P;
+	x-lvl-9-type: upper-roman;
+	x-level-count: 9;
+	x-lvl-9-format: "<x>&c";
+	x-lvl-9-margin: 160px;
+	x-lvl-9-p-tag: P;
+	x-lvl-1-pfx-class: rls-1-TraditionalOutline;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-1-TraditionalOutline
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+rh-list.Bullets
+{
+	x-lvl-1-type: disc;
+	x-lvl-1-format: "<x>";
+	x-lvl-2-type: square;
+	x-lvl-2-format: "<x>";
+	x-lvl-2-margin: 20px;
+	x-lvl-3-type: circle;
+	x-lvl-3-format: "<x>";
+	x-lvl-3-margin: 40px;
+	x-lvl-4-type: diamond;
+	x-lvl-4-format: "<x>";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-type: disc;
+	x-lvl-5-format: "<x>";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: square;
+	x-lvl-6-format: "<x>";
+	x-lvl-6-margin: 100px;
+	x-lvl-7-type: circle;
+	x-lvl-7-format: "<x>";
+	x-lvl-7-margin: 120px;
+	x-lvl-8-type: diamond;
+	x-lvl-8-format: "<x>";
+	x-lvl-8-margin: 140px;
+	x-level-count: 9;
+	x-lvl-9-type: disc;
+	x-lvl-9-format: "<x>";
+	x-lvl-9-margin: 160px;
+	x-lvl-9-pfx-class: rls-9-Bullets;
+	x-lvl-1-pfx-class: rls-1-Bullets;
+	x-lvl-2-pfx-class: rls-2-Bullets;
+	x-lvl-3-pfx-class: rls-3-Bullets;
+	x-lvl-4-pfx-class: rls-4-Bullets;
+	x-lvl-5-pfx-class: rls-5-Bullets;
+	x-lvl-6-pfx-class: rls-6-Bullets;
+	x-lvl-7-pfx-class: rls-7-Bullets;
+	x-lvl-8-pfx-class: rls-8-Bullets;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-9-Bullets
+{
+	font-size: 8pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-1-Bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-2-Bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-3-Bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-4-Bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-5-Bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-6-Bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-7-Bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.rls-8-Bullets
+{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+table.SimpleGridBlack
+{
+	padding: 0px;
+	border-top: Solid 1px #000000;
+	border-left: Solid 1px #000000;
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	font-family: 'Open Sans', sans-serif;
+}
+
+table.SimpleGridBlack td
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+table.SimpleGridBlack tr.t1Row td
+{
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+table.SimpleGridBlack tr.t2Row td
+{
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+}
+
+table.MultiBandBlue
+{
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+	x-row-pat-count: 3;
+	x-row-pat-3: 1;
+	x-row-pat-3-name: t3Row;
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	font-family: 'Open Sans', sans-serif;
+}
+
+table.MultiBandBlue td
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+table.MultiBandBlue tr.t1Row td
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+	background-color: #DBE5F1;
+}
+
+table.MultiBandBlue tr.t2Row td
+{
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+	background-color: #B8CCE4;
+}
+
+table.MultiBandBlue tr.t3Row td
+{
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+	background-color: #95B3D7;
+}
+
+table.MultiBandBlue tr.t1st td
+{
+	background-color: #4F81BD;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: 4F81BD;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+table.BlueHeaderRow
+{
+	padding: 0px;
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	font-family: 'Open Sans', sans-serif;
+}
+
+table.BlueHeaderRow td
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+table.BlueHeaderRow tr.t1Row td
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+
+table.BlueHeaderRow tr.t2Row td
+{
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+}
+
+table.BlueHeaderRow tr.t1st td
+{
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #6672e5;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #0000ff;
+}
+
+/*necessary to position next the span in an absolute way*/
+/*remove the underlining from the links*/
+
+table.AlternateBlueWithHeader
+{
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*a background color is needed for Internet Explorer 6*/
+/*hide the span element in opening*/
+
+table.AlternateBlueWithHeader td
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/*the span element are converted from inline to block element*/
+/*absolute positioning in rapport to their parent link*/
+/*needed to position the element span above other links*/
+/*style of the css tooltip*/
+
+table.AlternateBlueWithHeader tr.t1Row td
+{
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: 4f81bd;
+}
+
+table.AlternateBlueWithHeader tr.t2Row td
+{
+	background-color: #D3DFEE;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: 4f81bd;
+}
+
+table.AlternateBlueWithHeader tr.t1st td
+{
+	background-color: #4F81BD;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-color: #ffffff;
+	font-size: 15px;
+	border-bottom-width: 0px;
+	padding-bottom: 2px;
+}
+
+LI.GreyListBullet
+{
+	list-style-position: inherit;
+	list-style: Bullet;
+	list-style-type: circle;
+	color: #696969;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	list-style-image: url('../Images/bullet1.png');
+}
+
+MadCap|dropDownHead
+{
+	color: #228b22;
+	font-size: 18pt;
+}
+
+span.SearchHighlight1
+{
+	color: #000000;
+	background-color: #ffff66;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.SearchHighlight10
+{
+	color: #ffffff;
+	background-color: #990099;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.SearchHighlight2
+{
+	color: #000000;
+	background-color: #a0ffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.SearchHighlight3
+{
+	color: #000000;
+	background-color: #99ff99;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.SearchHighlight4
+{
+	color: #000000;
+	background-color: #ff9999;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.SearchHighlight5
+{
+	color: #000000;
+	background-color: #ff66ff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.SearchHighlight6
+{
+	color: #ffffff;
+	background-color: #880000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.SearchHighlight7
+{
+	color: #ffffff;
+	background-color: #00aa00;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.SearchHighlight8
+{
+	color: #ffffff;
+	background-color: #886800;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span.SearchHighlight9
+{
+	color: #ffffff;
+	background-color: #004699;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a.css_tooltip
+{
+	position: relative;
+	text-decoration: underline;
+}
+
+a.css_tooltip span
+{
+	display: none;
+}
+
+.tooltip
+{
+	border-bottom: 1px dotted #000000;
+	color: #000000;
+	outline: none;
+	cursor: help;
+	text-decoration: none;
+	position: relative;
+}
+
+.tooltip span
+{
+	margin-left: -999em;
+	position: absolute;
+}
+
+.tooltip:hover span
+{
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	font-family: Calibri, Tahoma, Geneva, Arial, sans-serif;
+	position: absolute;
+	left: 1em;
+	top: 2em;
+	z-index: 99;
+	margin-left: 0;
+	width: 250px;
+}
+
+.tooltip:hover img
+{
+	border: 0;
+	margin: -10px 0 0 -55px;
+	float: left;
+	position: absolute;
+}
+
+.classic
+{
+	padding: 0.8em 1em;
+}
+
+.custom
+{
+	padding: 0.5em 0.8em 0.8em 2em;
+}
+
+* html a:hover
+{
+	background: transparent;
+}
+
+.classic
+{
+	background: #FFFFAA;
+}
+
+.critical
+{
+	background: #FFCCAA;
+}
+
+.help
+{
+	background: #9FDAEE;
+}
+
+.info
+{
+	background: #e4f5d8;
+}
+
+.warning
+{
+	background: #FFFFAA;
+}
+
+/* Home Page slide show */
+
+div.slidingshow
+{
+	margin-top: -79px;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+}
+
+.mc-wrapper .mc-caption
+{
+	background: none;
+}
+
+/* Home Page Video Section */
+
+.video-section
+{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.video-section img
+{
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.video-wrapper
+{
+	padding-bottom: 56.25%;
+	/* 16:9 */
+	position: relative;
+}
+
+.video-section iframe
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-section .columns
+{
+	margin-bottom: 20px;
+}
+
+@media print
+{
+	H1
+	{
+		margin-left: 0pt;
+		letter-spacing: 0.1pt;
+		background-color: #ffffff;
+		font-weight: normal;
+		font-style: normal;
+		margin-top: 12pt;
+		margin-bottom: 3pt;
+		line-height: Normal;
+		text-decoration: none;
+		color: #4682b4;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20pt;
+		page-break-before: avoid;
+	}
+
+	LI.P-ListBullet1
+	{
+		
+	}
+
+	MadCap|footnote
+	{
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	MadCap|relatedTopicsControlListItemLink:focus
+	{
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	MadCap|relatedTopicsControlListItemLink:hover
+	{
+		font-family: 'Open Sans', sans-serif;
+	}
+}
+
+var
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+UL
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+u
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+tt
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+tr.t3Row
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+tr.t2Row
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+tr.t1st
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+tr.t1Row
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+tr
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+thead
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+th
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+tfoot
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+textarea
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+td
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+tbody
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+table
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+sup
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+sub
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+style
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+strong
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+strike
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+SPAN.state
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+SPAN.SeeIndexTerms
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+SPAN.SeeIndex
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+SPAN.SeeAlsoIndexTerms
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+SPAN.SeeAlsoIndex
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+SPAN.boolean
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+SPAN
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+small
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+select
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+script
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+samp
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+s
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+rh-list
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+pre
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.TOC9
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.TOC8
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.TOC7
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.TOC6
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.TOC5
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.TOC4
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.TOC3
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.TOC2
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.TOC1
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.MiniTOC9
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.MiniTOC8
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.MiniTOC7
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.MiniTOC6
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.MiniTOC5
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.MiniTOC4
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.MiniTOC3
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.MiniTOC2
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.MiniTOC1
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.ListOf
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.IndexHeading
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Index9
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Index8
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Index7
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Index6
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Index5
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Index4
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Index3
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Index2
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Index1
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.ConceptContext
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+P.Concept
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+OL
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+object
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+o
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+noframes
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+menu
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+map
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|xref:hover
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|xref:focus
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|xref.TOCPageNumber
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|xref.ListOfPageNumber
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|xref.IndexPageNumber
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|xref.ConceptPageNumber
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|xref
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|variable
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|topicToolbarProxy
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|toggler:hover
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|toggler:focus
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|toggler
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|tocProxy
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|snippetText
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|snippetBlock
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|shortcut
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|section
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relationshipsProxy
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relationshipsItem
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relationshipsHeading.task
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relationshipsHeading.reference
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relationshipsHeading.concept
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relationshipsHeading
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopicsControlListItemLink:visited
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopicsControlListItemLink:link
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopicsControlListItemLink:hover
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopicsControlListItemLink:focus
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopicsControlListItemLink
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopicsControlListItem
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopicsControlList
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopics:hover
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopics:focus
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|relatedTopics
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|qrCode
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|popupHead
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|popupBody
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|popup:hover
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|popup:focus
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|popup
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|pageHeader.OddPage
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|pageHeader.FirstPage
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|pageHeader.EvenPage
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|pageHeader
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|pageFooter.OddPage
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|pageFooter.FirstPage
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|pageFooter.EvenPage
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|pageFooter
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|namedDestination
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|miniTocProxy
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|listOfProxy
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLinkControlListItemLink:visited
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLinkControlListItemLink:link
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLinkControlListItemLink:hover
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLinkControlListItemLink:focus
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLinkControlListItemLink
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLinkControlListItem
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLinkControlList
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLink:hover
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLink:focus
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keywordLink
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+MadCap|keyword
+{
+	font-family: 'Open Sans', sans-serif;
+}
+

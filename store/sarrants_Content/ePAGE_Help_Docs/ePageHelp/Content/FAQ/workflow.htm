@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="ePage.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="ePAGE Technical FAQ">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title>Workflow</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.5.5.0.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Resources/TableStyles/PatternedColumns.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.print-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.expand-all-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/expand.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../Resources/Scripts/PIE.htc');
+}
+
+</style>
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.5.5.0_custom.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.offcanvas.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap">
+            <div class="off-canvas-wrap" data-offcanvas="">
+                <section class="inner-wrap">
+                    <nav class="tab-bar" data-mc-ignore="true">
+                        <section class="middle tab-bar-section row outer-row clearfix">
+                            <div class="relative clearfix"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                <div class="navigation-wrapper">
+                                    <ul class="navigation clearfix">
+                                        <li class="has-children"><a href="../Getting Started/Getting Started.htm">Getting Started</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="../Getting Started/Basic Steps.htm">Before you start...</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="../eptask.htm">ePAGE Tasks</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="../Tasks/problemsubs.htm">What to do with Problematic Submissions?</a>
+                                                </li>
+                                                <li><a href="../Tasks/accessfiles.htm">Accessing Submitted Files</a>
+                                                </li>
+                                                <li><a href="../Tasks/viewinfo.htm">Viewing Article Information</a>
+                                                </li>
+                                                <li><a href="../Tasks/runtests.htm">Running Tests</a>
+                                                </li>
+                                                <li><a href="../Tasks/usingftp.htm">Using FTP</a>
+                                                </li>
+                                                <li><a href="../Tasks/usemsql.htm">Using mySQL</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="../Faq.htm">ePAGE Technical FAQ</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="dbstat.htm">DB Statuses</a>
+                                                </li>
+                                                <li><a href="troubleshooting.htm">Troubleshooting</a>
+                                                </li>
+                                                <li><a href="#" class="selected">Workflow</a>
+                                                </li>
+                                                <li><a href="xelerr.htm">XeLaTeX Errors</a>
+                                                </li>
+                                                <li><a href="addlinfo.htm">Additional Troubleshooting Information</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="../wsem7a.htm">Work Session Element Mapping, 7A</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="../elementmap/elementmap1.htm">I. Initial Author/files handoff from EJP to DJS (Form name: EJPTODJS)</a>
+                                                </li>
+                                                <li><a href="../elementmap/elementmap2.htm">II. DJS Update of EJP system (Form name: DJSTOEJP)</a>
+                                                </li>
+                                                <li><a href="../elementmap/elementmap3.htm">III. EJP Query of DJS COC for Status Check (Form name: EJPSTATUSCHECK)</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div><a class="menu-icon right-off-canvas-toggle" href="#"><span></span></a>
+                            </div>
+                        </section>
+                        <div class="nav-search row outer-row">
+                            <form class="search" action="#">
+                                <div class="search-bar search-bar-container needs-pie">
+                                    <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                    <div class="search-filter-wrapper">
+                                        <div class="search-filter">
+                                            <div class="search-filter-content">
+                                                <ul>
+                                                    <li>All Files</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search-submit-wrapper" dir="ltr">
+                                        <div class="search-submit" title="Search">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </nav>
+                    <aside class="right-off-canvas-menu" data-mc-ignore="true">
+                        <ul class="off-canvas-list" data-mc-back-link="Back" data-mc-css-tree-node-expanded="has-submenu" data-mc-css-tree-node-collapsed="has-submenu" data-mc-css-sub-menu="right-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.fndtn.offcanvas" data-mc-toc="True">
+                        </ul>
+                    </aside>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="sideContent">
+                                            <div class="clearfix">
+                                                <div class="buttons clearfix topicToolbarProxy _Skins_TopicToolBar">
+                                                    <div class="button-group-container-left">
+                                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                                        </button>
+                                                        <button class="button needs-pie expand-all-button" type="button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="expand all" />
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="menu _Skins_SideMenu">
+                                                <li class="has-children"><a href="../Faq.htm">ePAGE Technical FAQ</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="dbstat.htm">DB Statuses</a>
+                                                        </li>
+                                                        <li><a href="troubleshooting.htm">Troubleshooting</a>
+                                                        </li>
+                                                        <li><a href="#" class="selected">Workflow</a>
+                                                        </li>
+                                                        <li><a href="xelerr.htm">XeLaTeX Errors</a>
+                                                        </li>
+                                                        <li><a href="addlinfo.htm">Additional Troubleshooting Information</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">You are here: </span><a class="MCBreadcrumbsLink" href="../Faq.htm">ePAGE Technical FAQ</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Workflow</span>
+                                        </div>
+                                        <h1>Workflow</h1>
+                                        <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/PatternedColumns.css');" class="TableStyle-PatternedColumns" cellspacing="0">
+                                            <col class="TableStyle-PatternedColumns-Column-Regular" />
+                                            <col class="TableStyle-PatternedColumns-Column-DarkShade" />
+                                            <col class="TableStyle-PatternedColumns-Column-Regular" />
+                                            <col class="TableStyle-PatternedColumns-Column-DarkShade" />
+                                            <col class="TableStyle-PatternedColumns-Column-Regular" />
+                                            <col class="TableStyle-PatternedColumns-Column-DarkShade" />
+                                            <thead>
+                                                <tr class="TableStyle-PatternedColumns-Head-Header1">
+                                                    <th class="TableStyle-PatternedColumns-HeadE-Regular-Header1">&#160;</th>
+                                                    <th class="TableStyle-PatternedColumns-HeadE-DarkShade-Header1">&#160;</th>
+                                                    <th class="TableStyle-PatternedColumns-HeadE-Regular-Header1">&#160;</th>
+                                                    <th class="TableStyle-PatternedColumns-HeadE-DarkShade-Header1">&#160;</th>
+                                                    <th class="TableStyle-PatternedColumns-HeadE-Regular-Header1">Description</th>
+                                                    <th class="TableStyle-PatternedColumns-HeadD-DarkShade-Header1">When this happens</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td colspan="6" class="TableStyle-PatternedColumns-BodyG-Regular-" style="font-size: 10pt;">
+                                                        <p>Output path - http://epage.dartmouthjournals.com/files/epageid</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td rowspan="52" class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>EPAGE ID</p>
+                                                    </td>
+                                                    <td rowspan="8" class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>INPUT</p>
+                                                    </td>
+                                                    <td rowspan="2" class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>BULKUPLOAD</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>FILES</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains files which are uploaded by user (Has same name as provided by user)</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>Files are present in this folder as long as it is in drag and drop menu</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>THUMBNAILS</p>
+                                                    </td>
+                                                    <td colspan="2" class="TableStyle-PatternedColumns-BodyG-Regular-" style="font-size: 10pt;">
+                                                        <p>NOT IN USAGE NOW</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>FIGURES</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains figure which are uploaded by user (Has same name as provided by user)</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When user uploads figures in submission screen</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>MANUSCRIPT</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains manuscript uploaded by user(Has same name as provided by user)</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When user uploads manuscript in submission screen</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>SI</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains SI which are uploaded by user (Has same name as provided by user)</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When user uploads Si files in submission screen</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>TABLES</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains tables which are uploaded by user(Has same name as provided by user)</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When user uploads tables in submission screen</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>HTML_INPUT</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Manuscript and table inputs will be renamed as manuscript.doc and tbl[n].doc and stored in this folder</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When the user clicks continue button in submission screen</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>SUBMISSION PACKAGE</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td colspan="2" class="TableStyle-PatternedColumns-BodyG-Regular-" style="font-size: 10pt;">
+                                                        <p>NOT IN USAGE NOW</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td colspan="5" class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>After providing First name, Last name and Email id in web interface, by default TEMP,FIGURES and SI folder will be created under HTML folder</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td rowspan="41" class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>HTML</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>TEMP</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td colspan="2" class="TableStyle-PatternedColumns-BodyG-Regular-" style="font-size: 10pt;">
+                                                        <p>NOT IN USAGE NOW</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td rowspan="2" class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>FIGURES</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>figure[n].png</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Uploaded figures are converted to png file format , [n] – refers to the order. These png files are used for displaying in figure sizing screen</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When the user clicks continue button in submission screen</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>THUMBS</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Thumbnails of figure[n].png will be stored in this folder. These are used for displaying in figure sizing screen</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When the user clicks continue button in submission screen</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td rowspan="4" class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>SI</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>IMAGES</p>
+                                                    </td>
+                                                    <td colspan="2" class="TableStyle-PatternedColumns-BodyG-Regular-" style="font-size: 10pt;">
+                                                        <p>NOT IN USAGE NOW</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>PDF</p>
+                                                    </td>
+                                                    <td colspan="2" class="TableStyle-PatternedColumns-BodyG-Regular-" style="font-size: 10pt;">
+                                                        <p>NOT IN USAGE NOW</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>INPUT</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains all SI input files (Will be renamed to Si[n] and has the file extension&#160; as provided by user)</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When the user clicks continue button in submission screen</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>STAMPED</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>(i)Si[n].pdf – individual SI files<br />(ii)Si.pdf – all Si files merged into single pdf<br />(iii)Si.stamp – Si pdf stamped</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>This conversion happens on loading the Meta information screen</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>tbl[n] files</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains math type equations and symbols which are stored as png images</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When the user clicks continue button in submission screen, then word2any tool will be initiated and creates table folder if there is presence of math equations and symbols</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>figure_caption.xml</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Here figure captions are stored</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>Whenever an manuscript is uploaded, word2any converts the doc/docx files to html format. Once the html files are generated, structuring tool will fetch the figure caption from the manuscript html and place it in xml file</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>figure_caption_valid.xml</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Figure captions are validated here</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>This file is validated during the font mapping (conversion of non Unicode to Unicode characters)</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>tbl[n].htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains html file of uploaded doc table</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When the user clicks continue button in submission screen, then word2any tool will be initiated and creates table html</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>tbl[n]_format.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains structured html file of tbl[n].htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>As soon as word2any creates the html file, then tagsoup creates the structured table html</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>manuscript.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains entire manuscript as submitted by author</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>When the user clicks continue button in submission screen, then word2any tool will be initiated and creates manuscript html</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>manuscript_valid.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Structured manuscript</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>As soon as word2any creates the html file, then tagsoup creates the structured manuscript html</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td colspan="4" class="TableStyle-PatternedColumns-BodyG-Regular-" style="font-size: 10pt;">
+                                                        <p>Once the article is submitted,then table folder is created, If there are n number of tables submitted, then corresponding number of tbl[n] folder would be created. Below files are created during paginatepdf</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td rowspan="11" class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Tables/ tbl[n]</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n].htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Files received from html folder</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n]_valid.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Structured table</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>As soon as word2any creates the html file, then tagsoup creates the structured table html</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n]_original.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>This html is obtained after font mapping is done</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n]_original_valid.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Structured table</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>As soon as word2any creates the html file, then tagsoup creates the structured table html</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n].tex</p>
+                                                    </td>
+                                                    <td rowspan="4" class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>These files are created during latex process in order to paginate<br />Tex – This file is created after typesetting of manuscript<br />Pdf -&#160; Tex is converted and stored as pdf<br />Log – For error finding and cross checking<br />Aux – Contains supporting information of labels</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n].pdf</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n].log</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n].aux</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n]_crop.pdf</p>
+                                                    </td>
+                                                    <td rowspan="2" class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>If the table file size is too large then it is cropped and split</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>tbl[n]_split_1.pdf</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>doc_data.txt</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Has log details of table</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>start.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>To initiate the process</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>front.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains data from metadata screen</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>body.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Has manuscript where the front matter is removed i.e., after \body</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>body_as.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Structured manuscript</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>floats.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains captions of figures</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>tables.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Contains captions of tables</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>end.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>To end the process</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Generated id.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>All the above .htm files is combined and stored in the name of generated id.htm (Eg – epage_PDF_coc4feea27a43d3d.htm)</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Generated id_valid.htm</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Structured complete manuscript is present. This is obtained by combining all the 6 htm files which are present above</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Generated id.tex</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Typesetting is performed and stored in the format of tex</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Generated id.pdf</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Then finally converted to pdf</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Generated id.log</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Simultaneously log file is generated which could be used for cross checking and errors</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Generated id.aux</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Simultaneously aux file is generated which contains supporting information (labels)</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Generated id_stamped.pdf</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>Here stamp is appended with the pdf</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>last.png</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyH-Regular-" style="font-size: 10pt;">
+                                                        <p>To calculate accurate page count, last page of the pdf is trimmed and stored as png to calculate it's height</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td colspan="5" class="TableStyle-PatternedColumns-BodyG-DarkShade-" style="font-size: 10pt;">
+                                                        <p>Final pdf is placed in output folder</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedColumns-BodyB-DarkShade-" style="font-size: 10pt;">
+                                                        <p>OUTPUT</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyB-Regular-" style="font-size: 10pt;">
+                                                        <p>Generated id.pdf</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyB-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyB-Regular-" style="font-size: 10pt;">
+                                                        <p>Si.stamp and Generated id_stamped.pdf is merged into single pdf</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedColumns-BodyA-DarkShade-" style="font-size: 10pt;">
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a class="exit-off-canvas"></a>
+                </section>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

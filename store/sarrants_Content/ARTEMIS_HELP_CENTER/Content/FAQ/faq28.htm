@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="topic" data-mc-search-type="Stem" data-mc-help-system-file-name="ARTHELP.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="FAQ|Articles" data-mc-ignored-words="TK;Lookup;0c;CleanUp">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>How do I put a component such as an article on HOLD without stopping the workflow?</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor41"></a>How do I put a component such as an article on HOLD <a name="kanchor42"></a>without stopping the workflow?</h1>
+        <P>This topic describes a workaround for using the current capabilities of <span class="MyVariablesProductA">ARTEMIS</span> to place a component on hold. This does NOT&#160;prevent a workflow from progressing. </P>
+        <P>Putting a task on <b>Hold</b> makes it visible on the <b>Tasks</b> screen and on the WIP reports. </P>
+        <p class="ExampleHead">IMPORTANT!</p>
+        <p class="Example">Be aware that the workflow can advance even when the status changes to <b>Hold</b>.</p>
+        <H5>To put a component on Hold</H5>
+        <ol>
+            <li value="1">Edit the current active task and change the <b><a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Task Status<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>A task's condition at a given stage in the process. Task status can be Initialized, Open, AwatingVendor, AwaitingWorkflow, Error, Query, Hold, Closed, Deleted, Failed, Skipped, Withdrawn, or Active.</span></a></b> to <b>Hold</b>. <br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/putonhold.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="570" data-mc-height="264" src="../Resources/Images/putonhold_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a></li>
+        </ol>
+        <p class="warning_forNumLists" data-mc-autonum="&lt;b&gt;Warning!&lt;/b&gt; "><span class="autonumber"><span><b>Warning!</b> <![CDATA[ ]]></span></span> Do not use <b>Hold</b> for a task with an <b>AwaitingVendor</b> status, such as an <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">eTP<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>The electronic Transfer Process , an automated method of transferring and tracking files.</span></a>&#160;signal task (Composition)&#160;or a satellite system task (<a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">TAC<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>The Author Center: A browser-based, automated interface for authors to deliver, retrieve, correct, and return proofs.</span></a>&#160;or Author Corrections). On these <b>AwaitingVendor</b> tasks, the <b>Hold</b> change described in step 1 will not be an <b>Active</b> task when the files are returned. Therefore you lose their visibility in the <b>Status</b> column.</p>
+        <ol data-mc-continue="true">
+            <li value="2">Add a <b>Remarks</b> message with <b>Hold</b> as the category. Include the original task status, the reason for the hold and the date the hold was placed. Include instructions for the reader to <u>not</u> click <b>Confirm</b> when they see the <b><a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Remark<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>Messages attached to a record. Remarks can be categorized for Customer, Author, Production, etc. You may request confirmation for a Remark.</span></a></b> message dialog box, unless the reader is removing the <b>Hold</b>. <br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/holdremark.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="411" data-mc-height="178" src="../Resources/Images/holdremark_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a><br />When a user later edits the any of this component's tasks, she will see the <b>Remarks</b> message dialog box. </li>
+        </ol>
+        <p class="warning_forNumLists" data-mc-autonum="&lt;b&gt;Warning!&lt;/b&gt; "><span class="autonumber"><span><b>Warning!</b> <![CDATA[ ]]></span></span>If you have pop-up windows disabled in Chrome or if you are using a pop-up window blocker, you will not see the <b>Remarks</b> message pop-up window. </p>
+        <ol data-mc-continue="true">
+            <li value="3">Click the <b><a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Record ID<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>The unique alphanumeric or numeric identifier you assign when creating an Ad, Article, Issue or Front Matter/Back Matter.</span></a></b>&#160;in the <b><a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Task<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>A Task is a function performed by a user. Tasks can contain one or more events. ARTEMIS assigns tasks to a User or Group, but only a User can close a task.</span></a></b> screen. <br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/recordID.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="452" data-mc-height="110" src="../Resources/Images/recordID_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a><br /><span class="MyVariablesProductA">ARTEMIS</span> displays the <b><a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Article<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>An Article may be a review, editorial, and other component that makes up an Issue.</span></a> Details</b> screen. </li>
+            <li value="4">Click <b>Edit</b>, and then change the component title to include <b>**HOLD**</b>&#160;at the beginning. This gives the item more visibility on the <b>Tasks</b> list. </li>
+        </ol>
+        <p class="warning_forNumLists" data-mc-autonum="&lt;b&gt;Warning!&lt;/b&gt; "><span class="autonumber"><span><b>Warning!</b> <![CDATA[ ]]></span></span> If you send a file to TNQ that contains a correction to the article title, the new article title overwrites the old title upon return, and the <b>**HOLD**</b>&#160;disappears. </p>
+        <p>If a component is on <b>Hold</b>, you can remove the <b>Hold</b>.</p>
+        <H5>To remove a component from Hold</H5>
+        <ol>
+            <li value="1">Edit the current, active task with a <b>Hold Status</b>.</li>
+            <li value="2">When the <b>Remark</b> dialog box opens, click <b>Confirm</b>.  </li>
+            <li value="3">Change the <b>Task Status</b> to its prior status setting. You can find this setting in the <b>Remark</b>. </li>
+            <li value="4">Complete this task as you normally would when completing the task.If you are not completing the task at this time, click <b>Save</b>. Do not change to <b>Closed</b>. </li>
+            <li value="5">Click <b>Edit</b> and remove the <b>**HOLD**</b>&#160;text from the component title.</li>
+        </ol>
+        <H2>Viewing Components on Hold</H2>
+        <p>You can view components with a <b>Hold</b> status in the <b>Task</b> screen or in WIP&#160;reports. </p>
+        <p>
+            <h5>To view a component on Hold in the Task Inbox</h5>
+            <ul>
+                <li value="1">In <b>Search</b>, select <b>Hold</b> as the <b>Status</b>&#160;or in the <b>Name/Title</b> text box type <i>HOLD</i>. <span class="MyVariablesProductA">ARTEMIS</span> displays the matching components.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/tasklisthold.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="897" data-mc-height="299" src="../Resources/Images/tasklisthold_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a></li>
+            </ul>
+        </p>
+        <H5>To view a component on Hold in the WIP&#160;Report</H5>
+        <ul>
+            <li value="1">Set the <b>Report Parameters</b> as desired. The <b>Status</b> should be set to <b>Hold</b>. <span class="MyVariablesProductA">ARTEMIS</span> displays the matching results. <br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/repparam.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="907" data-mc-height="292" src="../Resources/Images/repparam_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a></li>
+        </ul>
+        <div class="SHERIDAN_logo">
+            <hr width="100%" size="0" align="center" />
+            <p style="font-size: 8pt;color: #808080;font-family: 'Segoe UI';"><span class="SystemSourceFile">faq28.htm</span> | Copyright © <span class="MyVariablesYear">2015</span> <span class="MyVariablesCompanyName">Dartmouth Journal Services</span>  All Rights Reserved.
+            </p>
+        </div>
+    </body>
+</html>

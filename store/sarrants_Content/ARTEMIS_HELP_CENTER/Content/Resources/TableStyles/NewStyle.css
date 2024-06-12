@@ -1,0 +1,476 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: NewStyle;
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-left-color: #000000;
+	border-right-style: none;
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-top-style: none;
+	border-top-width: 0px;
+	border-top-color: #000000;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	max-id: 3;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Column1;
+	id: 0;
+	font-size: 9pt;
+	font-family: 'Segoe UI';
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: double;
+	separator-width: 2px;
+	separator-color: #808080;
+	name: Header1;
+	id: 2;
+	font-size: 11pt;
+	font-family: 'Segoe UI';
+	text-align: center;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 0px;
+	separator-color: #000000;
+	name: Body1;
+	id: 1;
+	font-size: 9pt;
+	font-family: 'Segoe UI';
+	type: Automatic;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-NewStyle
+{
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-color: #000000;
+	border-left-width: 0px;
+	border-right-style: none;
+	border-right-color: #000000;
+	border-right-width: 0px;
+	border-top-style: none;
+	border-top-color: #000000;
+	border-top-width: 0px;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+	border-bottom-width: 0px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-NewStyle-Column-Column1
+{
+	
+}
+
+.TableStyle-NewStyle-Head-Header1
+{
+	
+}
+
+.TableStyle-NewStyle-HeadI-Column1-Header1
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+	text-align: center;
+}
+
+.TableStyle-NewStyle-HeadI-Column1-Header1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+}
+
+.TableStyle-NewStyle-HeadE-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+	text-align: center;
+	border-bottom-width: 2px;
+	border-bottom-color: #808080;
+	border-bottom-style: double;
+}
+
+.TableStyle-NewStyle-HeadE-Column1-Header1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+}
+
+.TableStyle-NewStyle-HeadF-Column1-Header1
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+	text-align: center;
+	border-bottom-width: 2px;
+	border-bottom-color: #808080;
+	border-bottom-style: double;
+}
+
+.TableStyle-NewStyle-HeadF-Column1-Header1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+}
+
+.TableStyle-NewStyle-HeadH-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+	text-align: center;
+}
+
+.TableStyle-NewStyle-HeadH-Column1-Header1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+}
+
+.TableStyle-NewStyle-HeadD-Column1-Header1
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+	text-align: center;
+	border-bottom-width: 2px;
+	border-bottom-color: #808080;
+	border-bottom-style: double;
+}
+
+.TableStyle-NewStyle-HeadD-Column1-Header1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+}
+
+.TableStyle-NewStyle-HeadC-Column1-Header1
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+	text-align: center;
+}
+
+.TableStyle-NewStyle-HeadC-Column1-Header1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+}
+
+.TableStyle-NewStyle-HeadB-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+	text-align: center;
+}
+
+.TableStyle-NewStyle-HeadB-Column1-Header1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+}
+
+.TableStyle-NewStyle-HeadA-Column1-Header1
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+	text-align: center;
+}
+
+.TableStyle-NewStyle-HeadA-Column1-Header1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+}
+
+.TableStyle-NewStyle-HeadG-Column1-Header1
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+	text-align: center;
+}
+
+.TableStyle-NewStyle-HeadG-Column1-Header1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 11pt;
+}
+
+.TableStyle-NewStyle-FootI-Column1-
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootI-Column1- p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootE-Column1-
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NewStyle-FootE-Column1- p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootF-Column1-
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootF-Column1- p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootH-Column1-
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NewStyle-FootH-Column1- p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootD-Column1-
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootD-Column1- p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootC-Column1-
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootC-Column1- p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootB-Column1-
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NewStyle-FootB-Column1- p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootA-Column1-
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootA-Column1- p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootG-Column1-
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-FootG-Column1- p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-Body-Body1
+{
+	
+}
+
+.TableStyle-NewStyle-BodyI-Column1-Body1
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyI-Column1-Body1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyE-Column1-Body1
+{
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NewStyle-BodyE-Column1-Body1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyF-Column1-Body1
+{
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyF-Column1-Body1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyH-Column1-Body1
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NewStyle-BodyH-Column1-Body1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyD-Column1-Body1
+{
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyD-Column1-Body1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyC-Column1-Body1
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyC-Column1-Body1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyB-Column1-Body1
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NewStyle-BodyB-Column1-Body1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyA-Column1-Body1
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyA-Column1-Body1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyG-Column1-Body1
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+.TableStyle-NewStyle-BodyG-Column1-Body1 p
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+

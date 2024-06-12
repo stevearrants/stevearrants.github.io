@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="79" MadCap:lastWidth="822">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet" />
+        <link href="../Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+		<script type="text/javascript" src="../scripts/jquery.goup.min.js">
+		</script>
+		<script type="text/javascript">/* <![CDATA[ */
+			$(document).ready(function(){
+			$.goup({
+			containerColor: "#373737",
+			arrowColor: "#fff",
+			trigger: 100,
+			bottomOffset: 50,
+			locationOffset: 30,
+			hideUnderWidth: 500,
+			trigger: 350,
+			goupSpeed: 'normal'
+			});
+			});
+		/* ]]> */</script>
+        
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            <div class="footer center">
+                <div class="row outer-row">
+                    <p><a href="../../Start.htm"><span style="color: #000000;">Copyright © </span><MadCap:variable name="MyVariables.Year" style="color: #000000;" /><span style="color: #000000;">  <![CDATA[ ]]></span><MadCap:variable name="MyVariables.CompanyName" style="color: #000000;" /></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

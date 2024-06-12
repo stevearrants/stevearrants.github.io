@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="ePage.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="ePAGE Technical FAQ">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title>Troubleshooting</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.5.5.0.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.print-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.expand-all-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/expand.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../Resources/Scripts/PIE.htc');
+}
+
+</style>
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.5.5.0_custom.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.offcanvas.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap">
+            <div class="off-canvas-wrap" data-offcanvas="">
+                <section class="inner-wrap">
+                    <nav class="tab-bar" data-mc-ignore="true">
+                        <section class="middle tab-bar-section row outer-row clearfix">
+                            <div class="relative clearfix"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                <div class="navigation-wrapper">
+                                    <ul class="navigation clearfix">
+                                        <li class="has-children"><a href="../Getting Started/Getting Started.htm">Getting Started</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="../Getting Started/Basic Steps.htm">Before you start...</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="../eptask.htm">ePAGE Tasks</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="../Tasks/problemsubs.htm">What to do with Problematic Submissions?</a>
+                                                </li>
+                                                <li><a href="../Tasks/accessfiles.htm">Accessing Submitted Files</a>
+                                                </li>
+                                                <li><a href="../Tasks/viewinfo.htm">Viewing Article Information</a>
+                                                </li>
+                                                <li><a href="../Tasks/runtests.htm">Running Tests</a>
+                                                </li>
+                                                <li><a href="../Tasks/usingftp.htm">Using FTP</a>
+                                                </li>
+                                                <li><a href="../Tasks/usemsql.htm">Using mySQL</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="../Faq.htm">ePAGE Technical FAQ</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="dbstat.htm">DB Statuses</a>
+                                                </li>
+                                                <li><a href="#" class="selected">Troubleshooting</a>
+                                                </li>
+                                                <li><a href="workflow.htm">Workflow</a>
+                                                </li>
+                                                <li><a href="xelerr.htm">XeLaTeX Errors</a>
+                                                </li>
+                                                <li><a href="addlinfo.htm">Additional Troubleshooting Information</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="../wsem7a.htm">Work Session Element Mapping, 7A</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="../elementmap/elementmap1.htm">I. Initial Author/files handoff from EJP to DJS (Form name: EJPTODJS)</a>
+                                                </li>
+                                                <li><a href="../elementmap/elementmap2.htm">II. DJS Update of EJP system (Form name: DJSTOEJP)</a>
+                                                </li>
+                                                <li><a href="../elementmap/elementmap3.htm">III. EJP Query of DJS COC for Status Check (Form name: EJPSTATUSCHECK)</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div><a class="menu-icon right-off-canvas-toggle" href="#"><span></span></a>
+                            </div>
+                        </section>
+                        <div class="nav-search row outer-row">
+                            <form class="search" action="#">
+                                <div class="search-bar search-bar-container needs-pie">
+                                    <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                    <div class="search-filter-wrapper">
+                                        <div class="search-filter">
+                                            <div class="search-filter-content">
+                                                <ul>
+                                                    <li>All Files</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search-submit-wrapper" dir="ltr">
+                                        <div class="search-submit" title="Search">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </nav>
+                    <aside class="right-off-canvas-menu" data-mc-ignore="true">
+                        <ul class="off-canvas-list" data-mc-back-link="Back" data-mc-css-tree-node-expanded="has-submenu" data-mc-css-tree-node-collapsed="has-submenu" data-mc-css-sub-menu="right-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.fndtn.offcanvas" data-mc-toc="True">
+                        </ul>
+                    </aside>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="sideContent">
+                                            <div class="clearfix">
+                                                <div class="buttons clearfix topicToolbarProxy _Skins_TopicToolBar">
+                                                    <div class="button-group-container-left">
+                                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                                        </button>
+                                                        <button class="button needs-pie expand-all-button" type="button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="expand all" />
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="menu _Skins_SideMenu">
+                                                <li class="has-children"><a href="../Faq.htm">ePAGE Technical FAQ</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="dbstat.htm">DB Statuses</a>
+                                                        </li>
+                                                        <li><a href="#" class="selected">Troubleshooting</a>
+                                                        </li>
+                                                        <li><a href="workflow.htm">Workflow</a>
+                                                        </li>
+                                                        <li><a href="xelerr.htm">XeLaTeX Errors</a>
+                                                        </li>
+                                                        <li><a href="addlinfo.htm">Additional Troubleshooting Information</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">You are here: </span><a class="MCBreadcrumbsLink" href="../Faq.htm">ePAGE Technical FAQ</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Troubleshooting</span>
+                                        </div>
+                                        <h1>Troubleshooting</h1>
+                                        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
+                                            <col class="TableStyle-PatternedRows-Column-Regular" />
+                                            <col class="TableStyle-PatternedRows-Column-Regular" />
+                                            <col class="TableStyle-PatternedRows-Column-Regular" />
+                                            <col class="TableStyle-PatternedRows-Column-Regular" />
+                                            <thead>
+                                                <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">SI&#160;#</th>
+                                                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Problem</th>
+                                                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Troubleshooting</th>
+                                                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">Resolution</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">1</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">PDF
+ NOT GENERATED</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">a)
+ File formats are correct.&#160; Analysis steps:&#160; What to check
+ first?&#160; Walk through the troubleshooting process in the DB.</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">
+                                                        <p>Verify
+ the following and act as specified in Resolution column.
+    </p>
+                                                        <p>1) If \body is retained in TeX file
+    </p>
+                                                        <p>2) If manuscript/table could not be converted to html.</p>
+                                                        <p>3) If temp file is uploaded along with other input files</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-size: 10pt;">
+                                                        <p>1)
+ Provide enter mark before the \body tag in manuscript and ensure \body is in
+ the right format. After modifying the manuscript, perform recast off.
+   </p>
+                                                        <p>2) Check whether input file is corrupted, if it is corrupted then request
+ the author to modify it
+    3) Perform recast off by deleting the temp file and processing further</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">b)
+ How to tell what stage PDF generation stopped at?&#160; What steps in going
+ to the DB?</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">
+                                                        <p>1)
+ Log into ePAGE database -
+ http://epagedb.dartmouthjournals.com/phpmyadmin/
+    2) Use the following credentials:
+    </p>
+                                                        <p>3) Select the database epageweb
+    </p>
+                                                        <p>4) Click on submision table
+    </p>
+                                                        <p>5) Search using ePAGE tracking number
+    </p>
+                                                        <p>6) Check the content of status field
+</p>
+                                                        <p>    7) Refer to DB_statuses worksheet to understand more about the status,
+ troubleshooting and resolution steps.</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">c)
+ Stops in HTML creation:How to
+ analyze? What steps to follow to
+ narrow down problem and identify correction needed?</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">
+                                                        <p>1)
+ Status of the article would be WIP in submission table.
+    </p>
+                                                        <p>2) Status of individual file (manuscript/table) would be
+ ERROR_IN_CONVERSION in files table
+    </p>
+                                                        <p>3) Refer to DB_statuses worksheet for more details on troubleshooting and
+ resolution.</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-size: 10pt;">&#160;</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">d)
+ Download Word file:</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">(1)
+ Correction/fix made to the Word file. &#160;How to save Word file with the
+ change in DB?&#160; (Without going through the standalone system.)</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">NA</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-size: 10pt;">Perform
+ Recast off using the ePAGE tracking number and upload the corrected/modified
+ Word file. During recast off, change the email id in Getting started screen
+ to tech support persons email id. After recast off, change the email id back
+ to authors email id.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">&#160;(2)
+ Download and&#160; modify a graphic file.&#160; How to save graphic file with
+ the change in DB?&#160; (Without going through the standalone system.)</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">NA</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">Perform
+ Recast off using the ePAGE tracking number and upload the corrected/modified
+ graphic file. During recast off, change the email id in Getting started
+ screen to tech support persons email id. After recast off, change the email
+ id back to authors email id.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">e)
+ How to restart/regenerate the processing of the PDF and generate the success
+ email?</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">NA</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-size: 10pt;">Perform
+ recast off as specified in points d (1) and (2). Email generation will happen
+ automatically when recast off is done.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">(1)
+ How to do this from the MySQL database?&#160; (Without going through the
+ standalone system.)</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">NA</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">Change the
+ status in DB i.e., In submission table change the status of the submission
+ to READY_TO_PROCESS</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">How
+ to process when the error occurs in submission screen
+    "Problem in while processing
+ the .emz and .wmz files"</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">NA</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-size: 10pt;">1. Delete the
+ files as mentioned in the below path url
+ "http://epage.dartmouthjournals.com/files/tracking_no/html/manuscript_files/[*.emz|wmz].
+    2. After deleteing the files, perform recast-off.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">2</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">PDF
+ GENERATED, BUT PROBLEM WITH PDF</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">a)
+ End Notes used and References are wrong size.&#160; How to fix?</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">End
+ Notes are handled in the application.
+    Reference are of wrong size "“ This happens when Reference section couldnt
+ be identified by the application. Download the manuscript and verify whether
+ the reference heading is in the following format - Reference and References
+ (either Bold/Italic/Underline/Upper case/Lower case)</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-size: 10pt;">
+                                                        <p>1)
+ If the reference heading is not in the expected format then change it
+ accordingly and regenerate PDF (Refer 1 e).</p>
+                                                        <p>2) If the reference heading is still in the expected format then detailed analysis of the input file has to be performed to identify the root cause.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">b)
+ Figure Legends section not recognized, but it does have Figure Legends
+ heading and it is placed after References.&#160; How to identify problem and
+ fix?</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">Detailed
+  analysis of the input file has to be performed to identify the root cause.</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">&#160;</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">&#160;</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">c)
+ Table column heads out of alignment in PDF.&#160; How to fix in Word?</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">Column
+ span and row span has to be checked in input table file.</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-size: 10pt;">If
+ input has to be modified then do so as required.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">3</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">Contact
+ footnote getting displayed in the first page of the length estimate PDF</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">Download
+ the manuscript and check whether footnotes are linked to author names in the
+ manuscript file.</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">Perform
+ recast off. During this process, delete the author footnotes from Authors
+ field of Manuscript information screen.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">4</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">Frontmatter
+ text (article title, author names, affiliations etc) is getting repeated in
+ the length estimate PDF</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">
+                                                        <p>Check
+ whether the body text is provided at the end of frontmatter i.e. at the
+ beginning of the main article content in the manuscript file.
+    </p>
+                                                        <p>1) Verify if \body text is provided in the expected format (/body or
+ \body) in manuscript. If it is not so, then frontmatter in the article would
+ not get removed in PDF and also the frontmatter information filled in
+ Manuscript information screen will get displayed in PDF resulting in content
+ repetition.
+    </p>
+                                                        <p>2) If /bodytext is provided correctly but has content repetition in PDF.
+  To be analyzed further.</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-size: 10pt;">Provide
+ /body in manuscript and perform recast off.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">5</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">Certain
+ text is not displayed in the length estimate PDF</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">
+                                                        <p>1)
+ Check whether /body text is provided at the end of frontmatter i.e., at the
+ beginning of the main article content in the manuscript file. This is
+ required for the application to decide where the main content begins since it
+ will strip-off the content before the /body text while generating the
+ length estimate PDF. It will use the frontmatter content filled in Manuscript
+ Information screen in length estimate PDF.</p>
+                                                        <p>
+    2) Check if the /body text is provided at the right place as specified
+ above. Since those paragraphs (which
+ are actually part of main article) present above /body would get removed in
+ PDF
+    </p>
+                                                        <p>3) If you have provided the /body text correctly but content is missing
+ in PDF.</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">Provide
+ /body at the right place in manuscript and perform recast off.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">6</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">Author
+ receives a failure email saying that the system was unable to generate the
+ PDF</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-size: 10pt;">
+                                                        <p>1)
+ Check the status of the article in DB. Refer DB_statuses worksheet.
+    </p>
+                                                        <p>2) Check the file that was last generated in files folder - HTML, combined
+ HTML, TeX, article PDF, consolidated (stamped) PDF.
+    </p>
+                                                        <p>3) Check the XeLaTeX log file for any error messages (these start with !).
+ Refer to <a href="xelerr.htm">XeLaTeX worksheet</a>.</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-size: 10pt;">&#160;</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">7</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">Author
+ hasnt received success/failure email</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-size: 10pt;">
+                                                        <p>1)
+ Check if PDF is successfully generated and is available in
+ http://epage.dartmouthjournals.com/files/[ePAGE_tracking_no]/output.
+    </p>
+                                                        <p>2) If PDF isnt available in the above path then refer to point 1.</p>
+                                                    </td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-size: 10pt;">1)
+ Use http://epage.dartmouthjournals.com/admin to fill-in the ePAGE tracking
+ number/eJP manuscript number, view the status of the submission and send
+ email if required.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="font-size: 10pt;">8</td>
+                                                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="font-size: 10pt;">PDF isnt generated at all or PDF is not properly generated.</td>
+                                                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="font-size: 10pt;">Inputs are perfect. Status of individual
+ files is Completed in DB and overall status of the submission is Error in
+ generate PDF or Completed. Need to regenerate the PDF?</td>
+                                                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="font-size: 10pt;">
+                                                        <p>Step 1 : Get the entire article information from
+ "external_package" table for the problematic manuscript number and
+ build the html form and re-post it in ePage site (for integrated
+ version).
+    </p>
+                                                        <p>Step 2 : After
+ reposting the files, it will be processed in the Integrated Welcome
+ Screen.
+</p>
+                                                        <p>    Step 3 : "Continue"
+ button will be enabled in the Welcome Screen, after clicking "Continue"
+ button it will moves to Submission Screen.
+    </p>
+                                                        <p>Step 4 : Login into
+ DB and compare the "files" table with "external_files"
+ table. Need to compare for discrepancy by comparing column "ID" in the
+ "files" table with the column "files_id" in the "external_files" table in the
+ DB.
+    </p>
+                                                        <p>Step 5: If any record
+ not available in the "external_files" table need to remove in the files
+ table, but before that we need to remove the records in the "external_files"
+ table and also in the "additional info" table in the DB for that
+ "file_id"&#160; mapping in the "external _files" table.
+    </p>
+                                                        <p>Step 6: Change the
+ current status as "WIP" for all the records&#160; in the "files" table for
+ the Submission ID for the manuscript.
+</p>
+                                                        <p>    Step 7 : Proceed by
+ refreshing the submission screen.</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a class="exit-off-canvas"></a>
+                </section>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

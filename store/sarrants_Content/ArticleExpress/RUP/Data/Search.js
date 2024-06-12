@@ -1,0 +1,1 @@
+define({r:1,st:'Stem',n:1,t:[0],u:['../Content/Author Queries.htm'],s:['\u0027ve','arti','cep','data','efere','essi','hange','ini','licen','ncludi','ollaboration','parenthetic','rec','rrec','submiss','treamli','viewing'],p:[['+',20],['click',22],['have',32],['perform',34],['them',2]]});

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="topic" data-mc-search-type="Stem" data-mc-help-system-file-name="ARTHELP.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title>Advanced Training IV</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.5.5.0.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet" />
+        <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.topic-ratings-button
+{
+	-pie-background: transparent url('../Skins/Default/Stylesheets/Images/star-full.png') no-repeat center center;
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+.button.edit-user-profile-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/edit-profile.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.print-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.expand-all-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/expand.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <script src="../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.5.5.0_custom.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.offcanvas.js">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap">
+            <div class="off-canvas-wrap" data-offcanvas="">
+                <section class="inner-wrap">
+                    <nav class="tab-bar" data-mc-ignore="true">
+                        <section class="middle tab-bar-section row outer-row clearfix">
+                            <div class="relative clearfix"><a class="logo" href="Home.htm" alt="Logo"></a>
+                                <div class="navigation-wrapper">
+                                    <ul class="navigation clearfix">
+                                        <li class="has-children"><a href="#">Start here</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="Artemislook.htm">ARTEMIS Background</a>
+                                                </li>
+                                                <li><a href="Introduction to Artemis/login.htm">Your ARTEMIS Account</a>
+                                                </li>
+                                                <li><a href="Introduction to Artemis/wkrtasks.htm">Working with Tasks</a>
+                                                </li>
+                                                <li><a href="releasenotes.htm">Release Notes for ARTEMIS</a>
+                                                </li>
+                                                <li><a href="addch_rem.htm">Additional Charges Section and Author Billing Remarks</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="#">Issues</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="AST/IS/IS Record Created.htm">(IS) Record Created</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS FTOC Processing.htm">(IS) FTOC Processing</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Cover Image Selection.htm">(IS) Cover Image Selection</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS ReportGeneration.htm">(IS) Report Generation</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Customer Supplied Lineup.htm">(IS) Customer-Supplied Lineup</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Lineup.htm">(IS) Lineup</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Lineup Corrections.htm">(IS) Lineup Corrections</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Sequencing.htm">(IS) Sequencing</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Folio.htm">(IS) Folio</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Folio QC.htm">(IS) Folio QC</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Send Proof.htm">(IS) Send Proof</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Editorial Office Corrections.htm">(IS) Editorial Office Corrections</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Corrections Review.htm">(IS) Corrections Review</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Proof Revisions.htm">(IS) Proof Revisions</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Proof Revisions QC.htm">(IS) Proof Revisions QC</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Finalize Issue.htm">(IS) Finalize Issue</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Final Files.htm">(IS) Final Files</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Final Files QC.htm">(IS) Final Files QC</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Issue Release.htm">(IS) Issue Release</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS EurekAlert.htm">(IS) EurekAlert</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Files to Printer.htm">(IS) Files to Printer</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Files Elsewhere.htm">(IS) Files Elsewhere?</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Blues Corrections.htm">(IS) Blues Corrections</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Blues Corrections Review.htm">(IS) Blues Corrections Review</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Blues Revisions.htm">(IS) Blues Revisions</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Blues QC.htm">(IS) Blues QC</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Invoice to Authors.htm">(IS) Invoice to Authors</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS ELD Processing.htm">(IS) ELD Processing</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS ELD QC.htm">(IS) ELD QC</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS ELD Editorial Office Corrections.htm">(IS) ELD Editorial Office Corrections</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS ELD Corrections Review.htm">(IS) ELD Corrections Review</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS ELD Approval.htm">(IS) ELD Approval</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS ELD Release.htm">(IS) ELD Release</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Vendor Invoice.htm">(IS) Vendor Invoice</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Customer Invoice.htm">(IS) Customer Invoice</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Copyright Forms to Editorial.htm">(IS) Copyright Forms to Editorial Office</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Files Archived.htm">(IS) Files Archived</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS Query.htm">(IS) Query</a>
+                                                </li>
+                                                <li><a href="AST/IS/IS ePub.htm">(IS) ePub</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="#">Articles</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="AST/AR/AR_Record_Created.htm">(AR) Record Created</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_Initial_Files_to_Vendor.htm">(AR) Initial Files to Vendor</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Artwork Services.htm">(AR) Artwork Services</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Graphics QC.htm">(AR) Graphics QC</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Graphics Review.htm">(AR) Graphics Review</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Image Forensics.htm">(AR) Image Forensics</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Image Forensics QC.htm">(AR) Image Forensics QC</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Image Forensics Corrections1.htm">(AR) Image Forensics Corrections</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Image Forensics Corrections2.htm">(AR) Image Forensics Corrections Review</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Graphics Processing.htm">(AR) Graphics Processing</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Graphics Processing Ticketed.htm">(AR) Graphics Processing (Ticketed)</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR LaTeX Conversion.htm">(AR) LaTeX Conversion</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Word Conversion.htm">(AR) Word Conversion</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR SI Processing.htm">(AR) SI Processing</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR MS Prep.htm">(AR) MS Prep</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Tooling.htm">(AR) Tooling</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_FreeStyle_Processing.htm">(AR) FreeStyle Processing</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_FreeStyle_QC.htm">(AR) FreeStyle QC</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Files to Copy Editor.htm">(AR) Files to Copy Editor</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_Copyediting.htm">(AR) Copyediting</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_CE_Invoice_Received.htm">(AR) CE Invoice Received</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Post CE Review.htm">(AR) Post CE Review</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR eGalley XML Export.htm">(AR) eGalley XML Export</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_Composition.htm">(AR) Composition</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_Comp_QC.htm">(AR) Comp QC</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_Send_Proof.htm">(AR) Send Proof</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR eBill Estimate to Authors.htm">(AR) eBill Estimate to Authors</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_Author_Corrections.htm">(AR) Author Corrections</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_Editorial_Office_Corrections.htm">(AR) Editorial Office Corrections</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_Corrections_Review.htm">(AR) Corrections Review</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Proof Revisions.htm">(AR) Proof Revisions</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Proof Revisions QC.htm">(AR) Proof Revisions QC</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Press Interest Processing.htm">(AR) Press Interest Processing</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR PAP Processing.htm">(AR) PAP Processing</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR PAP QC.htm">(AR) PAP QC</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR PAP Corrections.htm">(AR) PAP Corrections</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR PAP Corrections Review.htm">(AR) PAP Corrections Review</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR PAP Release.htm">(AR) PAP Release</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Permissions.htm">(AR) Permissions</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Approval.htm">(AR) Approval</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR Final Proof.htm">(AR) Final Proof</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR eBill Invoice to Authors.htm">(AR) eBill Invoice to Authors</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR_Query.htm">(AR) Query</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR PE Pre Comp QC.htm">(AR) PE - Pre Comp QC</a>
+                                                </li>
+                                                <li><a href="AST/AR/AR PE Publisher Corrections.htm">(AR) PE - Publisher Corrections</a>
+                                                </li>
+                                                <li><a href="remarks.htm">Working with Remarks</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="#">Ads</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="AD/addad.htm">Adding Ads (AD)</a>
+                                                </li>
+                                                <li><a href="AD/reusead.htm">Reusable Ads</a>
+                                                </li>
+                                                <li><a href="AST/AD/AD_Record_Created.htm">(AD) Record Created</a>
+                                                </li>
+                                                <li><a href="AST/AD/AD_Ad_Processing.htm">(AD) Ad Processing</a>
+                                                </li>
+                                                <li><a href="AST/AD/AD_Ad_QC.htm">(AD) Ad QC</a>
+                                                </li>
+                                                <li><a href="AST/AD/AD eProof.htm">(AD) eProof</a>
+                                                </li>
+                                                <li><a href="AST/AD/AD Corrections.htm">(AD) Corrections</a>
+                                                </li>
+                                                <li><a href="AST/AD/AD Corrections Review.htm">(AD) Corrections Review</a>
+                                                </li>
+                                                <li><a href="AST/AD/AD_Approval.htm">(AD) Approval</a>
+                                                </li>
+                                                <li><a href="AST/AD/AD Query.htm">(AD) Query</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="#">Front/Back Matter</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="AST/FB/FB_Record_Created.htm">(FB) Record Created</a>
+                                                </li>
+                                                <li><a href="AST/FB/FB_Composition.htm">(FB) Composition</a>
+                                                </li>
+                                                <li><a href="AST/FB/FB_Graphics_Processing.htm">(FB) Graphics Processing</a>
+                                                </li>
+                                                <li><a href="AST/FB/FB_Composition_QC.htm">(FB) Composition QC</a>
+                                                </li>
+                                                <li><a href="AST/FB/FB_Approval.htm">(FB) Approval</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="Reports/AR_reports.htm">ARTEMIS Reporting</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="Reports/generic_rep.htm">Generic Reports</a>
+                                                </li>
+                                                <li><a href="Reports/scisoc_rep.htm">Scientific Societies Reports</a>
+                                                </li>
+                                                <li><a href="Reports/billing_rep.htm">Billing Reports</a>
+                                                </li>
+                                                <li><a href="Reports/management_rep.htm">Management Reports</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="#">FAQ</a>
+                                            <ul class="sub-menu">
+                                                <li class="has-children"><a href="#">General</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="FAQ/faq1.htm">Can I use any browser with ARTEMIS?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq10.htm">What TrackIt code do I use for ARTEMIS training?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq5.htm">Where do I send questions?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq6.htm">Where do I go for an ARTEMIS refresher?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq2.htm">Do I need to be on "The Farm" to use ARTEMIS?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq7.htm">How do I reset my training password?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq8.htm">My password worked yesterday. What do I do?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq9.htm">When do I use a Work Order as opposed to email?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq16.htm">I uploaded the wrong file. How do I delete it?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq13.htm">Where do I show that Data Supplements have arrived for an article in&#160;production?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq14.htm">If I unassign and then reassign a task to the same Assigned User, is there a problem?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq21.htm">Should I enter correction counts in Corrections Review or Proof Revisions?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq22.htm">How do I&#160;enter Additional Charges?</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-children"><a href="#">Issues</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="FAQ/faq25.htm">What do I do if I've already calculated pagination but the customer pulls an article?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq26.htm">How do I move articles from Unassigned to a specific issue?</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-children"><a href="#">Reports</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="FAQ/faq4.htm">Why can't I save an Excel file from a WIP&#160;report?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq15.htm">What does Confirmation Required do in Remarks?</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-children"><a href="#">Articles</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="FAQ/faq23.htm">How do I work with corrections that didn't come in from TAC?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq28.htm">How do I put a component such as an article on HOLD without stopping the workflow?</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-children"><a href="#">Workflows</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="FAQ/faq12.htm">All my issues are set up. How do I start the workflow?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq11.htm">Where can I find workflow charts?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq3.htm">How do I search on multiple workflow tasks?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq29.htm">How do I turn off Reminders?</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-children"><a href="#">Ads</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="FAQ/faq17.htm">How do I use ads from FMP in ARTEMIS without reprocessing by TNQ?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq18.htm">Can I use the same ad in two journals for the same customer without creating two ad records?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq19.htm">Is an ad reusable in different issues of the same journal?</a>
+                                                        </li>
+                                                        <li><a href="FAQ/faq20.htm">How do I manage the same ad running in FMP and ARTEMIS?</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div><a class="menu-icon right-off-canvas-toggle" href="#"><span></span></a>
+                            </div>
+                        </section>
+                        <div class="nav-search row outer-row">
+                            <form class="search" action="#">
+                                <div class="search-bar search-bar-container needs-pie">
+                                    <input class="search-field needs-pie" type="search" placeholder="Search ARTEMIS Help Center" />
+                                    <div class="search-filter-wrapper">
+                                        <div class="search-filter">
+                                            <div class="search-filter-content">
+                                                <ul>
+                                                    <li>All Files</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search-submit-wrapper" dir="ltr">
+                                        <div class="search-submit" title="Search ARTEMIS Help Center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </nav>
+                    <aside class="right-off-canvas-menu" data-mc-ignore="true">
+                        <ul class="off-canvas-list" data-mc-back-link="Back" data-mc-css-tree-node-expanded="has-submenu" data-mc-css-tree-node-collapsed="has-submenu" data-mc-css-sub-menu="right-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.fndtn.offcanvas" data-mc-toc="True">
+                        </ul>
+                    </aside>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="sideContent">
+                                            <div class="clearfix">
+                                                <div class="buttons clearfix topicToolbarProxy _Skins_TopicToolBar">
+                                                    <div class="button-group-container-left">
+                                                        <div class="button-group star-buttons loading feedback-topic-required">
+                                                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                            </div>
+                                                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                            </div>
+                                                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                            </div>
+                                                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                            </div>
+                                                            <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="button-separator feedback-topic-required">
+                                                        </div>
+                                                        <button class="button feedback-required login-button" type="button" id="normalLoginBtn" data-state1-class="login-button" data-state2-class="edit-user-profile-button" title="Login" data-state1-title="Login">
+                                                            <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="login" />
+                                                        </button>
+                                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                                            <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                                        </button>
+                                                        <button class="button needs-pie expand-all-button" type="button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                            <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="expand all" />
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            <script type="text/javascript" src="Resources/scripts/jquery.goup.min.js">
+                                            </script>
+                                            <script type="text/javascript">/* <![CDATA[ */
+				$(document).ready(function(){
+				$.goup({
+				containerColor: "#373737",
+				arrowColor: "#fff",
+				trigger: 100,
+				bottomOffset: 50,
+				locationOffset: 30,
+				hideUnderWidth: 500,
+				trigger: 350,
+				goupSpeed: 'normal'
+				});
+				});
+			/* ]]> */</script>
+                                        </p>
+                                        <h1>Advanced Training IV</h1>
+                                        <p>In the final formal training class, we'll spend 90 minutes on the workflow task of Issue Sequencing. </p>
+                                        <p>
+                                            <img src="Resources/Images/download_button.png" alt="" />
+                                        </p>
+                                        <p><a href="javascript:void(0);" class="MCHelpControl MCHelpControl-Related relatedTopics" data-mc-topics="Introduction to ARTEMIS|train_intro.htm||Basic Training|train_basic.htm||Advanced Training I|train_AD1.htm||Advanced Training II|train_AD2.htm||Advanced Training III|train_AD3.htm" style="mc-use-custom-sort-order: true;"><span class="MCHelpControl-RelatedHotSpot_"><img class="MCHelpControl_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Related Topics Link Icon" />Related Topics</span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr width="100%" size="0" align="center" />
+                            <p style="font-size: 8pt;color: #808080;font-family: 'Segoe UI';"><span class="SystemSourceFile">train_AD4.htm</span> | Copyright © <span class="MyVariablesYear">2015</span> <span class="MyVariablesCompanyName">Dartmouth Journal Services</span>  All Rights Reserved.
+		</p>
+                        </div>
+                    </section><a class="exit-off-canvas"></a>
+                </section>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="224" MadCap:lastWidth="661">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet" />
+        <link href="../Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="content">
+            <div id="contentBody">
+                <div class="row collapse">
+                    <div class="sideContent">
+                        <div class="clearfix">
+                            <MadCap:topicToolbarProxy />
+                        </div>
+                        <MadCap:menuProxy style="mc-context-sensitive: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
+                    </div>
+                    <MadCap:breadcrumbsProxy />
+                    <p>
+                        <script type="text/javascript" src="../scripts/jquery.goup.min.js">
+                        </script>
+                        <script type="text/javascript">/* <![CDATA[ */
+				$(document).ready(function(){
+				$.goup({
+				containerColor: "#373737",
+				arrowColor: "#fff",
+				trigger: 100,
+				bottomOffset: 50,
+				locationOffset: 30,
+				hideUnderWidth: 500,
+				trigger: 350,
+				goupSpeed: 'normal'
+				});
+				});
+			/* ]]> */</script>
+                    </p>
+                    <MadCap:bodyProxy />
+                </div>
+            </div>
+        </div>
+        <hr />
+        <p style="font-size: 8pt;color: #808080;font-family: 'Segoe UI';"><MadCap:variable name="System.SourceFile" /> | Copyright © <MadCap:variable name="MyVariables.Year" /> <MadCap:variable name="MyVariables.CompanyName" />  All Rights Reserved.
+		</p>
+    </body>
+</html>

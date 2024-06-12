@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="regular_Page" data-mc-search-type="Stem" data-mc-help-system-file-name="ARTHELP.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Workflows|Issues Workflow" data-mc-ignored-words="TK;Lookup;0c;CleanUp">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Calculating Pagination</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/DJS_MASTER_Styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript" src="../Resources/scripts/jquery.goup.min.js">
+        </script>
+        <script type="text/javascript">/* <![CDATA[ */
+				$(document).ready(function(){
+				$.goup({
+				containerColor: "#373737",
+				arrowColor: "#fff",
+				trigger: 100,
+				bottomOffset: 50,
+				locationOffset: 30,
+				hideUnderWidth: 500,
+				trigger: 350,
+				goupSpeed: 'normal'
+				});
+				});
+			/* ]]> */</script>
+        <h1>Calculating Pagination</h1>
+        <p>After filling in all required pagination information and clicking <b>Calculate Pagination</b>, <span class="MyVariablesProductA">ARTEMIS</span> applies the indicated pagination rules and calculates the start and end pages for all components in the <b>Issue Sequencing</b> section. <span class="MyVariablesProductA">ARTEMIS</span> displays the page numbers for each section in the format indicated by the <b>Sequence Template</b>. When <b>Calculate Pagination</b> completes, <span class="MyVariablesProductA">ARTEMIS</span> saves all information in the <b>Issue Sequence</b> section with the new pagination information.</p>
+        <p>Pagination options implement the layout rules for the Issue. <span class="MyVariablesProductA">ARTEMIS</span> applies the pagination options to a Component and may be applied jointly:</p>
+        <ul>
+            <li value="1"><b>Run In</b>: A <b>Run In</b> occurs when Component 1 finishes on a partial page and the next Component is laid out to start on the same page as Component 1 finished. In this case, Component 2 is designated as a <b>Run In</b> as it runs into Component 1. Note that the page count for the components rounds up.</li>
+            <li value="2"><b>Flow On</b>: A <b>Flow On</b> is always an "add one" instruction to the end page algorithm to account for the fact that partial pages are involved. In the previous <b>Run In</b> example, if Component 1 is 1.5 pages long and starts on page 1 and ends on page 2, and Component 2 is one page long and starts on Page 2, a <b>Flow On</b> instruction must be added to Component 2. This is to assure the page count algorithm has Component 1 starting on page 1 and ending on page 2 while Component 2 starts on page 2 and ends on page 3 (half the article will be on page 2 and the other half on page 3), even though it is only one page. (If you didn't assign Component 2 the <b>Flow On</b> rule than it would start on page 2 and end on page 2.) <b>Flow On</b> can only occur when a component is also a <b>Run-In</b>.</li>
+            <li value="3"><b>Blank</b>: A <b>Blank</b> is a blank page   inserted following any Component and may occur anywhere within an Issue.</li>
+        </ul>
+        <P class="Note">You cannot leave <b>Issue Sequencing</b> with <b>Complete</b> if you've applied a sequence number but you haven't performed a page calculation. If you try, <span class="MyVariablesProductA">ARTEMIS</span> displays an error message telling you that calculations must occur after sequencing and before the task is submitted or completed.</P>
+        <hr width="100%" size="0" align="center" />
+        <p style="font-size: 8pt;color: #808080;font-family: 'Segoe UI';"><span class="SystemSourceFile">calcpage.htm</span> | Copyright © <span class="MyVariablesYear">2015</span> <span class="MyVariablesCompanyName">Dartmouth Journal Services</span>  All Rights Reserved.
+		</p>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'Active',c:0},{t:'Article ID',c:0},{t:'Attached Files',c:0},{t:'Awaiting Vendor',c:0},{t:'Blank',c:0},{t:'Closed',c:0},{t:'Completed Date',c:0},{t:'Created Date',c:0},{t:'Error',c:0},{t:'Failed',c:0},{t:'Files Sent',c:0},{t:'Inactive',c:0},{t:'Issue ID',c:0},{t:'Open',c:0},{t:'Tasks',c:0},{t:'WS Calls',c:0}]});

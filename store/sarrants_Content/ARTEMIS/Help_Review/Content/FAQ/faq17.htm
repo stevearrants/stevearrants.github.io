@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="ARTHELP.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="" data-mc-ignored-words="TK;Lookup;0c;CleanUp">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>How do I use ads from FMP in ARTEMIS without reprocessing by TNQ?</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/DJS_MASTER_Styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor1"></a>How do I use ads from FMP in ARTEMIS without reprocessing by TNQ?</h1>
+        <p>Occasionally, you need to use an ad existing in <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">FMP<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>FileMaker Pro</span></a>&#160;in an <span class="MyVariablesProductA">ARTEMIS</span> workflow. You don't want TNQ&#160;to process the ad again and you need to make it clear in&#160;<span class="MyVariablesProductA">ARTEMIS</span> Sequencing and in the <b>Closing Memo</b> the new <span class="MyVariablesProductA">ARTEMIS</span> ad ID and the old FMP&#160;ad ID&#160;are. </p>
+        <ol>
+            <li value="1">Add the old FMP&#160;ads into <span class="MyVariablesProductA">ARTEMIS</span>, preferably in the Unassigned issue. </li>
+            <li value="2">During ad set-up in <span class="MyVariablesProductA">ARTEMIS</span>, choose <b>PU</b>&#160;in the <b>Supplied</b> drop-down and select <b>Is Reusable</b>.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/faq17.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="1078" data-mc-height="358" src="../Resources/Images/faq17_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a></li>
+            <li value="3">Include the old FMP&#160;ad number as part of the <b>Ad Title</b> when you set up the ad in <span class="MyVariablesProductA">ARTEMIS</span>. For example, and ad title might be<i>JASN- Updated Web site (old ad ID: AC237)</i>. This helps you select the correct ad during Sequencing.</li>
+            <li style="font-style: normal;" value="4">In the <b>Remarks</b> section, choose <b>Closing Memo</b> and include the following text: <i>This ad was previously processed by TNQ. It is a Pick-up ad... The old ad number is...</i> and include the ad number. <br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/faq1718.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="518" data-mc-height="223" src="../Resources/Images/faq1718_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a><br />This message appears in the <b>RemarksForPlanner</b> column on the <b>Closing Memo</b> which will help TNQ&#160;pick the correct ad. </li>
+        </ol>
+        <p>Now in the <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Ad<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>Advertising for an issue.</span></a> workflow, do one of the following:</p>
+        <h3>If the Ad workflow doesn't start
+        </h3>
+        <ul>
+            <li value="1">Upload the original file submitted by the customer and the files returned by TNQ&#160;from the old ad folders on Dickens into <span class="MyVariablesProductA">ARTEMIS</span>. You have completed the tasks for this ad. Stop here.</li>
+        </ul>
+        <h3>If the Ad workflow starts</h3>
+        <ol>
+            <li value="1">In <b>Ad Processing</b>, open the task and send email to TNQ&#160;to not process the ad. You then must upload the old FMP&#160;ad files from TNQ&#160;into <span class="MyVariablesProductA">ARTEMIS</span>.</li>
+            <li value="2">Complete the workflow tasks until you see <b>Approval</b> and the task is closed. </li>
+        </ol>
+        <p>If there are any corrections, you can make them during issue production.</p>
+        <div class="SHERIDAN_logo">
+            <hr width="100%" size="0" align="center" />
+            <p class="masterpagefooter"><span class="SystemSourceFile">faq17.htm</span> | Copyright © <span class="MyVariablesYear">2015</span> <span class="MyVariablesCompanyName">Dartmouth Journal Services</span>  All Rights Reserved.
+            </p>
+        </div>
+    </body>
+</html>

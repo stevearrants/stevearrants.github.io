@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],s:['$ainput'],p:[['$ainputs',17],['form',11],['shift',18]]});

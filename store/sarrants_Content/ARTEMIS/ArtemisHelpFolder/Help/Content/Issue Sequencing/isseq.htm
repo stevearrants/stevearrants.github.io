@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="regular_Page" data-mc-search-type="Stem" data-mc-help-system-file-name="ARTHELP.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Workflows|Issues Workflow" data-mc-ignored-words="TK;Lookup;0c;CleanUp">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Issue Sequencing</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/DJS_MASTER_Styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript" src="../Resources/scripts/jquery.goup.min.js">
+        </script>
+        <script type="text/javascript">/* <![CDATA[ */
+				$(document).ready(function(){
+				$.goup({
+				containerColor: "#373737",
+				arrowColor: "#fff",
+				trigger: 100,
+				bottomOffset: 50,
+				locationOffset: 30,
+				hideUnderWidth: 500,
+				trigger: 350,
+				goupSpeed: 'normal'
+				});
+				});
+			/* ]]> */</script>
+        <h1><a name="kanchor30"></a>Issue Sequencing</h1>
+        <p>Issue Sequencing is the process by which articles, ads, and FM/BM are assigned to an issue and given page numbers. The purpose of Issue Lineup and Sequencing is to determine the sequence of components within an issue and the start and end page of each component. </p>
+        <H2>Issue Sequencing Process</H2>
+        <p>You create Articles in one of two ways:(1) manually through <span class="MyVariablesProductA">ARTEMIS</span>, or (2) via a peer review system using XML notify signal operation. You create the Ads and FM/BM through <span class="MyVariablesProductA">ARTEMIS</span>. When an article, ad, or FM/BM is created it can be assigned to an issue, or it can exist as unassigned. In both cases, articles will ultimately be assigned to Issues. <b>Unassigned</b> is an Issue record option for titles where <span class="MyVariablesProductA">ARTEMIS</span> holds articles until you reassign them to a traditional Issue or an Issue used solely for billing. </p>
+        <H2>Configure Issue Sequencing for a Title</H2>
+        <p>A sequence template is a named set of rules to use for the sequencing of issues. A collection of sequence templates to associate with a title are loaded into an issue sequence template XML and loaded into <span class="MyVariablesProductA">ARTEMIS</span>. The rules to use for organizing and sequencing an issue are defined at the title level and the sequencing template contains the details of those rules. <span class="MyVariablesProductA">ARTEMIS</span> holds the sequencing template related to each title and allows you to select the appropriate template to use for the issue being processed.</p>
+        <H2>Sequencing an Issue</H2>
+        <p>If <span class="MyVariablesShortName">DJS</span> performs issue processing for a publisher, the first steps are component assignment (associating Articles, Ads, and <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">FMBM<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>(Front Matter/ Back Matter) Front and back matter, such as table of contents, index, etc. Also known as standing matter.</span></a> components with an Issue), sequencing (the ordering of components), and page numbering (assigning start and end pages to each component). </p>
+        <P class="Note">While the page numbering itself is calculated, the editor must assign certain attributes to each component, such as the required pagination operations, for the correct calculation. </P>
+        <H2>Configure Issue Sequencing for a Title</H2>
+        <H5>To Sequence an Issue</H5>
+        <ol>
+            <li value="1">Open <span class="MyVariablesProductA">ARTEMIS</span> and go to the <b>Inbox Task</b> list.</li>
+            <li value="2">Open the <b>Issue</b> <b>Sequencing</b> task.</li>
+            <li value="3">On the <b>Task Detail</b> screen in the <b>Issue Sequencing</b> section, select the type of template to use from the drop-down list and click <b>Select Template</b>. <span class="MyVariablesProductA">ARTEMIS</span> uses this template to control the sequencing of the issue.</li>
+        </ol>
+        <p><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/issue_sequencing_section.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="825" data-mc-height="56" src="../Resources/Images/issue_sequencing_section_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a>
+        </p>
+        <p> After you select the sequencing template, the <b>Issue Sequencing</b> section expands to show each of the sections that can have components assigned for sequencing. This figure shows the <b>Issue Sequencing</b> section with the Online template selected. The issue sequence contains a grid area for each of the Sequence Templates sections. The following example has Front Cover, Front, TOC, Body, and Back Cover sections created. Each of these sections must be assigned the appropriate components before sequencing and pagination can be completed.</p>
+        <p><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/issue_sequencing_full.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="825" data-mc-height="531" src="../Resources/Images/issue_sequencing_full_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a>
+        </p>
+        <H2>Add Components to Section</H2>
+        <p>Click <b>Add Item(s)</b> to open the <b>Select Component For Sequencing</b> window. The window shows all components that can be assigned to sections of the current issue.</p>
+        <p><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/issue_sequencing_comp.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img" data-mc-width="718" data-mc-height="189" src="../Resources/Images/issue_sequencing_comp_thumb_0_48.png" style="mc-thumbnail: hover;" alt="" tabindex="" /></a>
+        </p>
+        <p data-mc-conditions="Default.Print"><b>Select <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Components<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>An Ad, Article, Issue, or Front/Back Matter. Each component has tasks associated with it in a Workflow.</span></a> for Sequencing Window</b>
+        </p>
+        <p>The top portion of the window has filtering options that make it easier to locate the desired components. The middle section of the window lists the components that are available to be assigned to this issue based on the filtering criteria set in the top section.</p>
+        <p>By default, the Ads, Articles, FMBM, Unassigned, and Pickups filter options are selected. The following list shows the components that you can assign to an issue:</p>
+        <ul>
+            <li value="1"><b>Articles</b>: Includes Article components in the list.</li>
+            <li value="2"><b>FMBM</b>: Includes FMBM components in the list.</li>
+            <li value="3"><b>Ads</b>: Includes Ad components in the list.</li>
+            <li value="4"><b>Pickups</b>: Includes reusable components such as Ads in the list.</li>
+            <li value="5"><b>Unassigned</b>: Includes any unassigned components in the list.</li>
+            <li value="6"><b>Component Type</b>: Includes only the selected component Class (i.e. Article Type) in the list. If not selected, then all Component Classes are shown.</li>
+            <li value="7"><b>Comp. Id</b>: Filters the list by the Component ID, i.e. Article ID, Ad ID, etc.</li>
+            <li value="8"><b>Author</b>: Filters the list by the Author </li>
+            <li value="9"><b>Name/Title</b>: Filters the list by the Component Name or Title, i.e. Article Title, Ad Name, etc. </li>
+            <li value="10"><b>Apply Filter</b>: Reloads the list with the newly defined filter criteria.</li>
+            <li value="11">
+                <p>The <b>Reset Filter</b> button is displayed if the you have customized the filter and want to return to the default filter. Any changes to the filter made will be cleared and the list will be refreshed using the detail filter.</p>
+            </li>
+        </ul>
+        <H5>To Add Components to a Section</H5>
+        <ol>
+            <li style="font-weight: normal;" value="1">Select the component in the table.</li>
+            <li style="font-weight: normal;" value="2">Select the proper section in the <b>Add to Section</b> drop-down, and then click <b>Add Item(s)</b>.</li>
+            <li value="3">When you are finished adding components, click <b>Close</b>.</li>
+            <li value="4">Drag the components within the <b>Issue</b> sections to set their order.</li>
+            <li value="5">Set the start page for the sections that require a <b>Start Page</b> value.</li>
+            <li value="6">Set the pagination attributes for each component (<b>Page Count</b>, <b>Blank(s)</b>, <b>Run In</b>, and <b>Flow</b>).</li>
+            <li value="7">Click <b>Calculate Pagination</b>.</li>
+            <li value="8">Complete any other input required for the task.</li>
+            <li value="9">Complete the task.</li>
+        </ol>
+        <p class="ExampleHead"> Unassign Items vs. Remove Item</p>
+        <p class="Example3">If you select a record and choose <b>Unassign Item(s)</b> you are putting it back into the Unassigned issue, which completely removes it from the Issue.</p>
+        <p class="Example3">If you select <b>Remove Item</b>, the item is removed from the section in Issue Sequencing.</p>
+        <H2>Sequencing Components</H2>
+        <p>Once you select components for each of the sections, you can sequence the components. You can also remove items with the <b>Remove Item(s)</b> button. </p>
+        <p>You can move a row by clicking it and selecting the <b>Up</b>, <b>Down</b>, <b>Top</b>, or <b>Bottom</b> buttons. You can also move rows up or down by using drag and drop within each section of components.</p>
+        <P class="Note"><b>NOTE</b>:&#160;</P>
+        <P class="NoteText">You can only drag and drop one item at a time.</P>
+        <P>Each section grows based on the number of components assigned to that section.</P>
+        <P>After the you place the components in the proper order, you can calculate the pagination of the components. See <a href="calcpage.htm">Calculating Pagination</a> for more information.</P>
+        <p>If you haven't assigned all components to a section, <span class="MyVariablesProductA">ARTEMIS</span> displays the following error message: </p>
+        <p>
+            <img src="../Resources/Images/Error message for missing component_292x136.jpg" style="border-left-style: solid;border-left-width: 1px;border-left-color: ;border-right-style: solid;border-right-width: 1px;border-right-color: ;border-top-style: solid;border-top-width: 1px;border-top-color: ;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: ;width: 292;height: 136;" />
+        </p>
+        <hr width="100%" size="0" align="center" />
+        <p style="font-size: 8pt;color: #808080;font-family: 'Segoe UI';"><span class="SystemSourceFile">isseq.htm</span> | Copyright © <span class="MyVariablesYear">2015</span> <span class="MyVariablesCompanyName">Dartmouth Journal Services</span>  All Rights Reserved.
+		</p>
+    </body>
+</html>

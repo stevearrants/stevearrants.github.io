@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="regular_Page" data-mc-search-type="Stem" data-mc-help-system-file-name="ARTHELP.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Workflows" data-mc-ignored-words="TK;Lookup;0c;CleanUp">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Interpreting Workflow Diagrams</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/DJS_MASTER_Styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript" src="../Resources/scripts/jquery.goup.min.js">
+        </script>
+        <script type="text/javascript">/* <![CDATA[ */
+				$(document).ready(function(){
+				$.goup({
+				containerColor: "#373737",
+				arrowColor: "#fff",
+				trigger: 100,
+				bottomOffset: 50,
+				locationOffset: 30,
+				hideUnderWidth: 500,
+				trigger: 350,
+				goupSpeed: 'normal'
+				});
+				});
+			/* ]]> */</script>
+        <h1><a name="aanchor3"></a>
+            <MadCap:concept term="Workflows" />Interpreting Workflow Diagrams</h1>
+        <p><span class="MyVariablesProductA">ARTEMIS</span> <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Workflow<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>The sequence of process through which an ad, article, issue, or front and back mater pass from creation to completion.</span></a> diagrams are standard flowcharts using a <span class="MyVariablesProductA">ARTEMIS</span>-specific notation.</p>
+        <p>
+            <img src="../Resources/Images/workflow diagram 1.jpg" alt="" />
+        </p>
+        <p><span class="MyVariablesProductA">ARTEMIS</span> automatically opens each task after the previous task closes . Each task must be opened and closed in the order presented in the Workflow, with the exception of <a href="#Asynchronous_Tasks">Asynchronous Tasks</a>, which are described below. A new task does not open until the preceding task closes.<br /></p>
+        <h3><a name="kanchor23"></a>User Tasks: User</h3>
+        <ul>
+            <li value="1">User</li>
+        </ul>
+        <p>
+            <img src="../Resources/Images/User folio QC.jpg" alt="" />
+        </p>
+        <p>The <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">User<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>A person using ARTEMIS, either inside or outside DJS.</span></a> <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Task<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>A Task is a function performed by a user. Tasks can contain one or more events. ARTEMIS assigns tasks to a User or Group, but only a User can close a task.</span></a> is a straightforward task done by an <span class="MyVariablesProductA">ARTEMIS</span> user. You need to edit the task, interact as necessary (upload a file, for example) and complete the task. For example, most QC tasks such as FreeStyle QC and Comp QC are User Tasks. Some tasks done outside <span class="MyVariablesProductA">ARTEMIS</span>, such as Copyediting and Editorial Office Corrections, can be User Tasks, in which case, the <span class="MyVariablesProductA">ARTEMIS</span> user acts on behalf of the outside user by completing the task when it is done.</p>
+        <p>
+            <h3><a name="kanchor24"></a>Email Tasks: UEU, UE, Email</h3>
+        </p>
+        <p>
+            <img src="../Resources/Images/UEU send proof.jpg" alt="" />
+        </p>
+        <p>Email Tasks send emails directly from <span class="MyVariablesProductA">ARTEMIS</span> to the recipient. User Task Email Tasks (UEU)&#160;such as Send Proof and Send File to Copy Editor let you add information in the task screen (such as the name of a copy editor). You then create an email by clicking <b>Create Email</b> and edit it before sending. User Email Tasks (UE) such as FTOC Processing create the email automatically, which you can edit before sending. Email Tasks such as Cover Image Selection create and send an email without user interaction.</p>
+        <h3><a name="kanchor25"></a>Signal (eTP) Tasks: ST, UST, USU</h3>
+        <p>
+            <img src="../Resources/Images/UST egalley composition.jpg" alt="" />
+        </p>
+        <p>All Signal Tasks send <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">eTP<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>The electronic Transfer Process , an automated method of transferring and tracking files.</span></a> signals and packages. UST Tasks such as eGalley Composition and Folio let you work with the task, such as uploading a file to send, then send the signal and file package if applicable. These tasks stay open, allowing you to send another signal (such as an additional file) and only close when <span class="MyVariablesProductA">ARTEMIS</span> receives the final eTP signal from the vendor. ST Tasks such as ELD Processing send signals automatically when a task is opened, requiring no user interaction. USU Tasks, such as Files to Printer TK.</p>
+        <h3><a name="kanchor26"></a>Userless Tasks: Task</h3>
+        <p>
+            <img src="../Resources/Images/Task MS prep.jpg" alt="" />
+        </p>
+        <p>Userless Tasks such as MS Prep and Graphics Processing are vendor tasks that open and close in response to Signal (eTP) tasks.</p>
+        <h3><a name="kanchor27"></a><a name="Asynchronous_Tasks"></a>Asynchronous Tasks: AsyncT, AsyncU</h3>
+        <p>
+            <img src="../Resources/Images/AsyncT graphics processing.jpg" alt="" />
+        </p>
+        <p>Asynchronous tasks open when a preceding task closes; the workflow can continue even when these tasks remain open. AsyncT Tasks such as Graphic Processing have a corresponding Await Task later in the workflow. AsyncU Tasks such as CE Invoice Received are User Tasks that can be closed at a later date. When these tasks are open, they may have an Awaiting Vendor Status.</p>
+        <h3><a name="kanchor28"></a>Automated Tasks: WT, WAT, Await, AT</h3>
+        <p>
+            <img src="../Resources/Images/WT author corrections.jpg" alt="" />
+        </p>
+        <p>All Automated Tasks are opened without user input either in communication with a system (such as <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">The Author Center<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>(TAC) A browser-based, automated interface for authors to deliver, retrieve, correct, and return proofs.</span></a> or a previous <span class="MyVariablesProductA">ARTEMIS</span> Task), or in response to an eTP signal task. Generally, they indicate a process is taking place outside <span class="MyVariablesProductA">ARTEMIS</span>. </p>
+        <h3><a name="kanchor29"></a>Decision Points: UI Action, Prop</h3>
+        <p>
+            <img src="../Resources/Images/Decision point.jpg" alt="" />
+        </p>
+        <p>Decision points drive the workflow based on input. UI Action indicates a user button choice in a Task screen; the button choices (for example, Alterations and Approve) are always listed in the Workflow. Prop gets a property value from a component or a Task screen, such as CompType, or a Task screen selection, such as a Figure Corrections value of Y, R, or N.</p>
+        <hr width="100%" size="0" align="center" />
+        <p style="font-size: 8pt;color: #808080;font-family: 'Segoe UI';"><span class="SystemSourceFile">Interpreting <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ #text">Workflow<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>The sequence of process through which an ad, article, issue, or front and back mater pass from creation to completion.</span></a> Diagrams.htm</span> | Copyright © <span class="MyVariablesYear">2015</span> <span class="MyVariablesCompanyName">Dartmouth Journal Services</span>  All Rights Reserved.
+		</p>
+    </body>
+</html>

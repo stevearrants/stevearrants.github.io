@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/AST/AD/AD_Ad_Processing.htm'],s:['237','here','reen'],p:[['5',2]]});
