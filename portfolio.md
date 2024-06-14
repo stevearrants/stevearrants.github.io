@@ -14,4 +14,6 @@ I've been creating technical documentation since 1986. I started working on pri
 * [Reviewing Comments in ArticleExpress](https://youtu.be/2wfSgwhBB5U)
 * [Editing References and Citations](https://youtu.be/H5LRwWeGT2g)
 
-I've had my samples copied and used by folks who found them here. Please get in touch with me for links to samples.
+I don't have current samples from Jitterbit, but you can look at the [Snowflake connector](https://success.jitterbit.com/cloud-studio/cloud-studio-reference/connectors/snowflake/){:target="_blank"} and [Marketplace](https://success.jitterbit.com/marketplace/){:target="_blank"} documentation. Although they may have been updated since I worked on them, you'll get an idea of what I worked on.
+
+I also have print samples available. Please contact me to see these. 
