@@ -2,8 +2,8 @@
 layout: post
 title: Twenty Questions for Interviews
 subtitle: Getting the most out of your job interview
-cover-img: /assets/img/20.png
-share-img: /assets/img/20.png
+cover-img: /assets/img/twenty.png
+share-img: /assets/img/twenty.png
 tags: [job hunting]
 author: Steve Arrants
 ---
