@@ -7,6 +7,9 @@ I've been creating technical documentation since 1986. I started working on pri
 ## Online Help
 **Article Express** was an online production editing tool for scientific journals. Each journal had its requirements and features. Consequently, each Help system needed to be tailored to these needs. We used MadCap Flare and its conditional output at Sheridan to produce Help for multiple outputs. Click [here](../store/sarrants_Content/ArticleExpress/Pediatrics/PFXHelp.htm){:target="_blank"} for a link to the Help for Journal of Pediatrics draft.
 
+## Presentation
+[Writing a Project Plan](https://gamma.app/docs/Writing-a-Project-Plan-tlm6hfzu82gnksw){:target="_blank"} -- Part of a training session I give on documentation planning.
+
 ## Videos
 * [Using Collaboration in ArticleExpress](https://youtu.be/ZEpvFdUYmnw){:target="_blank"} 
 * [Inserting Equations](https://youtu.be/e-ckercZbDk){:target="_blank"} 
