@@ -3,7 +3,7 @@ layout: page
 title: Portfolio
 subtitle: Samples of my work
 ---
-I've been creating technical documentation since 1986. I started working on print documentation but have transitioned to online documentation and documentation design and management. 
+I've been creating technical documentation my enite career. I started working on print documentation but have transitioned to online documentation and documentation design and management. 
 ## Online Help
 **Article Express** was an online production editing tool for scientific journals. Each journal had its requirements and features. Consequently, each Help system needed to be tailored to these needs. We used MadCap Flare and its conditional output at Sheridan to produce Help for multiple outputs. Click [here](../store/sarrants_Content/ArticleExpress/Pediatrics/PFXHelp.htm){:target="_blank"} for a link to the Help for Journal of Pediatrics draft.
 
