@@ -5,6 +5,8 @@ subtitle: Current writing
 ---
 I post on Medium. 
 
+* [Twenty Questions for Interviews](https://medium.com/@sarrants/twenty-questions-for-interviews-17224e8d6231) -- Getting the most out of your job interview.
+
 * [A Soft Reset](https://medium.com/@sarrants/a-soft-reset-52d0ff4ad8f5) -- When you get overwhelmed.
 
 * [Some Guidelines for Teams and Projects](https://medium.com/@sarrants/some-guidelines-for-teams-and-projects-f5f19ee7cad9) -- Working together for success and sanity.
