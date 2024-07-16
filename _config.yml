@@ -24,6 +24,7 @@ navbar-links:
    Blog: "blog/index.html"
    Portfolio: "portfolio"
    Resume: "resume"
+   Medium: "https://medium.com/@sarrants"
    
 paginate_path: "/blog/page:num/"
 
