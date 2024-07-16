@@ -17,6 +17,9 @@ I've been creating technical documentation my enite career. I started working o
 * [Reviewing Comments in ArticleExpress](https://youtu.be/2wfSgwhBB5U){:target="_blank"} 
 * [Editing References and Citations](https://youtu.be/H5LRwWeGT2g){:target="_blank"} 
 
-I don't have current samples from Jitterbit, but you can look at the [Snowflake connector](https://success.jitterbit.com/cloud-studio/cloud-studio-reference/connectors/snowflake/){:target="_blank"} and [Marketplace](https://success.jitterbit.com/marketplace/){:target="_blank"} documentation. Although they may have been updated since I worked on them, you'll get an idea of what I worked on.
+I don't have current samples from Jitterbit, but you can look at the [Snowflake connector](https://success.jitterbit.com/cloud-studio/cloud-studio-reference/connectors/snowflake/){:target="_blank"} and [Marketplace](https://success.jitterbit.com/marketplace/){:target="_blank"} documentation. Although they may have been updated since I worked on them, you'll get an idea of what I did there.
 
-I also have print samples available. Please contact me to see these. 
+## Print
+[ESS Overview](../store/ESSOverview.pdf) Enhanced Storage Solution Overview for a service from Anuvio/iDrive.
+
+I also have more print samples available on a Dropbox share. Please contact me to see these. 
