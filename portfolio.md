@@ -22,4 +22,4 @@ I don't have current samples from Jitterbit, but you can look at the [Snowflake 
 ## Print
 [ESS Overview](../store/ESSOverview.pdf) Enhanced Storage Solution Overview for a service from Anuvio/iDrive.
 
-I also have more print samples available on a Dropbox share. Please contact me to see these. 
+I also have more print and online samples available on a Dropbox share. Please contact me to see these. 
