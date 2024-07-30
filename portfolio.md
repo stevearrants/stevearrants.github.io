@@ -20,6 +20,6 @@ I've been creating technical documentation my enite career. I started working o
 I don't have current samples from Jitterbit, but you can look at the [Snowflake connector](https://success.jitterbit.com/cloud-studio/cloud-studio-reference/connectors/snowflake/){:target="_blank"} and [Marketplace](https://success.jitterbit.com/marketplace/){:target="_blank"} documentation. Although they may have been updated since I worked on them, you'll get an idea of what I did there.
 
 ## Print
-[ESS Overview](../store/ESSOverview.pdf) Enhanced Storage Solution Overview for a service from Anuvio/iDrive.
+[ESS Overview](../store/ESSOverview.pdf) -- Enhanced Storage Solution Overview for a service from Anuvio/iDrive.
 
 I also have more print and online samples available on a Dropbox share. Please contact me to see these. 
