@@ -4,7 +4,7 @@ title: Resume
 subtitle: My work history
 published: true
 ---
-My [resume](/store/steve-arrants-nr.pdf) includes details of the technical writing and related skills and experience I bring to my clients. I investigate, organize, and explain things in accessible and friendly ways.
+My [resume](/store/Steve-Arrants-Senior-Technical-Writer-Resume.pdf) includes details of the technical writing and related skills and experience I bring to my clients. I investigate, organize, and explain things in accessible and friendly ways.
 
 # Executive Summary
 
