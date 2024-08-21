@@ -23,7 +23,9 @@ Draft videos with temp audio tracks.
 * [Reviewing Comments in ArticleExpress](https://youtu.be/2wfSgwhBB5U){:target="_blank"} 
 * [Editing References and Citations](https://youtu.be/H5LRwWeGT2g){:target="_blank"} 
 
-I don't have current samples from Jitterbit, but you can look at the [Snowflake connector](https://success.jitterbit.com/cloud-studio/cloud-studio-reference/connectors/snowflake/){:target="_blank"} and [Marketplace](https://success.jitterbit.com/marketplace/){:target="_blank"} documentation. Although they may have been updated since I worked on them, you'll get an idea of what I did there.
+## Jitterbit samples
+[Jitterbit's Harmony Marketplace and Snowflake Connector samples](../store/Jitterbit-sapples.pdf) -- Harmony Marketplace is a repository of integration templates used 
+to create Cloud Studio Projects. The Snowflake Connector gives Cloud Studio access to Snowflake to create and use activities. 
 
 ## Print
 [ESS Overview](../store/ESSOverview.pdf) -- Enhanced Storage Solution Overview for a service from Anuvio/iDrive.
