@@ -5,6 +5,8 @@ subtitle: Current writing
 ---
 I post on Medium. 
 
+* [When the Docs Are an Afterthought](https://medium.com/@sarrants/when-the-docs-are-an-afterthought-d0d64192061b) When your work isn't seen as important. 
+
 * [Twenty Questions for Interviews](https://medium.com/@sarrants/twenty-questions-for-interviews-17224e8d6231) -- Getting the most out of your job interview.
 
 * [A Soft Reset](https://medium.com/@sarrants/a-soft-reset-52d0ff4ad8f5) -- When you get overwhelmed.
