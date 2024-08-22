@@ -1,8 +1,8 @@
 ---
 layout: post
 title: When the Docs Are an Afterthought
-cover-img: /assets/img/books.png
-share-img: /assets/img/books.png
+cover-img: /assets/img/books.jpg
+share-img: /assets/img/books.jpg
 tags: [documentation]
 author: Steve Arrants
 ---
