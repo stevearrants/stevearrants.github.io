@@ -1,7 +1,8 @@
 ---
 layout: post
 title: When the Docs Are an Afterthought
-
+cover-img: /assets/img/books.png
+share-img: /assets/img/books.png
 tags: [documentation]
 author: Steve Arrants
 ---
@@ -46,3 +47,6 @@ Efforts to be included in planning and weekly project meetings and to be asked a
 
 ### Management doesn't offer support
 Finally, we end on a critical resource. You have some tough choices if you're told that's the way we've always done it, and that's the end of the conversation. I’ve seen this attitude from writing managers who have never written or managed writers. They have no real idea what you are capable of and don’t want to know. They’re there to check things off a list. I don’t know how to refocus them or motivate them to change. But ask yourself, if your manager doesn’t value your work, why are you still there?
+
+---
+Photo by [Jan Mellström](https://unsplash.com/@mrjane?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/).
