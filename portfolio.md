@@ -24,7 +24,7 @@ Draft videos with temp audio tracks.
 * [Editing References and Citations](https://youtu.be/H5LRwWeGT2g){:target="_blank"} 
 
 ## Jitterbit samples
-[Jitterbit's Harmony Marketplace and Snowflake Connector samples](../store/Jitterbit-sapples.pdf) -- Harmony Marketplace is a repository of integration templates used 
+[Jitterbit's Harmony Marketplace and Snowflake Connector samples](../store/Jitterbit-samples.pdf) -- Harmony Marketplace is a repository of integration templates used 
 to create Cloud Studio Projects. The Snowflake Connector gives Cloud Studio access to Snowflake to create and use activities. 
 
 ## Print
