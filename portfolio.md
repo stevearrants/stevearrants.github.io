@@ -25,10 +25,10 @@ Draft videos with temp audio tracks.
 
 ## Print samples
 ### Jitterbit samples
-[Jitterbit's Harmony Marketplace and Snowflake Connector samples](../store/Jitterbit-samples.pdf) -- Harmony Marketplace is a repository of integration templates used 
+[Jitterbit's Harmony Marketplace and Snowflake Connector samples](../store/Jitterbit-samples.pdf){:target="_blank"}  -- Harmony Marketplace is a repository of integration templates used 
 to create Cloud Studio Projects. The Snowflake Connector gives Cloud Studio access to Snowflake to create and use activities. 
 
 ### Anuvio/iDrive
-[ESS Overview](../store/ESSOverview.pdf) -- Enhanced Storage Solution Overview for a service from Anuvio/iDrive.
+[ESS Overview](../store/ESSOverview.pdf){:target="_blank"}  -- Enhanced Storage Solution Overview for a service from Anuvio/iDrive.
 
 I also have more print and online samples available on a Dropbox share. Please contact me to see these. 
