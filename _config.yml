@@ -24,7 +24,7 @@ navbar-links:
    Blog: "blog/index.html"
    Portfolio: "portfolio"
    Resume: "resume"
-   Style Guide: "./style"
+ #  Style Guide: "./style"
    Medium: "medium"
    
 paginate_path: "/blog/page:num/"
