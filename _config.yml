@@ -20,8 +20,9 @@ author: Steve Arrants
 ###############################################
 
 navbar-links:
-   Resume: "resume"   
-   Faq for Hiring: "rfaq"
+   Hire me!: 
+   - Resume: "resume"   
+   - Faq for Hiring: "rfaq"
 #   About me: "aboutme"
    Blog: "blog/index.html"
    Portfolio: "portfolio"
