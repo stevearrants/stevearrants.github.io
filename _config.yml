@@ -23,7 +23,7 @@ navbar-links:
    Hire me!: 
    - Resume: "resume"   
    - Faq for Hiring: "rfaq"
-#   About me: "aboutme"
+   About me: "aboutme"
    Blog: "blog/index.html"
    Portfolio: "portfolio"
    Style Guide: "./style/site"

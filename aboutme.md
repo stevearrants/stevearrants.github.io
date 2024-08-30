@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About Steve
-subtitle: More about me
 youtubeId: JHQJmQvvjE0
 ---
 
@@ -11,4 +10,4 @@ Don't think of me as just a writer. I'm also an experienced editor and editorial
 
 If you need something explained, something complex made simple, let’s talk about how I can create great documentation for your next project. Contact me through a link in the footer.
 
-<iframe width="760px" height="500px" src="https://sway.office.com/s/pg57t000oPTmfI7Y/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+<iframe width="760px" height="500px" src="https://sway.cloud.microsoft/s/pg57t000oPTmfI7Y/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
