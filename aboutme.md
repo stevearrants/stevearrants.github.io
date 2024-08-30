@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Steve
+title: About Me
 youtubeId: JHQJmQvvjE0
 ---
 
