@@ -20,11 +20,11 @@ author: Steve Arrants
 ###############################################
 
 navbar-links:
+   About me: "aboutme"
    Hire me!: 
    - Resume: "resume"   
    - Faq for Hiring: "rfaq"
-   About me: "aboutme"
-   Blog: "blog/index.html"
+#   Blog: "blog/index.html"
    Portfolio: "portfolio"
    Style Guide: "./style/site"
 #   Medium: "medium"
@@ -62,7 +62,7 @@ social-network-links:
   linkedin: stevearrants
   telephone: +18028811726
   mastodon: hachyderm.io/@vttechwriter
-#  bluesky: stevearrants.me
+  bluesky: stevearrants.me
  
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
