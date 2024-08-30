@@ -20,12 +20,12 @@ author: Steve Arrants
 ###############################################
 
 navbar-links:
-   About me: "aboutme"
+#   About me: "aboutme"
    Hire me!: 
    - Resume: "resume"   
    - Faq for Hiring: "rfaq"
-#   Blog: "blog/index.html"
    Portfolio: "portfolio"
+   Blog: "blog/index.html"
    Style Guide: "./style/site"
 #   Medium: "medium"
    
