@@ -6,8 +6,6 @@ title: About Me
 ## Who am I?
 I’m Steve Arrants, a technical writer, an editor, and a documentation engineer. A documentation engineer helps companies find the most efficient way of creating, managing, and distributing their documentation. This involves looking at the existing systems and processes, talking with the doc team, management, and other stakeholders to find a good solution. 
 
-I create content here and on LinkedIn. 
-
 ## My background
 I started out as a technical writer and took on more responsibilities and skills as an editor and then a documentation engineer. I enjoy working with teams to rejigger and improve their workflows. 
 
