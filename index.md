@@ -13,7 +13,7 @@ I’ve helped companies re-engineer and improve documentation processes, while h
 ## What I've done
 - At Agilent, existing documentation was rebranded to align with the corporate brand. I introduced Git source control to the doc team, replacing slow and inefficient Windows shares. Remotely accessing files went from almost two hours to under ten minutes.
 
-- At Jitterbit, I created enablement documentation that helped users connect systems and build applications to improve business processes. A Markdown/Docs-as-Code workflow speeded documentation development and release on a tight two—to three-week release cadence. 
+- At Jitterbit, I created enablement documentation that helped users connect systems and build applications to improve business processes. A Markdown/Docs-as-Code workflow speeded documentation development and release on a tight two- to three-week release cadence. 
 
 - At Sheridan Journal Services, I used Flare to single-source and brand online Help for 15 clients, tailoring each document to their unique workflow and processes. This cut support tickets by 30%.
 
