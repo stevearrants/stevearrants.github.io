@@ -21,9 +21,8 @@ author: Steve Arrants
 
 navbar-links:
    About me: "aboutme"
-   Hire me!: 
-   - Resume: "resume"   
-   - Faq for Hiring: "rfaq"
+   Hiring FAQ: "rfaq"
+   Resume: "resume"   
    Portfolio: "portfolio"
    Blog: "blog/index.html"
    Style Guide: "./style/site"
