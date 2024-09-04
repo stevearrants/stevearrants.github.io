@@ -20,7 +20,7 @@ author: Steve Arrants
 ###############################################
 
 navbar-links:
-#   About me: "aboutme"
+   About me: "aboutme"
    Hire me!: 
    - Resume: "resume"   
    - Faq for Hiring: "rfaq"

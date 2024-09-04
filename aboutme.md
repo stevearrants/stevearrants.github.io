@@ -1,13 +1,27 @@
 ---
 layout: page
 title: About Me
-youtubeId: JHQJmQvvjE0
+
 ---
+## Who am I?
+I’m Steve Arrants, a technical writer, an editor, and a documentation engineer. A documentation engineer helps companies find the most efficient way of creating, managing, and distributing their documentation. This involves looking at the existing systems and processes, talking with the doc team, management, and other stakeholders to find a good solution. 
 
-Hello! I’m Steve Arrants, a Vermont-based technical writer, editor, content developer, and online documentation specialist. Throughout my career, I’ve investigated, researched, organized, and explained things in accessible and user-friendly ways. I’ve created documents used by NASA, Compaq, Microsoft, AutoDesk, and others. I’ve managed award-winning websites for a leading news site. I’ve helped large and small companies bring their documentation online while reducing costs and shrinking schedules. 
+I create content here and on LinkedIn. 
 
-Don't think of me as just a writer. I'm also an experienced editor and editorial manager. I'm extremely proud of the information I've created and the people I've helped to develop along the way -- and I'm thankful to them as well! I'm very good at taking complex concepts and making them useful and easy to understand. The simplest way to describe my many responsibilities as a technical writer is to build a bridge between people and technology. I help people and organizations meet their goals in the simplest, most effective ways possible. How? Just ask. Let's have a conversation.
+## My background
+I started out as a technical writer and took on more responsibilities and skills as an editor and then a documentation engineer. I enjoy working with teams to rejigger and improve their workflows. 
 
-If you need something explained, something complex made simple, let’s talk about how I can create great documentation for your next project. Contact me through a link in the footer.
+I've been using MadCap Flare as an authoring tool for most of my career. But I've also used Markdown and a Docs as Code workflow, which I find works very well when documenting APIs and iPaaS and SaaS platforms. Docs as Code doesn't require developers and engineers to learn new tools or an investment in proprietary software. 
 
-<iframe width="760px" height="500px" src="https://sway.cloud.microsoft/s/pg57t000oPTmfI7Y/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+## Where I've worked
+As a writer and editor I have more than twenty years experience in small and large corporate organizations in scientific and medical instrumentation, scientific journal tools, and other markets. 
+
+As a documentation engineer I've helped the organizations I've worked for improve their processes, become more efficient, and get the docs done faster and with fewer hassles. I've seen a lot of documentation problems in my career and have found ways to fix them.
+
+## Personality?
+Here are the [results of a personality test](https://www.16personalities.com/profiles/66b8e706b949f) I took as a work exercise. People I've worked with tell me it's accurate. I'm friendly and easy to work with, and I can take time to listen to your needs and help you find a solution. 
+
+## Spare time and interests
+I've been a Boxer dog rescue/fosterer most of my adult life. They're amazing, loving, goofy dogs. I spend time with my two at dog parks and walking some of Vermont forests and parks, with [Graton State Forest](https://fpr.vermont.gov/groton-state-forest) as a favorite spot. 
+
+I also spend time with friends at the movies and performances in Vermont. 
