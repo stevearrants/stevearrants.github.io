@@ -19,11 +19,11 @@ welcome new contacts. I may be able to recommend someone for you.
 * Tell me about your collaboration and how you maintain quality.  How do you keep the team learning, growing, and engaged?
 
 ### What tools do you use?
-I use Madcap Flare as well as  Docs As Code workflows for online documentation. For training, Camtasia videos are a great tool. 
+I use Madcap Flare as well as Markdown and Docs As Code workflows for online documentation. For training, Camtasia videos are a great tool. 
 I also use Microsoft Office (doesn't everyone?), Git, and Visual Studio Code.
 
 ### How many years experience do you have?
-A lot! I've been a technical writer, editor, and content creator since the late 1980s! Check my resume and my About Me page. 
+A lot! I've been a technical writer, editor, and content creator since the late 1980s! Check [my resume](/resume/) and my [About Me page](/aboutme/). 
 
 ### Salary?
 I don't talk about salary until I know what the position is and what your expectations are. I'm sure you have a range for the position. Let's get to know each other first!
