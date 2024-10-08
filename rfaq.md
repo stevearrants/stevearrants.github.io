@@ -28,7 +28,8 @@ This website is built with Jekyll and MKDocs.
 A lot! I've been a technical writer, editor, and content creator most of my working life! Check [my resume](/resume/) and my [About Me page](/aboutme/). 
 
 ### Salary?
-I don't talk about salary until I know what the position is and what your expectations are. I'm sure you have a range for the position. Let's get to know each other first.
+I don't talk about salary until I know what the position is and what your expectations are. I'm sure you have a range for the position. Let's talk 
+about the company, the position, the team, and what I can do for you first.
 
 ### Are you willing to relocate?
 My family and I plan to move to the St. George, Utah, area in 2024-2025 to assist elderly parents.
