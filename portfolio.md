@@ -3,7 +3,7 @@ layout: page
 title: Portfolio
 subtitle: Samples of my work
 ---
-I've been creating technical documentation my enite career. I started working on print documentation but have transitioned to online documentation and documentation design and management. 
+I've been creating technical documentation my entire career. I started working on print documentation but have transitioned to online documentation and documentation design and management. 
 
 ## NOTE
 These samples are draft content and may contain unresolved links, comments, and other artifacts. 
