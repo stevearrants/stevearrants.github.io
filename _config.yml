@@ -26,7 +26,6 @@ navbar-links:
    Portfolio: "portfolio"
    Blog: "blog/index.html"
    Style Guide: "./style/site"
-#   Medium: "medium"
    
 paginate_path: "/blog/page:num/"
 
