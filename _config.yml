@@ -59,8 +59,13 @@ social-network-links:
 #  medium: sarrants
   linkedin: stevearrants
   telephone: +18028811726
+ # reddit: yourname or r/yoursubreddit
   mastodon: hachyderm.io/@vttechwriter
   bluesky: stevearrants.me
+#  discord: "invite_code" or "users/userid" or "invite/invite_code"
+#  kaggle: yourname
+#  hackerrank: yourname
+#  gitlab: yourname
  
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
