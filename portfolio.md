@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portfolio
+title: Samples
 subtitle: Samples of my work
 ---
 I've been creating technical documentation my entire career. I've worked on print and online materials for hardware, software, and services. Here are 
