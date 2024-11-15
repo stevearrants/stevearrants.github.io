@@ -23,7 +23,7 @@ navbar-links:
    About me: "aboutme"
    Hiring FAQ: "rfaq"
    Resume: "resume"   
-#  Portfolio: "portfolio"
+   Samples: "samples"
    Blog: "blog/index.html"
    Style Guide: "./style/site"
    
