@@ -2,8 +2,8 @@
 layout: post
 title: Creating Your Team Style Guide
 subtitle: Ensure your documentation is consistent and clear, maintain a unified voice across your documentation, and reduce confusion for readers.
-cover-img: /assets/img/cover.jpg
-share-img: /assets/img/cover.jpg
+cover-img: /assets/img/cover.png
+share-img: /assets/img/cover.png
 tags: [writing]
 author: Steve Arrants
 ---
