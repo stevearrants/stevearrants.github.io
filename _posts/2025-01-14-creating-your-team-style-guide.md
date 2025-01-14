@@ -15,6 +15,7 @@ If you don’t already have a style guide, get one. An easy way to start is to u
 - [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/){:target="_blank"} 
 - [Google Developer Documentation Style Guide](https://developers.google.com/style){:target="_blank"} 
 - [Apple Style Guide](https://support.apple.com/guide/applestyleguide){:target="_blank"} 
+
 Each guide provides general and specific style and usage information for writing about technical issues; any of these is a good place to start.
 
 For more questions, the [Chicago Manual of Style, 18th edition edition](https://www.chicagomanualofstyle.org/){:target="_blank"} , is available in print or online. It is a comprehensive reference on writing, including grammar, punctuation, and style. For example, if you’re looking for the order of footnote marks, you’ll find it here.
