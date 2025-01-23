@@ -4,7 +4,7 @@ title: Steps to a Content Audit
 subtitle: Ensure your documentation is consistent and clear, maintain a unified voice across your documentation, and reduce confusion for readers.
 cover-img: /assets/img/ca.png
 share-img: /assets/img/ca.png
-tags: [writing] [documentation management]
+tags: [writing]
 author: Steve Arrants
 ---
 
