@@ -1,3 +1,13 @@
+---
+layout: post
+title: Steps to a Content Audir
+subtitle: Ensure your documentation is consistent and clear, maintain a unified voice across your documentation, and reduce confusion for readers.
+cover-img: /assets/img/ca.png
+share-img: /assets/img/ca.png
+tags: [writing] [documentation management]
+author: Steve Arrants
+---
+
 One of my recent jobs was to convert existing documentation to the parent company’s brand and format. While I was reformatting, rebranding, and chasing down information, I saw that the existing documentation was outdated, with contradictory information and other problems with the content. I suggested planning and scheduling a content audit so we’d have a plan.
 
 The documentation was the specifications “prettied up.” The documentation manager insisted that we didn’t need a content audit. The Validation group would catch anything out of alignment with the spec. But what about writing documents for the end user? What about finding out what they needed and giving that to them? That, I was told, wasn’t our job.
