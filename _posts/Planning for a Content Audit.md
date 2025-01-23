@@ -12,7 +12,9 @@ So what *is* a Content Audit? A content audit is a process to collect, analyze, 
 user manuals, online help, and other documents against specific performance criteria.
 Conducting a content audit of your technical documentation is essential for ensuring clarity, accuracy, and usefulness. Here's a list of things to help get you started:
 
-1. **Define Your Goals**: What do you want to achieve with your content audit? Are you looking to improve readability, update outdated information, ensure consistency, or identify content gaps? You can do one, some, or all of these. Of course, the more deep the tasks, the longer it can take.
+1. **Define Your Goals**: What do you want to achieve with your content audit? Are you looking to improve readability, update outdated information, ensure consistency, or identify content gaps? You can do one, some, or all of these. Of course, the more tasks, the longer it can take.
+
+>Start with a one goal that is measurable and 
 
 2. **Inventory Your Content**: Gather all your technical documentation. Create a comprehensive list, including titles, authors, publication dates, and locations (URLs or file paths). Create a spreadsheet or Notion document with this information. Make it shareable among the team so that it can be quickly updated.
 
