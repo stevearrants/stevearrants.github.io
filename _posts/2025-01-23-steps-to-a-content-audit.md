@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Steps to a Content Audit
-subtitle: The Essential Role of Content Audits in Technical Documentation
+subtitle: The essential role of content audits in technical documentation
 cover-img: /assets/img/contaud.png
 share-img: /assets/img/contaud.png
 tags: [writing]
