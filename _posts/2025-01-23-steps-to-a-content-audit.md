@@ -12,7 +12,7 @@ One of my recent jobs was to convert existing documentation to the parent compan
 
 The documentation was the specifications “prettied up.” The documentation manager insisted that we didn’t need a content audit. The Validation group would catch anything out of alignment with the spec. But what about writing documents for the end user? What about finding out what they needed and giving that to them? That, I was told, wasn’t our job.
 
->Any time some manager says writing for the end user isn’t part of your job, you not writing. You’re *typing*.
+>Any time a manager says writing for the end user isn’t part of your job, you not writing. You’re *typing*.
 
 So, what is a Content Audit? A content audit is a process for collecting, analyzing, and reporting on your user manuals, online help, and other documents against specific performance criteria. Is it accurate? Does it follow the company style, brand, and layout? Is information contradictory from piece to piece?
 Conducting a content audit of your technical documentation is essential for ensuring clarity, accuracy, and usefulness. Here are some things to consider when planning to perform your own content audits.
