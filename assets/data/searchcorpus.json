@@ -21,13 +21,3 @@ layout: null
 }{% unless forloop.last %},{% endunless %} 
 {% endif %}{% endfor %} 
 ]
-Footer
-© 2024 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact
-Manage cookies
