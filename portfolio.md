@@ -6,7 +6,11 @@ subtitle: Samples of my work
 I've been creating technical documentation my entire career. I've worked on print and online materials for hardware, software, and services. Here are 
 some samples available for view. 
 
+---
+
 **NOTE: Only drafts are shown here, not the released documentation, due to employment agreements.**
+
+---
 
 ## Online Samples
 ArticleExpress was an editing tool for scientific journal editors. After the articles were received and formatted for publishing, editors could perform 
