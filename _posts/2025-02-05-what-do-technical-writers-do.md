@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Do Technical Writers Do?
-subtitle: The essential role of content audits in technical documentation
+subtitle: It’s so much more than writing text
 cover-img: /assets/img/anyonecanwrite.png
 share-img: /assets/img/anyonecanwrite.png
 tags: [writing]
