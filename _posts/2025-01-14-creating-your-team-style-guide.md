@@ -18,7 +18,7 @@ If you don’t already have a style guide, get one. An easy way to start is to u
 
 Each guide provides general and specific style and usage information for writing about technical issues; any of these is a good place to start.
 
-For more questions, the [Chicago Manual of Style, 18th edition edition](https://www.chicagomanualofstyle.org/){:target="_blank"} , is available in print or online. It is a comprehensive reference on writing, including grammar, punctuation, and style. For example, if you’re looking for the order of footnote marks, you’ll find it here.
+For more questions, the [Chicago Manual of Style, 18th edition](https://www.chicagomanualofstyle.org/){:target="_blank"} , is available in print or online. It is a comprehensive reference on writing, including grammar, punctuation, and style. For example, if you’re looking for the order of footnote marks, you’ll find it here.
 
 You may have a standard usage guide or word list in a regulated industry focusing on specific terms and terminology. A style guide, however, provides guidelines for your documentation’s overall style, tone, and structure, and you should start there.
 
