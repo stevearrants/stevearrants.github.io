@@ -2,8 +2,8 @@
 layout: post
 title: Make Documentation Part of the Conversation
 subtitle: From afterthought to advantage
-cover-img: /assets/img/barthelemy-de-mazenod--UWkoieb0MU-unsplash.jpg
-share-img: /assets/img/barthelemy-de-mazenod--UWkoieb0MU-unsplash.jpg
+cover-img: /assets/img/barthelemy-unsplash.jpg
+share-img: /assets/img/barthelemy-unsplash.jpg
 tags: [writing]
 author: Steve Arrants
 ---
