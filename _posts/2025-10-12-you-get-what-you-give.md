@@ -2,7 +2,6 @@
 layout: post
 title: You Get What You Give
 subtitle: Mastering AI Prompts for Technical Documentation
-gh-badge: [star, fork, follow]
 tags: [AI, writing]
 comments: true
 ---
