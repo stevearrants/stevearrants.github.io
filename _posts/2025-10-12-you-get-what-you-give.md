@@ -7,8 +7,6 @@ tags: [AI, writing]
 comments: true
 ---
 
-## You Get What You Give: Mastering AI Prompts for Technical Documentation
-
 AI can draft documentation in seconds, but most prompts produce generic, unusable content. The problem isn't the technology—it's the technique. Technical writers who treat AI as a magic wand instead of a precision tool consistently get disappointing results.
 
 Prompt engineering is emerging as a core professional competency. The difference between "Write documentation for this API" and a well-crafted prompt can mean the difference between an afternoon of rewrites and a solid first draft that sets you on a surer path. Understanding how to guide AI effectively transforms it from a frustrating experiment into a reliable documentation partner.
