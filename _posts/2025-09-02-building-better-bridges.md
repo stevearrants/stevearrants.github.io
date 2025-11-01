@@ -2,7 +2,7 @@
 layout: post
 title: Building Better Bridges with Subject Matter Experts
 subtitle: Productive Relationships
-tags: [AI, writing, support]
+tags: [project management, writing]
 comments: true
 ---
 
