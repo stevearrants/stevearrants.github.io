@@ -13,6 +13,7 @@ Don&#8217;t think of me as just a writer. I&#8217;m also an experienced editor a
 
 If you need something explained, something complex made simple, let&#8217;s talk about how I can create great documentation for your next project. Call me at **802.881.1726** or send an email to **<sarrants@gmail.com>**.
 
+<iframe width="760px" height="500px" src="https://sway.office.com/s/pg57t000oPTmfI7Y/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
 
 
 
