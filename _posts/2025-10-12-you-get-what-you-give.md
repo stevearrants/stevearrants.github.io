@@ -22,18 +22,9 @@ These prompts help refine language, simplify complex topics, and maintain a cons
 
 ### Simplifying Jargon
 
-**Prompt:** "Explain the concept of asynchronous data fetching in a way that a first-time user of our software can understand. Use an analogy from daily life to illustrate the process."
+**Prompt**: "Explain the concept of asynchronous data fetching in a way that a first-time user of our software can understand. Use an analogy from daily life to illustrate the process."
 
-**Why This Works:** Defining the audience ("first-time user") and specifying a method ("analogy") controls the output's complexity. The AI retrieves patterns associated with beginner explanations rather than technical deep-dives. The analogy requirement forces concrete, relatable language instead of abstract terminology.
----
-layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
-comments: true
----
+Why This Works:  Defining the audience ("first-time user") and specifying a method ("analogy") controls the output's complexity. The AI retrieves patterns associated with beginner explanations rather than technical deep-dives. The analogy requirement forces concrete, relatable language instead of abstract terminology.
 
 ### Tone and Style Check
 
