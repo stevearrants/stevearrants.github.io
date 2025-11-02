@@ -3,6 +3,8 @@ layout: page
 title: Articles
 subtitle: Current writing
 ---
+Current writing on technical writing, editing, AI, management, and more.
+
 * <a href="_posts/2025-ai-will-not-replace-me.md" target="_blank">AI Will Not Replace Me</a> - Ensuring consistency with your writing. 
 * <a href="_posts/2025-10-12-you-get-what-you-give.md" target="_blank">You Get What You Give</a> - Mastering AI prompts for technical documentation
 * <a href="_posts/2025-10-05-guided-by-voices.md" target="_blank">Guided By Voices</a> - Using AI in technical writing
