@@ -1,6 +1,6 @@
 ---
 layout: page
-title: resume
+title: Resume
 subtitle: My history
 published: true
 ---

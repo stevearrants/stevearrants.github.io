@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQ 4 Recruiters
+title: FAQ for Recruiters
 subtitle: If you're a recruiter or hiring manager, please read!
 ---
 Thank you for taking an interest in me and my background. You may have gotten here from a keyword match. Here are some answers to common questions I get.
