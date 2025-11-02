@@ -24,7 +24,6 @@ navbar-links:
     - About Steve: "aboutme"
     - Faq for Recruiters: "rfaq"
    Portfolio "portfolio"
-#   Style Guide: "./style"
    Resume: "resume"
    
 ################
