@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Help Development Create Clear Messaging
-subtitle: Work together to serve the user
+subtitle: Work with development to serve users
 tags: [writing, deveopment, partnership]
 comments: true
 ---

@@ -26,6 +26,8 @@ navbar-links:
    Blog: "blog"
    Portfolio: "portfolio"
    Resume: "resume"
+   Tags: "tags"
+   
    
 ################
 # --- Logo --- #

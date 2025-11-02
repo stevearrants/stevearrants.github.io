@@ -6,7 +6,6 @@ tags: [writing, support]
 comments: true
 ---
 
-
 When I started as a technical writer as a NASA subcontractor, I was lucky to be hired by a friend I’d met at a horse stable in Tomball Texas. “Kat” had a writer bail on her and needed someone. She knew I’d written a master’s thesis and defended a PhD dissertation and that I’d written some instructional materials. So, she was confident I could write and pick up the standards and styles needed for technical writing. I wasn’t so sure. I felt like I was just pretending. I waited for the moment someone tapped me on the shoulder and had security escort me out. But I knew I wasn’t alone.
 
 Imposter syndrome was that nagging voice telling me I was a fraud, even when I had plenty of evidence proving otherwise. Here are some methods I’ve used to combat the negativity, frustration, and immobilizing fear.
