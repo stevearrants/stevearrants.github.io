@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Medium 
+title: Blog  
 subtitle: Current writing
 ---
 * [A Soft Reset](https://medium.com/@sarrants/a-soft-reset-9c6066f5272d)

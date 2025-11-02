@@ -23,6 +23,7 @@ navbar-links:
    About Me: 
     - About Steve: "aboutme"
     - Faq for Recruiters: "rfaq"
+   Blog: "blog"
    Portfolio: "portfolio"
    Resume: "resume"
    
