@@ -6,6 +6,7 @@ tags: [writing, planning, advice]
 comments: true
 ---
 
+![docplan](../assets/img/docplan.jpg)
 I’ve been at this documentation thing since the mid-1980s. This document is due in no small part to the work I’ve participated in at Compaq, Microsoft, and Autodesk in the 1980s and 1990s with great people from whom I’ve learned a lot. In those early days, we made it up as we went along. Use the suggestions here as a starting point and make it your own.
 
 So you’ve been asked to devise a plan to document…something. The software, SaaS, website, and work instruction techniques are similar. Right off, don’t panic. You know more than you think you do. Based on experience, you probably have a good idea of how long it takes you to get to a first draft. Remember that making the doc plan match the schedule isn’t your job. That’s what the overall project manager does. Your job at this point is to determine what is required and what you can do to offer alternatives. Base your alternatives on changes in time, resources, and scope. It’s up to the stakeholders and project manager to determine what is acceptable for the release and what can wait until the next go around. Nevertheless, they’ll depend on your estimates — your plan — to decide. But that’s getting ahead of things. Let’s look at what goes into a good documentation plan, section by section.
