@@ -5,7 +5,7 @@ subtitle: Current writing
 ---
 Current writing on technical writing, editing, AI, management, and more.
 
-* <a href="2025-ai-will-not-replace-me" target="_blank">AI Will Not Replace Me</a> - Ensuring consistency with your writing. 
+* <a href="_posts/2025-ai-will-not-replace-me.md" target="_blank">AI Will Not Replace Me</a> - Ensuring consistency with your writing. 
 * <a href="_posts/2025-10-12-you-get-what-you-give.md" target="_blank">You Get What You Give</a> - Mastering AI prompts for technical documentation
 * <a href="_posts/2025-10-05-guided-by-voices.md" target="_blank">Guided By Voices</a> - Using AI in technical writing
 * <a href="_posts/2025-09-21-dealing-witn-imposter-syndrome.md" target="_blank">Dealing with Imposter Syndrome</a> - A Users Guide
