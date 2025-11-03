@@ -13,7 +13,7 @@ I&#8217;ve been creating technical documentation since 1986. I started out work
 
 <a href="store/Cassette Best Practices-Troubleshooting Tech Note 7171034 Rev D.pdf" target="_blank">Dispense Cassette Best Practices Troubleshooting</a> - Technical note to troubleshoot fluid dispense cassettes. 
 
-<a href="store/READ ME% Agilent BioSpa 8 IQOQPQ.pdf" target="_blank">Agilent BioSpa 8 IQOQPQ Readme</a> - Automatic Incubator Qualification and Maintenance Readme
+<a href="store/READ ME Agilent BioSpa 8 IQOQPQ.pdf" target="_blank">Agilent BioSpa 8 IQOQPQ Readme</a> - Automatic Incubator Qualification and Maintenance Readme
 
 <a href="store/BioSpa 8 Automated Incubator 1411000N Rev.D Extract.pdf" target="_blank">Agilent BioSpa 8 Automated Incubaator User Manual</a> - Draft user manual excerpt.
 
