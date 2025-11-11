@@ -24,12 +24,12 @@ Here is when to use each admonition type, with examples for both software and ha
 
 | Type | When to Use It | Examples |
 | :--- | :--- | :--- |
-| **Danger** | **For life-threatening physical harm:** | "DANGER: High voltage. Do not touch the wires."<br>"DANGER: This procedure will engage the robotic arm. Ensure all personnel are outside the safety cage." |
-| **Warning** | **For serious, irreversible risk:** | **For data loss:** "WARNING: Running this command will permanently delete all user accounts."<br>**For security:** "WARNING: Do not expose your private API key in client-side code." |
-| **Caution** | **For potential problems or unintended side effects:** | **For performance:** "CAUTION: Enabling verbose logging may significantly increase server load."<br>**For hardware:** "CAUTION: The processor is hot. Allow it to cool before handling." |
-| **Important** | **For critical prerequisites or non-obvious consequences:** | **For prerequisites:** "IMPORTANT: You must update your database schema *before* deploying the new version."<br>**For consequences:** "IMPORTANT: Changing this setting will log out all other users." |
-| **Note** | **For clarification or extra context:** | **For scope:** "NOTE: This feature is only available on Enterprise plans."<br>**For context:** "NOTE: The system automatically re-indexes every 15 minutes." |
-| **Tip** | **For optional shortcuts and best practices:** | **For shortcuts:** "TIP: You can use the keyboard shortcut `Ctrl+G` to jump to any function."<br>**For best practices:** "TIP: For better performance, we recommend running this bulk import during off-peak hours." |
+| **Danger** | **For life-threatening physical harm** | "**DANGER**: High voltage. Do not touch the wires."<br>"**DANGER**: This procedure will engage the robotic arm. Ensure all personnel are outside the safety cage." |
+| **Warning** | **For serious, irreversible risk** | **For data loss:** "**WARNING**: Running this command will permanently delete all user accounts."<br>**For security:** "**WARNING**: Do not expose your private API key in client-side code." |
+| **Caution** | **For potential problems or unintended side effects** | **For performance:** "**CAUTION**: Enabling verbose logging may significantly increase server load."<br>**For hardware:** "**CAUTION**: The processor is hot. Allow it to cool before handling." |
+| **Important** | **For critical prerequisites or non-obvious consequences** | **For prerequisites:** "**IMPORTANT**: You must update your database schema *before* deploying the new version."<br>**For consequences:** "*IMPORTANT*: Changing this setting will log out all other users." |
+| **Note** | **For clarification or extra context** | **For scope:** "**NOTE**: This feature is only available on Enterprise plans."<br>**For context:** "**NOTE**: The system automatically re-indexes every 15 minutes." |
+| **Tip** | **For optional shortcuts and best practices** | **For shortcuts:** "**TIP**: You can use the keyboard shortcut `Ctrl+G` to jump to any function."<br>**For best practices:** "**TIP**: For better performance, we recommend running this bulk import during off-peak hours." |
 
 ### Best Practices for Admonitions
 
