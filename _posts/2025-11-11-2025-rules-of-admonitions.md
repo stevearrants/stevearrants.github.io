@@ -5,8 +5,6 @@ tags: [writing, regulatory]
 comments: true
 ---
 
-### A Hierarchy of Admonitions
-
 Admonitions exist on a spectrum of severity. Using the correct type is critical. While most pure software documentation will only use `Warning` and below, it is essential to know the full, legally-defined hierarchy.
 
 ![admonitions](../assets/img/admonitions.jpg)
