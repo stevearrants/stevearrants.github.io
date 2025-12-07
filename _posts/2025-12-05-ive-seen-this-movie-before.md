@@ -4,9 +4,6 @@ subtitle: What an AI Actress Showed Me About the Future of Documentation
 tags: [ai, writing]
 comments: true
 ---
-# I've Seen This Movie Before
-## What an AI Actress Showed Me About the Future of Documentation
-
 This morning, 7 December 2025, <a href="https://www.cbsnews.com/video/theres-a-new-face-in-hollywood-generated-by-ai/" target="_blank">CBS Sunday Morning ran an item about the debut of Tilly Norwood</a>, a fully AI-generated actress. Her arrival brought significant anxiety about the displacement of human talent. But her underlying methodology is similar to whet we're facing in technical communication.
 
 Norwood's creator, Aline van der Velden, didn't simply generate a prompt and accept the result. She engaged in over 2,000 iterations, refining and directing the AI until the performance met her standards. In this model, she engineers the performance.
