@@ -58,4 +58,4 @@ Success belongs to those who understand both the capabilities and the failure mo
 
 The CBS Sunday Morning video concludes on a cliffhanger regarding whether AI will replace human professionals. For the adaptable technical writer, there is no ambiguity.
 
-We are moving into the driver's seat. After forty years of technological evolution, the journey is far from over.
+Become the driver, the initiator. Take control and direct your AI work, don't be driven to a destination you don't want to arrive at. 
