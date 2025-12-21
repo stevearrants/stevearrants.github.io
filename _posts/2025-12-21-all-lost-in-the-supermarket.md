@@ -9,6 +9,8 @@ Every documentation meeting, conference, or event I've attended in the past two 
 
 And yet, what I’m seeing online on Reddit, LinkedIn, and elsewhere is very different from what I see in teams a few months after they've made the jump. The tool that looked transformative in the demo sits mostly unused. The promised integrations turned out to be more complicated than advertised. The writers who were supposed to be freed from documentation scutwork instead spend hours cleaning up and verifying AI-generated content that doesn't *quite* match the product.
 
+![alllostinthesupermarket](../assets/img/alllostinthesupermarket.png) 
+
 After forty years in technical writing and adapting to changes like desktop publishing, the web, and AI, I've found the most important questions aren't answered by vendors during sales calls. They're the questions teams often gloss over or forget to ask themselves before they ever pick up the phone.
 
 Here are ten of them, split between the hard internal conversations you need to have first, and the vendor questions that will tell you whether a tool will work for you.
@@ -21,6 +23,7 @@ As you begin your evaluation, here are some AI product categories worth explorin
 -   **Video/Media** (<a href="https://www.techsmith.com/camtasia/audiate/" target="_blank">Camtasia/Audiate</a>, <a href="https://www.guidde.com/" target="_blank">Guidde</a>): Rapid creation of video tutorials and scripts.
 
 **NOTE:** <a href="https://docs.google.com/spreadsheets/d/16xdja02MlVQ5IB9cAmK5uSqaPdZbkDNF8DnfEMGgux8/edit?usp=sharing" target="_blank">Download a checklist in Google Sheet format.</a>.
+
 # Part One: The Internal Reckoning
 
 Before scheduling a single demo, have some honest conversations with your team and stakeholders. These aren't fun, but they'll save you from expensive mistakes.
