@@ -25,7 +25,7 @@ navbar-links:
   Portfolio: "portfolio"
   Blog: "blog"
   About/Resume: "about"
-# Contact: "contact"
+  Contact: "contact"
 #navbar-links:
 #   About Me: 
 #    - About Steve: "aboutme"
