@@ -2,7 +2,6 @@
 layout: page
 title: Green Mountain Documentation
 subtitle: Technical Writing & Documentation Engineering
-cover-img: "/assets/img/green-mountains-hero.jpg"
 ---
 
 ## Understanding Unlocks Capability
