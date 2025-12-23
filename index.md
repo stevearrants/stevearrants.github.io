@@ -19,6 +19,3 @@ Clear, accurate, and user-centered documentation for SaaS platforms, healthcare 
 
 **Documentation Strategy**
 Metrics-driven content optimization that reduces support tickets and empowers users.
-
-<a href="/services" class="cta-button">View Services</a>
-<a href="/contact" class="cta-button" style="margin-left: 1rem;">Get in Touch</a>
