@@ -1,12 +1,5 @@
 ---
 layout: page
-title: About Steve
-subtitle: More about me
-published: true
----
-
----
-layout: page
 title: About
 subtitle: Steve Arrants — Technical Documentation Architect
 ---

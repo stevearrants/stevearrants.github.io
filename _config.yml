@@ -21,7 +21,7 @@ author: Green Mountain Docs, LLC
 
 navbar-links:
   Home: ""
-  Services: "services"
+#  Services: "services"
   Portfolio: "portfolio"
   Blog: "blog"
   Search: "search"    # Add this
@@ -48,7 +48,7 @@ avatar: "/assets/img/n-logo.png"
 round-avatar: false
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: "/assets/img/secondary-horz-layout.png"
 
 
 #####################################
