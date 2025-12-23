@@ -1,0 +1,124 @@
+---
+layout: page
+title: Search
+subtitle: Find articles and documentation
+---
+
+<div id="search-container">
+  <input type="text" id="search-input" placeholder="Search articles..." autofocus>
+  <ul id="search-results"></ul>
+</div>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+(function() {
+  var searchInput = document.getElementById('search-input');
+  var searchResults = document.getElementById('search-results');
+  var documents = [];
+  var idx;
+
+  // Load search data
+  fetch('{{ "/search.json" | relative_url }}')
+    .then(response => response.json())
+    .then(data => {
+      documents = data;
+      idx = lunr(function () {
+        this.ref('url');
+        this.field('title', { boost: 10 });
+        this.field('subtitle', { boost: 5 });
+        this.field('tags', { boost: 5 });
+        this.field('content');
+
+        documents.forEach(function (doc) {
+          this.add(doc);
+        }, this);
+      });
+    });
+
+  // Search on input
+  searchInput.addEventListener('input', function() {
+    var query = this.value;
+    if (query.length < 2) {
+      searchResults.innerHTML = '';
+      return;
+    }
+
+    var results = idx.search(query);
+    displayResults(results);
+  });
+
+  function displayResults(results) {
+    if (results.length === 0) {
+      searchResults.innerHTML = '<li class="no-results">No results found</li>';
+      return;
+    }
+
+    var html = results.slice(0, 10).map(function(result) {
+      var doc = documents.find(d => d.url === result.ref);
+      return `
+        <li class="search-result">
+          <a href="${doc.url}">
+            <h3>${doc.title}</h3>
+            ${doc.subtitle ? `<p>${doc.subtitle}</p>` : ''}
+            ${doc.date ? `<small>${doc.date}</small>` : ''}
+          </a>
+        </li>
+      `;
+    }).join('');
+
+    searchResults.innerHTML = html;
+  }
+})();
+</script>
+
+<style>
+#search-input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: 2px solid var(--summit-green, #27AE60);
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: var(--alert-blue, #2980B9);
+}
+
+#search-results {
+  list-style: none;
+  padding: 0;
+}
+
+.search-result {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: white;
+  border-left: 4px solid var(--summit-green, #27AE60);
+  border-radius: 4px;
+}
+
+.search-result:hover {
+  border-left-color: var(--alert-blue, #2980B9);
+}
+
+.search-result h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--alpine-slate, #2C3E50);
+}
+
+.search-result p {
+  margin: 0 0 0.5rem 0;
+  color: #666;
+}
+
+.search-result small {
+  color: #999;
+}
+
+.no-results {
+  color: #666;
+  font-style: italic;
+}
+</style>

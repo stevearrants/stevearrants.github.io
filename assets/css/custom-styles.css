@@ -1,0 +1,175 @@
+/* ================================================
+   Green Mountain Documentation - Custom Styles
+   ================================================ */
+
+/* ----- CSS Variables for Brand Colors ----- */
+:root {
+  --alpine-slate: #2C3E50;
+  --summit-green: #27AE60;
+  --fog-grey: #ECF0F1;
+  --alert-blue: #2980B9;
+  --white: #FFFFFF;
+}
+
+/* ----- Global Styles ----- */
+body {
+  background-color: var(--fog-grey);
+}
+
+/* ----- Accent Color Overrides ----- */
+.btn-primary,
+.btn-primary:hover {
+  background-color: var(--summit-green);
+  border-color: var(--summit-green);
+}
+
+.btn-primary:hover {
+  background-color: #219a52; /* Darker Summit Green */
+}
+
+/* ----- Navbar Enhancements ----- */
+.navbar-custom {
+  background-color: var(--white);
+  border-bottom: 2px solid var(--summit-green);
+}
+
+/* ----- Footer Styling ----- */
+footer {
+  background-color: var(--alpine-slate);
+}
+
+footer a {
+  color: var(--summit-green);
+}
+
+footer a:hover {
+  color: var(--alert-blue);
+}
+
+/* ----- Hero/Cover Image Text ----- */
+.intro-header .page-heading,
+.intro-header .post-heading {
+  color: var(--white);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* ----- Blog Post Cards/Excerpts ----- */
+.post-preview {
+  border-left: 4px solid var(--summit-green);
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.post-preview:hover {
+  border-left-color: var(--alert-blue);
+}
+
+/* ----- Tags & Categories Styling ----- */
+.blog-tags a,
+.post-tags a {
+  background-color: var(--summit-green);
+  color: var(--white);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  margin-right: 0.25rem;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.blog-tags a:hover,
+.post-tags a:hover {
+  background-color: var(--alert-blue);
+}
+
+/* ----- CTA Buttons ----- */
+.cta-button {
+  background-color: var(--summit-green);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--alert-blue);
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* ----- Portfolio List Styling ----- */
+.portfolio-item {
+  background: var(--white);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-left: 4px solid var(--summit-green);
+}
+
+.portfolio-item h3 {
+  margin-top: 0;
+  color: var(--alpine-slate);
+}
+
+.portfolio-item a {
+  color: var(--alert-blue);
+}
+
+/* ----- Resume Timeline (if using visual layout) ----- */
+.timeline-item {
+  position: relative;
+  padding-left: 2rem;
+  border-left: 2px solid var(--summit-green);
+  margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  background: var(--summit-green);
+  border-radius: 50%;
+}
+
+.timeline-item .date {
+  color: var(--summit-green);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+/* ----- Typography ----- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@400;700&display=swap');
+
+/* Alternative: Montserrat + Source Sans Pro */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap'); */
+
+/* Headings - Inter (or Montserrat) */
+h1, h2, h3, h4, h5, h6,
+.navbar-custom .navbar-brand,
+.intro-header .page-heading,
+.intro-header .post-heading h1 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Alternative: font-family: 'Montserrat', sans-serif; */
+  font-weight: 700;
+}
+
+/* Body Text - Merriweather (or Source Sans Pro) */
+body,
+p,
+.post-preview,
+article {
+  font-family: 'Merriweather', Georgia, serif;
+  /* Alternative: font-family: 'Source Sans Pro', sans-serif; */
+  line-height: 1.7;
+}
+
+/* Navigation - Use heading font */
+.navbar-custom .nav-item {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}

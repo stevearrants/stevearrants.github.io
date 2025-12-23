@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Portfolio
-subtitle: Samples of my work
+subtitle: Documentation Samples & Projects
 ---
-I&#8217;ve been creating technical documentation since 1986. I started out working on print documentation but have transitioned to online documentation and training. This page provides samples of documentation.
+
+A selection of documentation projects demonstrating my work in API documentation, user guides, and technical content strategy.
 
 ## Available samples
 * <a href="https://www.dropbox.com/scl/fi/pbcmbswilgdi0x9crfk81/READ-ME-Agilent-BioSpa-8-IQOQPQ.pdf?rlkey=z54z19ihu3bj2mh49tbkoh34c&st=wyrqn122&dl=0" target="_blank">Agilent BioSpa 8 IQOQPQ Readme</a> - Automatic Incubator Qualification and Maintenance Readme
