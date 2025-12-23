@@ -20,11 +20,18 @@ author: Green Mountain Docs, LLC
 ###############################################
 
 navbar-links:
-   About Me: 
-    - About Steve: "aboutme"
-    - Faq for Recruiters: "rfaq"
-   Portfolio: "portfolio"
-   Resume: "resume"
+  Home: ""
+  Services: "services"
+  Portfolio: "portfolio"
+  Blog: "blog"
+  About/Resume: "about"
+  Contact: "contact"
+#navbar-links:
+#   About Me: 
+#    - About Steve: "aboutme"
+#    - Faq for Recruiters: "rfaq"
+#   Portfolio: "portfolio"
+#   Resume: "resume"
    
    
 ################
@@ -33,14 +40,13 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/n-logo.png"
+# avatar: "/assets/img/n-logo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
-
+title-img: "/assets/img/n-logo.png"
 
 #####################################
 # --- Footer social media links --- #
@@ -133,20 +139,33 @@ keywords: "writing, editing, Flare, MadCap, docs-as-code, technical communicatio
 ######################################
 # --- Colours / background image --- #
 ######################################
-
+# --------------------------------
+# Colors - Green Mountain Docs Palette
+# --------------------------------
+page-col: "#ECF0F1"          # Fog Grey - backgrounds
+text-col: "#2C3E50"          # Alpine Slate - primary text
+link-col: "#2980B9"          # Alert Blue - hyperlinks
+hover-col: "#27AE60"         # Summit Green - hover states
+navbar-col: "#FFFFFF"        # White navbar (clean, light)
+navbar-text-col: "#2C3E50"   # Alpine Slate - navbar text
+navbar-border-col: "#ECF0F1" # Fog Grey - subtle border
+footer-col: "#2C3E50"        # Alpine Slate - footer background
+footer-text-col: "#ECF0F1"   # Fog Grey - footer text
+footer-link-col: "#27AE60"   # Summit Green - footer links
+footer-hover-col: "#2980B9"  # Alert Blue - footer hover
 # Personalize the colours in your website. Colour values can be any valid CSS colour
-
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+#
+#page-col: "#FFFFFF"
+#text-col: "#404040"
+#link-col: "#008AFF"
+#hover-col: "#0085A1"
+#navbar-col: "#EAEAEA"
+#navbar-text-col: "#404040"
+#navbar-border-col: "#DDDDDD"
+#footer-col: "#EAEAEA"
+#footer-text-col: "#777777"
+#footer-link-col: "#404040"
+#footer-hover-col: "#0085A1"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -155,12 +174,14 @@ footer-hover-col: "#0085A1"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
+# No site-wide Google fonts needed - we'll load them via CSS
+
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
