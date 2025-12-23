@@ -49,7 +49,7 @@ footer a:hover {
 /* ----- Hero/Cover Image Text ----- */
 .intro-header .page-heading,
 .intro-header .post-heading {
-  color: var(--white);
+  color: #27AE60;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
