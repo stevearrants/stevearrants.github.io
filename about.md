@@ -39,7 +39,7 @@ Technical Documentation Architect and Documentation Engineer with 40 years of ex
   <div class="date">1985 – 2008</div>
   <h3>Technical Writing & Publishing</h3>
   <p><strong>Various Organizations</strong></p>
-  <p>Sheridan Journal Services, freelance technical writing, and documentation consulting across healthcare, publishing, and technology sectors.</p>
+  <p>MBF Bioscience, WebMD, CNET, Autodesk, Microsoft, Compaq, and freelance technical writing, and documentation consulting across healthcare, publishing, and technology sectors.</p>
 </div>
 
 ---
