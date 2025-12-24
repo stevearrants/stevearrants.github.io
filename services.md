@@ -12,17 +12,15 @@ Good documentation doesn't just explain—it enables. I help companies transform
 
 Building scalable documentation systems that grow with your product.
 
-<div class="service-item">
+<div class="service-item" markdown="1">
 
 **What's included:**
 
-* Docs-as-code implementation (Git, Markdown, static site generators)
-* CCMS/Authoring workflows (MadCap Flare, Paligo)
-* Documentation architecture and information design
-* Content management system setup and migration
-* Automated publishing workflows and CI/CD integration
-* Style guide development and content standards
-
+- Docs-as-code implementation (Git, Markdown, static site generators)
+- Documentation architecture and information design
+- Content management system setup and migration
+- Automated publishing workflows and CI/CD integration
+- Style guide development and content standards
 
 **Best for:** Companies scaling their documentation or migrating from legacy systems.
 
@@ -34,16 +32,15 @@ Building scalable documentation systems that grow with your product.
 
 Clear, accurate documentation that developers actually want to read.
 
-<div class="service-item">
+<div class="service-item" markdown="1">
 
 **What's included:**
 
-* API reference documentation (REST, OpenAPI/Swagger)
-* Getting started guides and tutorials
-* Code samples and interactive examples
-* Authentication and error handling documentation
-* Developer portal content strategy
-
+- API reference documentation (REST, OpenAPI/Swagger)
+- Getting started guides and tutorials
+- Code samples and interactive examples
+- Authentication and error handling documentation
+- Developer portal content strategy
 
 **Best for:** SaaS platforms, integration providers, and developer tools.
 
@@ -55,16 +52,15 @@ Clear, accurate documentation that developers actually want to read.
 
 End-to-end documentation for software products and complex systems.
 
-<div class="service-item">
+<div class="service-item" markdown="1">
 
-#### What's included:
+**What's included:**
 
-* User guides and product documentation
-* Administrator and installation guides
-* Release notes and changelogs
-* Knowledge base articles
-* Troubleshooting and FAQ content
-
+- User guides and product documentation
+- Administrator and installation guides
+- Release notes and changelogs
+- Knowledge base articles
+- Troubleshooting and FAQ content
 
 **Best for:** Software companies needing comprehensive product documentation.
 
@@ -76,16 +72,15 @@ End-to-end documentation for software products and complex systems.
 
 Evaluate your existing documentation and create a roadmap for improvement.
 
-<div class="service-item">
+<div class="service-item" markdown="1">
 
-#### What's included:
+**What's included:**
 
-* Content inventory and gap analysis
-* Usability and findability assessment
-* Metrics setup and baseline measurement
-* Prioritized improvement recommendations
-* Implementation roadmap
-
+- Content inventory and gap analysis
+- Usability and findability assessment
+- Metrics setup and baseline measurement
+- Prioritized improvement recommendations
+- Implementation roadmap
 
 **Best for:** Teams unsure where to start or looking to improve existing docs.
 
@@ -97,16 +92,15 @@ Evaluate your existing documentation and create a roadmap for improvement.
 
 Polish your existing content for clarity, accuracy, and consistency.
 
-<div class="service-item">
+<div class="service-item" markdown="1">
 
-#### What's included:
+**What's included:**
 
-* Developmental editing (structure, flow, completeness)
-* Copy editing (grammar, style, consistency)
-* Technical accuracy review
-* Style guide compliance through mechanical editing
-* Accessibility improvements
-
+- Developmental editing (structure, flow, completeness)
+- Copy editing (grammar, style, consistency)
+- Technical accuracy review
+- Style guide compliance
+- Accessibility improvements
 
 **Best for:** Teams with in-house writers who need expert review.
 
@@ -118,16 +112,15 @@ Polish your existing content for clarity, accuracy, and consistency.
 
 Build your team's documentation capabilities.
 
-<div class="service-item">
+<div class="service-item" markdown="1">
 
-#### What's included:
+**What's included:**
 
-* Documentation process assessment
-* Tool selection and implementation guidance
-* Team training and workshops
-* AI adoption strategy for documentation
-* Ongoing advisory support
-
+- Documentation process assessment
+- Tool selection and implementation guidance
+- Team training and workshops
+- AI adoption strategy for documentation
+- Ongoing advisory support
 
 **Best for:** Organizations building or improving their documentation practice.
 
@@ -171,7 +164,7 @@ I work with the tools your team already uses—or help you choose better ones:
 
 ## How I Work
 
-<div class="process-steps">
+<div class="process-steps" markdown="1">
 
 **1. Discovery**  
 We discuss your goals, audience, and current pain points. I review existing documentation and identify opportunities.
@@ -193,7 +186,7 @@ You get polished, production-ready documentation with source files and handoff s
 
 Every project is different. Tell me about your documentation challenges and I'll suggest the best approach.
 
-<a href="/contact" class="cta-button">Get in Touch</a>
+<a href="{{ '/contact' | relative_url }}" class="cta-button">Get in Touch</a>
 
 <style>
 .service-item {
