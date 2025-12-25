@@ -136,7 +136,7 @@ Ready to improve your documentation? I'd love to hear about your project.
 
 ## Other Ways to Connect
 
-**Email**: [steve@greenmtndocs.com](mailto:steve@greenmtndocs.com)  
+**Email**: [stevearrants@greenmtndocs.com](mailto:steve@greenmtndocs.com)  
 **LinkedIn**: [linkedin.com/in/stevearrants](https://linkedin.com/in/stevearrants)  
 **Location**: South Burlington, Vermont
 
