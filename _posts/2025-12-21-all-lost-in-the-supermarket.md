@@ -1,4 +1,5 @@
 ---
+layout: post
 title: All Lost in the AI Supermarket
 subtitle: 10 Questions Technical Doc Teams Need to Ask Before Buying AI (But Usually Don't)
 tags: [writing, AI, tools]
