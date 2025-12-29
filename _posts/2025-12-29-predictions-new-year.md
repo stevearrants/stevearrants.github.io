@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The 2026 Outlook: 10 Ways Technical Communication Will Change
-subtitle: Architecting information for AI agents and people.
-tags: [writing, AI, tools]
+subtitle: Information for AI agents and people.
+tags: [AI, writing, support]
 comments: true
 ---
 
