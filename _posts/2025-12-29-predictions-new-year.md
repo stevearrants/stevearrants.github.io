@@ -8,8 +8,6 @@ comments: true
 
 An old year is coming to the finish line, a new year is waiting to come out of the gate. So let's take a look at ten possibilities and predictions for 2026. 2025 has been quite a year. The AI explosion is affecting all of us. Technical communication is currently undergoing its most significant transformation since the move from print to online help. By 2026, the field will have pivoted from "writing for people" to "architecting information for AI agents *and* people."
 
-![alllostinthesupermarket](../assets/img/2026-in-techwriting.png)
-
 Here are ten things in technical communication that may (will?) change in 2026.
 
 ### 1. The Shift from SEO to AEO (Answer Engine Optimization)
