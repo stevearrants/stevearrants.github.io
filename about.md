@@ -10,7 +10,7 @@ Technical Documentation Architect and Documentation Engineer with 40 years of ex
 
 My core belief: **Understanding unlocks capability.** When people truly comprehend systems and tools, they become empowered rather than dependent.
 
-<a href="/assets/docs/steve-arrants-resume.pdf" class="cta-button" download>Download Resume (PDF)</a>
+<a href="/assets/docs/steve-arrants-resume-2025.pdf" class="cta-button" download>Download Resume (PDF)</a>
 
 ---
 

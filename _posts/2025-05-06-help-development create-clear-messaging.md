@@ -47,7 +47,7 @@ Let’s look at how to improve common messages:
 Ensuring message quality doesn’t have to be manual. Tools can assist:
 
 * **Grammar/Spell Checkers:** Extensions like [Harper for VS Code](https://writewithharper.com/) or the [Code Spell Checker](https://streetsidesoftware.com/vscode-spell-checker/), both for Visual Studio Code, can catch errors in message strings within the code.
-* **Style Guides:** [Establish and follow a style guide](https://medium.com/%40theoldtechwriter/creating-your-teams-style-guide-a641b47413a3). If your company doesn’t have one, [Google](https://developers.google.com/style), [Microsoft](https://learn.microsoft.com/en-us/style-guide/welcome/), and [Apple](https://support.apple.com/guide/applestyleguide/welcome/web) offer great guides.
+* **Style Guides:** [Establish and follow a style guide](https://greenmtndocs.com/2025-01-03-creating-your-teams-style-guide/). If your company doesn’t have one, [Google](https://developers.google.com/style), [Microsoft](https://learn.microsoft.com/en-us/style-guide/welcome/), and [Apple](https://support.apple.com/guide/applestyleguide/welcome/web) offer great guides.
 
 ### **The Bottom Line**
 

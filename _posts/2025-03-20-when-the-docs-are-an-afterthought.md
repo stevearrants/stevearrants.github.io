@@ -26,7 +26,7 @@ Peer reviews can catch many problems. These should include conformance with corp
 
 You never see — or create — a real schedule or plan. Sure, there's an Excel workbook with dates when something is due. But there is no breakdown of tasks and deliverables. There is nothing to hang on the bones of a calendar. You're a line item in the engineering plan. But where is the information on how you'll work together to get the product ready for release?
 
-Create your own schedules and document plans. Create a [document project plan](https://medium.com/@sarrants/your-documentation-project-plan-c0ae24ca47ee) of your own and ask all stakeholders for feedback. You'll get two types of responses:
+Create your own schedules and document plans. Create a [document project plan](https://greenmtndocs.com/2025-03-19-your-documentation-project-plan/) of your own and ask all stakeholders for feedback. You'll get two types of responses:
 
 1. *I don't have time for this. Why are you bothering me?* Take this as an opportunity to educate these folks. You want to make their jobs easier. You give them something to react against, where they can ask questions and suggest their own ideas and additions.
 2. *This is great! We should do something like this for all products.* You have allies now. Treat them as valuable resources.

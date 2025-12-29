@@ -6,7 +6,7 @@ subtitle: Let's discuss your documentation needs
 
 Ready to improve your documentation? I'd love to hear about your project.
 
-<form action="https://formsubmit.co/steve@greenmtndocs.com" method="POST"  class="contact-form">
+<form action="https://formsubmit.co/stevearrants@greenmtndocs.com" method="POST"  class="contact-form">
   
   <!-- FormSubmit.co Configuration -->
   <input type="hidden" name="_subject" value="New inquiry from greenmtndocs.com">
@@ -136,7 +136,7 @@ Ready to improve your documentation? I'd love to hear about your project.
 
 ## Other Ways to Connect
 
-**Email**: [steve@greenmtndocs.com](mailto:steve@greenmtndocs.com)  
+**Email**: [stevearrants@greenmtndocs.com](mailto:steve@greenmtndocs.com)  
 **LinkedIn**: [linkedin.com/in/stevearrants](https://linkedin.com/in/stevearrants)  
 **Location**: South Burlington, Vermont
 
