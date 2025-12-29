@@ -42,7 +42,7 @@ Text-to-Video and Text-to-Diagram will become standard, friction-free workflows.
 
 The role of the technical writer will shift from "Content Creator" to a sort of **"Truth Manager."**
 
-* **The Change:** Since AI can draft the some of the content, the human value shifts to verification. Writers will spend their time managing the *Source of Truth*—ensuring the structured data, facts, and logic fed into the AI are 100% accurate.
+* **The Change:** Since AI can draft some of the content, the human value shifts to verification. Writers will spend their time managing the *Source of Truth*—ensuring the structured data, facts, and logic fed into the AI are 100% accurate.
 * **The Impact:** "Governance" becomes a daily task. Writers will guard against "AI rot" (where AI models rely on outdated specs) by strictly managing version control and metadata.
 
 ### 6. Zero-Click Documentation (In-App Integration)
@@ -81,5 +81,5 @@ As AI generates infinite content, human attention becomes the scarcest resource.
 * **The Impact:** Documentation will become ruthlessly minimalist. If an AI can explain the "concept," the official docs may only list the "reference" and "critical warnings." The trend will be **Cognitive Respect**: respecting the user's intelligence and time by providing only the absolutely necessary information.
 
 ### Welcome to the New Year
-The road to 2026 looks like an exciting journey for us all. While we are shifting from just writing for people to creating information for AI agents, this is a huge opportunity to increase the value of what we do and remain relevant. Enbrace the changes to make sure your documentation stays vital and useful. At the end of the day, our goal hasn't changed: it’s still about showing respect to our users and giving them exactly the help they need, right when they need it.
+The road to 2026 looks like an exciting journey for us all. While we are shifting from just writing for people to creating information for AI agents, this is a huge opportunity to increase the value of what we do and remain relevant. Embrace the changes to make sure your documentation stays vital and useful. At the end of the day, our goal hasn't changed: it’s still about showing respect to our users and giving them exactly the help they need, right when they need it.
 
