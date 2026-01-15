@@ -48,7 +48,12 @@ Treat documentation with the same rigor you'd apply to code: version control, pe
 
 ### 8. Anticipate the questions they won't ask
 
-Great documentation answers the questions users didn't know to ask. What assumptions are you making that they might not share? What prerequisite knowledge might they be missing? What will confuse them that seems obvious to you? Thinking ahead saves users hours of frustration and prevents support tickets before they're ever written.
+Great documentation answers the questions users didn't know to ask. 
+* What assumptions are you making that they might not share? 
+* What prerequisite knowledge might they be missing? 
+* What will confuse them that seems obvious to you? 
+
+Thinking ahead saves users hours of frustration and prevents support tickets before they're ever written.
 
 ### 9. Maintainability is part of quality
 
