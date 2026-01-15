@@ -8,7 +8,7 @@ comments: true
 
 I see the messages and posts from workers wondering what technical writing involves and whether they'd be good at it. I get requests from my students at my *alma mater* asking for an informational interview about my career. Some feel that writing is easy, but some just aren't sure if they can do it. Here's the thing: if you've ever explained something complicated to someone and watched their face light up with understanding, you already have the most important skill. The rest is craft, and craft can be learned.
 
-![tenthings](../../../../Github/stevearrants.github.io/assets/img/tenthings.png)
+![tenthings](../assets/img/tenthings.png)
 
 Here are ten principles to guide you as you begin.
 
