@@ -5,17 +5,14 @@ subtitle: Technical Writing & Documentation Engineering
 cover-img: "/assets/img/hero.jpg"
 ---
 
-## Understanding Unlocks Capability
+I am a Technical Documentation Architect with 20+ years of experience specializing in modern documentation ecosystems. I help engineering teams transform complex technical information into scalable, user-centric knowledge bases.
 
-I'm Steve Arrants, a Technical Documentation Architect with 40 years of experience helping companies transform complex technical information into clear, user-focused documentation.
+* Architected docs-as-code workflows to reduce update cycles by three weeks and improved by 30% document reuse.
+* Set up authoring in MadCap Flare, and using Python, move the output to Intercom automatically.
 
-### Services
+### Core Expertise
 
-**Documentation Engineering**
-Building scalable documentation systems using docs-as-code workflows, API documentation, and content lifecycle management.
+* **Documentation Engineering:** Building scalable systems using docs-as-code workflows, API reference generation, and automated content lifecycles.
+* **Technical Writing:** Creating accurate, developer-friendly documentation for SaaS platforms, healthcare systems, and enterprise software.
 
-**Technical Writing**
-Clear, accurate, and user-centered documentation for SaaS platforms, healthcare systems, and enterprise software.
-
-**Documentation Strategy**
-Metrics-driven content optimization that reduces support tickets and empowers users.
+**Philosophy:** Understanding unlocks capability. I bridge the gap between code and user success.
