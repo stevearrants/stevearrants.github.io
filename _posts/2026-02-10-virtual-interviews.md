@@ -1,9 +1,9 @@
 # A Technical Writer's Guide to Virtual Interviews
-## A practical guide to virtual interviews for technical writers—from equipment checks to portfolio walkthroughs to handling the questions that throw you.
+## A practical guide to virtual interviews for technical writers
 
 ![virtual interview](../assets/img/virtual-interview.png)
 
-My friend Aiofe was laid off in November due to downsizing. She's been looking for a new technical writing and editing job since. She's smart, capable, but has been having trouble with virtual interviews. I did a mock interview with her and together, we came up with these recommendations. 
+My friend Aiofe was laid off in November due to downsizing. She's been looking for a new technical writing and editing job since. She's smart and capable, but has been having trouble with virtual interviews. I did a mock interview with her, and together, we came up with these recommendations. 
 
 Virtual interviews can save time and sometimes get you immediate results. But virtual interviews have...issues. It can be hard to pick up on body language and nuance. And then there are technology problems that pop up. 
 
@@ -23,7 +23,7 @@ As a technical communicator, you should be comfortable with technology. Technica
 
 The "Tell me about yourself" question is your first chance to stumble or to shine. Instead of wandering through your chronological work history, treat this question like a documentation project. Structure it.
 
-Prepare a "pitch deck"—a simple, three-to-five-slide presentation you screenshare. An example might be:
+Prepare a "pitch deck"—a simple, three-to-five-slide presentation you can screenshare. An example might be:
 
 * **Slide 1: The Snapshot:** Your name, your core identity (e.g., "API Documentation Specialist" or "End-User Guide Expert"), and no more than three key skills that relate to the job posting.
 * **Slide 2: The Philosophy:** A brief statement about how you approach technical writing (e.g., "I believe in docs-as-code and user-centric design") and why.
@@ -33,7 +33,7 @@ This tactic immediately demonstrates your ability to synthesize information, use
 
 ### Walk Through Sample Documents: Show the *Process*, Not Just the Product
 
-Your portfolio shows *what* you've done, but it needs to show *how.* You need to do more than open the PDF or Help site, scroll and say, "Here is a sample user guide." The interviewers can read these later. As someone who hired writers through my career, I always looked at the documentation later, making notes if there was a followup interview. I wasn't looking so much what you wrote, but *how* you wrote it. 
+Your portfolio shows *what* you've done, but it needs to show *how.* You need to do more than open the PDF or Help site, scroll, and say, "Here is a sample user guide." The interviewers can read these later. As someone who hired writers throughout my career, I always looked at the documentation later, making notes if there was a follow-up interview. I wasn't looking so much at what you wrote, but *how* you wrote it. 
 
 I suggest having 2–3 key portfolio pieces open in separate, clean browser tabs before the call begins. When asked to share, transition smoothly.
 
@@ -48,9 +48,9 @@ Use the STAR method (Situation, Task, Action, Result) adapted for portfolio revi
 You will face tough questions. How you handle them matters more than knowing every answer instantly. They're looking for knowledge, but also probing for how you solve problems.
 
 * **The Technical Stumper:** If they ask a highly technical question you don't know the answer to, do not bluff. A technical writer's job isn't to know everything; it's to know how to *find* out everything.
-* **The Pivot:** "That’s a great question. I haven't worked with that specific framework in a while. In a real-world scenario, my first step would be to consult the engineering wiki, and then set up 15 minutes with the lead SME to verify my understanding before I documented it."
+* **The Pivot:** "That’s a great question. I haven't worked with that specific framework in a while. In a real-world scenario, my first step would be to consult the engineering wiki, and then set up 15 minutes with the lead SME to verify my understanding before I document it."
 
-> I was asked *"How would you handle a situation where a chosen Hugo theme is no longer maintained, but it relies on an older version of Hugo or specific, non-standard layout structures that conflict with a newer, preferred theme?"* and I was gobsmacked. I felt everything around me crumbling. I managed to squeak out an answer that wasn't about what to do with Hugo, but how to attack the problem — how to qualify it, find resources, and come up with a plan. I didn't get the job, but the interviewers liked my answer.
+> I was asked "How would you handle a situation where a chosen Hugo theme is no longer maintained, but it relies on an older version of Hugo or specific, non-standard layout structures that conflict with a newer, preferred theme?" I was gobsmacked. I felt everything around me crumbling. I managed to squeak out an answer that wasn't about what to do with Hugo, but how to attack the problem — how to qualify it, find resources, and come up with a plan. I didn't get the job, but the interviewers liked my answer.
 
 * **The "Difficult SME" Question:** You will be asked about a time you dealt with a difficult stakeholder. Never blame the SME. Frame the challenge as a communication barrier that *you* took responsibility for solving through persistence, changing communication tactics, or building rapport.
  
@@ -62,7 +62,7 @@ Avoid these instant red flags:
 
 * **Never interrupt because of lag:** Video calls often have a slight audio delay. Leave an extra beat of silence after the interviewer finishes speaking before you begin. Talking over people is distracting and frustrating in a virtual setting.
 * **Never use two screens poorly:** It’s obvious when you read notes off a second monitor; your eyes dart back and forth constantly. It’s okay to refer to notes occasionally, but keep your focus on the camera.
-* **Never badmouth previous tools or teams:** Tech writers often inherit messy legacy documentation. Describe past messes neutrally as "challenges" or "opportunities for optimization," not as disasters created by incompetent predecessors. Your answer tells interviewers how you deal with challenges. Believe me, they know the issues and may be looking for you to help. Badmouthing people they've never met isn't going to score you a followup interview.
+* **Never badmouth previous tools or teams:** Tech writers often inherit messy legacy documentation. Describe past messes neutrally as "challenges" or "opportunities for optimization," not as disasters created by incompetent predecessors. Your answer tells interviewers how you deal with challenges. Believe me, they know the issues and may be looking for you to help. Badmouthing people they've never met isn't going to score you a follow-up interview.
 
 ### The Wrap-Up and Follow-Through
 
