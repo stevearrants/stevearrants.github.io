@@ -4,6 +4,7 @@
 ![virtual interview](../assets/img/virtual-interview.png)
 
 My friend Aiofe was laid off in November due to downsizing. She's been looking for a new technical writing and editing job since. She's smart, capable, but has been having trouble with virtual interviews. I did a mock interview with her and together, we came up with these recommendations. 
+
 Virtual interviews can save time and sometimes get you immediate results. But virtual interviews have...issues. It can be hard to pick up on body language and nuance. And then there are technology problems that pop up. 
 
 For a technical writer, the stakes in a video interview are higher. Hiring managers subconsciously judge your technical competence based on the technical setup.
