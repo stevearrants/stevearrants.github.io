@@ -1,4 +1,3 @@
-# A Technical Writer's Guide to Virtual Interviews
 ## A practical guide to virtual interviews for technical writers
 
 ![virtual interview](../assets/img/virtual-interview.png)
