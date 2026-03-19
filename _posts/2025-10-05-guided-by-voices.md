@@ -34,7 +34,7 @@ While the utility of AI in low-risk applications is clear, the true danger lies 
 
 The core of the problem is the Hallucination Trap. Because AI's training data is often outdated or incomplete, it will confidently invent details—from system requirements and version-specific instructions to command flags. These creations can manifest as subtle errors that are difficult to spot without expertise. A prime example is an AI generating example SQL commands with proper syntax that ultimately fail in production because the model confused NoSQL, PostgreSQL, and MySQL conventions. These critical errors are often only caught when a Subject Matter Expert (SME) tests the actual command.
 
-Alarmingly, the issue of errors isn't necessarily improving with new technology. Recent data suggests that newer models are not inherently more reliable. The latest OpenAI reasoning models, for example, actually hallucinate more on factual questions than their predecessors, with error rates as high as 48% for the o4-mini model (Techopedia, 2025). This rising error rate underscores the ongoing need for rigorous human review in all precision-dependent tasks.
+Alarmingly, the issue of errors isn't necessarily improving with new technology. Recent data suggests that newer models are not inherently more reliable. The latest OpenAI reasoning models, for example, actually hallucinate more on factual questions than their predecessors, with error rates as high as 48% for the o4-mini model. This rising error rate underscores the ongoing need for rigorous human review in all precision-dependent tasks.
 
 ### Don't Skip Verification!
 
@@ -91,5 +91,4 @@ The trade-off is not between time and quality; it is an issue of time qualificat
 * MIT Sloan Teaching & Learning Technologies (2025). [When AI Gets It Wrong: Addressing AI Hallucinations and Bias](https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/)
 * Salesforce (2024). [Generative AI Statistics for 2024](https://www.salesforce.com/news/stories/generative-ai-statistics/)
 * Stack Overflow (2024). [2024 Developer Survey: AI](https://survey.stackoverflow.co/2024/ai)
-* Techopedia (2025). [48% Error Rate: AI Hallucinations Rise in 2025 Reasoning Systems](https://www.techopedia.com/ai-hallucinations-rise)
 * Wikipedia (2025). [Hallucination (artificial intelligence)](https://en.wikipedia.org/wiki/Hallucination_%28artificial_intelligence%29)

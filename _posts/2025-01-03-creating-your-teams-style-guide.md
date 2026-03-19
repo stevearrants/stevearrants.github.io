@@ -9,7 +9,7 @@ How do you answer questions about language and usage? Is it “click,” “tap,
 
 If you don’t already have a style guide, get one. An easy way to start is to use an existing guide and build from it. Here are some industry standards to help you get started:
 
-* [Microsoft Writing Style Guide](https://ps://learn.microsoft.com/en-us/style-guide/welcome/)
+* [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/)
 * [Google Developer Documentation Style Guide](https://developers.google.com/style)
 * [Apple Style Guide](https://support.apple.com/guide/applestyleguide)
 
