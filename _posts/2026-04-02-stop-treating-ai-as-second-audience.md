@@ -5,10 +5,6 @@ tags: [writing, AI, governance]
 comments: true
 ---
 
-
-# Your AI Support Tool Has a Documentation Problem. 
-## That's Actually Good News.
-
 Everyone is talking about "writing for AI." The idea is that tools like Intercom's FIN, Zendesk's AI, and similar platforms are now consuming your product documentation to generate answers for customers — so you have a new audience to account for, with different requirements and a different way of reading.
 
 ![ai support tool](../assets/img/ai_support_tool.png)
