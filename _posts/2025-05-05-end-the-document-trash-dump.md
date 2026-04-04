@@ -2,7 +2,7 @@
 layout: post
 title: End the Document Trash Dump
 subtitle: Get rid of chaos
-tags: [writing, deveopment, doc management]
+tags: [writing, development, doc management]
 comments: true
 ---
 
