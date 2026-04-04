@@ -22,6 +22,7 @@ author: Green Mountain Docs, LLC
 navbar-links:
   Home: "/"
   Expertise: "services"
+  Topics: "tags"
   Portfolio: "portfolio"
   Blog: "blog"
   About/Resume: "about"
