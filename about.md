@@ -1,134 +1,23 @@
 ---
 layout: page
-title: About
-subtitle: Steve Arrants — Technical Documentation Architect
+title: About Steve
+subtitle: Thirty years of making complex things clear
 ---
-
-## Professional Summary
-
-Technical Documentation Architect and Documentation Engineer with 40 years of experience transforming complex technical information into clear, actionable documentation. I specialize in documentation engineering, API documentation, and metrics-driven content optimization.
-
-My core belief: **Understanding unlocks capability.** When people truly comprehend systems and tools, they become empowered rather than dependent.
-
-<a href="/assets/docs/steve-arrants-resume-2025.pdf" class="cta-button" download>Download Resume (PDF)</a>
-
+ 
+Thirty years ago I started my career writing user guides for software that nobody thought needed explaining. I quickly learned that the gap between what engineers build and what users understand isn't a writing problem — it's a thinking problem. My job ever since has been to close that gap: understand how something works, understand what users actually need to know, and connect the two in the simplest, most durable way possible.
+ 
+I run Green Mountain Docs, LLC as an independent documentation consultant. I take on projects that other writers find difficult — heavily technical content, complex API documentation, legacy docs that need restructuring from the ground up. I bring a systems perspective to every engagement: I'm not just writing words, I'm thinking about how the documentation scales, how it stays current, and how it fits the tools your team already uses. I've built docs-as-code workflows that cut documentation update cycles by three weeks and improved content reuse by 30%. Those aren't vanity metrics — they're what let a small team maintain documentation that used to require twice the headcount.
+ 
+I've worked across SaaS, healthcare IT, scientific instrumentation, and enterprise software. I've led editorial teams, built documentation systems from scratch, managed content migrations, and mentored writers who have gone on to lead documentation organizations of their own. I don't think of myself as just a writer — I'm an editor, a strategist, and sometimes a translator between the people who build things and the people who use them.
+ 
+My approach has kept pace with the industry. I work with modern toolchains — MadCap Flare, OpenAPI, GitHub, Confluence, structured content platforms — and I use AI-augmented workflows where they genuinely help rather than just adding noise. I care about documentation that works: findable, accurate, and written for the person who actually needs it, not for the person who built it.
+ 
 ---
-
-## What I Do
-
-<div class="about-card" markdown="1">
-
-**Documentation Engineering**
-
-Building scalable documentation systems using docs-as-code workflows. I help teams implement Git-based documentation, automate publishing pipelines, and establish content standards that scale.
-
-</div>
-
-<div class="about-card" markdown="1">
-
-**API & Developer Documentation**
-
-Creating clear, accurate API references and developer guides. I work with OpenAPI/Swagger specs, build interactive examples, and structure content so developers can get started quickly.
-
-</div>
-
-<div class="about-card" markdown="1">
-
-**Technical Writing & Editing**
-
-End-to-end documentation for software products—user guides, admin documentation, knowledge bases, and troubleshooting content. I also provide technical editing for teams with in-house writers.
-
-</div>
-
-<div class="about-card" markdown="1">
-
-**Documentation Strategy**
-
-Auditing existing documentation, identifying gaps, and building roadmaps for improvement. I help teams measure documentation effectiveness and prioritize high-impact changes.
-
-</div>
-
+ 
+**Industries:** SaaS &nbsp;·&nbsp; Healthcare IT &nbsp;·&nbsp; Scientific Instrumentation &nbsp;·&nbsp; Enterprise Software
+ 
+**Tools:** MadCap Flare &nbsp;·&nbsp; OpenAPI / Swagger &nbsp;·&nbsp; GitHub &nbsp;·&nbsp; Confluence &nbsp;·&nbsp; DITA &nbsp;·&nbsp; Docs-as-code workflows &nbsp;·&nbsp; Claude AI
+ 
 ---
-
-## Experience Highlights
-
-**Documentation Engineering** — Led documentation improvement initiatives for integration platforms, restructuring hundreds of technical guides and implementing docs-as-code workflows.
-
-**API Documentation** — Created comprehensive API documentation and integration guides for SaaS platforms, establishing documentation metrics programs that measurably reduced support tickets.
-
-**Enterprise Software** — Authored user documentation for scientific instrumentation software, healthcare systems, and enterprise applications across multiple industries.
-
-**Publishing & Content** — Background in technical publishing and content management, bringing editorial rigor to technical documentation.
-
----
-
-## Industries
-
-- SaaS & Software Platforms
-- Integration & iPaaS
-- Healthcare IT
-- Scientific Instrumentation
-- Enterprise Software
-
----
-
-## Tools & Technologies
-
-**Authoring:** MadCap Flare, Oxygen XML, Markdown, AsciiDoc, DITA  
-**Platforms:** Confluence, GitBook, ReadMe, MkDocs, Jekyll, Hugo  
-**Developer Tools:** OpenAPI/Swagger, Postman, Git, GitHub/GitLab  
-**AI Tools:** Claude, ChatGPT, AI-assisted writing workflows
-
----
-
-## Location
-
-Based in **South Burlington, Vermont**. I work remotely with clients across the US and internationally.
-
----
-
-## Let's Connect
-
-<a href="/contact" class="cta-button">Get in Touch</a>
-
-**LinkedIn:** [linkedin.com/in/stevearrants](https://linkedin.com/in/stevearrants)  
-**Email:** [steve@greenmtndocs.com](mailto:steve@greenmtndocs.com)
-
-<style>
-.about-card {
-  background: #fff;
-  padding: 1.5rem;
-  border-left: 4px solid #27AE60;
-  border-radius: 0 8px 8px 0;
-  margin: 1.25rem 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.about-card strong {
-  color: #2C3E50;
-  font-size: 1.1rem;
-}
-
-.cta-button {
-  background-color: #27AE60;
-  color: #fff;
-  padding: 0.85rem 2rem;
-  border: none;
-  border-radius: 6px;
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
-  margin-bottom: 1rem;
-}
-
-.cta-button:hover {
-  background-color: #2980B9;
-  color: #fff;
-  text-decoration: none;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-</style>
+ 
+If you need something complex made clear, [let's talk](../contact). You can also [view my full resume](../resume).
