@@ -143,17 +143,24 @@ keywords: "writing, editing, Flare, MadCap, docs-as-code, technical communicatio
 # --------------------------------
 # Colors - Green Mountain Docs Palette
 # --------------------------------
-page-col: "#ECF0F1"          # Fog Grey - backgrounds
+# page-col: "#ECF0F1"          # Fog Grey - backgrounds
+page-col: "#F8F9F5"          # subtle warm off-white (was #ECF0F1)
+navbar-col: "#FFFFFF"
+navbar-text-col: "#2C3E50"
+navbar-border-col: "#E4EAE5" # slight green-tinted border (was #ECF0F1)
+link-col: "#1A6FA8"          # slightly richer blue (was #2980B9)
+hover-col: "#2D6A4F"         # deep forest green (was #27AE60)
+footer-col: "#162923"        # very dark green instead of blue-gray (was #2C3E50)
+footer-text-col: "#ECF0F1"
+footer-link-col: "#6DBF96"   # lighter green, readable on dark bg (was #27AE60)
+footer-hover-col: "#A8D8C0"  # soft green hover (was #2980B9)
 text-col: "#2C3E50"          # Alpine Slate - primary text
-link-col: "#2980B9"          # Alert Blue - hyperlinks
-hover-col: "#27AE60"         # Summit Green - hover states
-navbar-col: "#FFFFFF"        # White navbar (clean, light)
-navbar-text-col: "#2C3E50"   # Alpine Slate - navbar text
-navbar-border-col: "#ECF0F1" # Fog Grey - subtle border
-footer-col: "#2C3E50"        # Alpine Slate - footer background
-footer-text-col: "#ECF0F1"   # Fog Grey - footer text
-footer-link-col: "#27AE60"   # Summit Green - footer links
-footer-hover-col: "#2980B9"  # Alert Blue - footer hover
+#  navbar-text-col: "#2C3E50"   # Alpine Slate - navbar text
+# navbar-border-col: "#ECF0F1" # Fog Grey - subtle border
+# footer-col: "#2C3E50"        # Alpine Slate - footer background
+# footer-text-col: "#ECF0F1"   # Fog Grey - footer text
+# footer-link-col: "#27AE60"   # Summit Green - footer links
+# footer-hover-col: "#2980B9"  # Alert Blue - footer hover
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 #
 #page-col: "#FFFFFF"
