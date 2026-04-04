@@ -21,11 +21,12 @@ author: Green Mountain Docs, LLC
 
 navbar-links:
   Home: "/"
-  Expertise: "services"
+  About: "about"
+  Services: "services"
   Topics: "tags"
   Portfolio: "portfolio"
   Blog: "blog"
-  About/Resume: "about"
+  Resume: "resume"
   Contact: "contact"
 #navbar-links:
 #   About Me: 
