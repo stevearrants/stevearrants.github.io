@@ -4,13 +4,18 @@ title: Portfolio
 subtitle: Documentation Samples & Projects
 ---
 
-A selection of documentation projects demonstrating my work in API documentation, user guides, and technical content strategy.
+A selection of documentation projects demonstrating my work.
 
 ## Available samples
-* <a href="https://www.dropbox.com/scl/fi/pbcmbswilgdi0x9crfk81/READ-ME-Agilent-BioSpa-8-IQOQPQ.pdf?rlkey=z54z19ihu3bj2mh49tbkoh34c&st=wyrqn122&dl=0" target="_blank">Agilent BioSpa 8 IQOQPQ Readme</a> - Automatic Incubator Qualification and Maintenance Readme
-* <a href="https://www.dropbox.com/scl/fi/jsicxtq8jjo0w3c4bklkc/BioSpa-8-Automated-Incubator-1411000N-Rev.-D-Extract.pdf?rlkey=cpc18br1a9tm6ct61eahk9q7v&st=zpl00jwv&dl=0" target="_blank">Agilent BioSpa 8 Automated Incubaator User Manual - Draft</a> user manual excerpt.
-* <a href="https://www.dropbox.com/scl/fi/hd7zujn7rs4cd5w7q29g7/406-FX-Microplate-Washer-Dispenser-2121000N-Rev.C-Extract.pdf?rlkey=pvm4ad0npyziw532xlw6pfykb&st=eald7et7&dl=0" target="_blank">Agilent 406FX Microplate Washer Dispenser User Manual -Draft</a> user manual excerpt.
-* <a href="https://www.dropbox.com/scl/fi/qbvgrix2y0jwbn57qayk5/Cassette-Best-Practices-Troubleshooting-Tech-Note-7171034-Rev-D.pdf?rlkey=1mz642wn7io2080rmxxeq6f3q&st=gg8knl0y&dl=0" target="_blank">Dispense Cassette Best Practices Troubleshooting</a> - Technical note to troubleshoot fluid dispense cassettes.
-* <a href="/store/Using The Publisher Center.pdf" target="_blank" rel="noopener">Using the Publisher Center.pdf</a> — Quick Reference PDF for clients using The Publishing Center, a web application used to manage and retrieve published articles.
-* <a href="/store/When you're stuck.pdf" target="_blank" rel="noopener">When You&#8217;re Stuck.pdf</a>— Job aid for ARTEMIS users needing assistance.
+* <a href="store/AI-Documentation-Tool-Checklist.xlsx" target="_blank">AI Documentation Tool-Checklist</a> - A checklist to help when selecxting an AI tool for documentation use.
+* <a href="store/help-center-reorg-template.pdf" target="_blank">Help Center Reorganization Template</a> - A template to use whenplanning how to reorganize your help center for use with an AI. 
+* <a href="store/READMEBioSpa8.pdf" target="_blank">Agilent BioSpa 8 IQOQPQ Readme</a> - Automatic Incubator Qualification and Maintenance Readme
+* <a href="store/BioSpa8Extract.pdf" target="_blank">Agilent BioSpa 8 Automated Incubator User Manual</a> - Draft user manual excerpt.
+* <a href="store/406FXExtract.pdf" target="_blank">Agilent 406FX Microplate Washer Dispenser User Manual</a> - Draft user manual excerpt.
+* <a href="store/Cassette.pdf" target="_blank">Dispense Cassette Best Practices Troubleshooting</a> - Technical note to troubleshoot fluid dispense cassettes.
+* <a href="store/Using%20The%20Publisher%20Center.pdf" target="_blank">Using the Publisher Center.pdf</a> - Quick Reference PDF for clients using The Publishing Center, a web application used to manage and retrieve published articles.
+* <a href="store/When%20you're%20stuck.pdf" target="_blank">When You&#8217;re Stuck.pdf</a> -  Job aid for ARTEMIS (a SaaS to manage scientific journal articles) users needing assistance.
+
+## Help Center Example
+* <a href="https://support.ipaas.com/en/" target="_blank">iPaaS.com Help Center</a> - Help center. I worked on reorganizing and rewriting the content for a contract that ended 3/31/26). It's still a work in progress. 
 
