@@ -192,7 +192,7 @@ Every project is different. Tell me about your documentation challenges and I'll
 .service-item {
   background: #fff;
   padding: 1.5rem;
-  border-left: 4px solid #27AE60;
+  border-left: 4px solid #2D6A4F;
   border-radius: 0 8px 8px 0;
   margin: 1.5rem 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -223,7 +223,7 @@ Every project is different. Tell me about your documentation challenges and I'll
   padding: 1.25rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  border-top: 3px solid #27AE60;
+  border-top: 3px solid #2D6A4F;
 }
 
 .expertise-item strong {
@@ -239,11 +239,11 @@ Every project is different. Tell me about your documentation challenges and I'll
 }
 
 .process-steps strong {
-  color: #27AE60;
+  color: #2D6A4F;
 }
 
 .cta-button {
-  background-color: #27AE60;
+  background-color: #2D6A4F;
   color: #fff;
   padding: 0.85rem 2rem;
   border: none;
@@ -257,7 +257,7 @@ Every project is different. Tell me about your documentation challenges and I'll
 }
 
 .cta-button:hover {
-  background-color: #2980B9;
+  background-color: #1A5C3A;
   color: #fff;
   text-decoration: none;
   transform: translateY(-2px);
