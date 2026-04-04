@@ -4,6 +4,94 @@ title: Expertise
 subtitle: Technical Documentation That Empowers Users
 ---
 
+<style>
+.service-item {
+  background: #fff;
+  padding: 1.5rem;
+  border-left: 4px solid #2D6A4F;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.service-item p {
+  margin-bottom: 0.75rem;
+}
+
+.service-item ul {
+  margin: 0.75rem 0;
+  padding-left: 1.25rem;
+}
+
+.service-item li {
+  margin-bottom: 0.4rem;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.expertise-item {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-top: 3px solid #2D6A4F;
+}
+
+.expertise-item strong {
+  color: #2C3E50;
+}
+
+.process-steps {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin: 1.5rem 0;
+}
+
+.process-steps strong {
+  color: #2D6A4F;
+}
+
+.cta-button {
+  background-color: #2D6A4F;
+  color: #fff;
+  padding: 0.85rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #1A5C3A;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 600px) {
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .service-item,
+  .process-steps {
+    padding: 1.25rem;
+  }
+}
+</style>
+
 Good documentation doesn't just explain—it enables. I help companies transform complex technical information into clear, user-focused content that reduces support costs and empowers users to succeed.
 
 ---
@@ -188,90 +276,3 @@ Every project is different. Tell me about your documentation challenges and I'll
 
 <a href="{{ '/contact' | relative_url }}" class="cta-button">Get in Touch</a>
 
-<style>
-.service-item {
-  background: #fff;
-  padding: 1.5rem;
-  border-left: 4px solid #2D6A4F;
-  border-radius: 0 8px 8px 0;
-  margin: 1.5rem 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.service-item p {
-  margin-bottom: 0.75rem;
-}
-
-.service-item ul {
-  margin: 0.75rem 0;
-  padding-left: 1.25rem;
-}
-
-.service-item li {
-  margin-bottom: 0.4rem;
-}
-
-.expertise-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-
-.expertise-item {
-  background: #fff;
-  padding: 1.25rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  border-top: 3px solid #2D6A4F;
-}
-
-.expertise-item strong {
-  color: #2C3E50;
-}
-
-.process-steps {
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  margin: 1.5rem 0;
-}
-
-.process-steps strong {
-  color: #2D6A4F;
-}
-
-.cta-button {
-  background-color: #2D6A4F;
-  color: #fff;
-  padding: 0.85rem 2rem;
-  border: none;
-  border-radius: 6px;
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #1A5C3A;
-  color: #fff;
-  text-decoration: none;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-@media (max-width: 600px) {
-  .expertise-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .service-item,
-  .process-steps {
-    padding: 1.25rem;
-  }
-}
-</style>
