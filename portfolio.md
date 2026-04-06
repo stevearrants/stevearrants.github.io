@@ -14,7 +14,7 @@ A selection of projects demonstrating my work across content strategy, help cent
       <span style="font-size:0.72rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#2D6A4F;">Content Strategy &nbsp;·&nbsp; Excel</span>
       <h3 style="margin:0.5rem 0 0.75rem; font-size:1.1rem;">AI Documentation Tool Checklist</h3>
       <p style="font-size:0.92rem; color:#555; margin-bottom:1.25rem;">A structured checklist for evaluating and selecting AI tools for documentation workflows. Covers capabilities, integration requirements, cost, and governance considerations.</p>
-      <a href="store/AI-Documentation-Tool-Checklist.xlsx" target="_blank" style="display:inline-block; padding:0.4rem 0.9rem; background:#2D6A4F; color:#fff; border-radius:4px; font-size:0.88rem; text-decoration:none;">Download Checklist &rarr;</a>
+      <a href="./store/AI-Documentation-Tool-Checklist.xlsx" target="_blank" style="display:inline-block; padding:0.4rem 0.9rem; background:#2D6A4F; color:#fff; border-radius:4px; font-size:0.88rem; text-decoration:none;">Download Checklist &rarr;</a>
     </div>
   </div>
 
