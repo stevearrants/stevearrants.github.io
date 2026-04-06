@@ -45,7 +45,7 @@ A selection of projects demonstrating my work across content strategy, help cent
       <h3 style="margin:0.5rem 0 0.75rem; font-size:1.1rem;">Agilent Technologies — Lab Automation</h3>
       <p style="font-size:0.92rem; color:#555; margin-bottom:1rem;">Four-piece documentation engagement for Agilent's lab automation product line. Deliverables spanned the BioSpa 8 Automated Incubator and 406FX Microplate Washer Dispenser.</p>
       <ul style="font-size:0.88rem; color:#555; margin-bottom:1.25rem; padding-left:1.2rem;">
-        <li><a href="store/READMEBioSpa8.pdf" target="_blank">BioSpa 8 IQ/OQ/PQ Qualification Readme</a></li>
+        <li><a href="/store/READMEBioSpa8.pdf" target="_blank">BioSpa 8 IQ/OQ/PQ Qualification Readme</a></li>
         <li><a href="/store/BioSpa8Extract.pdf" target="_blank">BioSpa 8 User Manual excerpt</a></li>
         <li><a href="/store/406FXExtract.pdf" target="_blank">406FX Washer Dispenser User Manual excerpt</a></li>
         <li><a href="/store/Cassette.pdf" target="_blank">Dispense Cassette Troubleshooting Tech Note</a></li>
