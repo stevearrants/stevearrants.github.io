@@ -4,9 +4,9 @@ title: Resume
 subtitle: 30 years of documentation engineering and technical writing
 ---
  
-I bring a systems perspective to documentation — building frameworks that scale, workflows that stick, and content that reduces the burden on support teams. Below are highlights from my recent work. For the full picture, download my resume.
+Documentation strategist with 30+ years across SaaS, APIs, healthcare, and scientific software. Builds the systems, sets the standards, and owns the editorial judgment AI can't replace. Consistent results: less support burden, faster user adoption, documentation that earns its keep.
  
-<a href="/store/steve-arrants-resume-2025.pdf" target="_blank" style="display:inline-block; padding:0.5rem 1.1rem; background:#2D6A4F; color:#fff; border-radius:4px; font-size:0.95rem; text-decoration:none; margin-bottom:2rem;">Download Full Resume (PDF) &rarr;</a>
+<a href="/store/steve-arrants-resume-2026.pdf" target="_blank" style="display:inline-block; padding:0.5rem 1.1rem; background:#2D6A4F; color:#fff; border-radius:4px; font-size:0.95rem; text-decoration:none; margin-bottom:2rem;">Download Full Resume (PDF) &rarr;</a>
  
 ---
  
@@ -16,22 +16,22 @@ I bring a systems perspective to documentation — building frameworks that scal
  
   <div class="col-md-4 mb-4">
     <div style="border-top:3px solid #2D6A4F; padding:1.25rem; background:#fff; border-radius:0 0 6px 6px; box-shadow:0 2px 8px rgba(0,0,0,0.05); height:100%;">
-      <h4 style="color:#2C3E50; font-size:1rem; margin-bottom:0.75rem;">Documentation Engineering</h4>
-      <p style="font-size:0.9rem; color:#555; margin:0;">Scalable documentation frameworks, single-source publishing, docs-as-code implementation, CI/CD integration, and automated publishing pipelines.</p>
+      <h4 style="color:#2C3E50; font-size:1rem; margin-bottom:0.75rem;">Documentation Engineering & Strategy</h4>
+      <p style="font-size:0.9rem; color:#555; margin:0;">Scalable documentation frameworks, single-source publishing, docs-as-code implementation, CI/CD integration, automated publishing pipelines, and Azure DevOps.</p>
     </div>
   </div>
  
   <div class="col-md-4 mb-4">
     <div style="border-top:3px solid #2D6A4F; padding:1.25rem; background:#fff; border-radius:0 0 6px 6px; box-shadow:0 2px 8px rgba(0,0,0,0.05); height:100%;">
       <h4 style="color:#2C3E50; font-size:1rem; margin-bottom:0.75rem;">Technical Expertise</h4>
-      <p style="font-size:0.9rem; color:#555; margin:0;">REST API documentation, developer portals, Git and CI/CD toolchains, Confluence, Intercom, healthcare and life sciences platforms.</p>
+      <p style="font-size:0.9rem; color:#555; margin:0;">REST API documentation, developer portals, MadCap Flare, Markdown, Git/GitHub/Azure DevOps, Jekyll, Hugo, MkDocs, Intercom, Confluence, healthcare and life sciences platforms.</p>
     </div>
   </div>
  
   <div class="col-md-4 mb-4">
     <div style="border-top:3px solid #2D6A4F; padding:1.25rem; background:#fff; border-radius:0 0 6px 6px; box-shadow:0 2px 8px rgba(0,0,0,0.05); height:100%;">
-      <h4 style="color:#2C3E50; font-size:1rem; margin-bottom:0.75rem;">Leadership & Collaboration</h4>
-      <p style="font-size:0.9rem; color:#555; margin:0;">Cross-functional team leadership, stakeholder management across engineering and product, peer review frameworks, mentoring, and process improvement.</p>
+      <h4 style="color:#2C3E50; font-size:1rem; margin-bottom:0.75rem;">AI & Automation</h4>
+      <p style="font-size:0.9rem; color:#555; margin:0;">Claude Agent Skills authoring, LLM workflow integration, and prompt engineering for structured content generation.</p>
     </div>
   </div>
  
@@ -43,14 +43,16 @@ I bring a systems perspective to documentation — building frameworks that scal
  
 <div style="border-left:4px solid #2D6A4F; padding:1.25rem 1.5rem; background:#fff; border-radius:0 6px 6px 0; box-shadow:0 2px 8px rgba(0,0,0,0.05); margin-bottom:1.5rem;">
   <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap;">
-    <h3 style="font-size:1.05rem; margin:0 0 0.15rem;">Contract Technical Writer</h3>
-    <span style="font-size:0.85rem; color:#777;">2025 – 2026</span>
+    <h3 style="font-size:1.05rem; margin:0 0 0.15rem;">Contract Technical Writer — Green Mountain Docs, LLC</h3>
+    <span style="font-size:0.85rem; color:#777;">2025 – Present</span>
   </div>
   <p style="font-size:0.9rem; color:#2D6A4F; margin:0 0 0.75rem; font-weight:600;">iPaaS.com &nbsp;·&nbsp; Atlanta, Georgia</p>
-  <p style="font-size:0.9rem; color:#555; margin-bottom:0.75rem;">API-first data integration platform. Led a comprehensive documentation transformation for Intercom-based user documentation.</p>
+  <p style="font-size:0.9rem; color:#555; margin-bottom:0.75rem;">API-first data integration platform serving mid-market and enterprise customers.</p>
   <ul style="font-size:0.9rem; color:#555; margin:0; padding-left:1.2rem;">
-    <li>Architected end-to-end writing, reviewing, and editing workflows for the entire documentation ecosystem.</li>
-    <li>Collaborated directly with Product and Development teams to establish scalable content creation processes.</li>
+    <li>Designing a comprehensive docs overhaul to migrate content from an ad-hoc Intercom structure to a scalable, maintainable system aligned with product development cycles.</li>
+    <li>Built and deployed three Claude Agent Skills (JSON-to-Markdown, mapping table generator, installation doc generator) that automate conversion of iPaaS JSON exports into publication-ready documentation—eliminating hours of manual formatting per integration.</li>
+    <li>Reorganized 17 microservice API error files into a three-layer architecture, achieving approximately 70% volume reduction while improving navigability and maintaining completeness.</li>
+    <li>Produced detailed evaluation of a Markdown/Git/MkDocs/Intercom API pipeline as a replacement for Word/MadCap Flare, including hybrid repo structure, phased adoption path, and cost-benefit analysis.</li>
   </ul>
 </div>
  
@@ -64,7 +66,7 @@ I bring a systems perspective to documentation — building frameworks that scal
   <ul style="font-size:0.9rem; color:#555; margin:0; padding-left:1.2rem;">
     <li>Achieved 100% regulatory compliance across all product documentation.</li>
     <li>Established peer review frameworks and AI/LLM workflows for mechanical editing, reducing review cycles by 35%.</li>
-    <li>Implemented performance measurement systems to evaluate content effectiveness and guide strategic improvements.</li>
+    <li>Implemented performance measurement systems to evaluate content effectiveness and guide continuous improvement.</li>
   </ul>
 </div>
  
@@ -86,5 +88,5 @@ I bring a systems perspective to documentation — building frameworks that scal
  
 ---
  
-<a href="/store/steve-arrants-resume-2025.pdf" target="_blank" style="display:inline-block; padding:0.5rem 1.1rem; background:#2D6A4F; color:#fff; border-radius:4px; font-size:0.95rem; text-decoration:none; margin-right:0.75rem;">Download Full Resume (PDF) &rarr;</a>
+<a href="/store/steve-arrants-resume-2026.pdf" target="_blank" style="display:inline-block; padding:0.5rem 1.1rem; background:#2D6A4F; color:#fff; border-radius:4px; font-size:0.95rem; text-decoration:none; margin-right:0.75rem;">Download Full Resume (PDF) &rarr;</a>
 <a href="/contact" style="display:inline-block; padding:0.5rem 1.1rem; border:2px solid #2D6A4F; color:#2D6A4F; border-radius:4px; font-size:0.95rem; text-decoration:none;">Get in Touch &rarr;</a>
