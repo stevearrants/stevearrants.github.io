@@ -5,7 +5,7 @@ subtitle: Technical Writing · Documentation Engineering · Content Strategy
 cover-img: "/assets/img/hero.jpg"
 ---
  
-I'm Steve Arrants — a technical writer and editor with more than 30 years of experience building documentation systems that work at scale. I help engineering teams transform complex technical information into clear, user-centric knowledge bases that people actually use.
+I'm Steve Arrants — a technical writer and editor with 40 years of experience building documentation systems that work at scale. I help engineering teams transform complex technical information into clear, user-centric knowledge bases that people actually use.
  
 * Built docs-as-code workflows that cut documentation update cycles by three weeks and improved content reuse by 30%.
 * Automated publishing from MadCap Flare to Intercom using Python, eliminating manual handoff entirely.

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Resume
-subtitle: 30 years of documentation engineering and technical writing
+subtitle: Forty years of documentation engineering and technical writing
 ---
  
-Documentation strategist with 30+ years across SaaS, APIs, healthcare, and scientific software. Builds the systems, sets the standards, and owns the editorial judgment AI can't replace. Consistent results: less support burden, faster user adoption, documentation that earns its keep.
+Documentation strategist with forty years across SaaS, APIs, healthcare, and scientific software. Builds the systems, sets the standards, and owns the editorial judgment AI can't replace. Consistent results: less support burden, faster user adoption, documentation that earns its keep.
  
 <a href="/store/steve-arrants-resume-2026.pdf" target="_blank" style="display:inline-block; padding:0.5rem 1.1rem; background:#2D6A4F; color:#fff; border-radius:4px; font-size:0.95rem; text-decoration:none; margin-bottom:2rem;">Download Full Resume (PDF) &rarr;</a>
  
