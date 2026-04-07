@@ -275,5 +275,3 @@ Every project is different. Tell me about your documentation challenges and I'll
   }
 }
 </style>
-
-
