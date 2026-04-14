@@ -2,6 +2,8 @@
 layout: post
 title: "I've Seen This Before: What Five Technology Transitions Tell Decision-Makers About AI and Documentation"
 subtitle: "The pattern is clear. The question is whether you'll repeat the expensive mistake."
+tags: [AI, writing]
+comments: true
 ---
 
 ## You've Heard This Pitch Before
