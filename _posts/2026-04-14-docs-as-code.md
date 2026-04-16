@@ -6,7 +6,7 @@ comments: true
 ---
 
 Every so often, a new round of debate surfaces in technical writing communities about which tool to use for documentation. The contenders are familiar: commercial authoring platforms, help authoring tools, component content management systems, and the occasional wiki. The arguments are equally familiar — feature comparisons, pricing tiers, migration stories, vendor promises.
-
+![docs as code](../assets/img/docs-as-code.png)
 I want to make a different case. Not for a specific tool, but for an approach: docs-as-code. And not because it's trendy, but because when you examine what technical writers actually need — flexibility, sustainability, community support, and control over their own work — docs-as-code consistently delivers.
 
 ## What Docs-as-Code Actually Means
