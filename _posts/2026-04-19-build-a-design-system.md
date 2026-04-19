@@ -12,7 +12,7 @@ Design system is a UX term. Figma, tokens, component libraries — that's the wo
 Here's what I mean by a technical writing design system: a single reference that captures your voice and tone rules, your content patterns, your formatting standards, your word and term decisions, and — if you're an independent writer or a small team — your brand. Not a style guide in the traditional sense, though it includes that. A system. Something structured enough that another writer (or an AI tool) could pick it up and produce work that sounds like you.
 
 I built one recently using Claude, starting from nothing but my own website. This is how that worked, and how you can do the same.
-
+>You can see the sample design system at <a href="../gmd-design-system_1.html" target="_blank">Green Mountain Docs -- Design System</a>.
 ---
 
 ### Why You Need One
@@ -69,28 +69,3 @@ A design system for technical writing is not a bureaucratic artifact. It's a dec
 
 It takes one session to build a working draft. The return compounds from there.
 
----
-
-*Steve Arrants is a technical writer and documentation consultant at [Green Mountain Docs](https://greenmtndocs.com). He writes about AI adoption in technical communication at [oldtechwriter.com](https://oldtechwriter.com).*
-
----
----
-
-# LinkedIn Post
-
-Design system is a UX term.
-
-Figma. Tokens. Component libraries. That's where it comes from.
-
-But the concept belongs to technical writers too — and if you don't have one, you're rebuilding the same decisions every time you start a project.
-
-A technical writing design system is a single reference that captures your voice and tone rules, your content patterns, your formatting standards, your word and term decisions, and your brand. Not a traditional style guide. A system — structured enough that another writer, or an AI tool, could pick it up and produce work that sounds like you.
-
-This matters more now than it ever has. When you use AI to help draft or review documentation, it produces output calibrated to general writing conventions, not yours. A design system is how you govern that output instead of just accepting it.
-
-I built one recently using Claude, starting from nothing but my own website. The blog post walks through exactly how — what to include, how to prompt for it, and how to put it to work immediately.
-
-[Link in first comment]
-
----
-*END OF DRAFTS*
