@@ -9,12 +9,14 @@ comments: true
 
 Here's what I mean by a technical writing design system: a single reference that captures your voice and tone rules, your content patterns, your formatting standards, your word and term decisions, and — if you're an independent writer or a small team — your brand. Not a style guide in the traditional sense, though it includes that. A system. Something structured enough that another writer (or an AI tool) could pick it up and produce work that sounds like you.
 
+![designsystem](../assets/img/designsystem.png)
+
 I built one recently using Claude, starting from nothing but my own website. This is how that worked, and how you can do the same. You can see the sample design system at <a href="https://greenmtndocs.com/design-system/" target="_blank">Green Mountain Docs — Design System</a>.
 
 
 ## Why You Need One
 
-The case is straightforward once you name the problem.
+It's straightforward once you list the reasons:
 
 **Consistency is invisible until it breaks.** When your documentation is consistent — same heading logic, same callout style, same terminology for the same concept — readers don't notice. When it's inconsistent, they notice immediately, even if they can't articulate why. A design system makes consistency the default instead of the result of effort.
 
@@ -24,9 +26,7 @@ The case is straightforward once you name the problem.
 
 **It's a client-facing asset.** For independent writers and consultants, a design system demonstrates process maturity. It's the difference between saying "I write consistently" and showing a client exactly what that means.
 
----
-
-### What Goes in a Technical Writing Design System
+## What Goes in a Technical Writing Design System
 
 Based on how I've built mine — and on what I've seen matter most across projects — I'd organize it into five areas.
 
@@ -40,9 +40,7 @@ Based on how I've built mine — and on what I've seen matter most across projec
 
 **Brand tokens.** For independent writers and small teams, this means your color palette, typography choices, and spacing standards, documented as reference values. This section is most useful if you're producing documentation that carries your own brand — proposals, sample documents, website content — or if you want your AI tools to produce output that fits your visual standards as well as your writing standards.
 
----
-
-### How to Build One with Claude
+## How to Build One with Claude
 
 The practical process takes a single session if you approach it with the right inputs.
 
@@ -50,7 +48,8 @@ The practical process takes a single session if you approach it with the right i
 
 **Step 2: Tell Claude the scope.** Before asking it to build anything, be explicit about what you want covered. The five areas above are a good starting point, but you may want to add or remove sections. You should also decide upfront whether this system covers your client work only, your own content (blog, social), or both — the rules differ enough across those contexts that mixing them without labels creates confusion. Tell Claude what the deliverable format should be: a Markdown reference document, an HTML living doc, or both.
 
-A prompt that works well: *"I want to create a design system for my technical writing practice. Here's my website: [URL]. I want it to cover voice and tone, content patterns, formatting rules, a word and term list, and brand tokens. It should apply to both client documentation and my own content. Base the formatting rules on the Google Developer Style Guide where I haven't specified otherwise, and use Merriam-Webster as the dictionary fallback. Deliver it as both an HTML document and a Markdown file."*
+A prompt that works well: 
+>*"I want to create a design system for my technical writing practice. Here's my website: [URL]. I want it to cover voice and tone, content patterns, formatting rules, a word and term list, and brand tokens. It should apply to both client documentation and my own content. Base the formatting rules on the Google Developer Style Guide where I haven't specified otherwise, and use Merriam-Webster as the dictionary fallback. Deliver it as both an HTML document and a Markdown file."*
 
 **Step 3: Answer the clarifying questions.** A good session will include Claude asking you to make decisions before it drafts anything. Those questions are doing real work — they're forcing you to articulate preferences you may have held implicitly for years. Answer them specifically. Vague answers produce vague systems.
 
@@ -58,9 +57,7 @@ A prompt that works well: *"I want to create a design system for my technical wr
 
 **Step 5: Put it to work immediately.** The fastest way to test and refine a design system is to use it. Paste it into your next Claude Project as context material. Apply it on your next documentation task. The gaps and imprecisions become obvious fast, and each correction makes the system more accurate to how you actually work.
 
----
-
-### What You End Up With
+## What You End Up With
 
 A design system for technical writing is not a bureaucratic artifact. It's a decision log — a record of how you think about documentation, made explicit and reusable. Once you have it, you stop making the same micro-decisions on every project. You stop re-explaining your preferences to every AI tool. You have something concrete to hand to a client who asks about your process, or to a collaborator who needs to match your voice.
 
