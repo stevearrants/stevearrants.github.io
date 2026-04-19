@@ -4,8 +4,6 @@ subtitle: The UX world figured this out years ago. Here's how to apply it to doc
 tags: [writing, Design, AI]
 comments: true
 ---
-# Blog Article
-## Your Technical Writing Needs a Design System
 
 Design system is a UX term. Figma, tokens, component libraries — that's the world it comes from. But the concept belongs to technical writers too, and if you don't have one, you're rebuilding the same decisions every time you start a project.
 
