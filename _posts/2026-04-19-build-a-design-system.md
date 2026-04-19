@@ -9,9 +9,7 @@ Design system is a UX term. Figma, tokens, component libraries — that's the wo
 
 Here's what I mean by a technical writing design system: a single reference that captures your voice and tone rules, your content patterns, your formatting standards, your word and term decisions, and — if you're an independent writer or a small team — your brand. Not a style guide in the traditional sense, though it includes that. A system. Something structured enough that another writer (or an AI tool) could pick it up and produce work that sounds like you.
 
-I built one recently using Claude, starting from nothing but my own website. This is how that worked, and how you can do the same.
-
->You can see the sample design system at <a href="../store/gmd-design-system_1.html" target="_blank">Green Mountain Docs — Design System</a>.
+I built one recently using Claude, starting from nothing but my own website. This is how that worked, and how you can do the same. You can see the sample design system at <a href="https://greenmtndocs.com/design-system/" target="_blank">Green Mountain Docs — Design System</a>.
 
 
 ## Why You Need One
