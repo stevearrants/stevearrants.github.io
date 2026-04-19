@@ -1,0 +1,1099 @@
+---
+layout: null
+title: "Sample Design System"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Green Mountain Docs — Design System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:    #1C2E40;
+    --green:   #3A6B49;
+    --green-light: #EAF2ED;
+    --cream:   #F7F4EF;
+    --white:   #FFFFFF;
+    --slate:   #3D4A57;
+    --muted:   #6B7280;
+    --border:  #DDD8D0;
+    --code-bg: #EFE9E0;
+    --amber:   #B45309;
+    --amber-bg:#FEF3C7;
+    --red:     #991B1B;
+    --red-bg:  #FEE2E2;
+    --teal:    #0E7490;
+    --teal-bg: #E0F2FE;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    background: var(--cream);
+    color: var(--slate);
+    display: flex;
+    min-height: 100vh;
+  }
+
+  /* ── Sidebar ── */
+  nav {
+    width: 240px;
+    min-width: 240px;
+    background: var(--navy);
+    color: #C8D4DE;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 2rem 0;
+    flex-shrink: 0;
+  }
+  nav .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 0 1.5rem 1.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+  }
+  nav .logo span {
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #6B8FA8;
+    margin-top: 0.25rem;
+  }
+  nav a {
+    display: block;
+    padding: 0.4rem 1.5rem;
+    color: #A8BCC8;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-left: 2px solid transparent;
+    transition: all 0.15s;
+  }
+  nav a:hover { color: #FFFFFF; background: rgba(255,255,255,0.06); }
+  nav a.active { color: #FFFFFF; border-left-color: var(--green); background: rgba(255,255,255,0.06); }
+  nav .nav-section {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #4D6475;
+    padding: 1.25rem 1.5rem 0.5rem;
+  }
+  nav a.sub { padding-left: 2rem; font-weight: 400; color: #8099A8; }
+
+  /* ── Main content ── */
+  main {
+    flex: 1;
+    padding: 3rem 4rem;
+    max-width: 860px;
+  }
+  section { margin-bottom: 5rem; }
+  section:first-of-type { margin-top: 0; }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+  .section-intro {
+    font-size: 1.05rem;
+    color: var(--muted);
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 3rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--green-light);
+  }
+  h2:first-of-type { margin-top: 0; }
+  h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin: 2rem 0 0.75rem;
+  }
+  p { margin-bottom: 1rem; }
+  p:last-child { margin-bottom: 0; }
+
+  /* ── Token swatches ── */
+  .token-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  .swatch {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  .swatch-color { height: 64px; }
+  .swatch-info { background: var(--white); padding: 0.6rem 0.75rem; }
+  .swatch-name { font-size: 0.8rem; font-weight: 600; color: var(--slate); display: block; }
+  .swatch-hex  { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--muted); }
+
+  .type-scale { margin: 1.5rem 0; }
+  .type-row { display: flex; align-items: baseline; gap: 1.5rem; padding: 1rem 0; border-bottom: 1px solid var(--border); }
+  .type-row:first-child { border-top: 1px solid var(--border); }
+  .type-meta { min-width: 120px; font-size: 0.75rem; color: var(--muted); font-family: 'JetBrains Mono', monospace; }
+  .type-sample { color: var(--navy); }
+
+  /* ── Code ── */
+  pre, code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+  }
+  code { background: var(--code-bg); padding: 0.15em 0.45em; border-radius: 4px; color: var(--navy); }
+  pre {
+    background: var(--navy);
+    color: #C8D4DE;
+    padding: 1.25rem 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.25rem 0;
+    line-height: 1.6;
+  }
+  pre code { background: none; padding: 0; color: inherit; }
+  .lang-tag {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.1);
+    color: #8099A8;
+    padding: 0.2em 0.6em;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+  }
+
+  /* ── Voice examples ── */
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.25rem 0; }
+  .compare-col { border-radius: 8px; padding: 1rem 1.25rem; }
+  .compare-col.bad  { background: var(--red-bg); border: 1px solid #FCA5A5; }
+  .compare-col.good { background: var(--green-light); border: 1px solid #86EFAC; }
+  .compare-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  .bad  .compare-label { color: var(--red); }
+  .good .compare-label { color: var(--green); }
+  .compare-col p { font-size: 0.9rem; line-height: 1.6; margin: 0; }
+
+  /* ── Callouts ── */
+  .callout {
+    border-radius: 6px;
+    padding: 0.85rem 1.1rem;
+    margin: 1.25rem 0;
+    font-size: 0.9rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+  .callout-icon { font-weight: 700; min-width: 20px; }
+  .callout.note     { background: var(--teal-bg);  border-left: 3px solid var(--teal);  color: #0C4A6E; }
+  .callout.tip      { background: var(--green-light); border-left: 3px solid var(--green); color: #14532D; }
+  .callout.important { background: var(--amber-bg); border-left: 3px solid var(--amber); color: #78350F; }
+  .callout.warning  { background: var(--red-bg);   border-left: 3px solid var(--red);   color: var(--red); }
+  .callout-label { font-weight: 700; margin-right: 0.25rem; }
+
+  /* ── Tables ── */
+  table { width: 100%; border-collapse: collapse; font-size: 0.875rem; margin: 1.25rem 0; }
+  th { background: var(--navy); color: #C8D4DE; text-align: left; padding: 0.6rem 1rem; font-weight: 600; font-size: 0.8rem; letter-spacing: 0.05em; }
+  td { padding: 0.6rem 1rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: rgba(0,0,0,0.02); }
+  td code { font-size: 0.8rem; }
+
+  /* ── Pattern cards ── */
+  .pattern {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    overflow: hidden;
+  }
+  .pattern-header {
+    background: var(--navy);
+    padding: 0.75rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .pattern-title { font-size: 0.8rem; font-weight: 600; color: #C8D4DE; letter-spacing: 0.05em; }
+  .pattern-badge { font-size: 0.65rem; background: var(--green); color: #fff; padding: 0.15em 0.6em; border-radius: 3px; font-weight: 600; }
+  .pattern-body { padding: 1.25rem 1.5rem; }
+  .pattern-body pre { margin-top: 0; }
+
+  /* ── Spacing visual ── */
+  .spacing-row { display: flex; align-items: center; gap: 1.25rem; padding: 0.5rem 0; }
+  .spacing-block { background: var(--green); border-radius: 3px; min-width: 4px; height: 24px; }
+  .spacing-label { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted); min-width: 80px; }
+  .spacing-desc  { font-size: 0.85rem; color: var(--slate); }
+
+  /* ── Top header bar ── */
+  .page-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .page-header .subtitle {
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 0.5rem;
+  }
+  .page-header .meta {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .page-header .meta code { font-size: 0.8rem; }
+  .tag {
+    display: inline-block;
+    background: var(--green-light);
+    color: var(--green);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2em 0.7em;
+    border-radius: 4px;
+    margin-right: 0.4rem;
+  }
+
+  ul, ol { padding-left: 1.5rem; margin: 0.75rem 0; }
+  li { margin-bottom: 0.35rem; }
+  li:last-child { margin-bottom: 0; }
+  strong { font-weight: 600; color: var(--navy); }
+
+  .rule-list { list-style: none; padding: 0; margin: 1rem 0; }
+  .rule-list li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    font-size: 0.9rem;
+  }
+  .rule-list li::before { content: "→"; color: var(--green); font-weight: 700; flex-shrink: 0; }
+  .rule-list li:last-child { border-bottom: none; }
+
+  @media (max-width: 900px) {
+    nav { display: none; }
+    main { padding: 2rem; }
+    .compare { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ──────────────────── Sidebar ──────────────────── -->
+<nav id="sidebar">
+  <div class="logo">
+    Green Mountain Docs
+    <span>Design System v1.0</span>
+  </div>
+
+  <div class="nav-section">Brand Tokens</div>
+  <a href="#colors">Color palette</a>
+  <a href="#typography">Typography</a>
+  <a href="#spacing">Spacing scale</a>
+
+  <div class="nav-section">Voice &amp; Tone</div>
+  <a href="#voice-principles">Principles</a>
+  <a href="#register">Register by context</a>
+  <a href="#vocabulary">Vocabulary rules</a>
+
+  <div class="nav-section">Content Patterns</div>
+  <a href="#procedure">Procedure</a>
+  <a href="#api-endpoint">API endpoint</a>
+  <a href="#release-notes">Release notes</a>
+  <a href="#error-reference">Error reference</a>
+
+  <div class="nav-section">Formatting Rules</div>
+  <a href="#headings">Headings</a>
+  <a href="#lists">Lists</a>
+  <a href="#code">Code &amp; commands</a>
+  <a href="#callouts">Callouts</a>
+  <a href="#tables">Tables</a>
+  <a href="#links">Links</a>
+
+  <div class="nav-section">Style Guide</div>
+  <a href="#style-hierarchy">Reference hierarchy</a>
+  <a href="#google-voice">Voice &amp; tone</a>
+  <a href="#google-grammar">Language &amp; grammar</a>
+  <a href="#google-formatting">Formatting rules</a>
+  <a href="#google-special">Special topics</a>
+
+  <div class="nav-section">Word &amp; Term List</div>
+  <a href="#word-list-how">How to use</a>
+  <a href="#word-list-a">A–F</a>
+  <a href="#word-list-g">G–M</a>
+  <a href="#word-list-n">N–Z</a>
+  <a href="#word-list-avoid">Terms to avoid</a>
+</nav>
+
+<!-- ──────────────────── Main ──────────────────── -->
+<main>
+
+  <!-- Page header -->
+  <div class="page-header">
+    <div class="subtitle">Green Mountain Docs, LLC</div>
+    <h1>Design System</h1>
+    <p class="section-intro" style="border:none; padding:0; margin-top:0.5rem;">
+      A single reference for voice, visual language, and content patterns — applied to client deliverables, the greenmtndocs.com site, and original writing on oldtechwriter.com and LinkedIn.
+    </p>
+    <div class="meta">
+      <span class="tag">v1.0</span>
+      <span class="tag">April 2026</span>
+      <span style="color:var(--muted); font-size:0.85rem;">Contact: <code>stevearrants@greenmtndocs.com</code></span>
+    </div>
+  </div>
+
+
+  <!-- ══════════════ BRAND TOKENS ══════════════ -->
+  <section id="brand-tokens">
+    <h2 id="colors">Color palette</h2>
+    <p>Five primary tokens drive everything. All secondary colors derive from these. Use CSS custom properties consistently so the palette can be updated in one place.</p>
+
+    <div class="token-grid">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#1C2E40;"></div>
+        <div class="swatch-info"><span class="swatch-name">Navy</span><span class="swatch-hex">--gmd-navy · #1C2E40</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#3A6B49;"></div>
+        <div class="swatch-info"><span class="swatch-name">Forest</span><span class="swatch-hex">--gmd-green · #3A6B49</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#F7F4EF;"></div>
+        <div class="swatch-info"><span class="swatch-name">Cream</span><span class="swatch-hex">--gmd-cream · #F7F4EF</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#3D4A57;"></div>
+        <div class="swatch-info"><span class="swatch-name">Slate</span><span class="swatch-hex">--gmd-slate · #3D4A57</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#6B7280;"></div>
+        <div class="swatch-info"><span class="swatch-name">Muted</span><span class="swatch-hex">--gmd-muted · #6B7280</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#DDD8D0;"></div>
+        <div class="swatch-info"><span class="swatch-name">Border</span><span class="swatch-hex">--gmd-border · #DDD8D0</span></div>
+      </div>
+    </div>
+
+    <h3>Semantic usage</h3>
+    <table>
+      <thead><tr><th>Purpose</th><th>Token</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>Page headers, nav backgrounds</td><td><code>--gmd-navy</code></td><td>Never use for body text</td></tr>
+        <tr><td>Links, CTAs, accents</td><td><code>--gmd-green</code></td><td>Min. 4.5:1 contrast on cream</td></tr>
+        <tr><td>Page/document background</td><td><code>--gmd-cream</code></td><td>Not pure white — warmer</td></tr>
+        <tr><td>Body text</td><td><code>--gmd-slate</code></td><td>All long-form prose</td></tr>
+        <tr><td>Captions, metadata, labels</td><td><code>--gmd-muted</code></td><td>Never for body text</td></tr>
+        <tr><td>Warnings</td><td><code>#991B1B</code> on <code>#FEE2E2</code></td><td>Use sparingly</td></tr>
+        <tr><td>Notes / info</td><td><code>#0E7490</code> on <code>#E0F2FE</code></td><td>Callout blocks only</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="typography">Typography</h2>
+    <p>Three faces cover every context. Load all three from Google Fonts or self-host for production.</p>
+
+    <table style="margin-bottom:2rem;">
+      <thead><tr><th>Role</th><th>Face</th><th>Usage</th></tr></thead>
+      <tbody>
+        <tr><td>Display / Headings</td><td><code>Playfair Display</code></td><td>H1–H3, pull quotes, section titles</td></tr>
+        <tr><td>Body / UI</td><td><code>DM Sans</code></td><td>All body copy, labels, navigation, captions</td></tr>
+        <tr><td>Code / Mono</td><td><code>JetBrains Mono</code></td><td>Code blocks, inline code, filenames, tokens</td></tr>
+      </tbody>
+    </table>
+
+    <div class="type-scale">
+      <div class="type-row">
+        <span class="type-meta">48px / 600<br>Playfair</span>
+        <span class="type-sample" style="font-family:'Playfair Display',serif; font-size:2.5rem; font-weight:600; color:#1C2E40;">Page Title</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">32px / 600<br>Playfair</span>
+        <span class="type-sample" style="font-family:'Playfair Display',serif; font-size:2rem; font-weight:600; color:#1C2E40;">Section Heading</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">20px / 600<br>Playfair</span>
+        <span class="type-sample" style="font-family:'Playfair Display',serif; font-size:1.25rem; font-weight:600; color:#1C2E40;">Subsection Heading</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">16px / 400<br>DM Sans</span>
+        <span class="type-sample" style="font-size:1rem;">Body text. Clear and readable at 16px, line-height 1.7. Used for all prose in client deliverables and site content.</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">13px / 400<br>DM Sans</span>
+        <span class="type-sample" style="font-size:0.8rem; color:#6B7280;">Caption, metadata, label text — muted color, never for body copy.</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">14px / 400<br>JetBrains Mono</span>
+        <span class="type-sample" style="font-family:'JetBrains Mono',monospace; font-size:0.875rem; background:#EFE9E0; padding:0.2em 0.5em; border-radius:4px;">inline code · filenames · tokens</span>
+      </div>
+    </div>
+
+    <h2 id="spacing">Spacing scale</h2>
+    <p>Base unit is 4px. All layout spacing uses multiples.</p>
+    <div>
+      <div class="spacing-row"><span class="spacing-label">4px · xs</span><div class="spacing-block" style="width:4px;"></div><span class="spacing-desc">Icon gaps, tight labels</span></div>
+      <div class="spacing-row"><span class="spacing-label">8px · sm</span><div class="spacing-block" style="width:8px;"></div><span class="spacing-desc">Internal component padding</span></div>
+      <div class="spacing-row"><span class="spacing-label">16px · md</span><div class="spacing-block" style="width:16px;"></div><span class="spacing-desc">Standard paragraph gap, card padding</span></div>
+      <div class="spacing-row"><span class="spacing-label">24px · lg</span><div class="spacing-block" style="width:24px;"></div><span class="spacing-desc">Between related sections</span></div>
+      <div class="spacing-row"><span class="spacing-label">48px · xl</span><div class="spacing-block" style="width:48px;"></div><span class="spacing-desc">Between major sections</span></div>
+      <div class="spacing-row"><span class="spacing-label">80px · 2xl</span><div class="spacing-block" style="width:80px;"></div><span class="spacing-desc">Page-level white space</span></div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════ VOICE & TONE ══════════════ -->
+  <section id="voice-tone">
+    <h2 id="voice-principles">Voice principles</h2>
+    <p>These apply to all writing — client docs, the site, blog posts, LinkedIn. They reflect a 40-year philosophy about how documentation actually works.</p>
+
+    <ul class="rule-list">
+      <li><strong>Say what you mean, then stop.</strong> Every sentence earns its place. If removing it doesn't change the meaning, remove it.</li>
+      <li><strong>Specific beats general.</strong> "Cut documentation cycles by three weeks" is better than "improved efficiency." Reach for the concrete detail.</li>
+      <li><strong>Active voice, present tense.</strong> "The script generates a config file" not "A config file is generated by the script."</li>
+      <li><strong>Trust the reader.</strong> Write for someone competent encountering something new — not for someone who needs hand-holding, and not for someone who already knows everything.</li>
+      <li><strong>Show the system.</strong> Don't just document individual features. Explain how things fit together. Context is the product.</li>
+      <li><strong>No hedging without reason.</strong> Avoid "generally," "usually," "in most cases" unless they carry real information. If something is always true, say it is.</li>
+    </ul>
+
+    <h2 id="register">Register by context</h2>
+
+    <table>
+      <thead><tr><th>Context</th><th>Register</th><th>Person</th><th>Key notes</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Client deliverables (API docs, procedures, reference)</td>
+          <td>Professional, precise, neutral</td>
+          <td>Second (you/your)</td>
+          <td>No opinions. Exact terminology. Match the client's product vocabulary.</td>
+        </tr>
+        <tr>
+          <td>greenmtndocs.com (services, about)</td>
+          <td>Authoritative, direct, approachable</td>
+          <td>First (I/my)</td>
+          <td>Outcomes over process. Metrics where earned. No fluff.</td>
+        </tr>
+        <tr>
+          <td>Blog / oldtechwriter.com</td>
+          <td>Peer-to-peer, analytical, opinionated</td>
+          <td>First (I/my), some second</td>
+          <td>Stakes a position. Earns agreement. Not a press release.</td>
+        </tr>
+        <tr>
+          <td>LinkedIn posts</td>
+          <td>Peer-level, specific, no hype</td>
+          <td>First (I/my)</td>
+          <td>One idea. Short paragraphs. Link in first comment, not body.</td>
+        </tr>
+        <tr>
+          <td>Release notes</td>
+          <td>Terse, factual, user-impact-first</td>
+          <td>Third (the system / you)</td>
+          <td>What changed. Why it matters. No marketing language.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="vocabulary">Vocabulary rules</h2>
+
+    <h3>Use these words</h3>
+    <table>
+      <thead><tr><th>Use</th><th>Instead of</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>build</td><td>leverage, utilize</td><td>Direct. Everyone knows what it means.</td></tr>
+        <tr><td>configure</td><td>set up (when technical)</td><td>Precise for technical audiences.</td></tr>
+        <tr><td>run, execute</td><td>perform, carry out</td><td>Concrete for CLI/code contexts.</td></tr>
+        <tr><td>shows, displays</td><td>surfaces, exposes</td><td>Jargon-free when writing for users.</td></tr>
+        <tr><td>requires</td><td>necessitates</td><td>Simpler, same meaning.</td></tr>
+        <tr><td>use</td><td>utilize, leverage</td><td>Leverage is overused and usually wrong.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Number rules</h3>
+    <ul>
+      <li>Spell out one through nine; use numerals for 10 and above.</li>
+      <li>Always use numerals before units: <em>3 seconds, 64 MB, 2 requests/second.</em></li>
+      <li>Never start a sentence with a numeral. Rewrite the sentence.</li>
+      <li>Use the Oxford comma.</li>
+    </ul>
+
+    <div class="compare">
+      <div class="compare-col bad">
+        <span class="compare-label">Avoid</span>
+        <p>The platform leverages AI to surface actionable insights that enable teams to synergize their documentation workflows and drive efficiency gains across the organization.</p>
+      </div>
+      <div class="compare-col good">
+        <span class="compare-label">Use</span>
+        <p>The platform uses AI to flag outdated content before it reaches users. Documentation stays accurate with less manual review.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════ CONTENT PATTERNS ══════════════ -->
+  <section id="content-patterns">
+    <h2 id="procedure">Procedure</h2>
+    <p>Use for any task that requires steps in a specific order. The template below applies to client docs, how-to articles, and setup guides alike.</p>
+
+    <div class="pattern">
+      <div class="pattern-header">
+        <span class="pattern-title">PROCEDURE TEMPLATE</span>
+        <span class="pattern-badge">Markdown</span>
+      </div>
+      <div class="pattern-body">
+<pre><code>## [Verb phrase: "Configure the webhook endpoint"]
+
+Brief context sentence. What this accomplishes, and when you'd do it.
+
+**Before you begin:**
+- Prerequisite one
+- Prerequisite two (omit this section if none)
+
+**Steps:**
+
+1. [Imperative verb phrase.] Expected result if not obvious.
+
+2. [Next step.] Add a code block if the user needs to run something:
+   ```bash
+   command --flag value
+   ```
+
+3. Verify the change by [doing X]. You should see [Y].
+
+**Result:** One sentence. What the user now has or can do.
+
+**Next steps:** (Optional) Link to the related task or reference page.</code></pre>
+      </div>
+    </div>
+
+    <div class="callout note">
+      <span class="callout-icon">i</span>
+      <span><span class="callout-label">Procedure rules:</span> Steps are numbered. Each step is one action. If a step branches ("if X, do Y; otherwise do Z"), split it into two steps or use a decision table. Don't mix steps with reference content — link out instead.</span>
+    </div>
+
+    <h2 id="api-endpoint">API endpoint reference</h2>
+    <p>Consistent structure for every endpoint. Readers scan — put the most important information (method, path, what it does) first.</p>
+
+    <div class="pattern">
+      <div class="pattern-header">
+        <span class="pattern-title">API ENDPOINT TEMPLATE</span>
+        <span class="pattern-badge">Markdown</span>
+      </div>
+      <div class="pattern-body">
+<pre><code>### `POST /v1/integrations/{id}/sync`
+
+Triggers a manual sync for the specified integration.
+
+**Authentication:** Bearer token required  
+**Rate limit:** 10 requests per minute per workspace
+
+#### Request
+
+| Field       | Type    | Required | Description                        |
+|-------------|---------|----------|------------------------------------|
+| `force`     | boolean | No       | Overrides the cooldown period.     |
+| `source_id` | string  | Yes      | ID of the source connection.       |
+
+**Example request:**
+```http
+POST /v1/integrations/int_8x3k/sync
+Authorization: Bearer {token}
+Content-Type: application/json
+
+{
+  "force": false,
+  "source_id": "src_4j2m"
+}
+```
+
+#### Response
+
+Returns a `SyncJob` object on success.
+
+```json
+{
+  "job_id": "job_9z1p",
+  "status": "queued",
+  "created_at": "2026-04-19T14:30:00Z"
+}
+```
+
+#### Error codes
+
+| Code | Meaning                                     |
+|------|---------------------------------------------|
+| 400  | Invalid or missing `source_id`              |
+| 409  | Sync already in progress for this integration |
+| 429  | Rate limit exceeded                         |</code></pre>
+      </div>
+    </div>
+
+    <h2 id="release-notes">Release notes</h2>
+
+    <div class="pattern">
+      <div class="pattern-header">
+        <span class="pattern-title">RELEASE NOTES TEMPLATE</span>
+        <span class="pattern-badge">Markdown</span>
+      </div>
+      <div class="pattern-body">
+<pre><code>## 2.4.1 — April 19, 2026
+
+### New features
+- **Sync scheduling:** Set recurring sync windows per integration from the Settings panel. [See Scheduling syncs →]
+
+### Improvements
+- Mapping validation now runs before a sync starts, not after. This catches configuration errors earlier and reduces failed jobs.
+- The error reference page now includes a filterable lookup table.
+
+### Bug fixes
+- Fixed an issue where the OroCommerce connector dropped custom field values on update. (#1847)
+- Corrected rate limit headers that were reporting the wrong reset time.
+
+### Breaking changes
+
+> **Heads up:** The `POST /sync` endpoint now requires `source_id`. Calls that omit it return a 400 error starting in this release. Update any automated scripts before upgrading.</code></pre>
+      </div>
+    </div>
+
+    <div class="callout important">
+      <span class="callout-icon">!</span>
+      <span><span class="callout-label">Release note rules:</span> User-impact first — describe what changed and why it matters, not what the engineering team did. Only use "Breaking changes" if upgrading requires user action. Bug fixes reference issue numbers where possible.</span>
+    </div>
+
+    <h2 id="error-reference">Error reference entry</h2>
+
+    <div class="pattern">
+      <div class="pattern-header">
+        <span class="pattern-title">ERROR REFERENCE TEMPLATE</span>
+        <span class="pattern-badge">Markdown</span>
+      </div>
+      <div class="pattern-body">
+<pre><code>## ERR-2041: Source connection timeout
+
+**Severity:** Warning  
+**Component:** Data sync engine  
+**Introduced:** v2.1.0
+
+### What it means
+
+The sync job could not reach the source system within the configured timeout window. The job is paused, not failed — it will retry automatically.
+
+### Common causes
+
+- The source system is temporarily unavailable or under high load.
+- A firewall rule is blocking outbound connections on port 443.
+- The OAuth token has expired and the connector can't refresh it.
+
+### Resolution
+
+1. Confirm the source system is reachable from your network.
+2. Check the connection credentials in **Settings → Integrations**.
+3. If the token has expired, re-authenticate from the integration detail page.
+
+If the error persists after re-authentication, contact support with the `job_id` from the error log.</code></pre>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════ FORMATTING RULES ══════════════ -->
+  <section id="formatting">
+    <h2 id="headings">Headings</h2>
+    <table>
+      <thead><tr><th>Level</th><th>Use for</th><th>Rules</th></tr></thead>
+      <tbody>
+        <tr><td><code>H1</code></td><td>Page or document title</td><td>One per document. Not in body text.</td></tr>
+        <tr><td><code>H2</code></td><td>Major section</td><td>Sentence case. No trailing period. Substantive noun phrase.</td></tr>
+        <tr><td><code>H3</code></td><td>Subsection within an H2</td><td>Sentence case. Can use verb phrase or noun phrase.</td></tr>
+        <tr><td><code>H4+</code></td><td>Avoid</td><td>If you need H4, restructure the content instead.</td></tr>
+      </tbody>
+    </table>
+    <ul class="rule-list">
+      <li>Never skip heading levels (H1 → H3 is invalid).</li>
+      <li>Don't use headings for decorative emphasis. If the section doesn't need navigation, use bold instead.</li>
+      <li>Keep headings short enough to scan in a TOC — ideally under 8 words.</li>
+    </ul>
+
+    <h2 id="lists">Lists</h2>
+    <table>
+      <thead><tr><th>Type</th><th>Use when</th><th>Avoid when</th></tr></thead>
+      <tbody>
+        <tr><td>Ordered (numbered)</td><td>Steps must happen in sequence</td><td>Items have no inherent order</td></tr>
+        <tr><td>Unordered (bullets)</td><td>3 or more parallel items</td><td>Fewer than 3 items — write prose instead</td></tr>
+        <tr><td>Definition list</td><td>Term + explanation pairs</td><td>Items aren't really definitions</td></tr>
+      </tbody>
+    </table>
+    <ul class="rule-list">
+      <li>Parallel structure within a list. All items start with the same part of speech.</li>
+      <li>No nested lists beyond one level. Restructure instead.</li>
+      <li>If every bullet is a sentence long, consider whether prose would read better.</li>
+    </ul>
+
+    <h2 id="code">Code and commands</h2>
+    <ul class="rule-list">
+      <li>Inline code for: <code>values</code>, <code>filenames</code>, <code>parameters</code>, <code>function names</code>, UI element labels.</li>
+      <li>Code blocks for anything the user runs, copies, or pastes. Always include the language identifier.</li>
+      <li>In prose, use the exact capitalization of the thing you're naming: "the <code>Config</code> object," not "the config object."</li>
+      <li>Never truncate code examples. If an example is too long, split into stages or use a GitHub link.</li>
+    </ul>
+
+    <pre><code># Always tag the language
+```bash
+pip install --break-system-packages requests
+```
+
+# Not this
+```
+pip install --break-system-packages requests
+```</code></pre>
+
+    <h2 id="callouts">Callouts</h2>
+    <p>Four types. Use the one that matches the actual severity.</p>
+
+    <div class="callout note">
+      <span class="callout-icon">i</span>
+      <span><span class="callout-label">Note:</span> Background information that adds value but isn't required to complete the task.</span>
+    </div>
+    <div class="callout tip">
+      <span class="callout-icon">✓</span>
+      <span><span class="callout-label">Tip:</span> Saves time or reduces friction. Optional. The reader won't be harmed by skipping it.</span>
+    </div>
+    <div class="callout important">
+      <span class="callout-icon">!</span>
+      <span><span class="callout-label">Important:</span> Affects the outcome. The reader should understand this before proceeding.</span>
+    </div>
+    <div class="callout warning">
+      <span class="callout-icon">✕</span>
+      <span><span class="callout-label">Warning:</span> Risk of data loss, downtime, billing impact, or an irreversible action. Use sparingly — overuse trains readers to ignore them.</span>
+    </div>
+
+    <h2 id="tables">Tables</h2>
+    <ul class="rule-list">
+      <li>Always include a header row. Headers are bold, sentence case.</li>
+      <li>Left-align text columns. Right-align number columns.</li>
+      <li>No merged cells — they break accessibility and markdown rendering.</li>
+      <li>Aim for 3–5 columns maximum. Beyond that, consider multiple tables or restructure as a list.</li>
+      <li>Every column needs a clear, distinct label. "Value" and "Data" are not distinct.</li>
+    </ul>
+
+    <h2 id="links">Links</h2>
+    <ul class="rule-list">
+      <li>Link text describes the destination: "See <a href="#api-endpoint">API endpoint reference</a>" not "click here" or "this page."</li>
+      <li>For external links in client docs, add "(external link)" when the context might not make it obvious.</li>
+      <li>On LinkedIn posts, put the outbound link in the first comment, not the post body.</li>
+      <li>Don't link the same destination twice in one section. Link on first mention only.</li>
+    </ul>
+  </section>
+
+
+  <!-- ══════════════ STYLE GUIDE ══════════════ -->
+  <section id="style-guide">
+
+    <div class="page-header" style="margin-top:2rem;">
+      <div class="subtitle">Based on Google Developer Documentation Style Guide</div>
+      <h1 style="font-size:1.75rem;">Style Guide</h1>
+      <p class="section-intro" style="border:none;padding:0;margin-top:0.5rem;">
+        Green Mountain Docs follows the Google Developer Documentation Style Guide as its primary external reference, adapted with GMD-specific overrides documented here and in the word list. When this document and the Google guide conflict, this document wins.
+      </p>
+    </div>
+
+    <h2 id="style-hierarchy">Reference hierarchy</h2>
+    <p>When a style question isn't answered here, escalate in this order and stop at the first answer:</p>
+
+    <table>
+      <thead><tr><th>#</th><th>Source</th><th>Use for</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><strong>This document</strong> (GMD house style)</td><td>All client work, greenmtndocs.com, blog, LinkedIn. Overrides everything below.</td></tr>
+        <tr><td>2</td><td><a href="https://developers.google.com/style" target="_blank">Google Developer Documentation Style Guide</a></td><td>Technical writing conventions, grammar, formatting, word choices not covered above.</td></tr>
+        <tr><td>3</td><td><a href="https://www.merriam-webster.com" target="_blank">Merriam-Webster</a></td><td>Spelling. American English. When MW lists multiple spellings, use the first.</td></tr>
+        <tr><td>4</td><td><a href="https://www.chicagomanualofstyle.org/home.html" target="_blank">Chicago Manual of Style (17th ed.)</a></td><td>Non-technical style questions not covered by the above.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="callout note"><span class="callout-icon">i</span><span>For client projects, the client's own style guide sits at position 0 — above this document. Establish this at project kickoff.</span></div>
+
+    <h2 id="google-voice">Voice &amp; tone</h2>
+    <p>The Google guide describes the target as <em>conversational, friendly, and respectful</em> — not pedantic, not overly casual, not pushy. The goal is a knowledgeable colleague talking to a competent peer, not a lecturer or a marketer.</p>
+
+    <ul class="rule-list">
+      <li><strong>Conversational, not colloquial.</strong> Write closer to spoken English than formal prose, but don't write the way you actually talk. Cut filler, but keep contractions.</li>
+      <li><strong>Contractions are encouraged.</strong> Use <em>don't, can't, isn't, you're, there's</em>. Negation contractions are especially useful — it's harder to miss "don't" than "do not." Avoid invented contractions like <code>guides're</code> and three-word forms like <code>mightn't've</code>.</li>
+      <li><strong>No please in instructions.</strong> "Click <strong>Save</strong>" not "Please click <strong>Save</strong>." Politeness reads as noise in procedural text.</li>
+      <li><strong>Read it aloud.</strong> If it sounds unnatural or stilted when spoken, rewrite it. Not every sentence has to be conversational, but awkward sentences usually hide a clearer version underneath.</li>
+      <li><strong>Transitions matter.</strong> Phrases like "Though" and "This way" connect ideas and reduce choppiness. But don't reach for "However" or "Nonetheless" reflexively — they can make prose more stilted, not less.</li>
+    </ul>
+
+    <h2 id="google-grammar">Language &amp; grammar</h2>
+
+    <h3>Person and pronouns</h3>
+    <table>
+      <thead><tr><th>Situation</th><th>Use</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td>Instructions; anything the reader does</td><td>Second person (<em>you, your</em>)</td><td>"Open the configuration file."</td></tr>
+        <tr><td>Actions performed by the software</td><td>Third person or subject-first</td><td>"The API returns a 404 if the resource isn't found."</td></tr>
+        <tr><td>Referring to the organization</td><td>First person plural OK (<em>we, our</em>) — but use sparingly in client docs</td><td>"We recommend testing in a staging environment first."</td></tr>
+        <tr><td>Singular generic person</td><td><em>they/their</em></td><td>"When a user saves their settings…"</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Tense</h3>
+    <ul class="rule-list">
+      <li><strong>Present tense for general behavior.</strong> "The server sends an acknowledgment." Not "The server will send an acknowledgment."</li>
+      <li><strong>Future tense only for genuinely future events.</strong> "The file will be archived the next time the backup runs." — future tense is correct here because the archiving happens later.</li>
+      <li><strong>Never use future tense for product features.</strong> Don't write about how a feature "will work" after an update. Document what exists now; update when the feature ships.</li>
+      <li><strong>Avoid hypothetical would.</strong> Don't write "This would cause an error." Write "This causes an error."</li>
+    </ul>
+
+    <h3>Voice</h3>
+    <div class="compare">
+      <div class="compare-col bad"><span class="compare-label">Passive (avoid)</span><p>The configuration file is generated by the script when the command is run.</p></div>
+      <div class="compare-col good"><span class="compare-label">Active (use)</span><p>The script generates a configuration file when you run the command.</p></div>
+    </div>
+    <p>Use passive voice when the actor is unknown, irrelevant, or intentionally de-emphasized. In those cases it's fine.</p>
+
+    <h3>Capitalization</h3>
+    <ul class="rule-list">
+      <li><strong>Sentence case for headings.</strong> "Configure the webhook endpoint" not "Configure the Webhook Endpoint."</li>
+      <li><strong>Product and feature names.</strong> Capitalize exactly as the product owner does. When in doubt, check the product's own UI or documentation.</li>
+      <li><strong>UI elements.</strong> Capitalize to match the UI label exactly. Bold the element name: click <strong>Save</strong>, open the <strong>Settings</strong> menu.</li>
+      <li><strong>Don't capitalize "the" before a product name</strong> unless it begins a sentence: "Open the Google Cloud console" not "Open the Google Cloud Console" (unless "Console" is the actual product name).</li>
+      <li><strong>Acronyms.</strong> All caps, no periods: API, URL, JSON, HTML. Spell out on first mention if the audience may not know it.</li>
+    </ul>
+
+    <h3>Spelling</h3>
+    <ul>
+      <li>American English. Use Merriam-Webster as the authority; choose the first listed spelling when alternatives exist.</li>
+      <li>One word: <em>filename, codebase, dropdown, checkbox, timestamp, username, workaround, setup</em> (noun), <em>login</em> (noun/adjective).</li>
+      <li>Two words or hyphenated: <em>sign in</em> (verb), <em>log in</em> (verb), <em>command line</em> (noun), <em>command-line</em> (adjective).</li>
+      <li>Check the <a href="#word-list-a">GMD word list</a> before the Google guide for any term with a project-specific convention.</li>
+    </ul>
+
+    <h3>Anthropomorphism</h3>
+    <p>Software doesn't know, think, want, or feel. Be precise about what systems actually do.</p>
+    <div class="compare">
+      <div class="compare-col bad"><span class="compare-label">Avoid</span><p>The system knows which users have permissions. The API wants a valid token before it will respond.</p></div>
+      <div class="compare-col good"><span class="compare-label">Use</span><p>The system checks permissions before returning data. The API requires a valid token.</p></div>
+    </div>
+
+    <h2 id="google-formatting">Formatting rules (Google guide)</h2>
+
+    <h3>Procedures</h3>
+    <ul class="rule-list">
+      <li><strong>Imperative mood.</strong> Start each step with an action verb: "Click," "Open," "Run," "Configure."</li>
+      <li><strong>State the condition before the action.</strong> "If you want to limit results, add a filter parameter." Not "Add a filter parameter if you want to limit results."</li>
+      <li><strong>One step, one action.</strong> If a step has sub-actions, either make them separate steps or use a sub-list — but avoid sub-lists more than one level deep.</li>
+      <li><strong>Include expected results when they're not obvious.</strong> "Click <strong>Deploy</strong>. The status changes to <em>Running</em> within about 30 seconds."</li>
+    </ul>
+
+    <h3>Lists</h3>
+    <ul class="rule-list">
+      <li>Use numbered lists for sequences. Use bulleted lists for non-sequential items.</li>
+      <li>Introduce a list with a complete sentence followed by a colon.</li>
+      <li>Use parallel structure. If one item starts with a verb, all items start with a verb.</li>
+      <li>Use end punctuation on list items only when one or more items form complete sentences. Be consistent: if one gets a period, all get periods.</li>
+      <li>Avoid starting a list item with an article (<em>a, an, the</em>) or the word "you" — restructure so items begin with verbs or nouns.</li>
+    </ul>
+
+    <h3>Code in text</h3>
+    <ul class="rule-list">
+      <li>Use code font (<code>inline backticks</code>) for: commands, class names, method names, parameters, property names, element names, file extensions, environment variables, literal strings, and keyboard input the user types.</li>
+      <li>Use code font for UI strings that appear verbatim in code — but use bold + sentence case for UI labels the user clicks or selects.</li>
+      <li>Use <code>{curly_braces}</code> for placeholder values in code samples. Document each placeholder's meaning.</li>
+      <li>Language-tag every code block. No exceptions.</li>
+    </ul>
+
+    <h3>UI elements</h3>
+    <table>
+      <thead><tr><th>Element type</th><th>Formatting</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td>Buttons, tabs, menus, labels</td><td>Bold, match UI capitalization exactly</td><td>Click <strong>Save changes</strong>.</td></tr>
+        <tr><td>Menu path / navigation</td><td>Bold items, right arrow between levels</td><td>Go to <strong>Settings</strong> &gt; <strong>Integrations</strong>.</td></tr>
+        <tr><td>Keyboard keys</td><td>Capitalize, bold</td><td>Press <strong>Ctrl+S</strong>.</td></tr>
+        <tr><td>Field names</td><td>Bold</td><td>In the <strong>API key</strong> field, paste your token.</td></tr>
+        <tr><td>User-entered values</td><td>Code font</td><td>In the <strong>Name</strong> field, type <code>my-integration</code>.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="google-special">Special topics</h2>
+
+    <h3>Timeless documentation</h3>
+    <p>Documentation that references a specific "now" ages instantly. Write to stay accurate across software versions and time.</p>
+    <ul class="rule-list">
+      <li>Avoid <em>currently, now, at this time, soon, new, latest, modern</em> — these all become inaccurate the moment something changes.</li>
+      <li>Don't pre-announce features. Document what ships; update when it changes.</li>
+      <li>Avoid <em>above</em> and <em>below</em> for cross-references. Use the section or heading name instead: "See <a href="#google-grammar">Language and grammar</a>" not "See the section above."</li>
+    </ul>
+
+    <h3>Global audience</h3>
+    <ul class="rule-list">
+      <li>Avoid idioms, proverbs, and culturally specific expressions. Readers whose first language isn't English may not recognize them, and they don't translate well.</li>
+      <li>Use unambiguous date formats: April 19, 2026 — not 4/19/26 or 19/4/26.</li>
+      <li>Avoid humor, sarcasm, and references that assume shared cultural context.</li>
+      <li>Use simple, direct sentence structures. Complex subordinate clauses are harder to parse in a second language.</li>
+    </ul>
+
+    <h3>Inclusive language</h3>
+    <ul class="rule-list">
+      <li>Avoid ableist and loaded terms: <em>crazy, insane, blind spot, cripple, sanity check</em>. Use precise alternatives: <em>unexpected, unclear, limitation, slow down, verification</em>.</li>
+      <li>Avoid unnecessarily gendered language. Use "they" for singular generic references.</li>
+      <li>Avoid terms with slavery or violence connotations in technical contexts: <em>master/slave, blacklist/whitelist</em>. Use <em>primary/replica, allowlist/blocklist</em>.</li>
+      <li>When in doubt, check the <a href="https://developers.google.com/style/inclusive-documentation" target="_blank">Google inclusive language guidelines</a>.</li>
+    </ul>
+
+    <h3>Excessive claims and future features</h3>
+    <ul class="rule-list">
+      <li>Don't make unsupported superlative claims: <em>best, fastest, most powerful, industry-leading</em>. These require proof and create legal risk.</li>
+      <li>Don't allude to unreleased features, even obliquely. If a feature is coming, document it when it ships.</li>
+      <li>Avoid vague promises: "soon," "in a future release," "we're working on."</li>
+    </ul>
+
+  </section>
+
+
+  <!-- ══════════════ WORD & TERM LIST ══════════════ -->
+  <section id="word-list">
+
+    <div class="page-header" style="margin-top:2rem;">
+      <div class="subtitle">GMD House Style</div>
+      <h1 style="font-size:1.75rem;">Word &amp; Term List</h1>
+      <p class="section-intro" style="border:none;padding:0;margin-top:0.5rem;">
+        Project-specific and house-style term decisions. This list overrides the Google style guide. Update it whenever a new term decision is made. Terms not listed here default to the Google word list, then Merriam-Webster.
+      </p>
+    </div>
+
+    <h2 id="word-list-how">How to use this list</h2>
+    <p>Each entry shows the preferred form, any disallowed alternatives, and usage notes. Entries marked <strong>Client-specific</strong> apply only to the named project — don't carry them into other work.</p>
+
+    <div class="callout tip"><span class="callout-icon">✓</span><span>Before adding a new term, check whether the Google word list already covers it. Add to this list only when you need to override Google's guidance or establish a convention that's unique to GMD or a client project.</span></div>
+
+    <h2 id="word-list-a">A–F</h2>
+    <table>
+      <thead><tr><th>Use this</th><th>Not this</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>allowlist</td><td>whitelist</td><td>Inclusive language. Consistent with Google guide.</td></tr>
+        <tr><td>blocklist</td><td>blacklist</td><td>Inclusive language. Consistent with Google guide.</td></tr>
+        <tr><td>canceled</td><td>cancelled</td><td>American English spelling (one L).</td></tr>
+        <tr><td>checkbox</td><td>check box, check-box</td><td>One word.</td></tr>
+        <tr><td>click</td><td>click on</td><td>Drop "on": "Click <strong>Save</strong>" not "Click on <strong>Save</strong>."</td></tr>
+        <tr><td>command line (n.) / command-line (adj.)</td><td>commandline, command line (adj.)</td><td>"Use the command line." / "a command-line tool."</td></tr>
+        <tr><td>data (plural)</td><td>data (singular)</td><td>Treat as plural: "The data are" — unless the client style guide differs.</td></tr>
+        <tr><td>dropdown</td><td>drop-down, drop down</td><td>One word in all uses.</td></tr>
+        <tr><td>email</td><td>e-mail</td><td>No hyphen.</td></tr>
+        <tr><td>endpoint</td><td>end point, end-point</td><td>One word in API/technical contexts.</td></tr>
+        <tr><td>filename</td><td>file name, file-name</td><td>One word.</td></tr>
+        <tr><td>for example</td><td>e.g.</td><td>Spell out in running text. Use "e.g." only in parentheses or tables.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="word-list-g">G–M</h2>
+    <table>
+      <thead><tr><th>Use this</th><th>Not this</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>log in (v.) / login (n., adj.)</td><td>log-in, login (verb)</td><td>"Log in to the dashboard." / "your login credentials."</td></tr>
+        <tr><td>mapping collection</td><td>mapping set, mapping group</td><td><strong>Client-specific (Client-company).</strong> Always two words, lowercase.</td></tr>
+        <tr><td>metadata</td><td>meta-data, meta data</td><td>One word.</td></tr>
+        <tr><td>more than</td><td>over (for quantities)</td><td>"More than 10 records" not "Over 10 records" — unless spatial.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="word-list-n">N–Z</h2>
+    <table>
+      <thead><tr><th>Use this</th><th>Not this</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>payload</td><td>request body (inconsistently)</td><td>Use <em>payload</em> when referring to message content in transit; use <em>request body</em> for the HTTP-specific field.</td></tr>
+        <tr><td>primary / replica</td><td>master / slave</td><td>Inclusive language. Consistent with Google guide.</td></tr>
+        <tr><td>real time (n.) / real-time (adj.)</td><td>realtime, real time (adj.)</td><td>"Updates happen in real time." / "real-time sync."</td></tr>
+        <tr><td>select</td><td>choose (for UI checkboxes/radio buttons)</td><td>"Select the checkbox." Use "choose" for conceptual decisions, not UI actions.</td></tr>
+        <tr><td>set up (v.) / setup (n., adj.)</td><td>setup (verb), set-up</td><td>"Set up the integration." / "the setup process."</td></tr>
+        <tr><td>sign in / sign out</td><td>log in / log out (for user-facing UI)</td><td>Use <em>sign in/out</em> for user-facing content; <em>log in/out</em> for CLI and developer contexts.</td></tr>
+        <tr><td>sync (v. and n.)</td><td>synchronize (unless formal register)</td><td>Acceptable as a verb: "Sync the integration." Avoid in formal client reports.</td></tr>
+        <tr><td>that (restrictive) / which (non-restrictive)</td><td>which used restrictively</td><td>"The file that failed" (restricts). "The file, which was large, failed" (adds info).</td></tr>
+        <tr><td>timestamp</td><td>time stamp, time-stamp</td><td>One word.</td></tr>
+        <tr><td>username</td><td>user name, user-name</td><td>One word.</td></tr>
+        <tr><td>workflow</td><td>work flow, work-flow</td><td>One word.</td></tr>
+        <tr><td>workaround</td><td>work around (noun)</td><td>One word as noun/adjective. "Work around" as verb: "work around the issue."</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="word-list-avoid">Terms to avoid</h2>
+    <p>These terms appear frequently in tech writing but should be replaced with more precise language.</p>
+
+    <table>
+      <thead><tr><th>Avoid</th><th>Use instead</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>above / below (for cross-references)</td><td>The section name or a direct link</td><td>Position changes when content is reformatted or reordered.</td></tr>
+        <tr><td>as per</td><td>per, according to, following</td><td>Formal filler. "Per the spec" or "According to the spec."</td></tr>
+        <tr><td>best-in-class, world-class, industry-leading</td><td>Specific metrics or omit</td><td>Unverifiable. Creates legal risk.</td></tr>
+        <tr><td>blind spot</td><td>gap, limitation, oversight</td><td>Ableist connotation.</td></tr>
+        <tr><td>crazy, insane</td><td>unexpected, unusual, significant</td><td>Ableist connotation.</td></tr>
+        <tr><td>cripple, crippled</td><td>limit, degrade, slow down</td><td>Ableist connotation.</td></tr>
+        <tr><td>currently</td><td>Omit or restructure</td><td>Creates false specificity; ages quickly.</td></tr>
+        <tr><td>easy, simple, just</td><td>Omit</td><td>Condescending when the task turns out to be hard for the reader. Never characterize difficulty.</td></tr>
+        <tr><td>going forward</td><td>Omit or restructure</td><td>Filler. Say what changes, not that things are changing.</td></tr>
+        <tr><td>leverage (verb)</td><td>use, apply, build on</td><td>Overused. Almost always replaceable with a simpler verb.</td></tr>
+        <tr><td>new (for features)</td><td>Omit or include a version number</td><td>Features stop being new; the doc doesn't update itself.</td></tr>
+        <tr><td>please</td><td>Omit</td><td>Adds noise in instructions without adding meaning.</td></tr>
+        <tr><td>robust</td><td>reliable, scalable, fault-tolerant (whichever is accurate)</td><td>Vague marketing language. Be specific about what the system actually does.</td></tr>
+        <tr><td>sanity check</td><td>verification, review, check</td><td>Ableist connotation.</td></tr>
+        <tr><td>seamless</td><td>Omit or describe what actually happens</td><td>Vague promise. If the integration is smooth, show why.</td></tr>
+        <tr><td>utilize</td><td>use</td><td>Almost always a longer version of "use." Reserve for the specific meaning "to use something for a purpose it wasn't designed for."</td></tr>
+      </tbody>
+    </table>
+
+  </section>
+
+</main>
+
+<script>
+  const sections = document.querySelectorAll('[id]');
+  const navLinks = document.querySelectorAll('nav a');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(l => l.classList.remove('active'));
+        const active = document.querySelector(`nav a[href="#${entry.target.id}"]`);
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-20% 0px -75% 0px' });
+  sections.forEach(s => observer.observe(s));
+</script>
+</body>
+</html>
