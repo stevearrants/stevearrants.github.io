@@ -5,7 +5,7 @@ tags: [writing, Design, AI]
 comments: true
 ---
 
-Design system is a UX term. Figma, tokens, component libraries — that's the world it comes from. But the concept belongs to technical writers too, and if you don't have one, you're rebuilding the same decisions every time you start a project.
+*Design system* is a UX term. Figma, tokens, component libraries — that's the world it comes from. But the concept belongs to technical writers too, and if you don't have one, you're rebuilding the same decisions every time you start a project.
 
 Here's what I mean by a technical writing design system: a single reference that captures your voice and tone rules, your content patterns, your formatting standards, your word and term decisions, and — if you're an independent writer or a small team — your brand. Not a style guide in the traditional sense, though it includes that. A system. Something structured enough that another writer (or an AI tool) could pick it up and produce work that sounds like you.
 
