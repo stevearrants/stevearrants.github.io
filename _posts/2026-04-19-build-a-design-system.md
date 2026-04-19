@@ -49,7 +49,9 @@ The practical process takes a single session if you approach it with the right i
 **Step 2: Tell Claude the scope.** Before asking it to build anything, be explicit about what you want covered. The five areas above are a good starting point, but you may want to add or remove sections. You should also decide upfront whether this system covers your client work only, your own content (blog, social), or both — the rules differ enough across those contexts that mixing them without labels creates confusion. Tell Claude what the deliverable format should be: a Markdown reference document, an HTML living doc, or both.
 
 A prompt that works well: 
->*"I want to create a design system for my technical writing practice. Here's my website: [URL]. I want it to cover voice and tone, content patterns, formatting rules, a word and term list, and brand tokens. It should apply to both client documentation and my own content. Base the formatting rules on the Google Developer Style Guide where I haven't specified otherwise, and use Merriam-Webster as the dictionary fallback. Deliver it as both an HTML document and a Markdown file."*
+>*"I want to create a design system for my technical writing practice. Here's my website: [URL]. I want it to cover voice and tone, content patterns, formatting rules, a word and term list, and brand tokens. It should apply to both client documentation and my own content. Base the formatting rules on the Google Developer Style Guide where I haven't specified otherwise, and use Merriam-Webster as the dictionary fallback. Deliver it as both an HTML document and a Markdown file.   
+Ask me any questions where you are uncertain or need more information. Make suggestions for more references or sample content."*
+
 
 **Step 3: Answer the clarifying questions.** A good session will include Claude asking you to make decisions before it drafts anything. Those questions are doing real work — they're forcing you to articulate preferences you may have held implicitly for years. Answer them specifically. Vague answers produce vague systems.
 
