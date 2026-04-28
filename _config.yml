@@ -23,9 +23,9 @@ navbar-links:
   Home: "/"
   About: "about"
   Expertise: "expertise"
-  Topics: "tags"
+#  Topics: "tags"
   Portfolio: "portfolio"
-  Blog: "blog"
+  Substack: "blog"
   Resume: "resume"
   Contact: "contact"
 #navbar-links:
