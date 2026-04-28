@@ -322,9 +322,6 @@ defaults:
     values:
       layout: "page"
 
-feed:
-  excerpt_only: false
-  
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
