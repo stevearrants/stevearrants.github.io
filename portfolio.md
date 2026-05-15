@@ -77,7 +77,7 @@ A selection of projects demonstrating my work across content strategy, help cent
 
 <h2 id="review-guides" style="margin:2.5rem 0 1.25rem; font-size:1.35rem; color:#2D6A4F; border-bottom:2px solid #E4EAE5; padding-bottom:0.5rem;">Review Guides</h2>
 
-Structured review guides that help non-writer stakeholders give focused, actionable documentation feedback. Each guide is tailored to the reviewer's role and expertise.
+Structured review guides that help non-writer stakeholders give focused, actionable documentation feedback. Each guide is tailored to the reviewer's role and expertise. Modify and enhance these review guides for your needs. 
 
 <div class="row">
 
