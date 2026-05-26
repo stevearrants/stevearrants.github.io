@@ -28,6 +28,16 @@ A selection of projects demonstrating my work across content strategy, help cent
     </div>
   </div>
 
+  <!-- Knowledge Audit Workbook -->
+  <div class="col-md-6 mb-4">
+    <div style="border:1px solid #E4EAE5; border-top:4px solid #2D6A4F; border-radius:6px; padding:1.25rem; height:100%; background:#fff;">
+      <span style="font-size:0.72rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#2D6A4F;">Content Strategy &nbsp;·&nbsp; Excel</span>
+      <h3 style="margin:0.5rem 0 0.75rem; font-size:1.1rem;">Knowledge Audit Workbook</h3>
+      <p style="font-size:0.92rem; color:#555; margin-bottom:1.25rem;">Use this Excel Workbook to begin a Knowledge and Content Audit.</p>
+      <a href="/store/knowledge-audit-workbook.xlsx" target="_blank" style="display:inline-block; padding:0.4rem 0.9rem; background:#2D6A4F; color:#fff; border-radius:4px; font-size:0.88rem; text-decoration:none;">Download Workbook &rarr;</a>
+    </div>
+  </div>
+
   <!-- iPaaS Help Center -->
   <div class="col-md-6 mb-4">
     <div style="border:1px solid #E4EAE5; border-top:4px solid #2D6A4F; border-radius:6px; padding:1.25rem; height:100%; background:#fff;">
