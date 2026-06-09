@@ -167,11 +167,14 @@ Structured review guides that help non-writer stakeholders give focused, actiona
   flex: 1;
 }
 
-.portfolio-cta {
+.portfolio-cta,
+.portfolio-cta:visited,
+.portfolio-cta:active,
+.portfolio-cta:focus {
   display: inline-block;
   padding: 0.4rem 0.9rem;
   background: #2D6A4F;
-  color: #fff;
+  color: #fff !important;
   border-radius: 4px;
   font-size: 0.88rem;
   text-decoration: none;
@@ -182,7 +185,7 @@ Structured review guides that help non-writer stakeholders give focused, actiona
 
 .portfolio-cta:hover {
   background: #2C3E50;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 

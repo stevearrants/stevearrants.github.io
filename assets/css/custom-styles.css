@@ -84,9 +84,12 @@ footer a:hover {
 }
 
 /* ----- CTA Buttons ----- */
-.cta-button {
+.cta-button,
+.cta-button:visited,
+.cta-button:active,
+.cta-button:focus {
   background-color: var(--summit-green-dark);
-  color: var(--white);
+  color: var(--white) !important;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
@@ -98,20 +101,23 @@ footer a:hover {
 
 .cta-button:hover {
   background-color: var(--alpine-slate);
-  color: var(--white);
+  color: var(--white) !important;
   text-decoration: none;
 }
 
-.cta-button.cta-button--ghost {
+.cta-button.cta-button--ghost,
+.cta-button.cta-button--ghost:visited,
+.cta-button.cta-button--ghost:active,
+.cta-button.cta-button--ghost:focus {
   background-color: transparent;
-  color: var(--summit-green-dark);
+  color: var(--summit-green-dark) !important;
   border: 2px solid var(--summit-green-dark);
   margin-right: 0;
 }
 
 .cta-button.cta-button--ghost:hover {
   background-color: var(--summit-green-dark);
-  color: var(--white);
+  color: var(--white) !important;
   text-decoration: none;
 }
 
