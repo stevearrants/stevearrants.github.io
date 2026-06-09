@@ -190,10 +190,9 @@ Every project is different. Tell me about your documentation challenges and I'll
 
 <style>
 .service-item {
-  background: #fff;
+  background: #f4f8f6;
   padding: 1.5rem;
-  border-left: 4px solid #2D6A4F;
-  border-radius: 0 8px 8px 0;
+  border-radius: 8px;
   margin: 1.5rem 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
@@ -242,27 +241,6 @@ Every project is different. Tell me about your documentation challenges and I'll
   color: #2D6A4F;
 }
 
-.cta-button {
-  background-color: #2D6A4F;
-  color: #fff;
-  padding: 0.85rem 2rem;
-  border: none;
-  border-radius: 6px;
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #1A5C3A;
-  color: #fff;
-  text-decoration: none;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
 
 @media (max-width: 600px) {
   .expertise-grid {

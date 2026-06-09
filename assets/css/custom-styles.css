@@ -56,13 +56,14 @@ footer a:hover {
 
 /* ----- Blog Post Cards/Excerpts ----- */
 .post-preview {
-  border-left: 4px solid var(--summit-green);
-  padding-left: 1rem;
+  background-color: #f4f8f6;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
   margin-bottom: 2rem;
 }
 
 .post-preview:hover {
-  border-left-color: var(--alert-blue);
+  background-color: #eaf2ee;
 }
 
 /* ----- Tags & Categories Styling ----- */
@@ -84,18 +85,32 @@ footer a:hover {
 
 /* ----- CTA Buttons ----- */
 .cta-button {
-  background-color: var(--summit-green);
+  background-color: var(--summit-green-dark);
   color: var(--white);
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
   display: inline-block;
   font-weight: 600;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  margin-right: 0.75rem;
 }
 
 .cta-button:hover {
-  background-color: var(--alert-blue);
+  background-color: var(--alpine-slate);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.cta-button.cta-button--ghost {
+  background-color: transparent;
+  color: var(--summit-green-dark);
+  border: 2px solid var(--summit-green-dark);
+  margin-right: 0;
+}
+
+.cta-button.cta-button--ghost:hover {
+  background-color: var(--summit-green-dark);
   color: var(--white);
   text-decoration: none;
 }
@@ -107,7 +122,7 @@ footer a:hover {
   margin-bottom: 1.5rem;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  border-left: 4px solid var(--summit-green);
+  border: 1px solid #d0e4da;
 }
 
 .portfolio-item h3 {

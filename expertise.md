@@ -1,20 +1,31 @@
 ---
 layout: page
 title: Expertise
-subtitle: Technical Documentation That Empowers Users
+subtitle: Documentation systems built for engineering teams
 ---
 
-Good documentation doesn't just explain—it enables. I help companies transform complex technical information into clear, user-focused content that reduces support costs and empowers users to succeed.
+Good documentation doesn't explain what your product does. It shows users how to succeed with it. I work with engineering teams to build documentation that is accurate, maintainable, and built to scale — without growing the team to maintain it.
+
+<nav class="service-nav" aria-label="Jump to a service">
+  <span class="service-nav-label">Core services:</span>
+  <a href="#documentation-engineering">Documentation Engineering</a>
+  <a href="#api-developer-docs">API &amp; Developer Docs</a>
+  <a href="#technical-writing">Technical Writing</a>
+  <span class="service-nav-label">Specialist:</span>
+  <a href="#audit-strategy">Audit &amp; Strategy</a>
+  <a href="#technical-editing">Technical Editing</a>
+  <a href="#consulting-training">Consulting &amp; Training</a>
+</nav>
 
 ---
 
-## Documentation Engineering
+## Documentation Engineering {#documentation-engineering}
 
 Building scalable documentation systems that grow with your product.
 
 <div class="service-item" markdown="1">
 
-**What's included:**
+<p class="service-best-for">Best for: Companies scaling their documentation or migrating from legacy systems.</p>
 
 - Docs-as-code implementation (Git, Markdown, static site generators)
 - Documentation architecture and information design
@@ -22,19 +33,17 @@ Building scalable documentation systems that grow with your product.
 - Automated publishing workflows and CI/CD integration
 - Style guide development and content standards
 
-**Best for:** Companies scaling their documentation or migrating from legacy systems.
-
 </div>
 
 ---
 
-## API & Developer Documentation
+## API &amp; Developer Documentation {#api-developer-docs}
 
-Clear, accurate documentation that developers actually want to read.
+Clear, accurate documentation that developers actually use.
 
 <div class="service-item" markdown="1">
 
-**What's included:**
+<p class="service-best-for">Best for: SaaS platforms, integration providers, and developer tools.</p>
 
 - API reference documentation (REST, OpenAPI/Swagger)
 - Getting started guides and tutorials
@@ -42,19 +51,17 @@ Clear, accurate documentation that developers actually want to read.
 - Authentication and error handling documentation
 - Developer portal content strategy
 
-**Best for:** SaaS platforms, integration providers, and developer tools.
-
 </div>
 
 ---
 
-## Technical Writing
+## Technical Writing {#technical-writing}
 
 End-to-end documentation for software products and complex systems.
 
 <div class="service-item" markdown="1">
 
-**What's included:**
+<p class="service-best-for">Best for: Software companies needing comprehensive product documentation.</p>
 
 - User guides and product documentation
 - Administrator and installation guides
@@ -62,19 +69,17 @@ End-to-end documentation for software products and complex systems.
 - Knowledge base articles
 - Troubleshooting and FAQ content
 
-**Best for:** Software companies needing comprehensive product documentation.
-
 </div>
 
 ---
 
-## Documentation Audit & Strategy
+## Documentation Audit &amp; Strategy {#audit-strategy}
 
-Evaluate your existing documentation and create a roadmap for improvement.
+Evaluate your existing documentation and build a roadmap for improvement.
 
-<div class="service-item" markdown="1">
+<div class="service-item service-item--specialist" markdown="1">
 
-**What's included:**
+<p class="service-best-for">Best for: Teams unsure where to start or looking to improve existing docs.</p>
 
 - Content inventory and gap analysis
 - Usability and findability assessment
@@ -82,19 +87,17 @@ Evaluate your existing documentation and create a roadmap for improvement.
 - Prioritized improvement recommendations
 - Implementation roadmap
 
-**Best for:** Teams unsure where to start or looking to improve existing docs.
-
 </div>
 
 ---
 
-## Technical Editing
+## Technical Editing {#technical-editing}
 
 Polish your existing content for clarity, accuracy, and consistency.
 
-<div class="service-item" markdown="1">
+<div class="service-item service-item--specialist" markdown="1">
 
-**What's included:**
+<p class="service-best-for">Best for: Teams with in-house writers who need expert review.</p>
 
 - Developmental editing (structure, flow, completeness)
 - Copy editing (grammar, style, consistency)
@@ -102,19 +105,17 @@ Polish your existing content for clarity, accuracy, and consistency.
 - Style guide compliance
 - Accessibility improvements
 
-**Best for:** Teams with in-house writers who need expert review.
-
 </div>
 
 ---
 
-## Consulting & Training
+## Consulting &amp; Training {#consulting-training}
 
 Build your team's documentation capabilities.
 
-<div class="service-item" markdown="1">
+<div class="service-item service-item--specialist" markdown="1">
 
-**What's included:**
+<p class="service-best-for">Best for: Organizations building or improving their documentation practice.</p>
 
 - Documentation process assessment
 - Tool selection and implementation guidance
@@ -122,17 +123,15 @@ Build your team's documentation capabilities.
 - AI adoption strategy for documentation
 - Ongoing advisory support
 
-**Best for:** Organizations building or improving their documentation practice.
-
 </div>
 
 ---
 
-## Industries & Expertise
+## Industries &amp; Expertise
 
 <div class="expertise-grid">
 <div class="expertise-item">
-  <strong>SaaS & Software</strong><br>
+  <strong>SaaS &amp; Software</strong><br>
   Product docs, help centers, developer portals
 </div>
 <div class="expertise-item">
@@ -151,9 +150,9 @@ Build your team's documentation capabilities.
 
 ---
 
-## Tools & Technologies
+## Tools &amp; Technologies
 
-I work with the tools your team already uses—or help you choose better ones:
+I work with the tools your team already uses, or help you choose better ones:
 
 **Authoring:** MadCap Flare, Oxygen XML, Markdown, AsciiDoc, DITA  
 **Platforms:** Confluence, GitBook, ReadMe, MkDocs, Jekyll, Hugo  
@@ -186,16 +185,65 @@ You get polished, production-ready documentation with source files and handoff s
 
 Every project is different. Tell me about your documentation challenges and I'll suggest the best approach.
 
-<a href="{{ '/contact' | relative_url }}" class="cta-button">Get in Touch</a>
+<a href="{{ '/contact' | relative_url }}" class="cta-button">Get in Touch &rarr;</a>
 
 <style>
+/* --- Service navigation --- */
+.service-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.25rem;
+  background: #f4f8f6;
+  border-radius: 8px;
+}
+
+.service-nav-label {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b8f7e;
+  white-space: nowrap;
+}
+
+.service-nav-label:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+.service-nav a {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #2D6A4F;
+  text-decoration: none;
+  padding: 0.25rem 0.625rem;
+  border: 1px solid #b8d9c8;
+  border-radius: 4px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
+}
+
+.service-nav a:hover {
+  background-color: #2D6A4F;
+  color: #fff;
+  border-color: #2D6A4F;
+}
+
+/* --- Service cards --- */
 .service-item {
-  background: #fff;
+  background: #f4f8f6;
   padding: 1.5rem;
-  border-left: 4px solid #2D6A4F;
-  border-radius: 0 8px 8px 0;
+  border-radius: 8px;
   margin: 1.5rem 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.service-item--specialist {
+  background: #fff;
+  border: 1px solid #d0e4da;
 }
 
 .service-item p {
@@ -203,7 +251,7 @@ Every project is different. Tell me about your documentation challenges and I'll
 }
 
 .service-item ul {
-  margin: 0.75rem 0;
+  margin: 0.5rem 0 0;
   padding-left: 1.25rem;
 }
 
@@ -211,6 +259,17 @@ Every project is different. Tell me about your documentation challenges and I'll
   margin-bottom: 0.4rem;
 }
 
+.service-best-for {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #2D6A4F;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.875rem !important;
+}
+
+/* --- Industries grid --- */
 .expertise-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -230,6 +289,7 @@ Every project is different. Tell me about your documentation challenges and I'll
   color: #2C3E50;
 }
 
+/* --- Process steps --- */
 .process-steps {
   background: #fff;
   padding: 1.5rem;
@@ -242,33 +302,16 @@ Every project is different. Tell me about your documentation challenges and I'll
   color: #2D6A4F;
 }
 
-.cta-button {
-  background-color: #2D6A4F;
-  color: #fff;
-  padding: 0.85rem 2rem;
-  border: none;
-  border-radius: 6px;
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #1A5C3A;
-  color: #fff;
-  text-decoration: none;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
+/* --- Responsive --- */
 @media (max-width: 600px) {
+  .service-nav {
+    gap: 0.375rem;
+  }
+
   .expertise-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .service-item,
   .process-steps {
     padding: 1.25rem;

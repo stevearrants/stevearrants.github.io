@@ -4,7 +4,7 @@ title: Contact
 subtitle: Let's discuss your documentation needs
 ---
 
-Ready to improve your documentation? I'd love to hear about your project.
+Tell me about your project.
 
 <form action="https://formsubmit.co/stevearrants@greenmtndocs.com" method="POST"  class="contact-form">
   
@@ -64,13 +64,12 @@ Ready to improve your documentation? I'd love to hear about your project.
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  font-family: 'Inter', -apple-system, sans-serif;
   font-weight: 600;
   color: #2C3E50;
 }
 
 .form-group .required {
-  color: #27AE60;
+  color: #2C3E50;
 }
 
 .form-group input,
@@ -103,24 +102,6 @@ Ready to improve your documentation? I'd love to hear about your project.
   cursor: pointer;
 }
 
-.cta-button {
-  background-color: #27AE60;
-  color: #fff;
-  padding: 0.85rem 2rem;
-  border: none;
-  border-radius: 6px;
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #2980B9;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
 
 @media (max-width: 600px) {
   .form-group input,
@@ -136,7 +117,7 @@ Ready to improve your documentation? I'd love to hear about your project.
 
 ## Other Ways to Connect
 
-**Email**: [stevearrants@greenmtndocs.com](mailto:steve@greenmtndocs.com)  
+**Email**: [stevearrants@greenmtndocs.com](mailto:stevearrants@greenmtndocs.com)  
 **LinkedIn**: [linkedin.com/in/stevearrants](https://linkedin.com/in/stevearrants)  
 **Location**: South Burlington, Vermont
 
