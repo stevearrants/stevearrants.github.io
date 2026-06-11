@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Writing School
-subtitle: "The Way We Write Now: An 18-week technical writing series"
+title: Writing Club
+subtitle: "The Way We Write Now: A technical writing series with exercises for new and working writers"
 ---
 
-Thirty-six lessons on technical writing practice: the craft, the tools, the process, and the career. Two lessons per week, published every Monday and Thursday starting July 6, 2026.
+This is a reading and practice group, not a course. Each post covers one topic — craft, tools, process, or career — and ends with an exercise or thought problem. Work through it in order or jump to whatever is relevant now.
 
-Each lesson is self-contained. Start anywhere, or work through in order.
+Two posts per week, starting Monday, July 6. New and working writers both welcome.
+
 
 <div class="ws-cta-block">
   <p class="ws-cta-text">Lessons begin <strong>Monday, July 6</strong>. Follow along to get each lesson as it publishes.</p>
