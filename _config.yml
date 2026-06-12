@@ -336,10 +336,10 @@ exclude:
   - DESIGN.md
   - PRODUCT.md
   - portfolio_old.md
-  - gmd-design-system_1.md
-  - index - Copy.html
-  - store/406FXExtract Copy.pdf
-
+  - gmd-design-system_1.html
+  - "index - Copy.html"
+  - "index.html"
+  - "store/406FXExtract Copy.pdf"
 
 
 # Beautiful Jekyll / Dean Attali
