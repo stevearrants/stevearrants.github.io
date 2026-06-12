@@ -333,6 +333,12 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - DESIGN.md
+  - PRODUCT.md
+  - portfolio_old.md
+  - gmd-design-system_1.md
+  - index - Copy.html
+  - store/406FXExtract Copy.pdf
 
 
 
