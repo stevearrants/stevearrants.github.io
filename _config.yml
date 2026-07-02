@@ -9,9 +9,6 @@
 # --- Required options --- #
 ############################
 
-url: "https://greenmtndocs.com"
-baseurl: ""
-
 # Name of website
 title: Green Mountain Docs
 
@@ -29,7 +26,7 @@ navbar-links:
   Substack: "blog"
   Resume: "resume" 
   Portfolio: "portfolio"
-  Writing Club: "writing-club"
+  Writers' Circle: "writers-circle"
   Contact: "contact"
 
 ################
@@ -45,6 +42,7 @@ round-avatar: false
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 # title-img: "/assets/img/logo icon.png"
+
 
 #####################################
 # --- Footer social media links --- #
@@ -236,7 +234,7 @@ gtm: "GTM-K5D9LW5X"
 #fb_comment_id: ""
 
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
-commentbox: "5655715737763840-proj" # Project ID, e.g. "5694267682979840-proj"
+# commentbox: "5655715737763840-proj" # Project ID, e.g. "5694267682979840-proj"
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
@@ -333,13 +331,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
-  - DESIGN.md
-  - PRODUCT.md
-  - portfolio_old.md
-  - gmd-design-system_1.html
-  - "index - Copy.html"
-  - "index.html"
-  - "store/406FXExtract Copy.pdf"
+
 
 
 # Beautiful Jekyll / Dean Attali
