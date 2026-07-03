@@ -4,9 +4,14 @@ title: The Writers' Table
 subtitle: "The Way We Write Now: A technical writing series with exercises for new and working writers"
 ---
 
-This is a reading and practice group, not a course. Each post covers one topic — craft, tools, process, or career — and ends with an exercise or thought problem. Work through it in order or jump to whatever is relevant now.
-![witerstable](../assets/img/witerstable.png)
+This is a reading and practice group, not a course. Each post covers one topic — craft, tools, process, career, etc. — and ends with an exercise you can work through. As articles are added, you can work through them in any order. 
+
+I'm also including references for further exploration. 
+![The Writer's Table](../assets/img/witerstable.png)
+
 Two posts per week, starting Monday, July 6. New and working writers both welcome.
+
+I am posting the articles to my "The Way We Write Now" subtack. It's free; there is no subscription fee. 
 
 <div class="ws-cta-block">
   <p class="ws-cta-text">Lessons begin <strong>Monday, July 6</strong>. Follow along to get each lesson as it publishes.</p>
