@@ -18,6 +18,8 @@ I am posting the articles to my "The Way We Write Now" subtack. It's free; there
   <a href="/blog" class="cta-button">Follow Along &rarr;</a>
 </div>
 
+## NOTE! On the Subscription page, please click "No Pledge" if you see it! 
+
 ---
 
 <div class="phase-block" markdown="1">
