@@ -17,7 +17,7 @@ Two posts per week (sometimes three), starting Monday, July 6. New and working w
 I am posting the articles to my "The Way We Write Now" Substack. It's free; there is no subscription or pledge fee. 
 
 <div class="ws-cta-block">
-  <p class="ws-cta-text">Lessons begin <strong>Monday, July 6</strong>. Follow along to get each lesson as it publishes.</p>
+  <p class="ws-cta-text">Lessons begin <strong>Monday, July 6</strong>. Follow along using the button below, and bookmark this page for the link to each lesson as they go live.</p>
   <a href="/blog" class="cta-button">Follow Along &rarr;</a>
 </div>
 
