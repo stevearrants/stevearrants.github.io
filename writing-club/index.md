@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Writers' Table
+title: Writing Club
 subtitle: "The Way We Write Now: A technical writing series with exercises for new and working writers"
 ---
 
