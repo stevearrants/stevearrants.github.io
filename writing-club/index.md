@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Writing Club
+title: The Writers' Table
 subtitle: "The Way We Write Now: A technical writing series with exercises for new and working writers"
 ---
 
@@ -10,7 +10,7 @@ The articles aren't exhaustive. They're designed and written to give you a start
 
 I'm also including references for further exploration with the articles. 
 
-![writingclub](../../../Github/stevearrants.github.io/assets/img/writingclub.png)
+![writerstable](../assets/img/writerstable.png)
 
 Two posts per week (sometimes three), starting Monday, July 6. New and working writers both welcome.
 
