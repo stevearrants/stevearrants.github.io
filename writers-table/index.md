@@ -29,7 +29,7 @@ I am posting the articles to my "The Way We Write Now" Substack. It's free; ther
 <h2 class="phase-heading">Phase 1: Foundation <span class="phase-weeks">Weeks 1–3</span></h2>
 
 ### Week 1: What the Job Is
-- 1A: What Technical Writers Actually Do *(coming July 6)*
+- <a href="https://open.substack.com/pub/stevearrants/p/what-technical-writers-actually-do?r=5qqjk8&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank">1A: What Technical Writers Actually Do</a>  **(July 6)**
 - 1B: Mastering Audience Analysis *(coming July 9)*
 
 ### Week 2: Writing Craft
