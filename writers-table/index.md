@@ -1,25 +1,27 @@
 ---
 layout: page
-title: The Writers' Table
-subtitle: "The Way We Write Now: A technical writing series with exercises for new and working writers"
+title: Writers' Table
+subtitle: "The Way We Write Now: A technical writing series with exercises for both new and working writers."
 ---
 
 This is a reading and practice group, not a course. Each post covers one topic — craft, tools, process, career, etc. — and ends with an exercise you can work through. As articles are added, you can work through them in any order. 
 
-I'm also including references for further exploration. 
+The articles aren't exhaustive. They're designed and written to give you a starting point.
 
-![The Writer's Table](../assets/img/witerstable.png)
+I'm also including references for further exploration with the articles. 
 
-Two posts per week, starting Monday, July 6. New and working writers both welcome.
+![writerstable](../assets/img/writerstable.png)
 
-I am posting the articles to my "The Way We Write Now" substack. It's free; there is no subscription fee. 
+Two posts per week (sometimes three), starting Monday, July 6. New and working writers both welcome.
+
+I am posting the articles to my "The Way We Write Now" Substack. It's free; there is no subscription or pledge fee. 
 
 <div class="ws-cta-block">
-  <p class="ws-cta-text">Lessons begin <strong>Monday, July 6</strong>. Follow along to get each lesson as it publishes.</p>
+  <p class="ws-cta-text">Lessons begin <strong>Monday, July 6</strong>. Follow along using the button here, and bookmark this page for the link to each lesson as they go live.</p>
   <a href="/blog" class="cta-button">Follow Along &rarr;</a>
 </div>
 
-## NOTE! On the Subscription page, please click "No Pledge" if you see it! 
+### NOTE! On the Subscription page, please click "No Pledge" if you see it! 
 
 ---
 
@@ -27,7 +29,7 @@ I am posting the articles to my "The Way We Write Now" substack. It's free; ther
 <h2 class="phase-heading">Phase 1: Foundation <span class="phase-weeks">Weeks 1–3</span></h2>
 
 ### Week 1: What the Job Is
-- 1A: What Technical Writers Actually Do *(coming July 6)*
+- <a href="https://open.substack.com/pub/stevearrants/p/what-technical-writers-actually-do?r=5qqjk8&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank">1A: What Technical Writers Actually Do</a>  **(July 6)**
 - 1B: Mastering Audience Analysis *(coming July 9)*
 
 ### Week 2: Writing Craft
@@ -49,82 +51,84 @@ I am posting the articles to my "The Way We Write Now" substack. It's free; ther
 ### Week 5: Content Structure
 - 5A: Documentation Frameworks: A Field Guide *(coming August 3)*
 - 5B: Stop the Sprawl: Information Architecture *(coming August 7)*
+- 5C: Metadata and Taxonomy *(coming August 10)*
 </div>
 
 <div class="phase-block" markdown="1">
 <h2 class="phase-heading">Phase 3: The Modern Toolchain <span class="phase-weeks">Weeks 6–7</span></h2>
 
 ### Week 6: Authoring Environments
-- 6A: The Shift to Docs-as-Code *(coming August 10)*
-- 6B: Choosing Your Authoring Environment *(coming August 13)*
+- 6A: The Shift to Docs-as-Code *(coming August 13)*
+- 6B: Choosing Your Authoring Environment *(coming August 17)*
 
 ### Week 7: Style &amp; Automation
-- 7A: Enforcing Style Guides Without Being a Cop *(coming August 17)*
-- 7B: Automated Linting and Consistency Checking *(coming August 20)*
+- 7A: Enforcing Style Guides Without Being a Cop *(coming August 20)*
+- 7B: Automated Linting and Consistency Checking *(coming August 24)*
 </div>
 
 <div class="phase-block" markdown="1">
-<h2 class="phase-heading">Phase 4: Process <span class="phase-weeks">Weeks 8–9</span></h2>
+<h2 class="phase-heading">Phase 4: AI <span class="phase-weeks">Week 8</span></h2>
 
-### Week 8: Agile &amp; Task Management
-- 8A: Surviving the Two-Week Sprint *(coming August 24)*
-- 8B: Task Management and Ticket Systems *(coming August 27)*
-
-### Week 9: Metrics &amp; Maintenance
-- 9A: Proving Your Worth: Documentation Metrics *(coming August 31)*
-- 9B: The Art of Deleting: Content Audits *(coming September 3)*
+### Week 8: AI as Tool and Subject
+- 8A: The Writer as Context Owner *(coming August 27)*
+- 8B: Prompt Engineering for Tech Writers *(coming August 31)*
+- 8C: Documenting AI and Non-Deterministic Software *(coming September 3)*
 </div>
 
 <div class="phase-block" markdown="1">
-<h2 class="phase-heading">Phase 5: Specializations <span class="phase-weeks">Weeks 10–13</span></h2>
+<h2 class="phase-heading">Phase 5: Process <span class="phase-weeks">Weeks 9–10</span></h2>
 
-### Week 10: API Documentation
-- 10A: API Docs 101: Demystifying REST *(coming September 7)*
-- 10B: Beyond REST: OpenAPI and Swagger *(coming September 10)*
+### Week 9: Agile &amp; Task Management
+- 9A: Surviving the Two-Week Sprint *(coming September 7)*
+- 9B: Task Management and Ticket Systems *(coming September 10)*
 
-### Week 11: Developer Documentation
-- 11A: From Git Commits to Release Notes *(coming September 14)*
-- 11B: Code Samples and Code Comments *(coming September 17)*
-
-### Week 12: UX Writing &amp; Accessibility
-- 12A: Words in the Machine: Intro to UX Writing *(coming September 21)*
-- 12B: Writing for Everyone: Accessibility *(coming September 24)*
-
-### Week 13: Visual Communication
-- 13A: Visuals That Work (and Don't) *(coming September 28)*
-- 13B: Diagrams as Code: Mermaid &amp; Draw.io *(coming October 1)*
+### Week 10: Metrics &amp; Maintenance
+- 10A: Proving Your Worth: Documentation Metrics *(coming September 14)*
+- 10B: The Art of Deleting: Content Audits *(coming September 17)*
 </div>
 
 <div class="phase-block" markdown="1">
-<h2 class="phase-heading">Phase 6: AI <span class="phase-weeks">Weeks 14–15</span></h2>
+<h2 class="phase-heading">Phase 6: Content Types <span class="phase-weeks">Weeks 11–12</span></h2>
 
-### Week 14: AI as a Tool
-- 14A: The Writer as Context Owner *(coming October 5)*
-- 14B: Prompt Engineering for Tech Writers *(coming October 8)*
+### Week 11: API Documentation
+- 11A: API Docs 101: Demystifying REST *(coming September 21)*
+- 11B: Beyond REST: OpenAPI and Swagger *(coming September 24)*
 
-### Week 15: AI as Subject Matter
-- 15A: Documenting AI and Non-Deterministic Software *(coming October 12)*
-- 15B: Metadata and Taxonomy *(coming October 15)*
+### Week 12: Developer Documentation
+- 12A: From Git Commits to Release Notes *(coming September 28)*
+- 12B: Code Samples and Code Comments *(coming October 1)*
 </div>
 
 <div class="phase-block" markdown="1">
-<h2 class="phase-heading">Phase 7: Scale &amp; Strategy <span class="phase-weeks">Weeks 16–17</span></h2>
+<h2 class="phase-heading">Phase 7: Writer Craft <span class="phase-weeks">Weeks 13–14</span></h2>
 
-### Week 16: Scalable Documentation
-- 16A: Write Once, Publish Everywhere *(coming October 19)*
-- 16B: Modular Docs and the Philosophy of DITA *(coming October 22)*
+### Week 13: UX Writing &amp; Accessibility
+- 13A: Words in the Machine: Intro to UX Writing *(coming October 5)*
+- 13B: Writing for Everyone: Accessibility *(coming October 8)*
 
-### Week 17: Global Strategy
-- 17A: Writing for Translation and Localization *(coming October 26)*
-- 17B: The Technical Writer as Strategist *(coming October 29)*
+### Week 14: Visual Communication
+- 14A: Visuals That Work (and Don't) *(coming October 12)*
+- 14B: Diagrams as Code: Mermaid &amp; Draw.io *(coming October 15)*
 </div>
 
 <div class="phase-block" markdown="1">
-<h2 class="phase-heading">Phase 8: Career <span class="phase-weeks">Week 18</span></h2>
+<h2 class="phase-heading">Phase 8: Scale &amp; Strategy <span class="phase-weeks">Weeks 15–16</span></h2>
 
-### Week 18: Career Development
-- 18A: Building the NDA-Proof Portfolio *(coming November 2)*
-- 18B: Contracting vs. Full-Time *(coming November 5)*
+### Week 15: Scalable Documentation
+- 15A: Write Once, Publish Everywhere *(coming October 19)*
+- 15B: Modular Docs and the Philosophy of DITA *(coming October 22)*
+
+### Week 16: Global Strategy
+- 16A: Writing for Translation and Localization *(coming October 26)*
+- 16B: The Technical Writer as Strategist *(coming October 29)*
+</div>
+
+<div class="phase-block" markdown="1">
+<h2 class="phase-heading">Phase 9: Career <span class="phase-weeks">Week 17</span></h2>
+
+### Week 17: Career Development
+- 17A: Building the NDA-Proof Portfolio *(coming November 2)*
+- 17B: Contracting vs. Full-Time *(coming November 5)*
 </div>
 
 <style>
