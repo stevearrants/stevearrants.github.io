@@ -38,6 +38,16 @@ A selection of projects demonstrating my work across content strategy, help cent
     </div>
   </div>
 
+  <!-- Persona Workbook -->
+  <div class="col-md-6 mb-4">
+    <div class="portfolio-card">
+      <span class="portfolio-tag">Content Strategy &nbsp;&middot;&nbsp; Excel</span>
+      <h3 class="portfolio-title">Persona Workbook</h3>
+      <p class="portfolio-desc">A sample workbook accompanying The Writers' Table 1B article. Use it to record and organize personas &mdash; keeping goals, tasks, and context for each audience in one place.</p>
+      <a href="/store/persona-workbook.xlsx" target="_blank" class="portfolio-cta">Download Workbook &rarr;</a>
+    </div>
+  </div>
+
   <!-- iPaaS Help Center -->
   <div class="col-md-6 mb-4">
     <div class="portfolio-card">
