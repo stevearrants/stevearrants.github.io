@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Writers' Table
+title: The Writers' Table
 subtitle: "The Way We Write Now: A technical writing series with exercises for both new and working writers."
 ---
 
@@ -33,7 +33,7 @@ I am posting the articles to my "The Way We Write Now" Substack. It's free; ther
 - 1B: <a href="https://stevearrants.substack.com/p/mastering-audience-analysis?r=5qqjk8" target="_blank">Mastering Audience Analysis</a> **(July 9)**
 
 ### Week 2: Writing Craft
-- 2A: Writing for the F-Pattern *(coming July 12)*
+- 2A: <a href="https://open.substack.com/pub/stevearrants/p/writing-for-the-f-pattern?r=5qqjk8&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank">Writing for the F-Pattern</a> **(July 13)**
 - 2B: Plain Language Is Not Dumbing Down *(coming July 16)*
 
 ### Week 3: Editing
