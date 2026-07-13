@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Writers' Table
-subtitle: "The Way We Write Now: A technical writing series with exercises for both new and working writers."
+subtitle: A technical writing series with exercises for both new and working writers."
 ---
 
 This is a reading and practice group, not a course. Each post covers one topic — craft, tools, process, career, etc. — and ends with an exercise you can work through. As articles are added, you can work through them in any order. 
