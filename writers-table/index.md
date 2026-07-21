@@ -34,10 +34,10 @@ I am posting the articles to my "The Way We Write Now" Substack. It's free; ther
 
 ### Week 2: Writing Craft
 - 2A: <a href="https://open.substack.com/pub/stevearrants/p/writing-for-the-f-pattern?r=5qqjk8&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank">Writing for the F-Pattern</a> **(July 13)**
-- 2B: Plain Language Is Not Dumbing Down *(coming July 16)*
+- 2B: <a href="https://stevearrants.substack.com/p/plain-language-is-not-dumbing-down" target="_blank">Plain Language Is Not Dumbing Down</a> **(July 16)**
 
 ### Week 3: Editing
-- 3A: The Three Tiers of Editing *(coming July 20)*
+- 3A: <a href="https://stevearrants.substack.com/p/the-three-tiers-of-editing" target="_blank">The Three Tiers of Editing</a> **(July 20)**
 - 3B: The Passive Voice Myth *(coming July 23)*
 </div>
 
