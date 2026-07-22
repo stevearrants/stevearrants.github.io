@@ -195,3 +195,21 @@ article {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
 }
+
+/* ----- Navbar Dropdown Menu ----- */
+.navbar-custom .dropdown-menu {
+  background-color: var(--white);
+  border: 1px solid #E4EAE5;
+}
+
+.navbar-custom .dropdown-menu .dropdown-item {
+  color: var(--alpine-slate);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.navbar-custom .dropdown-menu .dropdown-item:hover,
+.navbar-custom .dropdown-menu .dropdown-item:focus {
+  color: var(--white);
+  background-color: var(--summit-green-dark);
+}
