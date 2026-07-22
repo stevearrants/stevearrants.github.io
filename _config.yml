@@ -27,11 +27,11 @@ navbar-links:
   About: "about"
   Expertise: "expertise"  
   Blog: "blog"
-  Tags: "tags"
+    Tags: "tags"
   Resume: "resume" 
   Writing Club: "writing-club"
   Portfolio: "portfolio"
- 
+  Substack: "https://stevearrants.substack.com/"
   Contact: "contact"
 
 ################
