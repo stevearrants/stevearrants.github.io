@@ -26,10 +26,12 @@ navbar-links:
   Home: "/"
   About: "about"
   Expertise: "expertise"  
-  Substack: "blog"
+  Blog: "blog"
+  Tags: "tags"
   Resume: "resume" 
-  Portfolio: "portfolio"
   Writing Club: "writing-club"
+  Portfolio: "portfolio"
+ 
   Contact: "contact"
 
 ################
