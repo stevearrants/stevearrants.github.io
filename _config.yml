@@ -25,10 +25,11 @@ author: Green Mountain Docs, LLC
 navbar-links:
   Home: "/"
   About: "about"
-  Expertise: "expertise"  
-  Blog: "blog"
+  Expertise: "expertise"
+  Blog:
+    Blog: "blog"
     Tags: "tags"
-  Resume: "resume" 
+  Resume: "resume"
   Writing Club: "writing-club"
   Portfolio: "portfolio"
   Substack: "https://stevearrants.substack.com/"
