@@ -27,8 +27,8 @@ navbar-links:
   About: "about"
   Expertise: "expertise"
   Blog:
-    Blog: "blog"
-    Tags: "tags"
+   - Blog: "blog"
+   - Tags: "tags"
   Resume: "resume"
   Writing Club: "writing-club"
   Portfolio: "portfolio"
