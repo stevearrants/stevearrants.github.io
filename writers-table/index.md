@@ -38,7 +38,7 @@ I am posting the articles to my "The Way We Write Now" Substack. It's free; ther
 
 ### Week 3: Editing
 - 3A: <a href="https://stevearrants.substack.com/p/the-three-tiers-of-editing" target="_blank">The Three Tiers of Editing</a> **(July 20)**
-- 3B: The Passive Voice Myth *(coming July 23)*
+- 3B: <a href="https://stevearrants.substack.com/p/the-passive-voice-myth" target="_blank">The Passive Voice Myth</a> **(July 23)**
 </div>
 
 <div class="phase-block" markdown="1">
