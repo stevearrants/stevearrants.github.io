@@ -3,12 +3,14 @@ layout: gmd-page
 title: "The Writers' Table"
 eyebrow: "Series"
 subtitle: "A reading and practice group, not a course. Each post covers one topic and ends with an exercise. Work through them in any order."
-description: "A technical writing series with exercises for both new and working writers."
+description: "A technical writing series with information for both new and working writers."
 permalink: /writers-table/
 ---
 
 <div class="gmd-prose">
   <p>The articles aren't exhaustive. They're designed to give you a starting point, with references for further exploration.</p>
+
+  <p>Three posts per week &mdash; Monday, Wednesday, and Friday.</p>
 
   <div class="gmd-callout gmd-callout--tip">
     <p><strong>Free, no pledge.</strong> Articles post to <a href="https://stevearrants.substack.com/">The Way We Write Now</a> on Substack. If the subscription page offers a pledge, choose <strong>No Pledge</strong>.</p>
@@ -20,6 +22,22 @@ permalink: /writers-table/
 <h2>Published</h2>
 
 <div class="gmd-arts">
+
+  <div class="gmd-art">
+    <span class="gmd-art__date">Jul 29</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/review-and-approval-workflows">4B: Review and Approval Workflows</a></h3>
+      <p>Designing a review cycle that ends, and getting sign-off from people who'd rather not give it.</p>
+    </div>
+  </div>
+
+  <div class="gmd-art">
+    <span class="gmd-art__date">Jul 27</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/working-with-smes">4A: Working with SMEs</a></h3>
+      <p>Without losing your mind..</p>
+    </div>
+  </div>
 
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 23</span>
@@ -73,38 +91,37 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming next</h2>
 
-<p style="color:var(--gmd-muted)">The Psychology of the SME (July 27) &middot; Review and Approval Workflows (July 30) &middot; Documentation Frameworks: A Field Guide (August 3)</p>
+<p style="color:var(--gmd-muted)">Documentation Frameworks: A Field Guide (July 31) &middot; Stop the Sprawl: Information Architecture (August 3) &middot; Metadata and Taxonomy (August 5)</p>
 
 <details class="gmd-details">
-  <summary>See the full 17-week outline</summary>
+  <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
   <div class="gmd-details__body">
     <div class="gmd-syllabus">
+
       <h4>Phase 1 &middot; Foundation</h4>
       <p>What the job is &middot; Writing craft &middot; Editing</p>
 
-      <h4>Phase 2 &middot; People &amp; structure</h4>
+      <h4>Phase 2 &middot; Working with people &amp; structure</h4>
       <p>The psychology of the SME &middot; Review and approval workflows &middot; Documentation frameworks &middot; Information architecture &middot; Metadata and taxonomy</p>
 
-      <h4>Phase 3 &middot; The modern toolchain</h4>
-      <p>The shift to docs-as-code &middot; Choosing an authoring environment &middot; Enforcing style guides &middot; Automated linting and consistency checking</p>
+      <h4>Phase 3 &middot; Content types &mdash; what you produce</h4>
+      <p>API docs 101: demystifying REST &middot; Beyond REST: OpenAPI and Swagger &middot; From Git commits to release notes &middot; Code samples and code comments &middot; Intro to UX writing &middot; Writing for everyone: accessibility &middot; Visuals that work (and don't) &middot; Diagrams as code: Mermaid and Draw.io</p>
 
-      <h4>Phase 4 &middot; AI</h4>
-      <p>The writer as context owner &middot; Prompt engineering for tech writers &middot; Documenting AI and non-deterministic software</p>
+      <h4>Phase 4 &middot; The modern toolchain</h4>
+      <p>The shift to docs-as-code &middot; Choosing your authoring environment &middot; Enforcing style guides without being a cop &middot; Automated linting and consistency checking</p>
 
-      <h4>Phase 5 &middot; Process</h4>
-      <p>Surviving the two-week sprint &middot; Task management and ticket systems &middot; Documentation metrics &middot; The art of deleting: content audits</p>
-
-      <h4>Phase 6 &middot; Content types</h4>
-      <p>API docs 101: demystifying REST &middot; Beyond REST: OpenAPI and Swagger &middot; From Git commits to release notes &middot; Code samples and code comments</p>
-
-      <h4>Phase 7 &middot; Writer craft</h4>
-      <p>Intro to UX writing &middot; Writing for everyone: accessibility &middot; Visuals that work (and don't) &middot; Diagrams as code: Mermaid and Draw.io</p>
-
-      <h4>Phase 8 &middot; Scale &amp; strategy</h4>
+      <h4>Phase 5 &middot; Scale &amp; strategy</h4>
       <p>Write once, publish everywhere &middot; Modular docs and the philosophy of DITA &middot; Writing for translation and localization &middot; The technical writer as strategist</p>
 
-      <h4>Phase 9 &middot; Career</h4>
+      <h4>Phase 6 &middot; AI</h4>
+      <p>The writer as context owner &middot; Prompt engineering for tech writers &middot; Documenting AI and non-deterministic software</p>
+
+      <h4>Phase 7 &middot; Process, metrics &amp; maintenance</h4>
+      <p>Surviving the two-week sprint &middot; Task management and ticket systems &middot; Proving your worth: documentation metrics &middot; The art of deleting: content audits</p>
+
+      <h4>Phase 8 &middot; Career</h4>
       <p>Building the NDA-proof portfolio &middot; Contracting vs. full-time</p>
+
     </div>
   </div>
 </details>
