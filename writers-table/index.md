@@ -6,7 +6,7 @@ subtitle: "A reading and practice group, not a course. Each post covers one topi
 description: "A technical writing series with information for both new and working writers."
 permalink: /writers-table/
 ---
-
+![writerstable](../assets/img/writerstable.png)
 <div class="gmd-prose">
   <p>The articles aren't exhaustive. They're designed to give you a starting point, with references for further exploration.</p>
 
@@ -15,6 +15,7 @@ permalink: /writers-table/
   <div class="gmd-callout gmd-callout--tip">
     <p><strong>Free, no pledge.</strong> Articles post to <a href="https://stevearrants.substack.com/">The Way We Write Now</a> on Substack. If the subscription page offers a pledge, choose <strong>No Pledge</strong>.</p>
   </div>
+
 
   <p><a href="https://stevearrants.substack.com/" class="gmd-btn gmd-btn--outline">Follow along &rarr;</a></p>
 </div>
