@@ -46,7 +46,7 @@ I am posting the articles to my "The Way We Write Now" Substack. It's free; ther
 
 ### Working with People
 - 4A: <a href="https://stevearrants.substack.com/p/working-with-smes" target="_blank">The Psychology of the SME</a> **July 27**
-- 4B: Review and Approval Workflows *(coming July 29)*
+- 4B: <a href="https://stevearrants.substack.com/p/review-and-approval-workflows" target="_blank">Review and Approval Workflows</a> **July 29**
 
 ### Content Structure
 - 5A: Documentation Frameworks: A Field Guide *(coming July 31)*
