@@ -1,0 +1,35 @@
+---
+layout: base
+---
+
+<div class="gmd-layout gmd">
+
+  <div class="gmd-hero">
+    <div class="gmd-wrap">
+      {% if page.eyebrow %}<div class="gmd-eyebrow">{{ page.eyebrow }}</div>{% endif %}
+      <h1>{{ page.headline | default: page.title }}</h1>
+      {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+      {% if page.cta-primary-label %}
+        <a href="{{ page.cta-primary-url | relative_url }}" class="gmd-btn gmd-btn--primary">{{ page.cta-primary-label }} &rarr;</a>
+      {% endif %}
+      {% if page.cta-secondary-label %}
+        <a href="{{ page.cta-secondary-url | relative_url }}" class="gmd-btn gmd-btn--ghost">{{ page.cta-secondary-label }}</a>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if page.metrics %}{% include gmd-metrics.html metrics=page.metrics %}{% endif %}
+
+  {{ content }}
+
+  {% if page.cta-heading %}
+  <div class="gmd-cta">
+    <div class="gmd-wrap">
+      <h2>{{ page.cta-heading }}</h2>
+      {% if page.cta-text %}<p>{{ page.cta-text }}</p>{% endif %}
+      <a href="{{ page.cta-url | default: '/contact' | relative_url }}" class="gmd-btn gmd-btn--primary">{{ page.cta-label | default: 'Get in touch' }} &rarr;</a>
+    </div>
+  </div>
+  {% endif %}
+
+</div>

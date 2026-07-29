@@ -1,0 +1,41 @@
+---
+layout: base
+---
+
+<div class="gmd-layout gmd">
+
+  <div class="gmd-pagehead">
+    <div class="gmd-wrap">
+      <div class="gmd-prose">
+        {% if page.eyebrow %}<div class="gmd-eyebrow">{{ page.eyebrow }}</div>{% endif %}
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}<p class="gmd-lede">{{ page.subtitle }}</p>{% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="gmd-section">
+    <div class="gmd-wrap">
+      {% if page.before-content %}
+        {% for file in page.before-content %}{% include {{ file }} %}{% endfor %}
+      {% endif %}
+
+      {{ content }}
+
+      {% if page.after-content %}
+        {% for file in page.after-content %}{% include {{ file }} %}{% endfor %}
+      {% endif %}
+    </div>
+  </div>
+
+  {% if page.cta-heading %}
+  <div class="gmd-cta">
+    <div class="gmd-wrap">
+      <h2>{{ page.cta-heading }}</h2>
+      {% if page.cta-text %}<p>{{ page.cta-text }}</p>{% endif %}
+      <a href="{{ page.cta-url | default: '/contact' | relative_url }}" class="gmd-btn gmd-btn--primary">{{ page.cta-label | default: 'Get in touch' }} &rarr;</a>
+    </div>
+  </div>
+  {% endif %}
+
+</div>

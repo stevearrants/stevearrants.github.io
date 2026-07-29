@@ -1,255 +1,188 @@
 ---
-layout: page
-title: Expertise
-subtitle: Technical Documentation That Empowers Users
+layout: gmd-page
+title: "Documentation systems built for engineering teams"
+eyebrow: "Services"
+subtitle: "Good documentation doesn't explain what your product does. It shows users how to succeed with it."
+description: "Documentation engineering, API and developer docs, technical writing, audit and strategy, editing, and consulting."
+permalink: /services/
+redirect_from:
+  - /expertise/
+  - /expertise
+cta-heading: "Not sure which one you need?"
+cta-text: "Describe the problem. I'll tell you which approach fits and roughly what it takes."
+cta-label: "Get in touch"
+cta-url: "/contact"
 ---
 
-Good documentation doesn't just explain—it enables. I help companies transform complex technical information into clear, user-focused content that reduces support costs and empowers users to succeed.
+<h2>Core</h2>
 
----
+<div class="gmd-grid gmd-grid--3">
 
-## Documentation Engineering
+  <div class="gmd-card" id="documentation-engineering">
+    <h3>Documentation engineering</h3>
+    <p>Scalable systems that grow with your product.</p>
+    <div class="gmd-card__bestfor"><strong>Best for:</strong> teams scaling docs or migrating off legacy tooling.</div>
+    <details class="gmd-details" style="margin-top:0">
+      <summary>What's included</summary>
+      <div class="gmd-details__body">
+        <ul>
+          <li>Docs-as-code implementation (Git, Markdown, static site generators)</li>
+          <li>Documentation architecture and information design</li>
+          <li>Content management system setup and migration</li>
+          <li>Automated publishing workflows and CI/CD integration</li>
+          <li>Style guide development and content standards</li>
+        </ul>
+      </div>
+    </details>
+  </div>
 
-Building scalable documentation systems that grow with your product.
+  <div class="gmd-card" id="api-developer-docs">
+    <h3>API &amp; developer docs</h3>
+    <p>Reference developers actually use.</p>
+    <div class="gmd-card__bestfor"><strong>Best for:</strong> SaaS platforms, integration providers, developer tools.</div>
+    <details class="gmd-details" style="margin-top:0">
+      <summary>What's included</summary>
+      <div class="gmd-details__body">
+        <ul>
+          <li>API reference documentation (REST, OpenAPI/Swagger)</li>
+          <li>Getting started guides and tutorials</li>
+          <li>Code samples and interactive examples</li>
+          <li>Authentication and error handling documentation</li>
+          <li>Developer portal content strategy</li>
+        </ul>
+      </div>
+    </details>
+  </div>
 
-<div class="service-item" markdown="1">
-
-**What's included:**
-
-- Docs-as-code implementation (Git, Markdown, static site generators)
-- Documentation architecture and information design
-- Content management system setup and migration
-- Automated publishing workflows and CI/CD integration
-- Style guide development and content standards
-
-**Best for:** Companies scaling their documentation or migrating from legacy systems.
-
-</div>
-
----
-
-## API & Developer Documentation
-
-Clear, accurate documentation that developers actually want to read.
-
-<div class="service-item" markdown="1">
-
-**What's included:**
-
-- API reference documentation (REST, OpenAPI/Swagger)
-- Getting started guides and tutorials
-- Code samples and interactive examples
-- Authentication and error handling documentation
-- Developer portal content strategy
-
-**Best for:** SaaS platforms, integration providers, and developer tools.
-
-</div>
-
----
-
-## Technical Writing
-
-End-to-end documentation for software products and complex systems.
-
-<div class="service-item" markdown="1">
-
-**What's included:**
-
-- User guides and product documentation
-- Administrator and installation guides
-- Release notes and changelogs
-- Knowledge base articles
-- Troubleshooting and FAQ content
-
-**Best for:** Software companies needing comprehensive product documentation.
+  <div class="gmd-card" id="technical-writing">
+    <h3>Technical writing</h3>
+    <p>End-to-end docs for software and complex systems.</p>
+    <div class="gmd-card__bestfor"><strong>Best for:</strong> companies needing comprehensive product documentation.</div>
+    <details class="gmd-details" style="margin-top:0">
+      <summary>What's included</summary>
+      <div class="gmd-details__body">
+        <ul>
+          <li>User guides and product documentation</li>
+          <li>Administrator and installation guides</li>
+          <li>Release notes and changelogs</li>
+          <li>Knowledge base articles</li>
+          <li>Troubleshooting and FAQ content</li>
+        </ul>
+      </div>
+    </details>
+  </div>
 
 </div>
 
----
+<h2>Specialist</h2>
 
-## Documentation Audit & Strategy
+<div class="gmd-grid gmd-grid--3">
 
-Evaluate your existing documentation and create a roadmap for improvement.
+  <div class="gmd-card" id="audit-strategy">
+    <h3>Audit &amp; strategy</h3>
+    <p>Evaluate what exists and build a roadmap.</p>
+    <div class="gmd-card__bestfor"><strong>Best for:</strong> teams unsure where to start.</div>
+    <details class="gmd-details" style="margin-top:0">
+      <summary>What's included</summary>
+      <div class="gmd-details__body">
+        <ul>
+          <li>Content inventory and gap analysis</li>
+          <li>Usability and findability assessment</li>
+          <li>Metrics setup and baseline measurement</li>
+          <li>Prioritized improvement recommendations</li>
+          <li>Implementation roadmap</li>
+        </ul>
+      </div>
+    </details>
+  </div>
 
-<div class="service-item" markdown="1">
+  <div class="gmd-card" id="technical-editing">
+    <h3>Technical editing</h3>
+    <p>Polish existing content for clarity and consistency.</p>
+    <div class="gmd-card__bestfor"><strong>Best for:</strong> in-house writers who need expert review.</div>
+    <details class="gmd-details" style="margin-top:0">
+      <summary>What's included</summary>
+      <div class="gmd-details__body">
+        <ul>
+          <li>Developmental editing (structure, flow, completeness)</li>
+          <li>Copy editing (grammar, style, consistency)</li>
+          <li>Technical accuracy review</li>
+          <li>Style guide compliance</li>
+          <li>Accessibility improvements</li>
+        </ul>
+      </div>
+    </details>
+  </div>
 
-**What's included:**
-
-- Content inventory and gap analysis
-- Usability and findability assessment
-- Metrics setup and baseline measurement
-- Prioritized improvement recommendations
-- Implementation roadmap
-
-**Best for:** Teams unsure where to start or looking to improve existing docs.
-
-</div>
-
----
-
-## Technical Editing
-
-Polish your existing content for clarity, accuracy, and consistency.
-
-<div class="service-item" markdown="1">
-
-**What's included:**
-
-- Developmental editing (structure, flow, completeness)
-- Copy editing (grammar, style, consistency)
-- Technical accuracy review
-- Style guide compliance
-- Accessibility improvements
-
-**Best for:** Teams with in-house writers who need expert review.
-
-</div>
-
----
-
-## Consulting & Training
-
-Build your team's documentation capabilities.
-
-<div class="service-item" markdown="1">
-
-**What's included:**
-
-- Documentation process assessment
-- Tool selection and implementation guidance
-- Team training and workshops
-- AI adoption strategy for documentation
-- Ongoing advisory support
-
-**Best for:** Organizations building or improving their documentation practice.
-
-</div>
-
----
-
-## Industries & Expertise
-
-<div class="expertise-grid">
-<div class="expertise-item">
-  <strong>SaaS & Software</strong><br>
-  Product docs, help centers, developer portals
-</div>
-<div class="expertise-item">
-  <strong>Integration Platforms</strong><br>
-  API documentation, connector guides, data mapping
-</div>
-<div class="expertise-item">
-  <strong>Healthcare IT</strong><br>
-  Compliance-aware documentation, clinical workflows
-</div>
-<div class="expertise-item">
-  <strong>Enterprise Software</strong><br>
-  ERP integrations, complex system documentation
-</div>
-</div>
-
----
-
-## Tools & Technologies
-
-I work with the tools your team already uses—or help you choose better ones:
-
-**Authoring:** MadCap Flare, Oxygen XML, Markdown, AsciiDoc, DITA  
-**Platforms:** Confluence, GitBook, ReadMe, MkDocs, Jekyll, Hugo  
-**Developer Tools:** OpenAPI/Swagger, Postman, Git, GitHub/GitLab  
-**AI Tools:** Claude, ChatGPT, AI-assisted writing workflows
-
----
-
-## How I Work
-
-<div class="process-steps" markdown="1">
-
-**1. Discovery**  
-We discuss your goals, audience, and current pain points. I review existing documentation and identify opportunities.
-
-**2. Proposal**  
-You receive a clear scope, timeline, and fixed-price quote. No surprises.
-
-**3. Collaboration**  
-I work with your team through regular check-ins, using your preferred tools and workflows.
-
-**4. Delivery**  
-You get polished, production-ready documentation with source files and handoff support.
+  <div class="gmd-card" id="consulting-training">
+    <h3>Consulting &amp; training</h3>
+    <p>Build your team's documentation capability.</p>
+    <div class="gmd-card__bestfor"><strong>Best for:</strong> organizations building a docs practice.</div>
+    <details class="gmd-details" style="margin-top:0">
+      <summary>What's included</summary>
+      <div class="gmd-details__body">
+        <ul>
+          <li>Documentation process assessment</li>
+          <li>Tool selection and implementation guidance</li>
+          <li>Team training and workshops</li>
+          <li>AI adoption strategy for documentation</li>
+          <li>Ongoing advisory support</li>
+        </ul>
+      </div>
+    </details>
+  </div>
 
 </div>
 
----
+<h2>How I work</h2>
 
-## Let's Talk
+<div class="gmd-grid gmd-grid--4">
+  <div class="gmd-step">
+    <div class="gmd-step__n">1</div>
+    <h3>Discovery</h3>
+    <p>We discuss goals, audience, and pain points. I review what exists.</p>
+  </div>
+  <div class="gmd-step">
+    <div class="gmd-step__n">2</div>
+    <h3>Proposal</h3>
+    <p>Clear scope, timeline, and fixed-price quote. No surprises.</p>
+  </div>
+  <div class="gmd-step">
+    <div class="gmd-step__n">3</div>
+    <h3>Collaboration</h3>
+    <p>Regular check-ins using your tools and workflows.</p>
+  </div>
+  <div class="gmd-step">
+    <div class="gmd-step__n">4</div>
+    <h3>Delivery</h3>
+    <p>Production-ready documentation with source files and handoff support.</p>
+  </div>
+</div>
 
-Every project is different. Tell me about your documentation challenges and I'll suggest the best approach.
-
-<a href="{{ '/contact' | relative_url }}" class="cta-button">Get in Touch</a>
-
-<style>
-.service-item {
-  background: #f4f8f6;
-  padding: 1.5rem;
-  border-radius: 8px;
-  margin: 1.5rem 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.service-item p {
-  margin-bottom: 0.75rem;
-}
-
-.service-item ul {
-  margin: 0.75rem 0;
-  padding-left: 1.25rem;
-}
-
-.service-item li {
-  margin-bottom: 0.4rem;
-}
-
-.expertise-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-
-.expertise-item {
-  background: #fff;
-  padding: 1.25rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  border-top: 3px solid #2D6A4F;
-}
-
-.expertise-item strong {
-  color: #2C3E50;
-}
-
-.process-steps {
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  margin: 1.5rem 0;
-}
-
-.process-steps strong {
-  color: #2D6A4F;
-}
-
-
-@media (max-width: 600px) {
-  .expertise-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .service-item,
-  .process-steps {
-    padding: 1.25rem;
-  }
-}
-</style>
+<div class="gmd-grid gmd-grid--2" style="margin-top:3rem">
+  <div>
+    <h2 style="font-size:1.3rem;margin-top:0">Where I work</h2>
+    <span class="gmd-tag">SaaS &amp; software</span>
+    <span class="gmd-tag">Integration platforms</span>
+    <span class="gmd-tag">Healthcare IT</span>
+    <span class="gmd-tag">Enterprise software</span>
+    <span class="gmd-tag">Scientific instrumentation</span>
+  </div>
+  <div>
+    <h2 style="font-size:1.3rem;margin-top:0">What I use</h2>
+    <span class="gmd-tag">MadCap Flare</span>
+    <span class="gmd-tag">Oxygen XML</span>
+    <span class="gmd-tag">Markdown</span>
+    <span class="gmd-tag">AsciiDoc</span>
+    <span class="gmd-tag">DITA</span>
+    <span class="gmd-tag">OpenAPI / Swagger</span>
+    <span class="gmd-tag">Postman</span>
+    <span class="gmd-tag">Git &amp; GitHub</span>
+    <span class="gmd-tag">MkDocs</span>
+    <span class="gmd-tag">Jekyll</span>
+    <span class="gmd-tag">Hugo</span>
+    <span class="gmd-tag">Confluence</span>
+    <span class="gmd-tag">Intercom</span>
+    <span class="gmd-tag">Claude</span>
+  </div>
+</div>

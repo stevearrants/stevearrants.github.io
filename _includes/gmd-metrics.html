@@ -1,0 +1,18 @@
+{% comment %}
+  Metric strip. Usage:
+    {% include gmd-metrics.html metrics=page.metrics %}
+  Front matter:
+    metrics:
+      - num: "3 weeks"
+        label: "Cut from documentation update cycles"
+{% endcomment %}
+<div class="gmd-metrics">
+  <div class="gmd-wrap">
+    {% for m in include.metrics %}
+      <div class="gmd-metric">
+        <div class="gmd-metric__num">{{ m.num }}</div>
+        <div class="gmd-metric__lbl">{{ m.label }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

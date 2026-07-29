@@ -1,0 +1,5 @@
+# Shared metric strip. Used on /about. The homepage defines its own in front matter.
+- num: "3 weeks"
+  label: "Faster documentation update cycles"
+- num: "30%"
+  label: "Improved content reuse"
