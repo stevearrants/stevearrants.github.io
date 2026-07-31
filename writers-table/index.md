@@ -13,7 +13,7 @@ permalink: /writers-table/
   <p>Three posts per week &mdash; Monday, Wednesday, and Friday.</p>
 
   <div class="gmd-callout gmd-callout--tip">
-    <p><strong>Free, no pledge.</strong> Articles post to <a href="https://stevearrants.substack.com/">The Way We Write Now</a> on Substack. If the subscription page offers a pledge, choose <strong>No Pledge</strong>.</p>
+    <p><strong>Free, no pledge.</strong> Articles post to <a href="https://stevearrants.substack.com/">The Way We Write Now</a> on Substack. If the subscription page offers a pledge option, choose <strong>No Pledge</strong>.</p>
   </div>
 
 
@@ -25,9 +25,18 @@ permalink: /writers-table/
 <div class="gmd-arts">
 
   <div class="gmd-art">
+    <span class="gmd-art__date">Jul 31</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/documentation-frameworks-a-field">Documentation Frameworks: A Field Guide</a></h3>
+      <p>Diátaxis is the one to start with, but DITA, minimalism, and others fill the gaps it leaves open.
+</p>
+    </div>
+  </div><div class="gmd-arts">
+
+  <div class="gmd-art">
     <span class="gmd-art__date">Jul 29</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/review-and-approval-workflows">4B: Review and Approval Workflows</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/review-and-approval-workflows">Review and Approval Workflows</a></h3>
       <p>Designing a review cycle that ends, and getting sign-off from people who'd rather not give it.</p>
     </div>
   </div>
@@ -35,7 +44,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 27</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/working-with-smes">4A: Working with SMEs</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/working-with-smes">Working with SMEs</a></h3>
       <p>Without losing your mind..</p>
     </div>
   </div>
@@ -43,7 +52,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 23</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/the-passive-voice-myth">3B: The Passive Voice Myth</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/the-passive-voice-myth">The Passive Voice Myth</a></h3>
       <p>What the rule actually protects against, and when passive is correct.</p>
     </div>
   </div>
@@ -51,7 +60,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 20</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/the-three-tiers-of-editing">3A: The Three Tiers of Editing</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/the-three-tiers-of-editing">The Three Tiers of Editing</a></h3>
       <p>Developmental, copy, and mechanical &mdash; and why conflating them wastes reviewer time.</p>
     </div>
   </div>
@@ -59,7 +68,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 16</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/plain-language-is-not-dumbing-down">2B: Plain Language Is Not Dumbing Down</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/plain-language-is-not-dumbing-down">Plain Language Is Not Dumbing Down</a></h3>
       <p>Precision and simplicity are the same goal, not a tradeoff.</p>
     </div>
   </div>
@@ -67,7 +76,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 13</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/writing-for-the-f-pattern">2A: Writing for the F-Pattern</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/writing-for-the-f-pattern">Writing for the F-Pattern</a></h3>
       <p>How people actually scan a page, and what that means for structure.</p>
     </div>
   </div>
@@ -75,7 +84,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 9</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/mastering-audience-analysis">1B: Mastering Audience Analysis</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/mastering-audience-analysis">Mastering Audience Analysis</a></h3>
       <p>Includes the companion <a href="/store/persona-workbook.xlsx">persona workbook</a>.</p>
     </div>
   </div>
@@ -83,7 +92,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 6</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/what-technical-writers-actually-do">1A: What Technical Writers Actually Do</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/what-technical-writers-actually-do">What Technical Writers Actually Do</a></h3>
       <p>The job as it exists now, not as the job title suggests.</p>
     </div>
   </div>
@@ -92,7 +101,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming next</h2>
 
-<p style="color:var(--gmd-muted)">Documentation Frameworks: A Field Guide (July 31) &middot; Stop the Sprawl: Information Architecture (August 3) &middot; Metadata and Taxonomy (August 5)</p>
+<p style="color:var(--gmd-muted)">Stop the Sprawl: Information Architecture (August 3) &middot; Metadata and Taxonomy (August 5) &middot; API docs 101: demystifying REST (August 7)</p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
