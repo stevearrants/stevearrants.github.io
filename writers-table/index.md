@@ -22,7 +22,18 @@ permalink: /writers-table/
 
 <h2>Published</h2>
 
+
 <div class="gmd-arts">
+
+  <div class="gmd-art">
+    <span class="gmd-art__date">Jul 31</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/stop-the-sprawl-information-architecture">Documentation Stop the Sprawl: Information Architecture</a></h3>
+      <p>Structure documentation so users can find what they need.
+</p>
+    </div>
+  </div><div class="gmd-arts">
+  <div class="gmd-arts">
 
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 31</span>
@@ -101,7 +112,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming next</h2>
 
-<p style="color:var(--gmd-muted)">Stop the Sprawl: Information Architecture (August 3) &middot; Metadata and Taxonomy (August 5) &middot; API docs 101: demystifying REST (August 7)</p>
+<p style="color:var(--gmd-muted)"> Metadata and Taxonomy (August 5) &middot; API docs 101: demystifying REST (August 7) &middot; Beyond REST: OpenAPI and Swagger (August 10)</p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
