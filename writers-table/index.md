@@ -32,9 +32,7 @@ permalink: /writers-table/
       <p>Structure documentation so users can find what they need.
 </p>
     </div>
-  </div><div class="gmd-arts">
-  <div class="gmd-arts">
-
+  </div>
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 31</span>
     <div>
@@ -42,7 +40,7 @@ permalink: /writers-table/
       <p>Diátaxis is the one to start with, but DITA, minimalism, and others fill the gaps it leaves open.
 </p>
     </div>
-  </div><div class="gmd-arts">
+  </div>
 
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 29</span>
