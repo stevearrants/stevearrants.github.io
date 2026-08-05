@@ -118,7 +118,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming next</h2>
 
-<p style="color:var(--gmd-muted)"> API docs 101: demystifyi REST (August 7) &middot; Beyond REST: OpenAPI and Swagger (August 10) &middot; Git commits to release notes (August </p>
+<p style="color:var(--gmd-muted)"> API docs 101: demystifyi REST (August 7) &middot; Beyond REST: OpenAPI and Swagger (August 10) &middot; Git commits to release notes (August 12) </p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
