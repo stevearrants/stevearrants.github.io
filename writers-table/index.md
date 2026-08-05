@@ -25,7 +25,14 @@ permalink: /writers-table/
 
 <div class="gmd-arts">
 
-  <div class="gmd-art">
+   <div class="gmd-art">
+    <span class="gmd-art__date">Aug 5</span>
+    <div>
+      <h3><a href=https://stevearrants.substack.com/p/metadata-and-taxonomy">Documentation Metadata and Taxonomy </a></h3>
+      <p>The infrastructure that makes content findable and usable by both humans and AI systems.
+</p>
+    </div>
+    <div class="gmd-art">
     <span class="gmd-art__date">Jul 31</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/stop-the-sprawl-information-architecture">Documentation Stop the Sprawl: Information Architecture</a></h3>
