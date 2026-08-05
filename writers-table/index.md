@@ -28,7 +28,7 @@ permalink: /writers-table/
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 5</span>
     <div>
-      <h3><a href=https://stevearrants.substack.com/p/metadata-and-taxonomy">Documentation Metadata and Taxonomy </a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/metadata-and-taxonomy">Documentation Metadata and Taxonomy </a></h3>
       <p>The infrastructure that makes content findable and usable by both humans and AI systems.
 </p>
     </div>
