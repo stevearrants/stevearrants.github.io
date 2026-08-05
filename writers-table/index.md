@@ -32,6 +32,7 @@ permalink: /writers-table/
       <p>The infrastructure that makes content findable and usable by both humans and AI systems.
 </p>
     </div>
+  </div>
     <div class="gmd-art">
     <span class="gmd-art__date">Jul 31</span>
     <div>
