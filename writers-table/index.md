@@ -26,6 +26,14 @@ permalink: /writers-table/
 <div class="gmd-arts">
 
    <div class="gmd-art">
+    <span class="gmd-art__date">Aug 7</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/api-docs-101-demystifying-rest">API Docs 101: Demystifying REST</a></h3>
+      <p>You don't need to write production code. You need the vocabulary, an API client, and one successful request.
+</p>
+    </div>
+  </div>
+  <div class="gmd-art">
     <span class="gmd-art__date">Aug 5</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/metadata-and-taxonomy">Documentation Metadata and Taxonomy </a></h3>
@@ -118,7 +126,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming next</h2>
 
-<p style="color:var(--gmd-muted)"> API docs 101: demystifying REST (August 7) &middot; Beyond REST: OpenAPI and Swagger (August 10) &middot; Git commits to release notes (August 12) </p>
+<p style="color:var(--gmd-muted)"> Beyond REST: OpenAPI and Swagger (August 10) &middot; Git commits to release notes (August 12) &middot; Code samples and code comments (August 14)</p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
