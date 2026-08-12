@@ -24,7 +24,22 @@ permalink: /writers-table/
 
 
 <div class="gmd-arts">
-
+   <div class="gmd-art">
+    <span class="gmd-art__date">Aug 7</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/from-git-commits-to-release-notes">From Git Commits to Release Notes</a></h3>
+      <p>A commit says a change happened. A release note says what it means — and the only way to bridge them is to ask.
+</p>
+    </div>
+  </div>
+     <div class="gmd-art">
+    <span class="gmd-art__date">Aug 10</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/what-the-generator-cant-write">What the Generator Can't Write</a></h3>
+      <p>The tool generates the reference. The judgment, the examples, and the spec itself are still yours.
+</p>
+    </div>
+  </div>
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 7</span>
     <div>
@@ -124,9 +139,9 @@ permalink: /writers-table/
 
 </div>
 
-<h2 style="font-size:1.3rem">Coming next</h2>
+<h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)"> Beyond REST: OpenAPI and Swagger (August 10) &middot; Git commits to release notes (August 12) &middot; Code samples and code comments (August 14)</p>
+<p style="color:var(--gmd-muted)">Code Samples and Code Comments (August 14) &middot; Intro to UX writing (August 17) &middot; Writing for Everyone: Accessibility (August 19)  </p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
