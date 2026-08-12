@@ -141,7 +141,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Code Samples and Code Comments (August 14) &middot; Intro to UX writing (August 17) &middot; Writing for Everyone: Accessibility (August 19)  </p>
+<p style="color:var(--gmd-muted)">Code Samples and Code Comments (August 14) &middot; Intro to UX Writing (August 17) &middot; Writing for Everyone: Accessibility (August 19)  </p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
