@@ -27,6 +27,14 @@ permalink: /writers-table/
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 7</span>
     <div>
+      <h3><a href="https://stevearrants.substack.com/p/code-samples-and-code-comments">Code Samples and Code Comments</a></h3>
+      <p>The most verifiable thing you'll write, and the most likely to rot — here's how to keep samples current.
+</p>
+    </div>
+  </div>
+  <div class="gmd-art">
+    <span class="gmd-art__date">Aug 7</span>
+    <div>
       <h3><a href="https://stevearrants.substack.com/p/from-git-commits-to-release-notes">From Git Commits to Release Notes</a></h3>
       <p>A commit says a change happened. A release note says what it means — and the only way to bridge them is to ask.
 </p>
@@ -141,7 +149,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Code Samples and Code Comments (August 14) &middot; Intro to UX Writing (August 17) &middot; Writing for Everyone: Accessibility (August 19)  </p>
+<p style="color:var(--gmd-muted)"> Intro to UX Writing (August 17) &middot; Writing for Everyone: Accessibility (August 19) &middot; Visuals that work (and don't) (August 21) </p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
