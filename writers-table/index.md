@@ -166,7 +166,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Visuals that work (and don't) (August 21) &middot; Diagrams as code: Mermaid and Draw.io (August 24) &middot; Diagrams as code: Mermaid and Draw.io (August 26)</p>
+<p style="color:var(--gmd-muted)">Visuals that work (and don't) (August 21) &middot; Diagrams as code: Mermaid and Draw.io (August 24) &middot; The shift to docs-as-code (August 26)</p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
