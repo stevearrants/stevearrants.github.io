@@ -169,7 +169,7 @@ permalink: /writers-table/
 <p style="color:var(--gmd-muted)">Visuals that work (and don't) (August 21) &middot; Diagrams as code: Mermaid and Draw.io (August 24) &middot; The shift to docs-as-code (August 26)</p>
 
 <details class="gmd-details">
-  <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
+  <summary>See the full outline &mdash; 35 articles across 8 phases</summary>
   <div class="gmd-details__body">
     <div class="gmd-syllabus">
 
@@ -186,7 +186,7 @@ permalink: /writers-table/
       <p>The shift to docs-as-code &middot; Choosing your authoring environment &middot; Enforcing style guides without being a cop &middot; Automated linting and consistency checking</p>
 
       <h4>Phase 5 &middot; Scale &amp; strategy</h4>
-      <p>Write once, publish everywhere &middot; Modular docs and the philosophy of DITA &middot; Writing for translation and localization &middot; The technical writer as strategist</p>
+      <p>Write once, publish everywhere &middot; Writing for translation and localization &middot; The technical writer as strategist</p>
 
       <h4>Phase 6 &middot; AI</h4>
       <p>The writer as context owner &middot; Prompt engineering for tech writers &middot; Documenting AI and non-deterministic software</p>
