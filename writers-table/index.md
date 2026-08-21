@@ -25,6 +25,12 @@ permalink: /writers-table/
 
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Aug 21</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/visuals-that-work-and-dont">Visuals that work (and don't)</a></h3>
+      <p>The guidelines run to hundreds of criteria. As a writer, you’ll touch the same three every day.</p>
+    </div>
+  </div>   <div class="gmd-art">
     <span class="gmd-art__date">Aug 19</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/writing-for-everyone-accessibility">Writing for Everyone: Accessibility</a></h3>
@@ -166,7 +172,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Visuals that work (and don't) (August 21) &middot; Diagrams as code: Mermaid and Draw.io (August 24) &middot; The shift to docs-as-code (August 26)</p>
+<p style="color:var(--gmd-muted)">Diagrams as code: Mermaid and Draw.io (August 24) &middot; The shift to docs-as-code (August 26) &middot; Choosing your authoring environment (August 28)</p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 35 articles across 8 phases</summary>
