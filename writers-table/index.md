@@ -28,7 +28,7 @@ permalink: /writers-table/
     <span class="gmd-art__date">Aug 21</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/visuals-that-work-and-dont">Visuals that work (and don't)</a></h3>
-      <p>The guidelines run to hundreds of criteria. As a writer, you’ll touch the same three every day.</p>
+      <p>When an image earns its place, when it's just filling space, and why every screenshot you add is a bill that comes due.</p>
     </div>
   </div>   <div class="gmd-art">
     <span class="gmd-art__date">Aug 19</span>
