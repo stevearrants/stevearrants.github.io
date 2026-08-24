@@ -25,12 +25,20 @@ permalink: /writers-table/
 
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Aug 24</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/diagrams-as-code-mermaid-and-drawio">Diagrams as Code: Mermaid & Draw.io</a></h3>
+      <p>A diagram in a design tool goes stale in two years. A diagram in text gets reviewed in the pull request that changes it.</p>
+    </div>
+  </div>  
+   <div class="gmd-art">
     <span class="gmd-art__date">Aug 21</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/visuals-that-work-and-dont">Visuals that work (and don't)</a></h3>
       <p>When an image earns its place, when it's just filling space, and why every screenshot you add is a bill that comes due.</p>
     </div>
-  </div>   <div class="gmd-art">
+  </div>   
+  <div class="gmd-art">
     <span class="gmd-art__date">Aug 19</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/writing-for-everyone-accessibility">Writing for Everyone: Accessibility</a></h3>
@@ -172,7 +180,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Diagrams as code: Mermaid and Draw.io (August 24) &middot; The shift to docs-as-code (August 26) &middot; Choosing your authoring environment (August 28)</p>
+<p style="color:var(--gmd-muted)">The shift to docs-as-code (August 26) &middot; Choosing your authoring environment (August 28) &middot; Enforcing style guides without being a cop (August 31) </p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 35 articles across 8 phases</summary>
