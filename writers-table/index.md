@@ -25,6 +25,13 @@ permalink: /writers-table/
 
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Aug 26</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/the-shift-to-docs-as-code">The Shift to Docs-as-Code</a></h3>
+      <p>What the most important toolchain shift in technical writing means for you.</p>
+    </div>
+  </div>  
+   <div class="gmd-art">
     <span class="gmd-art__date">Aug 24</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/diagrams-as-code-mermaid-and-drawio">Diagrams as Code: Mermaid & Draw.io</a></h3>
@@ -180,7 +187,9 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">The shift to docs-as-code (August 26) &middot; Choosing your authoring environment (August 28) &middot; Enforcing style guides without being a cop (August 31) </p>
+<p style="color:var(--gmd-muted)">Choosing your authoring environment (August 28) &middot; Enforcing style guides without being a cop (August 31) &middot; Automated linting and consistency checking (September 2)
+
+</p>
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 35 articles across 8 phases</summary>
