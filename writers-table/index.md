@@ -25,36 +25,36 @@ permalink: /writers-table/
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 28</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/choosing-your-authoring-environment">Choosing Your Authoring Environment</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/choosing-your-authoring-environment" target="_blank">Choosing Your Authoring Environment</a></h3>
       <p>Choosing Your Authoring Environment.</p>
     </div>
   </div>  
-<div class="gmd-arts">
+
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 26</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/the-shift-to-docs-as-code">The Shift to Docs-as-Code</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/the-shift-to-docs-as-code" target="_blank">The Shift to Docs-as-Code</a></h3>
       <p>What the most important toolchain shift in technical writing means for you.</p>
     </div>
   </div>  
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 24</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/diagrams-as-code-mermaid-and-drawio">Diagrams as Code: Mermaid & Draw.io</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/diagrams-as-code-mermaid-and-drawio" target="_blank">Diagrams as Code: Mermaid & Draw.io</a></h3>
       <p>A diagram in a design tool goes stale in two years. A diagram in text gets reviewed in the pull request that changes it.</p>
     </div>
   </div>  
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 21</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/visuals-that-work-and-dont">Visuals that work (and don't)</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/visuals-that-work-and-dont" target="_blank">Visuals that work (and don't)</a></h3>
       <p>When an image earns its place, when it's just filling space, and why every screenshot you add is a bill that comes due.</p>
     </div>
   </div>   
   <div class="gmd-art">
     <span class="gmd-art__date">Aug 19</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/writing-for-everyone-accessibility">Writing for Everyone: Accessibility</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/writing-for-everyone-accessibility" target="_blank">Writing for Everyone: Accessibility</a></h3>
       <p>The guidelines run to hundreds of criteria. As a writer, you’ll touch the same three every day.
 
 </p>
@@ -63,7 +63,7 @@ permalink: /writers-table/
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 17</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/words-in-the-machine-intro-to-ux">Words in the Machine: Intro to UX Writing</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/words-in-the-machine-intro-to-ux" target="_blank">Words in the Machine: Intro to UX Writing</a></h3>
       <p>The words users read inside the product, while the docs stay closed.
 </p>
     </div>
@@ -71,7 +71,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Aug 14</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/code-samples-and-code-comments">Code Samples and Code Comments</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/code-samples-and-code-comments" target="_blank">Code Samples and Code Comments</a></h3>
       <p>The most verifiable thing you'll write, and the most likely to rot — here's how to keep samples current.
 </p>
     </div>
@@ -79,7 +79,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Aug 12</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/from-git-commits-to-release-notes">From Git Commits to Release Notes</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/from-git-commits-to-release-notes" target="_blank">From Git Commits to Release Notes</a></h3>
       <p>A commit says a change happened. A release note says what it means — and the only way to bridge them is to ask.
 </p>
     </div>
@@ -87,7 +87,7 @@ permalink: /writers-table/
      <div class="gmd-art">
     <span class="gmd-art__date">Aug 10</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/what-the-generator-cant-write">What the Generator Can't Write</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/what-the-generator-cant-write" target="_blank">What the Generator Can't Write</a></h3>
       <p>The tool generates the reference. The judgment, the examples, and the spec itself are still yours.
 </p>
     </div>
@@ -95,7 +95,7 @@ permalink: /writers-table/
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 7</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/api-docs-101-demystifying-rest">API Docs 101: Demystifying REST</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/api-docs-101-demystifying-rest" target="_blank">API Docs 101: Demystifying REST</a></h3>
       <p>You don't need to write production code. You need the vocabulary, an API client, and one successful request.
 </p>
     </div>
@@ -103,7 +103,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Aug 5</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/metadata-and-taxonomy">Documentation Metadata and Taxonomy </a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/metadata-and-taxonomy" target="_blank">Documentation Metadata and Taxonomy </a></h3>
       <p>The infrastructure that makes content findable and usable by both humans and AI systems.
 </p>
     </div>
@@ -111,7 +111,7 @@ permalink: /writers-table/
     <div class="gmd-art">
     <span class="gmd-art__date">Jul 31</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/stop-the-sprawl-information-architecture">Documentation Stop the Sprawl: Information Architecture</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/stop-the-sprawl-information-architecture" target="_blank">Documentation Stop the Sprawl: Information Architecture</a></h3>
       <p>Structure documentation so users can find what they need.
 </p>
     </div>
@@ -119,7 +119,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 31</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/documentation-frameworks-a-field">Documentation Frameworks: A Field Guide</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/documentation-frameworks-a-field" target="_blank">Documentation Frameworks: A Field Guide</a></h3>
       <p>Diátaxis is the one to start with, but DITA, minimalism, and others fill the gaps it leaves open.
 </p>
     </div>
@@ -128,7 +128,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 29</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/review-and-approval-workflows">Review and Approval Workflows</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/review-and-approval-workflows" target="_blank">Review and Approval Workflows</a></h3>
       <p>Designing a review cycle that ends, and getting sign-off from people who'd rather not give it.</p>
     </div>
   </div>
@@ -136,7 +136,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 27</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/working-with-smes">Working with SMEs</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/working-with-smes" target="_blank">Working with SMEs</a></h3>
       <p>Without losing your mind..</p>
     </div>
   </div>
@@ -144,7 +144,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 23</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/the-passive-voice-myth">The Passive Voice Myth</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/the-passive-voice-myth" target="_blank">The Passive Voice Myth</a></h3>
       <p>What the rule actually protects against, and when passive is correct.</p>
     </div>
   </div>
@@ -152,7 +152,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 20</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/the-three-tiers-of-editing">The Three Tiers of Editing</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/the-three-tiers-of-editing" target="_blank">The Three Tiers of Editing</a></h3>
       <p>Developmental, copy, and mechanical &mdash; and why conflating them wastes reviewer time.</p>
     </div>
   </div>
@@ -160,7 +160,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 16</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/plain-language-is-not-dumbing-down">Plain Language Is Not Dumbing Down</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/plain-language-is-not-dumbing-down" target="_blank">Plain Language Is Not Dumbing Down</a></h3>
       <p>Precision and simplicity are the same goal, not a tradeoff.</p>
     </div>
   </div>
@@ -168,7 +168,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 13</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/writing-for-the-f-pattern">Writing for the F-Pattern</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/writing-for-the-f-pattern" target="_blank">Writing for the F-Pattern</a></h3>
       <p>How people actually scan a page, and what that means for structure.</p>
     </div>
   </div>
@@ -176,7 +176,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 9</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/mastering-audience-analysis">Mastering Audience Analysis</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/mastering-audience-analysis" target="_blank">Mastering Audience Analysis</a></h3>
       <p>Includes the companion <a href="/store/persona-workbook.xlsx">persona workbook</a>.</p>
     </div>
   </div>
@@ -184,7 +184,7 @@ permalink: /writers-table/
   <div class="gmd-art">
     <span class="gmd-art__date">Jul 6</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/what-technical-writers-actually-do">What Technical Writers Actually Do</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/what-technical-writers-actually-do" target="_blank">What Technical Writers Actually Do</a></h3>
       <p>The job as it exists now, not as the job title suggests.</p>
     </div>
   </div>
