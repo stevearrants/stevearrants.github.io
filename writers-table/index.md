@@ -21,8 +21,14 @@ permalink: /writers-table/
 </div>
 
 <h2>Published</h2>
-
-
+<div class="gmd-arts">
+   <div class="gmd-art">
+    <span class="gmd-art__date">Aug 28</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/choosing-your-authoring-environment">Choosing Your Authoring Environment</a></h3>
+      <p>Choosing Your Authoring Environment.</p>
+    </div>
+  </div>  
 <div class="gmd-arts">
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 26</span>
@@ -187,7 +193,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Choosing your authoring environment (August 28) &middot; Enforcing style guides without being a cop (August 31) &middot; Automated linting and consistency checking (September 2)
+<p style="color:var(--gmd-muted)">Enforcing style guides without being a cop (August 31)Automated linting and consistency checking (September 2) &middot; Write once, publish everywhere (September 4)
 
 </p>
 
