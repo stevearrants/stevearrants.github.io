@@ -29,7 +29,6 @@ permalink: /writers-table/
       <p>Don't write a house style from scratch. Adopt a base, document only where you diverge, and put it where writers already work.</p>
     </div>
   </div>  
-<div class="gmd-arts">
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 28</span>
     <div>
