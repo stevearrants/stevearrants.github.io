@@ -23,10 +23,18 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Aug 31</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/enforcing-style-guides-without-being" target="_blank">Enforcing Style Guides Without Being a Cop</a></h3>
+      <p>Don't write a house style from scratch. Adopt a base, document only where you diverge, and put it where writers already work.</p>
+    </div>
+  </div>  
+<div class="gmd-arts">
+   <div class="gmd-art">
     <span class="gmd-art__date">Aug 28</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/choosing-your-authoring-environment" target="_blank">Choosing Your Authoring Environment</a></h3>
-      <p>Choosing Your Authoring Environment.</p>
+      <p>How to evaluate what fits your team's needs.</p>
     </div>
   </div>  
 
@@ -193,7 +201,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Enforcing style guides without being a cop (August 31)Automated linting and consistency checking (September 2) &middot; Write once, publish everywhere (September 4)
+<p style="color:var(--gmd-muted)">Automated linting and consistency checking (September 2) &middot; Write once, publish everywhere (September 4) &middot; The technical writer as strategist (September 7)
 
 </p>
 
