@@ -23,6 +23,13 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 2</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/automated-linting-and-consistency" target="_blank">Automated Linting and Consistency Checking</a></h3>
+      <p>Let the machine hold the style guide in memory, so your reviewers can spend their attention on what it can't check.
+</p>
+    </div>
+  </div>     <div class="gmd-art">
     <span class="gmd-art__date">Aug 31</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/enforcing-style-guides-without-being" target="_blank">Enforcing Style Guides Without Being a Cop</a></h3>
@@ -200,7 +207,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Automated linting and consistency checking (September 2) &middot; Write once, publish everywhere (September 4) &middot; The technical writer as strategist (September 7)
+<p style="color:var(--gmd-muted)">Write once, publish everywhere (September 4) &middot; The technical writer as strategist (September 7) &middot; The technical writer as context owner (September 9)
 
 </p>
 
@@ -225,7 +232,7 @@ permalink: /writers-table/
       <p>Write once, publish everywhere &middot; Writing for translation and localization &middot; The technical writer as strategist</p>
 
       <h4>Phase 6 &middot; AI</h4>
-      <p>The writer as context owner &middot; Prompt engineering for tech writers &middot; Documenting AI and non-deterministic software</p>
+      <p>The technical writer as context owner &middot; Prompt engineering for tech writers &middot; Documenting AI and non-deterministic software</p>
 
       <h4>Phase 7 &middot; Process, metrics &amp; maintenance</h4>
       <p>Surviving the two-week sprint &middot; Task management and ticket systems &middot; Proving your worth: documentation metrics &middot; The art of deleting: content audits</p>
