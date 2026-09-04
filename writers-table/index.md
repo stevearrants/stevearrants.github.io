@@ -23,13 +23,22 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 4</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/write-once-publish-everywhere" target="_blank">Write Once, Publish Everywhere</a></h3>
+      <p>The same procedure in three documents is three maintenance jobs. Single-sourcing makes it one.
+</p>
+    </div>
+  </div>
+   <div class="gmd-art">
     <span class="gmd-art__date">Sept 2</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/automated-linting-and-consistency" target="_blank">Automated Linting and Consistency Checking</a></h3>
       <p>Let the machine hold the style guide in memory, so your reviewers can spend their attention on what it can't check.
 </p>
     </div>
-  </div>     <div class="gmd-art">
+  </div>
+  <div class="gmd-art">
     <span class="gmd-art__date">Aug 31</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/enforcing-style-guides-without-being" target="_blank">Enforcing Style Guides Without Being a Cop</a></h3>
