@@ -23,6 +23,13 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 24</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/write-once-publish-everywhere" target="_blank">Write Once, Publish Everywhere</a></h3>
+      <p>The same procedure in three documents is three maintenance jobs. Single-sourcing makes it one.
+</p>
+    </div>
+   <div class="gmd-art">
     <span class="gmd-art__date">Sept 2</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/automated-linting-and-consistency" target="_blank">Automated Linting and Consistency Checking</a></h3>
@@ -207,7 +214,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Write once, publish everywhere (September 4) &middot; The technical writer as strategist (September 7) &middot; The technical writer as context owner (September 9)
+<p style="color:var(--gmd-muted)">The technical writer as strategist) &middot; (September 7)The technical writer as context owner (September 9) &middot; Prompt engineering for tech writers (September 11)
 
 </p>
 
