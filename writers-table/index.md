@@ -216,7 +216,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Write once, publish everywhere (September 4) &middot; The technical writer as strategist (September 7) &middot; The technical writer as context owner (September 9)
+<p style="color:var(--gmd-muted)">The technical writer as strategist (September 7) &middot; The technical writer as context owner (September 9) &middot; Prompt engineering for tech writers (September 11)
 
 </p>
 
