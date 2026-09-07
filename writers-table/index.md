@@ -23,6 +23,19 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 7</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/the-technical-writer-as-strategist" target="_blank">The Technical Writer as Strategist</a></h3>
+      <p>Moving from writing what you're asked for to shaping what gets asked. 
+</p>
+    </div>
+     <div>
+      <h3><a href="https://stevearrants.substack.com/p/the-technical-writer-as-context-owner" target="_blank">The Technical Writer as Context Owner</a></h3>
+      <p>AI can produce the documentation. Someone still has to know it's right.
+</p>
+    </div>
+  </div>
+   <div class="gmd-art">
     <span class="gmd-art__date">Sept 4</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/write-once-publish-everywhere" target="_blank">Write Once, Publish Everywhere</a></h3>
@@ -216,7 +229,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">The technical writer as strategist (September 7) &middot; The technical writer as context owner (September 9) &middot; Prompt engineering for tech writers (September 11)
+<p style="color:var(--gmd-muted)">Prompt engineering for tech writers (September 9) &middot; Documenting AI and non-deterministic software (September 11) &middot; Surviving the two-week sprint (September 14)
 
 </p>
 
