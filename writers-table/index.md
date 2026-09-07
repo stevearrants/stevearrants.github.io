@@ -28,13 +28,17 @@ permalink: /writers-table/
       <h3><a href="https://stevearrants.substack.com/p/the-technical-writer-as-strategist" target="_blank">The Technical Writer as Strategist</a></h3>
       <p>Moving from writing what you're asked for to shaping what gets asked. 
 </p>
+    </div>  
     </div>
-     <div>
+ <div class="gmd-art">
+    <span class="gmd-art__date">Sept 7</span>
+    <div>
       <h3><a href="https://stevearrants.substack.com/p/the-technical-writer-as-context-owner" target="_blank">The Technical Writer as Context Owner</a></h3>
-      <p>AI can produce the documentation. Someone still has to know it's right.
+      <p>AI can produce the documentation. Someone still has to know it's right. 
 </p>
+    </div>  
     </div>
-  </div>
+
    <div class="gmd-art">
     <span class="gmd-art__date">Sept 4</span>
     <div>
