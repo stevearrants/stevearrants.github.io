@@ -12,11 +12,6 @@ permalink: /writers-table/
 
   <p>Three posts per week &mdash; Monday, Wednesday, and Friday.</p>
 
-  <div class="gmd-callout gmd-callout--tip">
-    <p><strong>Free, no pledge.</strong> Articles post to <a href="https://stevearrants.substack.com/">The Way We Write Now</a> on Substack. If the subscription page offers a pledge option, choose <strong>No Pledge</strong>.</p>
-  </div>
-
-
   <p><a href="https://stevearrants.substack.com/" class="gmd-btn gmd-btn--outline">Follow along &rarr;</a></p>
 </div>
 
