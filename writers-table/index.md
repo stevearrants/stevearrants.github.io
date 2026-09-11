@@ -18,6 +18,14 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 11</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/documenting-ai-and-non-deterministic" target="_blank">Documenting AI and Non-Deterministic Software</a></h3>
+      <p>The unique challenge of writing documentation for products whose behavior changes based on input, context, and probability. 
+</p>
+    </div>  
+    </div>
+   <div class="gmd-art">
     <span class="gmd-art__date">Sept 9</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/prompt-engineering-for-tech-writers" target="_blank">Prompt Engineering for Tech Writers</a></h3>
@@ -236,7 +244,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Documenting AI and non-deterministic software (September 11) &middot; Surviving the two-week sprint (September 14) &middot; Task management and ticket systems (September 16)
+<p style="color:var(--gmd-muted)">Surviving the two-week sprint (September 14) &middot; Task management and ticket systems (September 16) &middot; Documenting AI and non-deterministic software (September 18)
 
 </p>
 
