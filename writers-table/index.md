@@ -244,7 +244,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Surviving the two-week sprint (September 14) &middot; Task management and ticket systems (September 16) &middot; Documenting AI and non-deterministic software (September 18)
+<p style="color:var(--gmd-muted)">Surviving the two-week sprint (September 14) &middot; Task management and ticket systems (September 16) &middot; Proving your worth: documentation metrics  (September 18)
 
 </p>
 
