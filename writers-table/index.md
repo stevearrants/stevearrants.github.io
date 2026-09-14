@@ -18,6 +18,14 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 14</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/surviving-the-two-week-sprint" target="_blank">Surviving the Two-week Sprint</a></h3>
+      <p>Why documentation can't ship on a code cadence — and the workflow patterns that fix it.
+</p>
+    </div>  
+    </div>
+   <div class="gmd-art">
     <span class="gmd-art__date">Sept 11</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/documenting-ai-and-non-deterministic" target="_blank">Documenting AI and Non-Deterministic Software</a></h3>
@@ -244,7 +252,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Surviving the two-week sprint (September 14) &middot; Task management and ticket systems (September 16) &middot; Proving your worth: documentation metrics  (September 18)
+<p style="color:var(--gmd-muted)">Task management and ticket systems (September 16) &middot; Proving your worth: documentation metrics  (September 18) &middot; The art of deleting: content audits (September 21)
 
 </p>
 
