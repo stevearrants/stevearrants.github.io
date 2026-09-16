@@ -260,7 +260,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Proving your worth: documentation metrics  (September 18) &middot; The art of deleting: content audits (September 21) &middot; Building the NDA-proof portfolio (September 23) &middot; Contracting vs. full-time (September 23)
+<p style="color:var(--gmd-muted)">Proving your worth: documentation metrics  (September 18) &middot; Writing for Translation and Localization (September 21) &middot; The art of deleting: content audits (September 21) &middot; Building the NDA-proof portfolio (September 23) &middot; Contracting vs. full-time (September 23)
 
 </p>
 
