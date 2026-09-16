@@ -18,6 +18,14 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 16</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/task-management-and-ticket-systems" target="_blank">Task Management and Ticket Systems</a></h3>
+      <p>Set up a documentation Jira board, estimate effort, and link doc tickets to engineering.
+</p>
+    </div>  
+    </div>
+   <div class="gmd-art">
     <span class="gmd-art__date">Sept 14</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/surviving-the-two-week-sprint" target="_blank">Surviving the Two-week Sprint</a></h3>
@@ -252,7 +260,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Task management and ticket systems (September 16) &middot; Proving your worth: documentation metrics  (September 18) &middot; The art of deleting: content audits (September 21)
+<p style="color:var(--gmd-muted)">Proving your worth: documentation metrics  (September 18) &middot; The art of deleting: content audits (September 21) &middot; Building the NDA-proof portfolio (September 23) &middot; Contracting vs. full-time (September 23)
 
 </p>
 
