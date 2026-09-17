@@ -18,6 +18,14 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 17</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/writing-for-translation-and-localization" target="_blank">Writing for Translation and Localization</a></h3>
+      <p>Your sentence structure shows up on the translation invoice — and the choices that lower it are the same ones that improve your English.
+</p>
+    </div>  
+    </div>
+   <div class="gmd-art">
     <span class="gmd-art__date">Sept 16</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/task-management-and-ticket-systems" target="_blank">Task Management and Ticket Systems</a></h3>
@@ -260,7 +268,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Proving your worth: documentation metrics  (September 18) &middot; Writing for Translation and Localization (September 21) &middot; The art of deleting: content audits (September 21) &middot; Building the NDA-proof portfolio (September 23) &middot; Contracting vs. full-time (September 23)
+<p style="color:var(--gmd-muted)">Proving your worth: documentation metrics  (September 18) &middot; The art of deleting: content audits (September 21) &middot; Building the NDA-proof portfolio (September 23) &middot; Contracting vs. full-time (September 23)
 
 </p>
 
