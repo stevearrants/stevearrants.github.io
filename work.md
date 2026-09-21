@@ -67,7 +67,7 @@ redirect_from:
 
   <div class="gmd-card">
     <span class="gmd-tag">PDF</span>
-    <h3>Help Center Reorganization Template</h3>
+    <h3>A Help Center Reorganization Template</h3>
     <p>A repeatable framework for content audit, taxonomy design, and migration planning.</p>
     <a class="gmd-textlink" href="/store/help-center-reorg-template.pdf">Download &rarr;</a>
   </div>
