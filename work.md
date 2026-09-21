@@ -48,7 +48,7 @@ redirect_from:
   <div class="gmd-card">
     <span class="gmd-tag">Job aid</span><span class="gmd-tag">PDF</span>
     <h3>ARTEMIS User Job Aid</h3>
-    <p>Troubleshooting aid for staff on an internal SaaS workflow platform, designed to resolve common blockers without support escalation.</p>
+    <p>Troubleshooting aid for staff on an internal SaaS workflow platform, designed to resolve common blockers before contacting support.</p>
     <a class="gmd-textlink" href="/store/When%20you're%20stuck.pdf">View job aid &rarr;</a>
   </div>
 
