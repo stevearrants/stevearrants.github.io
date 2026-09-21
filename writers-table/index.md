@@ -18,7 +18,7 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
-    <span class="gmd-art__date">Sept 187</span>
+    <span class="gmd-art__date">Sept 18</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/proving-your-worth-documentation" target="_blank">Proving Your Worth: Documentation Metrics</a></h3>
       <p>Measure whether documentation is working, and translate that into language leadership cares about.
