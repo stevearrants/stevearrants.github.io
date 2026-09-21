@@ -54,7 +54,7 @@ redirect_from:
 
 </div>
 
-<h2>Templates &amp; workbooks</h2>
+<h2 id="templates-workbooks">Templates &amp; workbooks</h2>
 
 <div class="gmd-grid gmd-grid--2">
 
