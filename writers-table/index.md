@@ -18,6 +18,15 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 23</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/building-the-nda-proof-portfolio target="_blank">Building the NDA-Proof Portfolio</a></h3>
+      <p>What to show when everything you've written belongs to someone else
+ 
+</p>
+    </div>  
+    </div>
+   <div class="gmd-art">
     <span class="gmd-art__date">Sept 21</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/the-art-of-deleting-content-audits" target="_blank">The Art of Deleting: Content Audits</a></h3>
@@ -138,7 +147,7 @@ permalink: /writers-table/
    <div class="gmd-art">
     <span class="gmd-art__date">Aug 21</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/visuals-that-work-and-dont" target="_blank">Visuals that work (and don't)</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/visuals-that-work-and-dont" target="_blank">Visuals That Work (and Don't)</a></h3>
       <p>When an image earns its place, when it's just filling space, and why every screenshot you add is a bill that comes due.</p>
     </div>
   </div>   
@@ -284,7 +293,7 @@ permalink: /writers-table/
 
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
-<p style="color:var(--gmd-muted)">Building the NDA-proof portfolio (September 23) &middot; Contracting vs. full-time (September 23)
+<p style="color:var(--gmd-muted)">Contracting vs. full-time (September 24)
 
 </p>
 
