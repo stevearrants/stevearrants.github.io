@@ -18,10 +18,18 @@ permalink: /writers-table/
 <h2>Published</h2>
 <div class="gmd-arts">
    <div class="gmd-art">
+    <span class="gmd-art__date">Sept 24</span>
+    <div>
+      <h3><a href="https://stevearrants.substack.com/p/contracting-vs-full-time" target="_blank">Contracting vs. Full-Time</a></h3>
+      <p>The hourly rate isn't the raise it looks like.
+</p>
+    </div>  
+    </div>
+   <div class="gmd-art">
     <span class="gmd-art__date">Sept 23</span>
     <div>
       <h3><a href="https://stevearrants.substack.com/p/building-the-nda-proof-portfolio" target="_blank">Building the NDA-Proof Portfolio</a></h3>
-      <p>What to show when everything you've written belongs to someone else
+      <p>What to show when everything you've written belongs to someone else.
  
 </p>
     </div>  
@@ -291,11 +299,13 @@ permalink: /writers-table/
 
 </div>
 
+{% comment %}
 <h2 style="font-size:1.3rem">Coming Next</h2>
 
 <p style="color:var(--gmd-muted)">Contracting vs. full-time (September 24)
 
 </p>
+{% endcomment %}
 
 <details class="gmd-details">
   <summary>See the full outline &mdash; 35 articles across 8 phases</summary>
