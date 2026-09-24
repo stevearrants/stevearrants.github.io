@@ -20,7 +20,7 @@ permalink: /writers-table/
    <div class="gmd-art">
     <span class="gmd-art__date">Sept 23</span>
     <div>
-      <h3><a href="https://stevearrants.substack.com/p/building-the-nda-proof-portfolio target="_blank">Building the NDA-Proof Portfolio</a></h3>
+      <h3><a href="https://stevearrants.substack.com/p/building-the-nda-proof-portfolio" target="_blank">Building the NDA-Proof Portfolio</a></h3>
       <p>What to show when everything you've written belongs to someone else
  
 </p>
