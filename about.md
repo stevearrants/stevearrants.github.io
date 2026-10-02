@@ -1,9 +1,9 @@
 ---
 layout: gmd-page
-title: "Over thirty years of making complex things clear"
+title: "Forty years of making complex things clear"
 eyebrow: "About"
-subtitle: "I help engineering teams build documentation systems that developers can maintain and users can navigate."
-description: "Over thirty years of documentation engineering and technical writing"
+subtitle: "Semi-retired. Available for short-term contract and consulting work."
+description: "Forty years of documentation engineering and technical writing"
 permalink: /about/
 ---
 
@@ -14,7 +14,9 @@ permalink: /about/
 
   <p>The gap between what engineers build and what users understand isn't a writing problem. It's a thinking problem. My job has always been to close that gap: understand how something works, understand what users actually need to know, and connect the two in the simplest, most durable way possible.</p>
 
-  <p>I run Green Mountain Docs, LLC as an independent consultant, and I bring a systems perspective to every engagement &mdash; not just writing words, but thinking about how the documentation scales, how it stays current, and how it fits the tools your team already uses.</p>
+  <p>After forty years in technical writing, I've stepped back from full-time work. I still run Green Mountain Docs, LLC, and I take short-term contract and consulting engagements: setting up documentation systems, editing, audits, style guides, AI-assisted documentation workflows, and coaching writers.</p>
+
+  <p>My availability is limited. I work remotely, up to 25 hours a week. On every engagement I look past the words to the system: how the documentation scales, how it stays current, and how it fits the tools your team already uses.</p>
 
   <p>I've led editorial teams, built documentation systems from scratch, managed content migrations, and mentored writers who now lead documentation organizations of their own. I work with modern toolchains and use AI-augmented workflows where they genuinely help rather than just adding noise. I care about documentation that works: findable, accurate, and written for the person who actually needs it, not for the person who built it.</p>
 </div>
@@ -23,7 +25,7 @@ permalink: /about/
 
 <div class="gmd-role">
   <h3>Contract Technical Writer &mdash; Green Mountain Docs, LLC</h3>
-  <div class="gmd-role__meta">iPaaS.com &middot; Atlanta, Georgia &middot; 2025&ndash;present</div>
+  <div class="gmd-role__meta">iPaaS.com &middot; Atlanta, Georgia &middot; 2025&ndash;2026</div>
   <ul>
     <li>Built and deployed three Claude Agent Skills that convert iPaaS JSON exports into publication-ready documentation, eliminating hours of manual formatting per integration.</li>
     <li>Reorganized 17 microservice API error files into a three-layer architecture &mdash; roughly 70% volume reduction with no loss of completeness.</li>

@@ -10,7 +10,7 @@ permalink: /writers-table/
 <div class="gmd-prose">
   <p>The articles aren't exhaustive. They're designed to give you a starting point, with references for further exploration.</p>
 
-  <p>Three posts per week &mdash; Monday, Wednesday, and Friday.</p>
+  <p>The series is complete: 35 articles across 8 phases. It's free.</p>
 
   <p><a href="https://stevearrants.substack.com/" class="gmd-btn gmd-btn--outline">Follow along &rarr;</a></p>
 </div>
