@@ -1,9 +1,9 @@
 ---
 layout: gmd-page
-title: "Documentation systems built for engineering teams"
+title: "Short-term documentation help"
 eyebrow: "Services"
-subtitle: "Good documentation doesn't explain what your product does. It shows users how to succeed with it."
-description: "Documentation engineering, API and developer docs, technical writing, audit and strategy, editing, and consulting."
+subtitle: "Contract and consulting engagements, remote, up to 25 hours a week."
+description: "Documentation system setup, editing, audits, style guides, AI-assisted workflows, coaching, API docs, and technical writing. Short-term, remote."
 permalink: /services/
 redirect_from:
   - /expertise/
@@ -13,6 +13,10 @@ cta-text: "Describe the problem. I'll tell you which approach fits and roughly w
 cta-label: "Get in touch"
 cta-url: "/contact"
 ---
+
+<div class="gmd-prose">
+  <p>I'm semi-retired and take a limited number of short-term engagements. I work remotely, up to 25 hours a week. Each engagement has a defined scope and an end date.</p>
+</div>
 
 <h2>Core</h2>
 
@@ -31,6 +35,7 @@ cta-url: "/contact"
           <li>Content management system setup and migration</li>
           <li>Automated publishing workflows and CI/CD integration</li>
           <li>Style guide development and content standards</li>
+          <li>AI-assisted documentation workflows, including Claude Skills</li>
         </ul>
       </div>
     </details>
@@ -115,7 +120,7 @@ cta-url: "/contact"
   </div>
 
   <div class="gmd-card" id="consulting-training">
-    <h3>Consulting &amp; training</h3>
+    <h3>Consulting &amp; coaching</h3>
     <p>Build your team's documentation capability.</p>
     <div class="gmd-card__bestfor"><strong>Best for:</strong> organizations building a docs practice.</div>
     <details class="gmd-details" style="margin-top:0">
@@ -126,7 +131,7 @@ cta-url: "/contact"
           <li>Tool selection and implementation guidance</li>
           <li>Team training and workshops</li>
           <li>AI adoption strategy for documentation</li>
-          <li>Ongoing advisory support</li>
+          <li>Mentoring and coaching for writers</li>
         </ul>
       </div>
     </details>
@@ -150,7 +155,7 @@ cta-url: "/contact"
   <div class="gmd-step">
     <div class="gmd-step__n">3</div>
     <h3>Collaboration</h3>
-    <p>Regular check-ins using your tools and workflows.</p>
+    <p>Remote check-ins using your tools and workflows.</p>
   </div>
   <div class="gmd-step">
     <div class="gmd-step__n">4</div>
