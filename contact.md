@@ -2,7 +2,7 @@
 layout: gmd-page
 title: "Let's discuss your documentation"
 eyebrow: "Contact"
-subtitle: "Tell me about your project. I usually respond within one to two business days."
+subtitle: "Tell me about your project. I take short-term, remote engagements of up to 25 hours a week."
 description: "Let's discuss your documentation needs"
 permalink: /contact/
 ---
@@ -37,9 +37,14 @@ permalink: /contact/
       <label for="subject">What can I help with? <span aria-hidden="true">*</span></label>
       <select id="subject" name="subject" required>
         <option value="">Select a topic&hellip;</option>
-        <option value="Documentation project">Documentation project</option>
-        <option value="API documentation">API documentation</option>
+        <option value="Documentation system setup">Documentation system setup</option>
+        <option value="Editing or review">Editing or review</option>
         <option value="Audit or strategy">Audit or strategy</option>
+        <option value="Style guide">Style guide</option>
+        <option value="AI-assisted documentation">AI-assisted documentation</option>
+        <option value="Coaching or mentoring">Coaching or mentoring</option>
+        <option value="API documentation">API documentation</option>
+        <option value="Technical writing">Technical writing</option>
         <option value="Something else">Something else</option>
       </select>
     </div>
@@ -62,6 +67,9 @@ permalink: /contact/
 
       <dt>Location</dt>
       <dd>South Burlington, Vermont</dd>
+
+      <dt>Availability</dt>
+      <dd>Short-term, remote, up to 25 hours a week</dd>
 
       <dt>Response time</dt>
       <dd>1&ndash;2 business days</dd>

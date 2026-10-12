@@ -12,8 +12,8 @@ subtitle: Your message has been sent
   <p>In the meantime, feel free to:</p>
   
   <ul>
-    <li><a href="/blog">Read my latest articles</a> on technical writing</li>
-    <li><a href="/portfolio">Check out my portfolio</a> of documentation projects</li>
+    <li><a href="/writers-table">Read the Writers' Table</a> series on technical writing</li>
+    <li><a href="/work">See samples</a> of documentation projects</li>
     <li><a href="https://linkedin.com/in/stevearrants">Connect on LinkedIn</a></li>
   </ul>
   
