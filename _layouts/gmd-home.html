@@ -6,6 +6,7 @@ layout: base
 
   <div class="gmd-hero">
     <div class="gmd-wrap">
+      {% if page.status %}<div class="gmd-status"><span class="gmd-status__dot" aria-hidden="true"></span>{{ page.status }}</div>{% endif %}
       {% if page.eyebrow %}<div class="gmd-eyebrow">{{ page.eyebrow }}</div>{% endif %}
       <h1>{{ page.headline | default: page.title }}</h1>
       {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}

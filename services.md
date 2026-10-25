@@ -1,9 +1,9 @@
 ---
 layout: gmd-page
-title: "Short-term documentation help"
+title: "Consulting and Project Work"
 eyebrow: "Services"
-subtitle: "Contract and consulting engagements, remote, up to 25 hours a week."
-description: "Documentation system setup, editing, audits, style guides, AI-assisted workflows, coaching, API docs, and technical writing. Short-term, remote."
+subtitle: "I'm semi-retired and keep a short client list. Remote, up to 25 hours a week."
+description: "Documentation consulting and short-term projects: docs-as-code setup, editing, audits, style guides, AI-assisted workflows, coaching, API docs, and technical writing."
 permalink: /services/
 redirect_from:
   - /expertise/
@@ -14,159 +14,96 @@ cta-label: "Get in touch"
 cta-url: "/contact"
 ---
 
-<div class="gmd-prose">
-  <p>I'm semi-retired and take a limited number of short-term engagements. I work remotely, up to 25 hours a week. Each engagement has a defined scope and an end date.</p>
-</div>
+<div class="gmd-grid gmd-grid--2">
 
-<h2>Core</h2>
-
-<div class="gmd-grid gmd-grid--3">
-
-  <div class="gmd-card" id="documentation-engineering">
-    <h3>Documentation engineering</h3>
-    <p>Scalable systems that grow with your product.</p>
-    <div class="gmd-card__bestfor"><strong>Best for:</strong> teams scaling docs or migrating off legacy tooling.</div>
-    <details class="gmd-details" style="margin-top:0">
-      <summary>What's included</summary>
-      <div class="gmd-details__body">
-        <ul>
-          <li>Docs-as-code implementation (Git, Markdown, static site generators)</li>
-          <li>Documentation architecture and information design</li>
-          <li>Content management system setup and migration</li>
-          <li>Automated publishing workflows and CI/CD integration</li>
-          <li>Style guide development and content standards</li>
-          <li>AI-assisted documentation workflows, including Claude Skills</li>
-        </ul>
-      </div>
-    </details>
+  <div class="gmd-card" id="consulting">
+    <h3>Consulting</h3>
+    <p>You have a team and a problem. I bring forty years of having seen it before. We talk, I look at what you have, and I write up what I'd do.</p>
+    <ul>
+      <li>One-off review calls</li>
+      <li>Documentation process and toolchain assessments</li>
+      <li>AI adoption plans for documentation teams</li>
+      <li>Ongoing coaching for writers and documentation leads</li>
+    </ul>
   </div>
 
-  <div class="gmd-card" id="api-developer-docs">
-    <h3>API &amp; developer docs</h3>
-    <p>Reference developers actually use.</p>
-    <div class="gmd-card__bestfor"><strong>Best for:</strong> SaaS platforms, integration providers, developer tools.</div>
-    <details class="gmd-details" style="margin-top:0">
-      <summary>What's included</summary>
-      <div class="gmd-details__body">
-        <ul>
-          <li>API reference documentation (REST, OpenAPI/Swagger)</li>
-          <li>Getting started guides and tutorials</li>
-          <li>Code samples and interactive examples</li>
-          <li>Authentication and error handling documentation</li>
-          <li>Developer portal content strategy</li>
-        </ul>
-      </div>
-    </details>
-  </div>
-
-  <div class="gmd-card" id="technical-writing">
-    <h3>Technical writing</h3>
-    <p>End-to-end docs for software and complex systems.</p>
-    <div class="gmd-card__bestfor"><strong>Best for:</strong> companies needing comprehensive product documentation.</div>
-    <details class="gmd-details" style="margin-top:0">
-      <summary>What's included</summary>
-      <div class="gmd-details__body">
-        <ul>
-          <li>User guides and product documentation</li>
-          <li>Administrator and installation guides</li>
-          <li>Release notes and changelogs</li>
-          <li>Knowledge base articles</li>
-          <li>Troubleshooting and FAQ content</li>
-        </ul>
-      </div>
-    </details>
+  <div class="gmd-card" id="projects">
+    <h3>Projects</h3>
+    <p>You need something built or fixed and nobody has the time. I do the work. We agree on scope, timeline, and a fixed price before I start.</p>
+    <ul>
+      <li>Docs-as-code setup or migration</li>
+      <li>Content audits and help center reorganizations</li>
+      <li>Style guides and editing passes</li>
+      <li>API reference and developer guides</li>
+    </ul>
   </div>
 
 </div>
 
-<h2>Specialist</h2>
+<h2>What I Help With</h2>
 
-<div class="gmd-grid gmd-grid--3">
+<div class="gmd-rows">
 
-  <div class="gmd-card" id="audit-strategy">
-    <h3>Audit &amp; strategy</h3>
-    <p>Evaluate what exists and build a roadmap.</p>
-    <div class="gmd-card__bestfor"><strong>Best for:</strong> teams unsure where to start.</div>
-    <details class="gmd-details" style="margin-top:0">
-      <summary>What's included</summary>
-      <div class="gmd-details__body">
-        <ul>
-          <li>Content inventory and gap analysis</li>
-          <li>Usability and findability assessment</li>
-          <li>Metrics setup and baseline measurement</li>
-          <li>Prioritized improvement recommendations</li>
-          <li>Implementation roadmap</li>
-        </ul>
-      </div>
-    </details>
+  <div class="gmd-row" id="documentation-engineering">
+    <h3>Documentation Engineering</h3>
+    <p>Docs-as-code (Git, Markdown, static site generators), content architecture, CMS migrations, automated publishing, style guides, and AI-assisted workflows, including Claude Skills.</p>
   </div>
 
-  <div class="gmd-card" id="technical-editing">
-    <h3>Technical editing</h3>
-    <p>Polish existing content for clarity and consistency.</p>
-    <div class="gmd-card__bestfor"><strong>Best for:</strong> in-house writers who need expert review.</div>
-    <details class="gmd-details" style="margin-top:0">
-      <summary>What's included</summary>
-      <div class="gmd-details__body">
-        <ul>
-          <li>Developmental editing (structure, flow, completeness)</li>
-          <li>Copy editing (grammar, style, consistency)</li>
-          <li>Technical accuracy review</li>
-          <li>Style guide compliance</li>
-          <li>Accessibility improvements</li>
-        </ul>
-      </div>
-    </details>
+  <div class="gmd-row" id="api-developer-docs">
+    <h3>API and Developer Docs</h3>
+    <p>REST and OpenAPI reference, getting-started guides, code samples, authentication and error documentation, and developer portal content.</p>
   </div>
 
-  <div class="gmd-card" id="consulting-training">
-    <h3>Consulting &amp; coaching</h3>
-    <p>Build your team's documentation capability.</p>
-    <div class="gmd-card__bestfor"><strong>Best for:</strong> organizations building a docs practice.</div>
-    <details class="gmd-details" style="margin-top:0">
-      <summary>What's included</summary>
-      <div class="gmd-details__body">
-        <ul>
-          <li>Documentation process assessment</li>
-          <li>Tool selection and implementation guidance</li>
-          <li>Team training and workshops</li>
-          <li>AI adoption strategy for documentation</li>
-          <li>Mentoring and coaching for writers</li>
-        </ul>
-      </div>
-    </details>
+  <div class="gmd-row" id="technical-writing">
+    <h3>Technical Writing</h3>
+    <p>User and administrator guides, installation guides, release notes, knowledge base articles, and troubleshooting content.</p>
+  </div>
+
+  <div class="gmd-row" id="audit-strategy">
+    <h3>Audit and Strategy</h3>
+    <p>Content inventory, gap analysis, findability assessment, baseline metrics, and a prioritized roadmap.</p>
+  </div>
+
+  <div class="gmd-row" id="technical-editing">
+    <h3>Technical Editing</h3>
+    <p>Developmental and copy editing, technical accuracy review, style guide compliance, and accessibility fixes.</p>
+  </div>
+
+  <div class="gmd-row" id="consulting-training">
+    <h3>Coaching and Training</h3>
+    <p>Workshops, tool selection, and mentoring for writers building a documentation practice.</p>
   </div>
 
 </div>
 
-<h2>How I work</h2>
+<h2>How It Works</h2>
 
 <div class="gmd-grid gmd-grid--4">
   <div class="gmd-step">
     <div class="gmd-step__n">1</div>
-    <h3>Discovery</h3>
-    <p>We discuss goals, audience, and pain points. I review what exists.</p>
+    <h3>Conversation</h3>
+    <p>We talk about goals, audience, and what's broken. I review what exists.</p>
   </div>
   <div class="gmd-step">
     <div class="gmd-step__n">2</div>
     <h3>Proposal</h3>
-    <p>Clear scope, timeline, and fixed-price quote. No surprises.</p>
+    <p>Scope, timeline, and a fixed price, in writing.</p>
   </div>
   <div class="gmd-step">
     <div class="gmd-step__n">3</div>
-    <h3>Collaboration</h3>
+    <h3>Work</h3>
     <p>Remote check-ins using your tools and workflows.</p>
   </div>
   <div class="gmd-step">
     <div class="gmd-step__n">4</div>
-    <h3>Delivery</h3>
-    <p>Production-ready documentation with source files and handoff support.</p>
+    <h3>Handoff</h3>
+    <p>Finished documentation, source files, and a walkthrough so your team can maintain it.</p>
   </div>
 </div>
 
 <div class="gmd-grid gmd-grid--2" style="margin-top:3rem">
   <div>
-    <h2 style="font-size:1.3rem;margin-top:0">Where I work</h2>
+    <h2 class="gmd-h-small">Industries</h2>
     <span class="gmd-tag">SaaS &amp; software</span>
     <span class="gmd-tag">Integration platforms</span>
     <span class="gmd-tag">Healthcare IT</span>
@@ -174,7 +111,7 @@ cta-url: "/contact"
     <span class="gmd-tag">Scientific instrumentation</span>
   </div>
   <div>
-    <h2 style="font-size:1.3rem;margin-top:0">What I use</h2>
+    <h2 class="gmd-h-small">Tools</h2>
     <span class="gmd-tag">MadCap Flare</span>
     <span class="gmd-tag">Oxygen XML</span>
     <span class="gmd-tag">Markdown</span>

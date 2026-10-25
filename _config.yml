@@ -69,7 +69,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: I write. I edit. I show you how to do things.
+rss-description: Semi-retired technical writer. Still consulting and taking on documentation projects.
 
 ###########################
 # --- General options --- #
@@ -120,17 +120,17 @@ keywords: "writing, editing, Flare, MadCap, docs-as-code, technical communicatio
 # --------------------------------
 # Colors - Green Mountain Docs Palette
 # --------------------------------
-page-col: "#F7F4EF"
-text-col: "#3D4A57"
-link-col: "#2F5A3C"
-hover-col: "#3A6B49"
-navbar-col: "#1C2E40"
-navbar-text-col: "#A8BCC8"
-navbar-border-col: "#1C2E40"
-footer-col: "#1C2E40"
-footer-text-col: "#8099A8"
-footer-link-col: "#A8BCC8"
-footer-hover-col: "#FFFFFF"
+page-col: "#FFFFFF"
+text-col: "#3A4450"
+link-col: "#1F6B43"
+hover-col: "#16502F"
+navbar-col: "#FFFFFF"
+navbar-text-col: "#3A4450"
+navbar-border-col: "#E6E9E4"
+footer-col: "#F7F9F6"
+footer-text-col: "#5E6772"
+footer-link-col: "#3A4450"
+footer-hover-col: "#1F6B43"
 
 
 

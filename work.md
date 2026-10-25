@@ -10,7 +10,7 @@ redirect_from:
   - /portfolio
 ---
 
-<h2>Client work</h2>
+<h2>Client Work</h2>
 
 <div class="gmd-grid gmd-grid--2">
 
@@ -54,7 +54,7 @@ redirect_from:
 
 </div>
 
-<h2 id="templates-workbooks">Templates &amp; workbooks</h2>
+<h2 id="templates-workbooks">Templates &amp; Workbooks</h2>
 
 <div class="gmd-grid gmd-grid--2">
 
@@ -88,7 +88,7 @@ redirect_from:
 
 </div>
 
-<h2>Review guides</h2>
+<h2>Review Guides</h2>
 
 <p style="color:var(--gmd-muted);margin-bottom:1.5rem">Role-specific guides that help non-writer stakeholders give focused, actionable feedback. Modify them for your team.</p>
 

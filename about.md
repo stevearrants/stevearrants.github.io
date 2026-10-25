@@ -1,8 +1,8 @@
 ---
 layout: gmd-page
-title: "Forty years of making complex things clear"
+title: "Forty Years of Making Complex Things Clear"
 eyebrow: "About"
-subtitle: "Semi-retired. Available for short-term contract and consulting work."
+subtitle: "Semi-retired. Still consulting, still taking on projects."
 description: "Forty years of documentation engineering and technical writing"
 permalink: /about/
 ---
@@ -14,14 +14,14 @@ permalink: /about/
 
   <p>The gap between what engineers build and what users understand isn't a writing problem. It's a thinking problem. My job has always been to close that gap: understand how something works, understand what users actually need to know, and connect the two in the simplest, most durable way possible.</p>
 
-  <p>After forty years in technical writing, I've stepped back from full-time work. I still run Green Mountain Docs, LLC, and I take short-term contract and consulting engagements: setting up documentation systems, editing, audits, style guides, AI-assisted documentation workflows, and coaching writers.</p>
+  <p>After forty years in technical writing, I've stepped back from full-time work. I still run Green Mountain Docs, LLC. I consult with documentation teams, and I take on projects with a defined scope: documentation systems, editing, audits, style guides, AI-assisted workflows, and coaching writers.</p>
 
-  <p>My availability is limited. I work remotely, up to 25 hours a week. On every engagement I look past the words to the system: how the documentation scales, how it stays current, and how it fits the tools your team already uses.</p>
+  <p>I keep a short client list and work remotely, up to 25 hours a week. On every engagement I look past the words to the system: how the documentation scales, how it stays current, and how it fits the tools your team already uses.</p>
 
   <p>I've led editorial teams, built documentation systems from scratch, managed content migrations, and mentored writers who now lead documentation organizations of their own. I work with modern toolchains and use AI-augmented workflows where they genuinely help rather than just adding noise. I care about documentation that works: findable, accurate, and written for the person who actually needs it, not for the person who built it.</p>
 </div>
 
-<h2>Selected experience</h2>
+<h2>Selected Experience</h2>
 
 <div class="gmd-role">
   <h3>Contract Technical Writer &mdash; Green Mountain Docs, LLC</h3>
@@ -57,14 +57,14 @@ permalink: /about/
 
 <div class="gmd-grid gmd-grid--2" style="margin-top:3rem">
   <div>
-    <h2 style="font-size:1.3rem;margin-top:0">Industries</h2>
+    <h2 class="gmd-h-small">Industries</h2>
     <span class="gmd-tag">SaaS</span>
     <span class="gmd-tag">Healthcare IT</span>
     <span class="gmd-tag">Scientific instrumentation</span>
     <span class="gmd-tag">Enterprise software</span>
   </div>
   <div>
-    <h2 style="font-size:1.3rem;margin-top:0">Tools</h2>
+    <h2 class="gmd-h-small">Tools</h2>
     <span class="gmd-tag">MadCap Flare</span>
     <span class="gmd-tag">OpenAPI / Swagger</span>
     <span class="gmd-tag">GitHub</span>
