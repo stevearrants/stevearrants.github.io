@@ -4,7 +4,7 @@ title: Green Mountain Docs
 status: "Semi-retired · Open to consulting and select projects"
 headline: "Forty years of documentation work, now on my own schedule."
 eyebrow: "Steve Arrants · South Burlington, Vermont"
-subtitle: "I've stepped back from full-time work. I still consult with documentation teams and take on projects with a clear scope and an end date. Remote, up to 25 hours a week."
+subtitle: "I've will be stepping back from full-time work. I still consult with documentation teams and take on projects with a clear scope and an end date."
 description: "Semi-retired technical writer and documentation consultant. Available for consulting and short-term projects."
 cta-primary-label: "Start a conversation"
 cta-primary-url: "/contact"
