@@ -60,9 +60,10 @@ redirect_from:
 
   <div class="gmd-card">
     <span class="gmd-tag">Excel</span>
-    <h3>Documentation Project Plan Workbook</h3>
-    <p>This workbook is the companion to the article "Writing a Documentation Project Plan" by Steve Arrants.</p>
-    <a class="gmd-textlink" href="/store/Documentation-Project-Plan-Workbook.xlsx">Download &rarr;</a>
+    <h3>Documentation Project Plan Workbook and sample.</h3>
+    <p>This workbook and the sample workbook are the companions to the article "Writing a Documentation Project Plan" by Steve Arrants.</p>
+    <a class="gmd-textlink" href="/store/Documentation-Project-Plan-Workbook.xlsx">Download workbook &rarr;</a>
+     <a class="gmd-textlink" href="/store/Documentation-Project-Plan-Workbook-Sample.xlsx">   Download sample &rarr;</a>
   </div>
 
   <div class="gmd-card">
