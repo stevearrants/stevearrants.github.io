@@ -129,7 +129,7 @@ hr { border: 0; border-top: 1px solid var(--gmd-border); margin: var(--gmd-xl) 0
 /* Offsite links (e.g. Substack): trailing "opens elsewhere" icon */
 .navbar-custom .navbar-nav .nav-link--external .fa-arrow-up-right-from-square {
   font-size: 0.7em;
-  margin-left: 0.35em;
+  margin-left: 0.15em;
   vertical-align: 0.1em;
   opacity: 0.75;
 }
