@@ -23,18 +23,18 @@ author: Green Mountain Docs, LLC
 ###############################################
 
 navbar-links:
-  Work: "work"
-  Services: "services"
-  Writers' Table: "writers-table"
   About: "about"
-  Contact: "contact"
+  Services: "services"
+  Work: "work"
+  Substack: "https://stevearrants.substack.com/"
+  Writers' Table: "writers-table"
 
 # Removed from the navbar:
 #   Home     — the brand text in the top-left already links to /
 #   Resume   — merged into /about
 #   Expertise— renamed to Services
 #   Portfolio— renamed to Work
-#   Substack — now a footer link and an inline link on /writers-table
+#   Contact  — reachable via the "Get in touch" buttons on page layouts
 
 ################
 # --- Logo --- #
