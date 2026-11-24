@@ -33,7 +33,7 @@ cta-url: "/contact"
   <div class="gmd-wrap">
     <div class="gmd-eyebrow">Writing</div>
     <h2>The Writers' Table</h2>
-    <p>A free series on the craft and career of technical writing: 35 articles across 8 phases, each with an exercise. Read them in any order.</p>
+    <p>A free series on the craft and career of technical writing: 36 articles across 8 phases, each with an exercise. Read them in any order.</p>
     <div class="gmd-arts">
       <div class="gmd-art">
         <span class="gmd-art__date">Sep 24, 2026</span>

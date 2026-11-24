@@ -10,7 +10,7 @@ permalink: /writers-table/
 <div class="gmd-prose">
   <p>The articles aren't exhaustive. They're designed to give you a starting point, with references for further exploration.</p>
 
-  <p>The series is complete: 35 articles across 8 phases. It's free.</p>
+  <p>The series is complete: 36 articles across 8 phases. It's free.</p>
 
   <p><a href="https://stevearrants.substack.com/" class="gmd-btn gmd-btn--outline">Follow along &rarr;</a></p>
 </div>
@@ -308,7 +308,7 @@ permalink: /writers-table/
 {% endcomment %}
 
 <details class="gmd-details">
-  <summary>See the full outline &mdash; 35 articles across 8 phases</summary>
+  <summary>See the full outline &mdash; 36 articles across 8 phases</summary>
   <div class="gmd-details__body">
     <div class="gmd-syllabus">
 
