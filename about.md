@@ -2,23 +2,21 @@
 layout: gmd-page
 title: "Forty Years of Making Complex Things Clear"
 eyebrow: "About"
-subtitle: "Semi-retired. Still consulting, still taking on projects."
-description: "Forty years of documentation engineering and technical writing"
+subtitle: "Retired December 1, 2026."
+description: "Steve Arrants, retired technical writer: forty years of documentation engineering and technical writing"
 permalink: /about/
 ---
 
 {% include gmd-metrics.html metrics=site.data.gmd_metrics %}
 
 <div class="gmd-prose" style="margin-top:3rem">
-  <p>Those aren't vanity metrics. They're what let a small team maintain documentation that used to require twice the headcount.</p>
+  <p>Those numbers let a small team maintain documentation that used to need twice the headcount.</p>
 
-  <p>The gap between what engineers build and what users understand isn't a writing problem. It's a thinking problem. My job has always been to close that gap: understand how something works, understand what users actually need to know, and connect the two in the simplest, most durable way possible.</p>
+  <p>The gap between what engineers build and what users understand starts as a thinking problem. My job was to close that gap: understand how something works, understand what users need to know, and connect the two in the simplest, most durable way I could.</p>
 
-  <p>After forty years in technical writing, I've stepped back from full-time work. I still run Green Mountain Docs, LLC. I consult with documentation teams, and I take on projects with a defined scope: documentation systems, editing, audits, style guides, AI-assisted workflows, and coaching writers.</p>
+  <p>I retired on December 1, 2026, after forty years in technical writing. Green Mountain Docs, LLC closed the same day. I no longer take consulting clients or projects.</p>
 
-  <p>I keep a short client list and work remotely, up to 25 hours a week. On every engagement I look past the words to the system: how the documentation scales, how it stays current, and how it fits the tools your team already uses.</p>
-
-  <p>I've led editorial teams, built documentation systems from scratch, managed content migrations, and mentored writers who now lead documentation organizations of their own. I work with modern toolchains and use AI-augmented workflows where they genuinely help rather than just adding noise. I care about documentation that works: findable, accurate, and written for the person who actually needs it, not for the person who built it.</p>
+  <p>I led editorial teams, built documentation systems from scratch, managed content migrations, and mentored writers who now lead documentation organizations of their own. On every engagement I looked past the words to the system: how the documentation would scale, how it would stay current, and how it fit the tools the team already used. In the last few years I added AI-assisted workflows where they helped and left them out where they added noise. I cared about documentation that works: findable, accurate, and written for the person who needs it.</p>
 </div>
 
 <h2>Selected Experience</h2>
@@ -51,8 +49,7 @@ permalink: /about/
 </div>
 
 <div style="margin-top:2.5rem">
-  <a href="/store/steve-arrants-resume-2026.pdf" class="gmd-btn gmd-btn--primary">Download the full resume (PDF) &rarr;</a>
-  <p class="gmd-meta" style="margin-top:1rem">Or <a href="/contact">get in touch</a> &mdash; I usually respond within one to two business days.</p>
+  <p class="gmd-meta">To say hello, use the <a href="/contact">contact page</a>. My email stays open.</p>
 </div>
 
 <div class="gmd-grid gmd-grid--2" style="margin-top:3rem">

@@ -7,9 +7,9 @@ subtitle: Your message has been sent
 <div class="thank-you-content">
   <div class="checkmark">✓</div>
   
-  <p>Thanks for reaching out! I've received your message and will get back to you within 1-2 business days.</p>
+  <p>Thanks for writing. Your message reached me. I'm retired, so a reply may take a while.</p>
   
-  <p>In the meantime, feel free to:</p>
+  <p>While you wait, you can:</p>
   
   <ul>
     <li><a href="/writers-table">Read the Writers' Table</a> series on technical writing</li>

@@ -1,24 +1,20 @@
 ---
 layout: gmd-page
-title: "Consulting and Project Work"
-eyebrow: "Services"
-subtitle: "I'm semi-retired and keep a short client list. Remote, up to 25 hours a week."
-description: "Documentation consulting and short-term projects: docs-as-code setup, editing, audits, style guides, AI-assisted workflows, coaching, API docs, and technical writing."
+title: "What I Did"
+eyebrow: "Green Mountain Docs"
+subtitle: "Green Mountain Docs closed on December 1, 2026, when I retired. This page records the consulting and project work I did. I no longer take clients."
+description: "The documentation consulting and project work Steve Arrants did through Green Mountain Docs before retiring in December 2026."
 permalink: /services/
 redirect_from:
   - /expertise/
   - /expertise
-cta-heading: "Not sure which one you need?"
-cta-text: "Describe the problem. I'll tell you which approach fits and roughly what it takes."
-cta-label: "Get in touch"
-cta-url: "/contact"
 ---
 
 <div class="gmd-grid gmd-grid--2">
 
   <div class="gmd-card" id="consulting">
     <h3>Consulting</h3>
-    <p>You have a team and a problem. I bring forty years of having seen it before. We talk, I look at what you have, and I write up what I'd do.</p>
+    <p>A team brought me a problem. I brought forty years of having seen it before. We talked, I looked at what they had, and I wrote up what I'd do.</p>
     <ul>
       <li>One-off review calls</li>
       <li>Documentation process and toolchain assessments</li>
@@ -29,7 +25,7 @@ cta-url: "/contact"
 
   <div class="gmd-card" id="projects">
     <h3>Projects</h3>
-    <p>You need something built or fixed and nobody has the time. I do the work. We agree on scope, timeline, and a fixed price before I start.</p>
+    <p>A team needed something built or fixed, and nobody had the time. I did the work. We agreed on scope, timeline, and a fixed price before I started.</p>
     <ul>
       <li>Docs-as-code setup or migration</li>
       <li>Content audits and help center reorganizations</li>
@@ -40,7 +36,7 @@ cta-url: "/contact"
 
 </div>
 
-<h2>What I Help With</h2>
+<h2>What I Helped With</h2>
 
 <div class="gmd-rows">
 
@@ -76,28 +72,28 @@ cta-url: "/contact"
 
 </div>
 
-<h2>How It Works</h2>
+<h2>How It Worked</h2>
 
 <div class="gmd-grid gmd-grid--4">
   <div class="gmd-step">
     <div class="gmd-step__n">1</div>
     <h3>Conversation</h3>
-    <p>We talk about goals, audience, and what's broken. I review what exists.</p>
+    <p>We talked about goals, audience, and what was broken. I reviewed what existed.</p>
   </div>
   <div class="gmd-step">
     <div class="gmd-step__n">2</div>
     <h3>Proposal</h3>
-    <p>Scope, timeline, and a fixed price, in writing.</p>
+    <p>I put the scope, timeline, and a fixed price in writing.</p>
   </div>
   <div class="gmd-step">
     <div class="gmd-step__n">3</div>
     <h3>Work</h3>
-    <p>Remote check-ins using your tools and workflows.</p>
+    <p>I worked remotely and checked in through the client's own tools and workflows.</p>
   </div>
   <div class="gmd-step">
     <div class="gmd-step__n">4</div>
     <h3>Handoff</h3>
-    <p>Finished documentation, source files, and a walkthrough so your team can maintain it.</p>
+    <p>The client got finished documentation, source files, and a walkthrough so their team could maintain it.</p>
   </div>
 </div>
 

@@ -16,7 +16,10 @@ baseurl: ""
 title: Green Mountain Docs
 
 # Your name to show in the footer
-author: Green Mountain Docs, LLC
+author: Green Mountain Docs
+
+# Status line shown in the footer after the author name
+footer-status: "Retired December 2026"
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -24,7 +27,7 @@ author: Green Mountain Docs, LLC
 
 navbar-links:
   About: "about"
-  Services: "services"
+  What I Did: "services"
   Work: "work"
   Substack: "https://stevearrants.substack.com/"
   Writers' Table: "writers-table"
@@ -32,7 +35,7 @@ navbar-links:
 # Removed from the navbar:
 #   Home     — the brand text in the top-left already links to /
 #   Resume   — merged into /about
-#   Expertise— renamed to Services
+#   Expertise— renamed to Services, then to What I Did (retirement, Dec 2026)
 #   Portfolio— renamed to Work
 #   Contact  — reachable via the "Get in touch" buttons on page layouts
 
@@ -69,7 +72,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Semi-retired technical writer. Still consulting and taking on documentation projects.
+rss-description: Retired technical writer. Forty years of documentation work, plus the Writers' Table series on technical writing.
 
 ###########################
 # --- General options --- #

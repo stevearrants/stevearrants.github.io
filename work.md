@@ -2,7 +2,7 @@
 layout: gmd-page
 title: "Work"
 eyebrow: "Portfolio"
-subtitle: "Client engagements, plus templates and review guides you can use directly."
+subtitle: "Selected client work, plus templates and review guides. The downloads stay free to use and adapt."
 description: "Documentation samples and projects"
 permalink: /work/
 redirect_from:

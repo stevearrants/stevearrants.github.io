@@ -1,9 +1,9 @@
 ---
 layout: gmd-page
-title: "Let's Talk About Your Documentation"
+title: "Say Hello"
 eyebrow: "Contact"
-subtitle: "Tell me what you're working on. I'm semi-retired, so I take a few consulting clients and projects at a time."
-description: "Let's discuss your documentation needs"
+subtitle: "I retired on December 1, 2026, and no longer take consulting clients or projects. My email stays open, and I read what comes in."
+description: "How to reach Steve Arrants, retired technical writer"
 permalink: /contact/
 ---
 
@@ -12,7 +12,7 @@ permalink: /contact/
   <form action="https://formsubmit.co/stevearrants@greenmtndocs.com" method="POST" class="gmd-form">
 
     <!-- FormSubmit.co configuration -->
-    <input type="hidden" name="_subject" value="New inquiry from greenmtndocs.com">
+    <input type="hidden" name="_subject" value="Message from greenmtndocs.com">
     <input type="hidden" name="_next" value="https://greenmtndocs.com/thank-you">
     <input type="hidden" name="_template" value="table">
     <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
@@ -29,30 +29,8 @@ permalink: /contact/
     </div>
 
     <div class="gmd-field">
-      <label for="company">Company</label>
-      <input type="text" id="company" name="company" autocomplete="organization">
-    </div>
-
-    <div class="gmd-field">
-      <label for="subject">What can I help with? <span aria-hidden="true">*</span></label>
-      <select id="subject" name="subject" required>
-        <option value="">Select a topic&hellip;</option>
-        <option value="Consulting or advice">Consulting or advice</option>
-        <option value="Documentation system setup">Documentation system setup</option>
-        <option value="Editing or review">Editing or review</option>
-        <option value="Audit or strategy">Audit or strategy</option>
-        <option value="Style guide">Style guide</option>
-        <option value="AI-assisted documentation">AI-assisted documentation</option>
-        <option value="Coaching or mentoring">Coaching or mentoring</option>
-        <option value="API documentation">API documentation</option>
-        <option value="Technical writing">Technical writing</option>
-        <option value="Something else">Something else</option>
-      </select>
-    </div>
-
-    <div class="gmd-field">
       <label for="message">Message <span aria-hidden="true">*</span></label>
-      <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, timeline, and goals&hellip;" required></textarea>
+      <textarea id="message" name="message" rows="6" required></textarea>
     </div>
 
     <button type="submit" class="gmd-btn gmd-btn--primary">Send message &rarr;</button>
@@ -66,14 +44,14 @@ permalink: /contact/
       <dt>LinkedIn</dt>
       <dd><a href="https://linkedin.com/in/stevearrants">linkedin.com/in/stevearrants</a></dd>
 
+      <dt>Substack</dt>
+      <dd><a href="https://stevearrants.substack.com/">stevearrants.substack.com</a></dd>
+
       <dt>Location</dt>
       <dd>South Burlington, Vermont</dd>
 
-      <dt>Availability</dt>
-      <dd>Semi-retired. Consulting and scoped projects, remote, up to 25 hours a week.</dd>
-
-      <dt>Response time</dt>
-      <dd>1&ndash;2 business days</dd>
+      <dt>Status</dt>
+      <dd>Retired December 2026. Not taking clients or projects.</dd>
     </dl>
   </div>
 
